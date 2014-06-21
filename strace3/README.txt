@@ -3,7 +3,7 @@ debug files were created in /data
 
 also created strace.log.* by using (after booting and starting GPS app):
 
-# lsof | grep /dev/ttySAC1	# determine PID of system_server (2017) and FD of GPS device (285)
+# lsof | grep /dev/ttySAC1	# determine PID of system_server (2029) and FD of GPS device (275)
 system_se  2029     system  275       ???                ???       ???        ??? /dev/ttySAC1
 
 # strace -e trace=open,read,write -e write=275 -e read=275 -tt -v -ff -o strace.log  -p 2029
