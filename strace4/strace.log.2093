@@ -1,0 +1,12 @@
+22:38:36.309310 read(69, "W", 16)       = 1
+22:38:36.310825 write(97, "PowerManagerService", 19) = 19
+22:38:36.316641 open("/proc/net/xt_qtaguid/stats", O_RDONLY) = 210
+22:38:36.318813 read(210, "idx iface acct_tag_hex uid_tag_int cnt_set rx_bytes rx_packets tx_bytes tx_packets rx_tcp_bytes rx_tcp_packets rx_udp_bytes rx_udp_packets rx_other_bytes rx_other_packets tx_tcp_bytes tx_tcp_packets tx_udp_bytes tx_udp_packets tx_other_bytes tx_other_packets\n2 rmnet0 0x0 0 0 858 3 195 3 52 1 806 2 0 0 0 0 195 3 0 0\n3 rmnet0 0x0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n4 rmnet0 0x0 1000 0 1843 13 976 14 1250 7 593 6 0 0 535 8 441 6 0 0\n5 rmnet0 0x0 1000 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n6 rmnet0 0x0 10056 0 98176 175 19544 152 98176 175 0 0 0 0 19544 152 0 0 0 0\n7 rmnet0 0x0 10056 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n8 wlan0 0x0 0 0 0 0 384 6 0 0 0 0 0 0 0 0 0 0 384 6\n9 wlan0 0x0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n", 4096) = 716
+22:38:36.324795 read(210, "", 4096)     = 0
+22:38:36.335859 open("/proc/net/xt_qtaguid/iface_stat_all", O_RDONLY) = 210
+22:38:36.338399 read(210, "rmnet0 1 0 0 0 0 100877 191 22139 170\nwlan0 1 0 0 0 0 3384 47 492 6\n", 8192) = 68
+22:38:36.340509 read(210, "", 8124)     = 0
+22:38:36.389070 write(59, "W", 1)       = 1
+22:38:36.423716 write(56, "W", 1)       = 1
+22:38:36.424626 open("/proc/2637/oom_adj", O_WRONLY) = 210
+22:38:36.424871 write(210, "8", 1)      = 1

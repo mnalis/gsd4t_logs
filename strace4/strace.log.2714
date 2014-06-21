@@ -1,0 +1,21 @@
+22:38:34.700879 write(254, "<22:38:34> GPS_STATUS_SESSION_END\r\n", 35) = 35
+22:38:34.701940 write(59, "W", 1)       = 1
+22:38:34.702361 write(254, "<22:38:34> GPS_STATUS_ENGINE_OFF\r\n", 34) = 34
+22:38:34.702708 write(254, "<22:38:34> LSM_Stop Called\r\n", 28) = 28
+22:38:34.703174 write(254, "<22:38:34> INFO: LSM_Stop is called\r\n", 37) = 37
+22:38:34.703976 write(254, "<22:38:34> INFO: lsmCloseSession is called\r\n", 44) = 44
+22:38:34.709049 write(254, "<22:38:34> INFO: Id = 3, type = 0\r\n", 35) = 35
+22:38:34.713301 write(254, "<22:38:34> INFO: lsmCloseSession calls GM_closeSession\r\n", 56) = 56
+22:38:34.713810 write(256, "<2014:06:21:22:38:34> DBG: GM_closeSession is called\r\n", 54) = 54
+22:38:34.714205 write(256, "<2014:06:21:22:38:34> MPM is not enabled\r\n", 42) = 42
+22:38:34.897198 write(256, "<2014:06:21:22:38:34> DBG: exiting GM_closeSession\r\n", 52) = 52
+22:38:34.897616 write(254, "<22:38:34> INFO: lsmCloseSession exits\r\n", 40) = 40
+22:38:34.897966 write(254, "<22:38:34> INFO: LSM_Stop exits\r\n", 33) = 33
+22:38:34.898402 write(254, "<22:38:34> semaphore rel for stop\r\n", 35) = 35
+22:38:34.898809 write(254, "<22:38:34> LSM_setCapabilities\r\n", 32) = 32
+22:38:34.899945 write(254, "<22:38:34> IdleState:updating session check\r\n", 45) = 45
+22:38:34.900552 write(254, "<22:38:34> GPS ONOFF Report : 0\r\n", 33) = 33
+22:38:34.900824 open("/sys/module/tegra2_emc/parameters/emc_enable", O_RDWR|O_CREAT|O_TRUNC, 0666) = -1 ENOENT (No such file or directory)
+22:38:34.901328 write(254, "<22:38:34> GPS ONOFF Mode : File Open Error - emc_enable !!!!\r\n", 63) = 63
+22:38:34.901649 write(98, "gps-lock", 8) = 8
+22:38:34.901999 write(254, "<22:38:34> INFO: GPS_WAKE_LOCK_DISABLE\r\n", 40) = 40
