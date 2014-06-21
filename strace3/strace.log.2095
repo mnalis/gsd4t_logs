@@ -1,9 +1,0 @@
-12:03:01.430619 read(72, "W", 16)       = 1
-12:03:01.431401 open("/proc/net/xt_qtaguid/ctrl", O_WRONLY) = 208
-12:03:01.431765 write(208, "s 1 10040", 9) = 9
-12:03:02.083858 read(72, "W", 16)       = 1
-12:03:02.087928 open("/proc/net/xt_qtaguid/ctrl", O_WRONLY) = 207
-12:03:02.088869 write(207, "s 0 10074", 9) = 9
-12:04:03.175858 read(72, "W", 16)       = 1
-12:04:03.176774 open("/proc/net/xt_qtaguid/ctrl", O_WRONLY) = 207
-12:04:03.177742 write(207, "s 0 10040", 9) = 9
