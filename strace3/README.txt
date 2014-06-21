@@ -15,3 +15,7 @@ strace started around 12:02:02 CEST.
 app exited about 12:03:00 CEST.
 logs finished about 12:04:45 CEST.
 
+FIXMEs:
+- should've done "lsof 2029 > fd.2029.txt" before strace
+- "strace -s4096" so we see the log messages too
+- "strace -e write=275" does not seem to log HEX dump for writes, why?  read=275 works ok...
