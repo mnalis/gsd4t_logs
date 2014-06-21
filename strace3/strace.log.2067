@@ -1,0 +1,9 @@
+12:02:12.470243 write(98, "PowerManagerService", 19) = 19
+12:03:00.001851 write(59, "W", 1)       = 1
+12:03:00.002481 write(98, "PowerManagerService", 19) = 19
+12:03:12.501927 write(59, "W", 1)       = 1
+12:03:12.504436 write(98, "PowerManagerService", 19) = 19
+12:04:00.011977 write(59, "W", 1)       = 1
+12:04:00.014527 write(98, "PowerManagerService", 19) = 19
+12:04:07.839591 write(59, "W", 1)       = 1
+12:04:07.843263 write(98, "PowerManagerService", 19) = 19

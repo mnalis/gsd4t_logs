@@ -1,0 +1,1504 @@
+<11:56:57> ### Samsung U1-ICS, CSR SiRF Software 2.0, B16 2012,01,17 ###
+<11:56:57> ****** GSD4t Hardware Configuration ******
+<11:56:57> *** [PROJECT : SAMSUNG_S5PC210]
+<11:56:57> *** [UART DRIVER : /dev/ttySAC1]
+<11:56:57> *** [RESET GPIO : /sys/devices/virtual/sec/gps/GPS_nRST/value]
+<11:56:57> *** [ONOFF GPIO : /sys/devices/virtual/sec/gps/GPS_PWR_EN/value]
+<11:56:57> *** [TCXO CLOCK : 26MHz]
+<11:56:57> *** [EXTERNAL LNA : DISABLED]
+<11:56:57> *** [UART BAUD RATE : 115200]
+<11:56:57> *** [FREQUENCY AIDING : ENABLED]
+<11:56:57> *** [SENSOR AIDING : ENABLED]
+<11:56:57> *** [SETID : IMSI]
+<11:56:57> *** [SSL : DISABLED]
+<11:56:57> *** [DEBUGGING FILES : ENABLED]
+<11:56:57> *** [REAIDING TIME : 20 (m)]
+<11:56:57> *** [CONTROL PLANE : ENABLED]
+<11:56:57> *** [LOG PATH : /data]
+<11:56:57> *** [SGEE : 0]
+<11:56:57> *** [SGEE SERVER1 : sgee.samsung.csr.com]
+<11:56:57> *** [SGEE SERVER2 : instantfix.csr.com]
+<11:56:57> *** [SGEE PORT : 80]
+<11:56:57> *** [SGEE FILE  :/diff/packedDifference.f2p3enc.ee]
+<11:56:57> *** [SGEE URID : 1]
+<11:56:57> *** [SGEE DEVICE ID : 00 00 00 00 00 00 00 02 ]
+<11:56:57> *** [SGEE OEM ID : 00 00 00 00 ]
+<11:56:57> Android Session Handler Starting
+<11:56:57> IdleState:updating session check
+<11:56:57> Create android_session_handler thread
+<11:56:57> Android Status Report Handler Starting
+<11:56:57> Create android_status_report_handler thread
+<11:56:57> sirf_cpa_init: called
+<11:56:57> sirf_cpa_ril_library_load: called
+<11:56:57> sirf_cpa_ril_library_load : SUCCESS
+<11:56:57> sirf_cpa_oem_ril_connect: called
+<11:56:57> pfn_Connect_RILD Success
+<11:56:57> sirf_cpa_oem_ril_connect : Success!!!
+<11:56:57> sirf_cpa_init: Registering control plane callback
+<11:56:57> INFO: CP_SetMessageListeners is called
+<11:56:57> INFO: CP_SetMessageListeners exits
+<11:56:57> Sirf CPA Initialization Success
+<11:56:57> SIRF GSD4t Initialization Success
+<11:56:57> sirf_agps_init: called
+<11:56:57> sirf_gps_ni_init: called
+<11:56:57> sirf_agps_ril_init: called
+<11:56:57> sirf_agps_set_server - Type : 1, hostname = supl.google.com, port = 7276
+<11:56:57> sirf_agps_ril_update_network_state: called - connected : 1, type : 0 extra : web.htgprs
+<11:56:57> sirf_agps_update_network_availability : available = 1, apn = web.htgprs
+<11:56:59> sirf_gps_inject_time: called
+<11:56:59>  Recieved utc = 1403344619170 ms ref = 41997 ms unc = 184 ms
+<11:56:59> Local Time Updated : ref UTC = 1403344619170 ,  unc = 184, ref sys time= 41997
+<11:56:59> Local time difference since last update - 9 ms
+<11:56:59> LSM TIME INJECTED: utc = 1403344619170, ref =41997, unc = 184
+<12:00:01> sirf_gps_set_position_mode: called
+<12:00:01> min_interval = 1000, preferred_accuacy=0, preferred_time =0
+<12:00:01> GPS_POSITION_MODE_MS_BASED
+<12:00:01> the first GPS Start after reboot : Cold Start
+<12:00:01> INFO: CP_Reset is called
+<12:00:01> INFO: CP_Reset exits
+<12:00:01> ##### sirf_gps_start: called (1) #####
+<12:00:01> gps_start called;resuming session 
+<12:00:01> ========== NEW Session ==========
+
+<12:00:01> Session State Machine : MOSession
+<12:00:01> GPS ONOFF Report : 1
+<12:00:01> GPS ONOFF Mode : File Open Error - emc_enable !!!!
+<12:00:01> INFO: GPS_WAKE_LOCK_ENABLE
+<12:00:01> load_properties: failed to open /data/data/com.android.angryGps/secgps.conf (2)
+
+<12:00:01> sirf_sec_property_load_config: load properties error
+<12:00:01> LSM_setCapabilities
+<12:00:01> Position Mode : GPS_POSITION_MODE_MS_BASED
+<12:00:01> Local time difference since last update - 182336 ms
+<12:00:01> LSM TIME INJECTED: utc = 1403344619170, ref =41997, unc = 184
+<12:00:01> ERROR : No request_utc_time
+<12:00:01> QoP Configuration : Horizontal Accuracy : 100, Vertical Accuracy : 250, TTFF Response Time : 240
+<12:00:01> session resumed : ANDROID_MO_SESSION
+<12:00:01> INFO: LSM_Start is called
+<12:00:01> INFO: ***** pSessionId = 0x1e11080 ***** 
+<12:00:01> GM_setAidingType is called - 2
+<12:00:01> GM_setResetType is called 2 - 1 (RESET_TYPE_COLD_RESET)
+<12:00:01> INFO: (lsmStartSession) rtn = 1
+<12:00:01> INFO: session id = 2
+<12:00:01> INFO: LSM_Start exits
+<12:00:01> do_sgee_download: called
+<12:00:01> APP: SGEE File download, SGEE Disabled
+<12:00:01> GPS_STATUS_ENGINE_ON
+<12:00:01> GPS_STATUS_SESSION_BEGIN
+<12:00:02> EHWConfigRequestReceived
+<12:00:02> set_frequency_transfer: called
+<12:00:02> Frequency Transfer Request: START
+<12:00:02> sirf_cpa_send_msg_to_ril: called
+<12:00:02> Msg is sent to RiL- sub_cmd: 37, len: 5
+<12:00:02> Frequency Transfer Request: successful
+<12:00:02> LSM_Position_CallBack: called
+<12:00:02> APP: INFO: LSM_SUPL_NETWORK_RESUME
+<12:00:02> ### blocked. wait for Set ID Response...
+<12:00:02> Send request_setid to Android Framework
+<12:00:02> sirf_agps_ril_set_set_id: called
+<12:00:02> SET ID = 219019904569545, length = 15
+<12:00:02> INFO: SET ID type = IMSI
+<12:00:02> SETID Info Valid : CP_SendSETIDInfo Success
+<12:00:02> got Set ID Response
+<12:00:02> getCELLInfo: called
+<12:00:02> ### blocked. wait for Refloc Response...
+<12:00:02> Send request_refloc to Android Framework
+<12:00:02> sirf_agps_ril_set_ref_location: called
+<12:00:02> GSM_CELLID : mcc = 219, mnc = 1, lac = 12101, cid = 12604
+<12:00:02> INFO: network type = GSM
+<12:00:02> CP_SendCellInfo result = 1
+<12:00:02> got Refloc Response
+<12:00:02> got all RIL info
+<12:00:02> Data Connection Succeeded after sending data req to the OS
+<12:00:02> ==== SIRF_PAL_NET_Connect: socket is 207, addr is :supl.google.com, port is 7276, security is 0 ====
+<12:00:02> INFO: Performing DNS lookup
+<12:00:02> RilOnComplete_Callback: called
+<12:00:02> sin_addr = 3225862829, sin_port = 27676
+<12:00:02> ==== Going to connect to ip c046c2ad ====
+<12:00:02> Socket is in Blocking mode
+<12:00:03> ConnectWait : Read data
+<12:00:03> ConnectWait : Connect Success - 2
+<12:00:03> connect successful
+<12:00:03> SET -> SLC :SUPL_START
+<12:00:03> SLC -> SET :SUPL_RESPONSE
+<12:00:03> SET -> SLC :SUPL_POSINIT
+<12:00:04> SLC -> SET :SUPL_POS
+<12:00:04> RRLP ASSIST DATA
+<12:00:04> ************ Assistance Data Received from AGPS Server *********** 
+<12:00:04> ************ Reference Time  Present !!!*********** 
+<12:00:04> ************ Reference Location Present !!!!*********** 
+<12:00:04> ************ dgpsCorrectionsPresent  Information NOT Present!!!***********
+<12:00:04> ************  navigationModelPresent  Information  Present !!!***********
+<12:00:04> Eph. Number of satellites: 9 
+<12:00:04> ************  ionosphericModelPresent Present !!!*********** 
+<12:00:04> ************  ionosphericModelPresent Information NOT Present !!!*********** 
+<12:00:04> ************  almanacPresent Information NOT Present*********** 
+<12:00:04> ************  acquisAssistPresent Information NOT Present !!!*********** 
+<12:00:04> INFO: lsmLocCallback : do nothing
+<12:00:04> LSM_Position_CallBack: called
+<12:00:04> got reference location
+<12:00:04> LSM:lsmLocCB out
+<12:00:04> SET -> SLC :SUPL_POS (AD ACK)
+<12:00:04> SLC -> SET :SUPL_END
+<12:00:04> ==== close socket was valid ====
+<12:00:04> ENetworkConnectionClose
+<12:00:04> LSM_Position_CallBack: called
+<12:00:04> APP: INFO: LSM_SUPL_NETWORK_CLOSED
+<12:00:04> releaseDataConnection: called
+<12:00:05> ESUPL_END_Received
+<12:00:15> ##### TTFF : 14 second #####
+<12:00:15> set_frequency_transfer: called
+<12:00:15> Frequency Transfer Request: STOP
+<12:00:15> sirf_cpa_send_msg_to_ril: called
+<12:00:15> Msg is sent to RiL- sub_cmd: 37, len: 5
+<12:00:15> Frequency Transfer Request: successful
+<12:00:15> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 1/0
+<12:00:15> INFO: lsmLocCallback : do nothing
+<12:00:15> LSM_Position_CallBack: called
+<12:00:15> Acc from LPL is :202
+<12:00:15> Local Time Updated : ref UTC = 1403344816000 ,  unc = 2500, ref sys time= 238378
+<12:00:15> Position Fix (1 of 0) : Latitude 43.725010   Longtitude 15.800044
+<12:00:15> LSM:lsmLocCB out
+<12:00:15> RilOnComplete_Callback: called
+<12:00:17> ##### TTFF : 14 second #####
+<12:00:17> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 2/0
+<12:00:17> INFO: lsmLocCallback : do nothing
+<12:00:17> LSM_Position_CallBack: called
+<12:00:17> Acc from LPL is :174
+<12:00:17> Local Time Updated : ref UTC = 1403344818000 ,  unc = 2500, ref sys time= 240567
+<12:00:17> Position Fix (2 of 0) : Latitude 43.724999   Longtitude 15.799586
+<12:00:17> LSM:lsmLocCB out
+<12:00:19> ##### TTFF : 14 second #####
+<12:00:19> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 3/0
+<12:00:19> INFO: lsmLocCallback : do nothing
+<12:00:19> LSM_Position_CallBack: called
+<12:00:19> Acc from LPL is :260
+<12:00:19> Local Time Updated : ref UTC = 1403344820000 ,  unc = 2500, ref sys time= 241934
+<12:00:19> Position Fix (3 of 0) : Latitude 43.724988   Longtitude 15.799590
+<12:00:19> LSM:lsmLocCB out
+<12:00:20> ##### TTFF : 14 second #####
+<12:00:20> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 4/0
+<12:00:20> INFO: lsmLocCallback : do nothing
+<12:00:20> LSM_Position_CallBack: called
+<12:00:20> Acc from LPL is :226
+<12:00:20> Local Time Updated : ref UTC = 1403344821000 ,  unc = 2500, ref sys time= 242982
+<12:00:20> Position Fix (4 of 0) : Latitude 43.724988   Longtitude 15.799590
+<12:00:20> LSM:lsmLocCB out
+<12:00:21> ##### TTFF : 14 second #####
+<12:00:21> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 5/0
+<12:00:21> INFO: lsmLocCallback : do nothing
+<12:00:21> LSM_Position_CallBack: called
+<12:00:21> Acc from LPL is :202
+<12:00:21> Local Time Updated : ref UTC = 1403344822000 ,  unc = 2500, ref sys time= 243998
+<12:00:21> Position Fix (5 of 0) : Latitude 43.724988   Longtitude 15.799590
+<12:00:21> LSM:lsmLocCB out
+<12:00:22> ##### TTFF : 14 second #####
+<12:00:22> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 6/0
+<12:00:22> INFO: lsmLocCallback : do nothing
+<12:00:22> LSM_Position_CallBack: called
+<12:00:22> Acc from LPL is :192
+<12:00:22> Local Time Updated : ref UTC = 1403344823000 ,  unc = 2500, ref sys time= 244999
+<12:00:22> Position Fix (6 of 0) : Latitude 43.724988   Longtitude 15.799590
+<12:00:22> LSM:lsmLocCB out
+<12:00:23> ##### TTFF : 14 second #####
+<12:00:23> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 7/0
+<12:00:23> INFO: lsmLocCallback : do nothing
+<12:00:23> LSM_Position_CallBack: called
+<12:00:23> Acc from LPL is :66
+<12:00:23> Local Time Updated : ref UTC = 1403344824000 ,  unc = 2500, ref sys time= 245998
+<12:00:23> Position Fix (7 of 0) : Latitude 43.724955   Longtitude 15.799545
+<12:00:23> LSM:lsmLocCB out
+<12:00:24> ##### TTFF : 14 second #####
+<12:00:24> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 8/0
+<12:00:24> INFO: lsmLocCallback : do nothing
+<12:00:24> LSM_Position_CallBack: called
+<12:00:24> Acc from LPL is :66
+<12:00:24> Local Time Updated : ref UTC = 1403344825000 ,  unc = 2500, ref sys time= 247016
+<12:00:24> Position Fix (8 of 0) : Latitude 43.724951   Longtitude 15.799546
+<12:00:24> LSM:lsmLocCB out
+<12:00:25> ##### TTFF : 14 second #####
+<12:00:25> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 9/0
+<12:00:25> INFO: lsmLocCallback : do nothing
+<12:00:25> LSM_Position_CallBack: called
+<12:00:25> Acc from LPL is :66
+<12:00:25> Local Time Updated : ref UTC = 1403344826000 ,  unc = 2500, ref sys time= 247934
+<12:00:25> Position Fix (9 of 0) : Latitude 43.724948   Longtitude 15.799549
+<12:00:25> LSM:lsmLocCB out
+<12:00:26> ##### TTFF : 14 second #####
+<12:00:26> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 10/0
+<12:00:26> INFO: lsmLocCallback : do nothing
+<12:00:26> LSM_Position_CallBack: called
+<12:00:26> Acc from LPL is :64
+<12:00:26> Local Time Updated : ref UTC = 1403344827000 ,  unc = 2500, ref sys time= 248937
+<12:00:26> Position Fix (10 of 0) : Latitude 43.724942   Longtitude 15.799553
+<12:00:26> LSM:lsmLocCB out
+<12:00:27> ##### TTFF : 14 second #####
+<12:00:27> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 11/0
+<12:00:27> INFO: lsmLocCallback : do nothing
+<12:00:27> LSM_Position_CallBack: called
+<12:00:27> Acc from LPL is :64
+<12:00:27> Local Time Updated : ref UTC = 1403344828000 ,  unc = 2500, ref sys time= 250001
+<12:00:27> Position Fix (11 of 0) : Latitude 43.724935   Longtitude 15.799565
+<12:00:27> LSM:lsmLocCB out
+<12:00:28> ##### TTFF : 14 second #####
+<12:00:28> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 12/0
+<12:00:28> INFO: lsmLocCallback : do nothing
+<12:00:28> LSM_Position_CallBack: called
+<12:00:28> Acc from LPL is :66
+<12:00:28> Local Time Updated : ref UTC = 1403344829000 ,  unc = 2500, ref sys time= 250952
+<12:00:28> Position Fix (12 of 0) : Latitude 43.724932   Longtitude 15.799575
+<12:00:28> LSM:lsmLocCB out
+<12:00:29> ##### TTFF : 14 second #####
+<12:00:29> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 13/0
+<12:00:29> INFO: lsmLocCallback : do nothing
+<12:00:29> LSM_Position_CallBack: called
+<12:00:29> Acc from LPL is :64
+<12:00:29> Local Time Updated : ref UTC = 1403344830000 ,  unc = 2500, ref sys time= 251996
+<12:00:29> Position Fix (13 of 0) : Latitude 43.724933   Longtitude 15.799587
+<12:00:29> LSM:lsmLocCB out
+<12:00:30> ##### TTFF : 14 second #####
+<12:00:30> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 14/0
+<12:00:30> INFO: lsmLocCallback : do nothing
+<12:00:30> LSM_Position_CallBack: called
+<12:00:30> Acc from LPL is :62
+<12:00:30> Local Time Updated : ref UTC = 1403344831000 ,  unc = 2500, ref sys time= 252971
+<12:00:30> Position Fix (14 of 0) : Latitude 43.724935   Longtitude 15.799595
+<12:00:30> LSM:lsmLocCB out
+<12:00:31> ##### TTFF : 14 second #####
+<12:00:31> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 15/0
+<12:00:31> INFO: lsmLocCallback : do nothing
+<12:00:31> LSM_Position_CallBack: called
+<12:00:31> Acc from LPL is :62
+<12:00:31> Local Time Updated : ref UTC = 1403344832000 ,  unc = 2500, ref sys time= 253928
+<12:00:31> Position Fix (15 of 0) : Latitude 43.724938   Longtitude 15.799600
+<12:00:31> LSM:lsmLocCB out
+<12:00:32> ##### TTFF : 14 second #####
+<12:00:32> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 16/0
+<12:00:32> INFO: lsmLocCallback : do nothing
+<12:00:32> LSM_Position_CallBack: called
+<12:00:32> Acc from LPL is :64
+<12:00:32> Local Time Updated : ref UTC = 1403344833000 ,  unc = 2500, ref sys time= 254924
+<12:00:32> Position Fix (16 of 0) : Latitude 43.724939   Longtitude 15.799618
+<12:00:32> LSM:lsmLocCB out
+<12:00:33> ##### TTFF : 14 second #####
+<12:00:33> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 17/0
+<12:00:33> INFO: lsmLocCallback : do nothing
+<12:00:33> LSM_Position_CallBack: called
+<12:00:33> Acc from LPL is :64
+<12:00:33> Local Time Updated : ref UTC = 1403344834000 ,  unc = 2500, ref sys time= 255948
+<12:00:33> Position Fix (17 of 0) : Latitude 43.724936   Longtitude 15.799644
+<12:00:33> LSM:lsmLocCB out
+<12:00:34> ##### TTFF : 14 second #####
+<12:00:34> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 18/0
+<12:00:34> INFO: lsmLocCallback : do nothing
+<12:00:34> LSM_Position_CallBack: called
+<12:00:34> Acc from LPL is :64
+<12:00:34> Local Time Updated : ref UTC = 1403344835000 ,  unc = 2500, ref sys time= 256987
+<12:00:34> Position Fix (18 of 0) : Latitude 43.724937   Longtitude 15.799666
+<12:00:34> LSM:lsmLocCB out
+<12:00:35> ##### TTFF : 14 second #####
+<12:00:35> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 19/0
+<12:00:35> INFO: lsmLocCallback : do nothing
+<12:00:35> LSM_Position_CallBack: called
+<12:00:35> Acc from LPL is :66
+<12:00:35> Local Time Updated : ref UTC = 1403344836000 ,  unc = 2500, ref sys time= 257953
+<12:00:35> Position Fix (19 of 0) : Latitude 43.724933   Longtitude 15.799687
+<12:00:35> LSM:lsmLocCB out
+<12:00:36> ##### TTFF : 14 second #####
+<12:00:36> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 20/0
+<12:00:36> INFO: lsmLocCallback : do nothing
+<12:00:36> LSM_Position_CallBack: called
+<12:00:36> Acc from LPL is :66
+<12:00:36> Local Time Updated : ref UTC = 1403344837000 ,  unc = 2500, ref sys time= 259007
+<12:00:36> Position Fix (20 of 0) : Latitude 43.724927   Longtitude 15.799706
+<12:00:36> LSM:lsmLocCB out
+<12:00:37> ##### TTFF : 14 second #####
+<12:00:37> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 21/0
+<12:00:37> INFO: lsmLocCallback : do nothing
+<12:00:37> LSM_Position_CallBack: called
+<12:00:37> Acc from LPL is :62
+<12:00:37> Local Time Updated : ref UTC = 1403344838000 ,  unc = 2500, ref sys time= 259948
+<12:00:37> Position Fix (21 of 0) : Latitude 43.724923   Longtitude 15.799711
+<12:00:37> LSM:lsmLocCB out
+<12:00:38> ##### TTFF : 14 second #####
+<12:00:38> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 22/0
+<12:00:38> INFO: lsmLocCallback : do nothing
+<12:00:38> LSM_Position_CallBack: called
+<12:00:38> Acc from LPL is :58
+<12:00:38> Local Time Updated : ref UTC = 1403344839000 ,  unc = 2500, ref sys time= 260954
+<12:00:38> Position Fix (22 of 0) : Latitude 43.724918   Longtitude 15.799714
+<12:00:38> LSM:lsmLocCB out
+<12:00:39> ##### TTFF : 14 second #####
+<12:00:39> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 23/0
+<12:00:39> INFO: lsmLocCallback : do nothing
+<12:00:39> LSM_Position_CallBack: called
+<12:00:39> Acc from LPL is :62
+<12:00:39> Local Time Updated : ref UTC = 1403344840000 ,  unc = 2500, ref sys time= 261958
+<12:00:39> Position Fix (23 of 0) : Latitude 43.724910   Longtitude 15.799716
+<12:00:39> LSM:lsmLocCB out
+<12:00:40> ##### TTFF : 14 second #####
+<12:00:40> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 24/0
+<12:00:40> INFO: lsmLocCallback : do nothing
+<12:00:40> LSM_Position_CallBack: called
+<12:00:40> Acc from LPL is :62
+<12:00:40> Local Time Updated : ref UTC = 1403344841000 ,  unc = 2500, ref sys time= 262941
+<12:00:40> Position Fix (24 of 0) : Latitude 43.724903   Longtitude 15.799716
+<12:00:40> LSM:lsmLocCB out
+<12:00:41> ##### TTFF : 14 second #####
+<12:00:41> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 25/0
+<12:00:41> INFO: lsmLocCallback : do nothing
+<12:00:41> LSM_Position_CallBack: called
+<12:00:41> Acc from LPL is :58
+<12:00:41> Local Time Updated : ref UTC = 1403344842000 ,  unc = 2500, ref sys time= 264011
+<12:00:41> Position Fix (25 of 0) : Latitude 43.724898   Longtitude 15.799714
+<12:00:41> LSM:lsmLocCB out
+<12:00:42> ##### TTFF : 14 second #####
+<12:00:42> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 26/0
+<12:00:42> INFO: lsmLocCallback : do nothing
+<12:00:42> LSM_Position_CallBack: called
+<12:00:42> Acc from LPL is :56
+<12:00:42> Local Time Updated : ref UTC = 1403344843000 ,  unc = 2500, ref sys time= 264989
+<12:00:42> Position Fix (26 of 0) : Latitude 43.724894   Longtitude 15.799717
+<12:00:42> LSM:lsmLocCB out
+<12:00:43> ##### TTFF : 14 second #####
+<12:00:43> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 27/0
+<12:00:43> INFO: lsmLocCallback : do nothing
+<12:00:43> LSM_Position_CallBack: called
+<12:00:43> Acc from LPL is :56
+<12:00:43> Local Time Updated : ref UTC = 1403344844000 ,  unc = 2500, ref sys time= 265937
+<12:00:43> Position Fix (27 of 0) : Latitude 43.724891   Longtitude 15.799726
+<12:00:43> LSM:lsmLocCB out
+<12:00:44> ##### TTFF : 14 second #####
+<12:00:44> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 28/0
+<12:00:44> INFO: lsmLocCallback : do nothing
+<12:00:44> LSM_Position_CallBack: called
+<12:00:44> Acc from LPL is :52
+<12:00:44> Local Time Updated : ref UTC = 1403344845000 ,  unc = 2500, ref sys time= 266969
+<12:00:44> Position Fix (28 of 0) : Latitude 43.724886   Longtitude 15.799711
+<12:00:44> LSM:lsmLocCB out
+<12:00:45> ##### TTFF : 14 second #####
+<12:00:45> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 29/0
+<12:00:45> INFO: lsmLocCallback : do nothing
+<12:00:45> LSM_Position_CallBack: called
+<12:00:45> Acc from LPL is :50
+<12:00:45> Local Time Updated : ref UTC = 1403344846000 ,  unc = 2500, ref sys time= 268030
+<12:00:45> Position Fix (29 of 0) : Latitude 43.724882   Longtitude 15.799698
+<12:00:45> LSM:lsmLocCB out
+<12:00:46> ##### TTFF : 14 second #####
+<12:00:46> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 30/0
+<12:00:46> INFO: lsmLocCallback : do nothing
+<12:00:46> LSM_Position_CallBack: called
+<12:00:46> Acc from LPL is :140
+<12:00:46> Local Time Updated : ref UTC = 1403344847000 ,  unc = 2500, ref sys time= 268924
+<12:00:46> Position Fix (30 of 0) : Latitude 43.724876   Longtitude 15.799685
+<12:00:46> LSM:lsmLocCB out
+<12:00:47> ##### TTFF : 14 second #####
+<12:00:47> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 31/0
+<12:00:47> INFO: lsmLocCallback : do nothing
+<12:00:47> LSM_Position_CallBack: called
+<12:00:47> Acc from LPL is :134
+<12:00:47> Local Time Updated : ref UTC = 1403344848000 ,  unc = 2500, ref sys time= 270017
+<12:00:47> Position Fix (31 of 0) : Latitude 43.724876   Longtitude 15.799685
+<12:00:47> LSM:lsmLocCB out
+<12:00:48> ##### TTFF : 14 second #####
+<12:00:48> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 32/0
+<12:00:48> INFO: lsmLocCallback : do nothing
+<12:00:48> LSM_Position_CallBack: called
+<12:00:48> Acc from LPL is :140
+<12:00:48> Local Time Updated : ref UTC = 1403344849000 ,  unc = 2500, ref sys time= 270997
+<12:00:48> Position Fix (32 of 0) : Latitude 43.724876   Longtitude 15.799685
+<12:00:48> LSM:lsmLocCB out
+<12:00:49> ##### TTFF : 14 second #####
+<12:00:49> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 33/0
+<12:00:49> INFO: lsmLocCallback : do nothing
+<12:00:49> LSM_Position_CallBack: called
+<12:00:49> Acc from LPL is :140
+<12:00:49> Local Time Updated : ref UTC = 1403344850000 ,  unc = 2500, ref sys time= 271944
+<12:00:49> Position Fix (33 of 0) : Latitude 43.724876   Longtitude 15.799685
+<12:00:49> LSM:lsmLocCB out
+<12:00:50> ##### TTFF : 14 second #####
+<12:00:50> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 34/0
+<12:00:50> INFO: lsmLocCallback : do nothing
+<12:00:50> LSM_Position_CallBack: called
+<12:00:50> Acc from LPL is :48
+<12:00:50> Local Time Updated : ref UTC = 1403344851000 ,  unc = 2500, ref sys time= 273022
+<12:00:50> Position Fix (34 of 0) : Latitude 43.724875   Longtitude 15.799686
+<12:00:50> LSM:lsmLocCB out
+<12:00:51> ##### TTFF : 14 second #####
+<12:00:51> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 35/0
+<12:00:51> INFO: lsmLocCallback : do nothing
+<12:00:51> LSM_Position_CallBack: called
+<12:00:51> Acc from LPL is :48
+<12:00:51> Local Time Updated : ref UTC = 1403344852000 ,  unc = 2500, ref sys time= 274054
+<12:00:51> Position Fix (35 of 0) : Latitude 43.724874   Longtitude 15.799693
+<12:00:51> LSM:lsmLocCB out
+<12:00:52> ##### TTFF : 14 second #####
+<12:00:52> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 36/0
+<12:00:52> INFO: lsmLocCallback : do nothing
+<12:00:52> LSM_Position_CallBack: called
+<12:00:52> Acc from LPL is :44
+<12:00:52> Local Time Updated : ref UTC = 1403344853000 ,  unc = 2500, ref sys time= 275013
+<12:00:52> Position Fix (36 of 0) : Latitude 43.724876   Longtitude 15.799696
+<12:00:52> LSM:lsmLocCB out
+<12:00:53> ##### TTFF : 14 second #####
+<12:00:53> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 37/0
+<12:00:53> INFO: lsmLocCallback : do nothing
+<12:00:53> LSM_Position_CallBack: called
+<12:00:53> Acc from LPL is :76
+<12:00:53> Local Time Updated : ref UTC = 1403344854000 ,  unc = 2500, ref sys time= 275946
+<12:00:53> Position Fix (37 of 0) : Latitude 43.724880   Longtitude 15.799699
+<12:00:53> LSM:lsmLocCB out
+<12:00:54> ##### TTFF : 14 second #####
+<12:00:54> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 38/0
+<12:00:54> INFO: lsmLocCallback : do nothing
+<12:00:54> LSM_Position_CallBack: called
+<12:00:54> Acc from LPL is :48
+<12:00:54> Local Time Updated : ref UTC = 1403344855000 ,  unc = 2500, ref sys time= 276936
+<12:00:54> Position Fix (38 of 0) : Latitude 43.724886   Longtitude 15.799703
+<12:00:54> LSM:lsmLocCB out
+<12:00:55> ##### TTFF : 14 second #####
+<12:00:55> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 39/0
+<12:00:55> INFO: lsmLocCallback : do nothing
+<12:00:55> LSM_Position_CallBack: called
+<12:00:55> Acc from LPL is :44
+<12:00:55> Local Time Updated : ref UTC = 1403344856000 ,  unc = 2500, ref sys time= 277959
+<12:00:55> Position Fix (39 of 0) : Latitude 43.724887   Longtitude 15.799701
+<12:00:55> LSM:lsmLocCB out
+<12:00:56> ##### TTFF : 14 second #####
+<12:00:56> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 40/0
+<12:00:56> INFO: lsmLocCallback : do nothing
+<12:00:56> LSM_Position_CallBack: called
+<12:00:56> Acc from LPL is :48
+<12:00:56> Local Time Updated : ref UTC = 1403344857000 ,  unc = 2500, ref sys time= 279013
+<12:00:56> Position Fix (40 of 0) : Latitude 43.724887   Longtitude 15.799683
+<12:00:56> LSM:lsmLocCB out
+<12:00:57> ##### TTFF : 14 second #####
+<12:00:57> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 41/0
+<12:00:57> INFO: lsmLocCallback : do nothing
+<12:00:57> LSM_Position_CallBack: called
+<12:00:57> Acc from LPL is :50
+<12:00:57> Local Time Updated : ref UTC = 1403344858000 ,  unc = 2500, ref sys time= 280034
+<12:00:57> Position Fix (41 of 0) : Latitude 43.724889   Longtitude 15.799673
+<12:00:57> LSM:lsmLocCB out
+<12:00:58> ##### TTFF : 14 second #####
+<12:00:58> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 42/0
+<12:00:58> INFO: lsmLocCallback : do nothing
+<12:00:58> LSM_Position_CallBack: called
+<12:00:58> Acc from LPL is :56
+<12:00:58> Local Time Updated : ref UTC = 1403344859000 ,  unc = 2500, ref sys time= 280984
+<12:00:58> Position Fix (42 of 0) : Latitude 43.724893   Longtitude 15.799669
+<12:00:58> LSM:lsmLocCB out
+<12:00:59> ##### TTFF : 14 second #####
+<12:00:59> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 43/0
+<12:00:59> INFO: lsmLocCallback : do nothing
+<12:00:59> LSM_Position_CallBack: called
+<12:00:59> Acc from LPL is :58
+<12:00:59> Local Time Updated : ref UTC = 1403344860000 ,  unc = 2500, ref sys time= 282014
+<12:00:59> Position Fix (43 of 0) : Latitude 43.724896   Longtitude 15.799663
+<12:00:59> LSM:lsmLocCB out
+<12:01:00> ##### TTFF : 14 second #####
+<12:01:00> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 44/0
+<12:01:00> INFO: lsmLocCallback : do nothing
+<12:01:00> LSM_Position_CallBack: called
+<12:01:00> Acc from LPL is :58
+<12:01:00> Local Time Updated : ref UTC = 1403344861000 ,  unc = 2500, ref sys time= 282936
+<12:01:00> Position Fix (44 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:00> LSM:lsmLocCB out
+<12:01:01> ##### TTFF : 14 second #####
+<12:01:01> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 45/0
+<12:01:01> INFO: lsmLocCallback : do nothing
+<12:01:01> LSM_Position_CallBack: called
+<12:01:01> Acc from LPL is :56
+<12:01:01> Local Time Updated : ref UTC = 1403344862000 ,  unc = 2500, ref sys time= 284094
+<12:01:01> Position Fix (45 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:01> LSM:lsmLocCB out
+<12:01:02> ##### TTFF : 14 second #####
+<12:01:02> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 46/0
+<12:01:02> INFO: lsmLocCallback : do nothing
+<12:01:02> LSM_Position_CallBack: called
+<12:01:02> Acc from LPL is :56
+<12:01:02> Local Time Updated : ref UTC = 1403344863000 ,  unc = 2500, ref sys time= 285031
+<12:01:02> Position Fix (46 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:02> LSM:lsmLocCB out
+<12:01:03> ##### TTFF : 14 second #####
+<12:01:03> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 47/0
+<12:01:03> INFO: lsmLocCallback : do nothing
+<12:01:03> LSM_Position_CallBack: called
+<12:01:03> Acc from LPL is :56
+<12:01:03> Local Time Updated : ref UTC = 1403344864000 ,  unc = 2500, ref sys time= 286041
+<12:01:03> Position Fix (47 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:03> LSM:lsmLocCB out
+<12:01:04> ##### TTFF : 14 second #####
+<12:01:04> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 48/0
+<12:01:04> INFO: lsmLocCallback : do nothing
+<12:01:04> LSM_Position_CallBack: called
+<12:01:04> Acc from LPL is :56
+<12:01:04> Local Time Updated : ref UTC = 1403344865000 ,  unc = 2500, ref sys time= 286946
+<12:01:04> Position Fix (48 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:04> LSM:lsmLocCB out
+<12:01:05> ##### TTFF : 14 second #####
+<12:01:05> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 49/0
+<12:01:05> INFO: lsmLocCallback : do nothing
+<12:01:05> LSM_Position_CallBack: called
+<12:01:05> Acc from LPL is :56
+<12:01:05> Local Time Updated : ref UTC = 1403344866000 ,  unc = 2500, ref sys time= 287952
+<12:01:05> Position Fix (49 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:05> LSM:lsmLocCB out
+<12:01:06> ##### TTFF : 14 second #####
+<12:01:06> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 50/0
+<12:01:06> INFO: lsmLocCallback : do nothing
+<12:01:06> LSM_Position_CallBack: called
+<12:01:06> Acc from LPL is :56
+<12:01:06> Local Time Updated : ref UTC = 1403344867000 ,  unc = 2500, ref sys time= 288937
+<12:01:06> Position Fix (50 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:06> LSM:lsmLocCB out
+<12:01:07> ##### TTFF : 14 second #####
+<12:01:07> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 51/0
+<12:01:07> INFO: lsmLocCallback : do nothing
+<12:01:07> LSM_Position_CallBack: called
+<12:01:07> Acc from LPL is :58
+<12:01:07> Local Time Updated : ref UTC = 1403344868000 ,  unc = 2500, ref sys time= 289959
+<12:01:07> Position Fix (51 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:07> LSM:lsmLocCB out
+<12:01:08> ##### TTFF : 14 second #####
+<12:01:08> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 52/0
+<12:01:08> INFO: lsmLocCallback : do nothing
+<12:01:08> LSM_Position_CallBack: called
+<12:01:08> Acc from LPL is :58
+<12:01:08> Local Time Updated : ref UTC = 1403344869000 ,  unc = 2500, ref sys time= 291035
+<12:01:08> Position Fix (52 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:08> LSM:lsmLocCB out
+<12:01:09> ##### TTFF : 14 second #####
+<12:01:09> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 53/0
+<12:01:09> INFO: lsmLocCallback : do nothing
+<12:01:09> LSM_Position_CallBack: called
+<12:01:09> Acc from LPL is :58
+<12:01:09> Local Time Updated : ref UTC = 1403344870000 ,  unc = 2500, ref sys time= 292019
+<12:01:09> Position Fix (53 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:09> LSM:lsmLocCB out
+<12:01:10> ##### TTFF : 14 second #####
+<12:01:10> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 54/0
+<12:01:10> INFO: lsmLocCallback : do nothing
+<12:01:10> LSM_Position_CallBack: called
+<12:01:10> Acc from LPL is :58
+<12:01:10> Local Time Updated : ref UTC = 1403344871000 ,  unc = 2500, ref sys time= 292941
+<12:01:10> Position Fix (54 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:10> LSM:lsmLocCB out
+<12:01:11> ##### TTFF : 14 second #####
+<12:01:11> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 55/0
+<12:01:11> INFO: lsmLocCallback : do nothing
+<12:01:11> LSM_Position_CallBack: called
+<12:01:11> Acc from LPL is :58
+<12:01:11> Local Time Updated : ref UTC = 1403344872000 ,  unc = 2500, ref sys time= 294023
+<12:01:11> Position Fix (55 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:11> LSM:lsmLocCB out
+<12:01:12> ##### TTFF : 14 second #####
+<12:01:12> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 56/0
+<12:01:12> INFO: lsmLocCallback : do nothing
+<12:01:12> LSM_Position_CallBack: called
+<12:01:12> Acc from LPL is :58
+<12:01:12> Local Time Updated : ref UTC = 1403344873000 ,  unc = 2500, ref sys time= 295009
+<12:01:12> Position Fix (56 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:12> LSM:lsmLocCB out
+<12:01:13> ##### TTFF : 14 second #####
+<12:01:13> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 57/0
+<12:01:13> INFO: lsmLocCallback : do nothing
+<12:01:13> LSM_Position_CallBack: called
+<12:01:13> Acc from LPL is :58
+<12:01:13> Local Time Updated : ref UTC = 1403344874000 ,  unc = 2500, ref sys time= 296021
+<12:01:13> Position Fix (57 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:13> LSM:lsmLocCB out
+<12:01:14> ##### TTFF : 14 second #####
+<12:01:14> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 58/0
+<12:01:14> INFO: lsmLocCallback : do nothing
+<12:01:14> LSM_Position_CallBack: called
+<12:01:14> Acc from LPL is :58
+<12:01:14> Local Time Updated : ref UTC = 1403344875000 ,  unc = 2500, ref sys time= 296943
+<12:01:14> Position Fix (58 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:14> LSM:lsmLocCB out
+<12:01:15> ##### TTFF : 14 second #####
+<12:01:15> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 59/0
+<12:01:15> INFO: lsmLocCallback : do nothing
+<12:01:15> LSM_Position_CallBack: called
+<12:01:15> Acc from LPL is :58
+<12:01:15> Local Time Updated : ref UTC = 1403344876000 ,  unc = 2500, ref sys time= 297957
+<12:01:15> Position Fix (59 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:15> LSM:lsmLocCB out
+<12:01:16> ##### TTFF : 14 second #####
+<12:01:16> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 60/0
+<12:01:16> INFO: lsmLocCallback : do nothing
+<12:01:16> LSM_Position_CallBack: called
+<12:01:16> Acc from LPL is :58
+<12:01:16> Local Time Updated : ref UTC = 1403344877000 ,  unc = 2500, ref sys time= 298978
+<12:01:16> Position Fix (60 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:16> LSM:lsmLocCB out
+<12:01:17> ##### TTFF : 14 second #####
+<12:01:17> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 61/0
+<12:01:17> INFO: lsmLocCallback : do nothing
+<12:01:17> LSM_Position_CallBack: called
+<12:01:17> Acc from LPL is :58
+<12:01:17> Local Time Updated : ref UTC = 1403344878000 ,  unc = 2500, ref sys time= 300014
+<12:01:17> Position Fix (61 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:17> LSM:lsmLocCB out
+<12:01:18> ##### TTFF : 14 second #####
+<12:01:18> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 62/0
+<12:01:18> INFO: lsmLocCallback : do nothing
+<12:01:18> LSM_Position_CallBack: called
+<12:01:18> Acc from LPL is :58
+<12:01:18> Local Time Updated : ref UTC = 1403344879000 ,  unc = 2500, ref sys time= 301008
+<12:01:18> Position Fix (62 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:18> LSM:lsmLocCB out
+<12:01:19> ##### TTFF : 14 second #####
+<12:01:19> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 63/0
+<12:01:19> INFO: lsmLocCallback : do nothing
+<12:01:19> LSM_Position_CallBack: called
+<12:01:19> Acc from LPL is :56
+<12:01:19> Local Time Updated : ref UTC = 1403344880000 ,  unc = 2500, ref sys time= 301948
+<12:01:19> Position Fix (63 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:19> LSM:lsmLocCB out
+<12:01:20> ##### TTFF : 14 second #####
+<12:01:20> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 64/0
+<12:01:20> INFO: lsmLocCallback : do nothing
+<12:01:20> LSM_Position_CallBack: called
+<12:01:20> Acc from LPL is :56
+<12:01:20> Local Time Updated : ref UTC = 1403344881000 ,  unc = 2500, ref sys time= 302944
+<12:01:20> Position Fix (64 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:20> LSM:lsmLocCB out
+<12:01:21> ##### TTFF : 14 second #####
+<12:01:21> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 65/0
+<12:01:21> INFO: lsmLocCallback : do nothing
+<12:01:21> LSM_Position_CallBack: called
+<12:01:21> Acc from LPL is :56
+<12:01:21> Local Time Updated : ref UTC = 1403344882000 ,  unc = 2500, ref sys time= 303964
+<12:01:21> Position Fix (65 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:21> LSM:lsmLocCB out
+<12:01:22> ##### TTFF : 14 second #####
+<12:01:22> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 66/0
+<12:01:22> INFO: lsmLocCallback : do nothing
+<12:01:22> LSM_Position_CallBack: called
+<12:01:22> Acc from LPL is :56
+<12:01:22> Local Time Updated : ref UTC = 1403344883000 ,  unc = 2500, ref sys time= 304960
+<12:01:22> Position Fix (66 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:22> LSM:lsmLocCB out
+<12:01:23> ##### TTFF : 14 second #####
+<12:01:23> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 67/0
+<12:01:23> INFO: lsmLocCallback : do nothing
+<12:01:23> LSM_Position_CallBack: called
+<12:01:23> Acc from LPL is :56
+<12:01:23> Local Time Updated : ref UTC = 1403344884000 ,  unc = 2500, ref sys time= 305983
+<12:01:23> Position Fix (67 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:23> LSM:lsmLocCB out
+<12:01:24> ##### TTFF : 14 second #####
+<12:01:24> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 68/0
+<12:01:24> INFO: lsmLocCallback : do nothing
+<12:01:24> LSM_Position_CallBack: called
+<12:01:24> Acc from LPL is :56
+<12:01:24> Local Time Updated : ref UTC = 1403344885000 ,  unc = 2500, ref sys time= 307003
+<12:01:24> Position Fix (68 of 0) : Latitude 43.724899   Longtitude 15.799662
+<12:01:24> LSM:lsmLocCB out
+<12:01:25> ##### TTFF : 14 second #####
+<12:01:25> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 69/0
+<12:01:25> INFO: lsmLocCallback : do nothing
+<12:01:25> LSM_Position_CallBack: called
+<12:01:25> Acc from LPL is :56
+<12:01:25> Local Time Updated : ref UTC = 1403344886000 ,  unc = 2500, ref sys time= 307936
+<12:01:25> Position Fix (69 of 0) : Latitude 43.724905   Longtitude 15.799620
+<12:01:25> LSM:lsmLocCB out
+<12:01:26> ##### TTFF : 14 second #####
+<12:01:26> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 70/0
+<12:01:26> INFO: lsmLocCallback : do nothing
+<12:01:26> LSM_Position_CallBack: called
+<12:01:26> Acc from LPL is :56
+<12:01:26> Local Time Updated : ref UTC = 1403344887000 ,  unc = 2500, ref sys time= 309032
+<12:01:26> Position Fix (70 of 0) : Latitude 43.724903   Longtitude 15.799611
+<12:01:26> LSM:lsmLocCB out
+<12:01:27> ##### TTFF : 14 second #####
+<12:01:27> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 71/0
+<12:01:27> INFO: lsmLocCallback : do nothing
+<12:01:27> LSM_Position_CallBack: called
+<12:01:27> Acc from LPL is :56
+<12:01:27> Local Time Updated : ref UTC = 1403344888000 ,  unc = 2500, ref sys time= 309973
+<12:01:27> Position Fix (71 of 0) : Latitude 43.724903   Longtitude 15.799606
+<12:01:27> LSM:lsmLocCB out
+<12:01:28> ##### TTFF : 14 second #####
+<12:01:28> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 72/0
+<12:01:28> INFO: lsmLocCallback : do nothing
+<12:01:28> LSM_Position_CallBack: called
+<12:01:28> Acc from LPL is :56
+<12:01:28> Local Time Updated : ref UTC = 1403344889000 ,  unc = 2500, ref sys time= 311012
+<12:01:28> Position Fix (72 of 0) : Latitude 43.724902   Longtitude 15.799598
+<12:01:28> LSM:lsmLocCB out
+<12:01:29> ##### TTFF : 14 second #####
+<12:01:29> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 73/0
+<12:01:29> INFO: lsmLocCallback : do nothing
+<12:01:29> LSM_Position_CallBack: called
+<12:01:29> Acc from LPL is :56
+<12:01:29> Local Time Updated : ref UTC = 1403344890000 ,  unc = 2500, ref sys time= 311964
+<12:01:29> Position Fix (73 of 0) : Latitude 43.724902   Longtitude 15.799598
+<12:01:29> LSM:lsmLocCB out
+<12:01:30> ##### TTFF : 14 second #####
+<12:01:30> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 74/0
+<12:01:30> INFO: lsmLocCallback : do nothing
+<12:01:30> LSM_Position_CallBack: called
+<12:01:30> Acc from LPL is :56
+<12:01:30> Local Time Updated : ref UTC = 1403344891000 ,  unc = 2500, ref sys time= 312983
+<12:01:30> Position Fix (74 of 0) : Latitude 43.724902   Longtitude 15.799598
+<12:01:30> LSM:lsmLocCB out
+<12:01:31> ##### TTFF : 14 second #####
+<12:01:31> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 75/0
+<12:01:31> INFO: lsmLocCallback : do nothing
+<12:01:31> LSM_Position_CallBack: called
+<12:01:31> Acc from LPL is :56
+<12:01:31> Local Time Updated : ref UTC = 1403344892000 ,  unc = 2500, ref sys time= 313953
+<12:01:31> Position Fix (75 of 0) : Latitude 43.724901   Longtitude 15.799599
+<12:01:31> LSM:lsmLocCB out
+<12:01:32> ##### TTFF : 14 second #####
+<12:01:32> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 76/0
+<12:01:32> INFO: lsmLocCallback : do nothing
+<12:01:32> LSM_Position_CallBack: called
+<12:01:32> Acc from LPL is :56
+<12:01:32> Local Time Updated : ref UTC = 1403344893000 ,  unc = 2500, ref sys time= 314993
+<12:01:32> Position Fix (76 of 0) : Latitude 43.724901   Longtitude 15.799599
+<12:01:32> LSM:lsmLocCB out
+<12:01:33> ##### TTFF : 14 second #####
+<12:01:33> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 77/0
+<12:01:33> INFO: lsmLocCallback : do nothing
+<12:01:33> LSM_Position_CallBack: called
+<12:01:33> Acc from LPL is :56
+<12:01:33> Local Time Updated : ref UTC = 1403344894000 ,  unc = 2500, ref sys time= 316018
+<12:01:33> Position Fix (77 of 0) : Latitude 43.724901   Longtitude 15.799599
+<12:01:33> LSM:lsmLocCB out
+<12:01:34> ##### TTFF : 14 second #####
+<12:01:34> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 78/0
+<12:01:34> INFO: lsmLocCallback : do nothing
+<12:01:34> LSM_Position_CallBack: called
+<12:01:34> Acc from LPL is :56
+<12:01:34> Local Time Updated : ref UTC = 1403344895000 ,  unc = 2500, ref sys time= 316949
+<12:01:34> Position Fix (78 of 0) : Latitude 43.724901   Longtitude 15.799599
+<12:01:34> LSM:lsmLocCB out
+<12:01:35> ##### TTFF : 14 second #####
+<12:01:35> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 79/0
+<12:01:35> INFO: lsmLocCallback : do nothing
+<12:01:35> LSM_Position_CallBack: called
+<12:01:35> Acc from LPL is :56
+<12:01:35> Local Time Updated : ref UTC = 1403344896000 ,  unc = 2500, ref sys time= 317963
+<12:01:35> Position Fix (79 of 0) : Latitude 43.724901   Longtitude 15.799599
+<12:01:35> LSM:lsmLocCB out
+<12:01:36> ##### TTFF : 14 second #####
+<12:01:36> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 80/0
+<12:01:36> INFO: lsmLocCallback : do nothing
+<12:01:36> LSM_Position_CallBack: called
+<12:01:36> Acc from LPL is :50
+<12:01:36> Local Time Updated : ref UTC = 1403344897000 ,  unc = 2500, ref sys time= 318983
+<12:01:36> Position Fix (80 of 0) : Latitude 43.724901   Longtitude 15.799599
+<12:01:36> LSM:lsmLocCB out
+<12:01:37> ##### TTFF : 14 second #####
+<12:01:37> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 81/0
+<12:01:37> INFO: lsmLocCallback : do nothing
+<12:01:37> LSM_Position_CallBack: called
+<12:01:37> Acc from LPL is :50
+<12:01:37> Local Time Updated : ref UTC = 1403344898000 ,  unc = 2500, ref sys time= 319996
+<12:01:37> Position Fix (81 of 0) : Latitude 43.724901   Longtitude 15.799599
+<12:01:37> LSM:lsmLocCB out
+<12:01:38> ##### TTFF : 14 second #####
+<12:01:38> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 82/0
+<12:01:38> INFO: lsmLocCallback : do nothing
+<12:01:38> LSM_Position_CallBack: called
+<12:01:38> Acc from LPL is :50
+<12:01:38> Local Time Updated : ref UTC = 1403344899000 ,  unc = 2500, ref sys time= 320958
+<12:01:38> Position Fix (82 of 0) : Latitude 43.724901   Longtitude 15.799599
+<12:01:38> LSM:lsmLocCB out
+<12:01:39> ##### TTFF : 14 second #####
+<12:01:39> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 83/0
+<12:01:39> INFO: lsmLocCallback : do nothing
+<12:01:39> LSM_Position_CallBack: called
+<12:01:39> Acc from LPL is :50
+<12:01:39> Local Time Updated : ref UTC = 1403344900000 ,  unc = 2500, ref sys time= 322027
+<12:01:39> Position Fix (83 of 0) : Latitude 43.724901   Longtitude 15.799599
+<12:01:39> LSM:lsmLocCB out
+<12:01:40> ##### TTFF : 14 second #####
+<12:01:40> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 84/0
+<12:01:40> INFO: lsmLocCallback : do nothing
+<12:01:40> LSM_Position_CallBack: called
+<12:01:40> Acc from LPL is :52
+<12:01:40> Local Time Updated : ref UTC = 1403344901000 ,  unc = 2500, ref sys time= 323000
+<12:01:40> Position Fix (84 of 0) : Latitude 43.724899   Longtitude 15.799582
+<12:01:40> LSM:lsmLocCB out
+<12:01:41> ##### TTFF : 14 second #####
+<12:01:41> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 85/0
+<12:01:41> INFO: lsmLocCallback : do nothing
+<12:01:41> LSM_Position_CallBack: called
+<12:01:41> Acc from LPL is :52
+<12:01:41> Local Time Updated : ref UTC = 1403344902000 ,  unc = 2500, ref sys time= 324023
+<12:01:41> Position Fix (85 of 0) : Latitude 43.724898   Longtitude 15.799576
+<12:01:41> LSM:lsmLocCB out
+<12:01:42> ##### TTFF : 14 second #####
+<12:01:42> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 86/0
+<12:01:42> INFO: lsmLocCallback : do nothing
+<12:01:42> LSM_Position_CallBack: called
+<12:01:42> Acc from LPL is :52
+<12:01:42> Local Time Updated : ref UTC = 1403344903000 ,  unc = 2500, ref sys time= 325167
+<12:01:42> Position Fix (86 of 0) : Latitude 43.724898   Longtitude 15.799573
+<12:01:42> LSM:lsmLocCB out
+<12:01:43> ##### TTFF : 14 second #####
+<12:01:43> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 87/0
+<12:01:43> INFO: lsmLocCallback : do nothing
+<12:01:43> LSM_Position_CallBack: called
+<12:01:43> Acc from LPL is :52
+<12:01:43> Local Time Updated : ref UTC = 1403344904000 ,  unc = 2500, ref sys time= 325977
+<12:01:43> Position Fix (87 of 0) : Latitude 43.724898   Longtitude 15.799574
+<12:01:43> LSM:lsmLocCB out
+<12:01:44> ##### TTFF : 14 second #####
+<12:01:44> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 88/0
+<12:01:44> INFO: lsmLocCallback : do nothing
+<12:01:44> LSM_Position_CallBack: called
+<12:01:44> Acc from LPL is :52
+<12:01:44> Local Time Updated : ref UTC = 1403344905000 ,  unc = 2500, ref sys time= 327001
+<12:01:44> Position Fix (88 of 0) : Latitude 43.724898   Longtitude 15.799569
+<12:01:44> LSM:lsmLocCB out
+<12:01:45> ##### TTFF : 14 second #####
+<12:01:45> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 89/0
+<12:01:45> INFO: lsmLocCallback : do nothing
+<12:01:45> LSM_Position_CallBack: called
+<12:01:45> Acc from LPL is :52
+<12:01:45> Local Time Updated : ref UTC = 1403344906000 ,  unc = 2500, ref sys time= 328034
+<12:01:45> Position Fix (89 of 0) : Latitude 43.724897   Longtitude 15.799564
+<12:01:45> LSM:lsmLocCB out
+<12:01:46> ##### TTFF : 14 second #####
+<12:01:46> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 90/0
+<12:01:46> INFO: lsmLocCallback : do nothing
+<12:01:46> LSM_Position_CallBack: called
+<12:01:46> Acc from LPL is :52
+<12:01:46> Local Time Updated : ref UTC = 1403344907000 ,  unc = 2500, ref sys time= 328947
+<12:01:46> Position Fix (90 of 0) : Latitude 43.724898   Longtitude 15.799569
+<12:01:46> LSM:lsmLocCB out
+<12:01:47> ##### TTFF : 14 second #####
+<12:01:47> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 91/0
+<12:01:47> INFO: lsmLocCallback : do nothing
+<12:01:47> LSM_Position_CallBack: called
+<12:01:47> Acc from LPL is :52
+<12:01:47> Local Time Updated : ref UTC = 1403344908000 ,  unc = 2500, ref sys time= 330012
+<12:01:47> Position Fix (91 of 0) : Latitude 43.724898   Longtitude 15.799571
+<12:01:47> LSM:lsmLocCB out
+<12:01:48> ##### TTFF : 14 second #####
+<12:01:48> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 92/0
+<12:01:48> INFO: lsmLocCallback : do nothing
+<12:01:48> LSM_Position_CallBack: called
+<12:01:48> Acc from LPL is :52
+<12:01:48> Local Time Updated : ref UTC = 1403344909000 ,  unc = 2500, ref sys time= 331001
+<12:01:48> Position Fix (92 of 0) : Latitude 43.724899   Longtitude 15.799579
+<12:01:48> LSM:lsmLocCB out
+<12:01:49> ##### TTFF : 14 second #####
+<12:01:49> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 93/0
+<12:01:49> INFO: lsmLocCallback : do nothing
+<12:01:49> LSM_Position_CallBack: called
+<12:01:49> Acc from LPL is :52
+<12:01:49> Local Time Updated : ref UTC = 1403344910000 ,  unc = 2500, ref sys time= 331948
+<12:01:49> Position Fix (93 of 0) : Latitude 43.724900   Longtitude 15.799581
+<12:01:49> LSM:lsmLocCB out
+<12:01:50> ##### TTFF : 14 second #####
+<12:01:50> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 94/0
+<12:01:50> INFO: lsmLocCallback : do nothing
+<12:01:50> LSM_Position_CallBack: called
+<12:01:50> Acc from LPL is :56
+<12:01:50> Local Time Updated : ref UTC = 1403344911000 ,  unc = 2500, ref sys time= 332991
+<12:01:50> Position Fix (94 of 0) : Latitude 43.724900   Longtitude 15.799577
+<12:01:50> LSM:lsmLocCB out
+<12:01:51> ##### TTFF : 14 second #####
+<12:01:51> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 95/0
+<12:01:51> INFO: lsmLocCallback : do nothing
+<12:01:51> LSM_Position_CallBack: called
+<12:01:51> Acc from LPL is :56
+<12:01:51> Local Time Updated : ref UTC = 1403344912000 ,  unc = 2500, ref sys time= 334012
+<12:01:51> Position Fix (95 of 0) : Latitude 43.724898   Longtitude 15.799565
+<12:01:51> LSM:lsmLocCB out
+<12:01:52> ##### TTFF : 14 second #####
+<12:01:52> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 96/0
+<12:01:52> INFO: lsmLocCallback : do nothing
+<12:01:52> LSM_Position_CallBack: called
+<12:01:52> Acc from LPL is :56
+<12:01:52> Local Time Updated : ref UTC = 1403344913000 ,  unc = 2500, ref sys time= 335063
+<12:01:52> Position Fix (96 of 0) : Latitude 43.724898   Longtitude 15.799565
+<12:01:52> LSM:lsmLocCB out
+<12:01:53> ##### TTFF : 14 second #####
+<12:01:53> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 97/0
+<12:01:53> INFO: lsmLocCallback : do nothing
+<12:01:53> LSM_Position_CallBack: called
+<12:01:53> Acc from LPL is :52
+<12:01:53> Local Time Updated : ref UTC = 1403344914000 ,  unc = 2500, ref sys time= 336051
+<12:01:53> Position Fix (97 of 0) : Latitude 43.724898   Longtitude 15.799565
+<12:01:53> LSM:lsmLocCB out
+<12:01:54> ##### TTFF : 14 second #####
+<12:01:54> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 98/0
+<12:01:54> INFO: lsmLocCallback : do nothing
+<12:01:54> LSM_Position_CallBack: called
+<12:01:54> Acc from LPL is :52
+<12:01:54> Local Time Updated : ref UTC = 1403344915000 ,  unc = 2500, ref sys time= 336937
+<12:01:54> Position Fix (98 of 0) : Latitude 43.724895   Longtitude 15.799551
+<12:01:54> LSM:lsmLocCB out
+<12:01:55> ##### TTFF : 14 second #####
+<12:01:55> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 99/0
+<12:01:55> INFO: lsmLocCallback : do nothing
+<12:01:55> LSM_Position_CallBack: called
+<12:01:55> Acc from LPL is :52
+<12:01:55> Local Time Updated : ref UTC = 1403344916000 ,  unc = 2500, ref sys time= 337968
+<12:01:55> Position Fix (99 of 0) : Latitude 43.724894   Longtitude 15.799543
+<12:01:55> LSM:lsmLocCB out
+<12:01:56> ##### TTFF : 14 second #####
+<12:01:56> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 100/0
+<12:01:56> INFO: lsmLocCallback : do nothing
+<12:01:56> LSM_Position_CallBack: called
+<12:01:56> Acc from LPL is :52
+<12:01:56> Local Time Updated : ref UTC = 1403344917000 ,  unc = 2500, ref sys time= 338944
+<12:01:56> Position Fix (100 of 0) : Latitude 43.724893   Longtitude 15.799534
+<12:01:56> LSM:lsmLocCB out
+<12:01:57> ##### TTFF : 14 second #####
+<12:01:57> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 101/0
+<12:01:57> INFO: lsmLocCallback : do nothing
+<12:01:57> LSM_Position_CallBack: called
+<12:01:57> Acc from LPL is :52
+<12:01:57> Local Time Updated : ref UTC = 1403344918000 ,  unc = 2500, ref sys time= 340019
+<12:01:57> Position Fix (101 of 0) : Latitude 43.724892   Longtitude 15.799532
+<12:01:57> LSM:lsmLocCB out
+<12:01:58> ##### TTFF : 14 second #####
+<12:01:58> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 102/0
+<12:01:58> INFO: lsmLocCallback : do nothing
+<12:01:58> LSM_Position_CallBack: called
+<12:01:58> Acc from LPL is :52
+<12:01:58> Local Time Updated : ref UTC = 1403344919000 ,  unc = 2500, ref sys time= 341014
+<12:01:58> Position Fix (102 of 0) : Latitude 43.724893   Longtitude 15.799533
+<12:01:58> LSM:lsmLocCB out
+<12:01:59> ##### TTFF : 14 second #####
+<12:01:59> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 103/0
+<12:01:59> INFO: lsmLocCallback : do nothing
+<12:01:59> LSM_Position_CallBack: called
+<12:01:59> Acc from LPL is :52
+<12:01:59> Local Time Updated : ref UTC = 1403344920000 ,  unc = 2500, ref sys time= 341936
+<12:01:59> Position Fix (103 of 0) : Latitude 43.724894   Longtitude 15.799541
+<12:01:59> LSM:lsmLocCB out
+<12:02:00> ##### TTFF : 14 second #####
+<12:02:00> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 104/0
+<12:02:00> INFO: lsmLocCallback : do nothing
+<12:02:00> LSM_Position_CallBack: called
+<12:02:00> Acc from LPL is :50
+<12:02:00> Local Time Updated : ref UTC = 1403344921000 ,  unc = 2500, ref sys time= 342984
+<12:02:00> Position Fix (104 of 0) : Latitude 43.724894   Longtitude 15.799541
+<12:02:00> LSM:lsmLocCB out
+<12:02:01> ##### TTFF : 14 second #####
+<12:02:01> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 105/0
+<12:02:01> INFO: lsmLocCallback : do nothing
+<12:02:01> LSM_Position_CallBack: called
+<12:02:01> Acc from LPL is :52
+<12:02:01> Local Time Updated : ref UTC = 1403344922000 ,  unc = 2500, ref sys time= 344054
+<12:02:01> Position Fix (105 of 0) : Latitude 43.724894   Longtitude 15.799541
+<12:02:01> LSM:lsmLocCB out
+<12:02:02> ##### TTFF : 14 second #####
+<12:02:02> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 106/0
+<12:02:02> INFO: lsmLocCallback : do nothing
+<12:02:02> LSM_Position_CallBack: called
+<12:02:02> Acc from LPL is :52
+<12:02:02> Local Time Updated : ref UTC = 1403344923000 ,  unc = 2500, ref sys time= 345300
+<12:02:02> Position Fix (106 of 0) : Latitude 43.724894   Longtitude 15.799541
+<12:02:02> LSM:lsmLocCB out
+<12:02:03> ##### TTFF : 14 second #####
+<12:02:03> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 107/0
+<12:02:03> INFO: lsmLocCallback : do nothing
+<12:02:03> LSM_Position_CallBack: called
+<12:02:03> Acc from LPL is :52
+<12:02:03> Local Time Updated : ref UTC = 1403344924000 ,  unc = 2500, ref sys time= 346067
+<12:02:03> Position Fix (107 of 0) : Latitude 43.724894   Longtitude 15.799541
+<12:02:03> LSM:lsmLocCB out
+<12:02:04> ##### TTFF : 14 second #####
+<12:02:04> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 108/0
+<12:02:04> INFO: lsmLocCallback : do nothing
+<12:02:04> LSM_Position_CallBack: called
+<12:02:04> Acc from LPL is :50
+<12:02:04> Local Time Updated : ref UTC = 1403344925000 ,  unc = 2500, ref sys time= 347022
+<12:02:04> Position Fix (108 of 0) : Latitude 43.724894   Longtitude 15.799541
+<12:02:04> LSM:lsmLocCB out
+<12:02:05> ##### TTFF : 14 second #####
+<12:02:05> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 109/0
+<12:02:05> INFO: lsmLocCallback : do nothing
+<12:02:05> LSM_Position_CallBack: called
+<12:02:05> Acc from LPL is :50
+<12:02:05> Local Time Updated : ref UTC = 1403344926000 ,  unc = 2500, ref sys time= 348019
+<12:02:05> Position Fix (109 of 0) : Latitude 43.724894   Longtitude 15.799541
+<12:02:05> LSM:lsmLocCB out
+<12:02:06> ##### TTFF : 14 second #####
+<12:02:06> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 110/0
+<12:02:06> INFO: lsmLocCallback : do nothing
+<12:02:06> LSM_Position_CallBack: called
+<12:02:06> Acc from LPL is :50
+<12:02:06> Local Time Updated : ref UTC = 1403344927000 ,  unc = 2500, ref sys time= 349029
+<12:02:06> Position Fix (110 of 0) : Latitude 43.724900   Longtitude 15.799588
+<12:02:06> LSM:lsmLocCB out
+<12:02:07> ##### TTFF : 14 second #####
+<12:02:07> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 111/0
+<12:02:07> INFO: lsmLocCallback : do nothing
+<12:02:07> LSM_Position_CallBack: called
+<12:02:07> Acc from LPL is :52
+<12:02:07> Local Time Updated : ref UTC = 1403344928000 ,  unc = 2500, ref sys time= 350056
+<12:02:07> Position Fix (111 of 0) : Latitude 43.724901   Longtitude 15.799594
+<12:02:07> LSM:lsmLocCB out
+<12:02:08> ##### TTFF : 14 second #####
+<12:02:08> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 112/0
+<12:02:08> INFO: lsmLocCallback : do nothing
+<12:02:08> LSM_Position_CallBack: called
+<12:02:08> Acc from LPL is :52
+<12:02:08> Local Time Updated : ref UTC = 1403344929000 ,  unc = 2500, ref sys time= 351022
+<12:02:08> Position Fix (112 of 0) : Latitude 43.724901   Longtitude 15.799595
+<12:02:08> LSM:lsmLocCB out
+<12:02:09> ##### TTFF : 14 second #####
+<12:02:09> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 113/0
+<12:02:09> INFO: lsmLocCallback : do nothing
+<12:02:09> LSM_Position_CallBack: called
+<12:02:09> Acc from LPL is :52
+<12:02:09> Local Time Updated : ref UTC = 1403344930000 ,  unc = 2500, ref sys time= 352048
+<12:02:09> Position Fix (113 of 0) : Latitude 43.724899   Longtitude 15.799587
+<12:02:09> LSM:lsmLocCB out
+<12:02:10> ##### TTFF : 14 second #####
+<12:02:10> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 114/0
+<12:02:10> INFO: lsmLocCallback : do nothing
+<12:02:10> LSM_Position_CallBack: called
+<12:02:10> Acc from LPL is :52
+<12:02:10> Local Time Updated : ref UTC = 1403344931000 ,  unc = 2500, ref sys time= 353022
+<12:02:10> Position Fix (114 of 0) : Latitude 43.724899   Longtitude 15.799585
+<12:02:10> LSM:lsmLocCB out
+<12:02:11> ##### TTFF : 14 second #####
+<12:02:11> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 115/0
+<12:02:11> INFO: lsmLocCallback : do nothing
+<12:02:11> LSM_Position_CallBack: called
+<12:02:11> Acc from LPL is :52
+<12:02:11> Local Time Updated : ref UTC = 1403344932000 ,  unc = 2500, ref sys time= 354021
+<12:02:11> Position Fix (115 of 0) : Latitude 43.724899   Longtitude 15.799585
+<12:02:11> LSM:lsmLocCB out
+<12:02:12> ##### TTFF : 14 second #####
+<12:02:12> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 116/0
+<12:02:12> INFO: lsmLocCallback : do nothing
+<12:02:12> LSM_Position_CallBack: called
+<12:02:12> Acc from LPL is :52
+<12:02:12> Local Time Updated : ref UTC = 1403344933000 ,  unc = 2500, ref sys time= 355013
+<12:02:12> Position Fix (116 of 0) : Latitude 43.724899   Longtitude 15.799585
+<12:02:12> LSM:lsmLocCB out
+<12:02:13> ##### TTFF : 14 second #####
+<12:02:13> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 117/0
+<12:02:13> INFO: lsmLocCallback : do nothing
+<12:02:13> LSM_Position_CallBack: called
+<12:02:13> Acc from LPL is :52
+<12:02:13> Local Time Updated : ref UTC = 1403344934000 ,  unc = 2500, ref sys time= 356039
+<12:02:13> Position Fix (117 of 0) : Latitude 43.724899   Longtitude 15.799585
+<12:02:13> LSM:lsmLocCB out
+<12:02:14> ##### TTFF : 14 second #####
+<12:02:14> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 118/0
+<12:02:14> INFO: lsmLocCallback : do nothing
+<12:02:14> LSM_Position_CallBack: called
+<12:02:14> Acc from LPL is :52
+<12:02:14> Local Time Updated : ref UTC = 1403344935000 ,  unc = 2500, ref sys time= 357031
+<12:02:14> Position Fix (118 of 0) : Latitude 43.724899   Longtitude 15.799585
+<12:02:14> LSM:lsmLocCB out
+<12:02:15> ##### TTFF : 14 second #####
+<12:02:15> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 119/0
+<12:02:15> INFO: lsmLocCallback : do nothing
+<12:02:15> LSM_Position_CallBack: called
+<12:02:15> Acc from LPL is :50
+<12:02:15> Local Time Updated : ref UTC = 1403344936000 ,  unc = 2500, ref sys time= 358049
+<12:02:15> Position Fix (119 of 0) : Latitude 43.724899   Longtitude 15.799585
+<12:02:15> LSM:lsmLocCB out
+<12:02:16> ##### TTFF : 14 second #####
+<12:02:16> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 120/0
+<12:02:16> INFO: lsmLocCallback : do nothing
+<12:02:16> LSM_Position_CallBack: called
+<12:02:16> Acc from LPL is :50
+<12:02:16> Local Time Updated : ref UTC = 1403344937000 ,  unc = 2500, ref sys time= 359022
+<12:02:16> Position Fix (120 of 0) : Latitude 43.724899   Longtitude 15.799585
+<12:02:16> LSM:lsmLocCB out
+<12:02:17> ##### TTFF : 14 second #####
+<12:02:17> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 121/0
+<12:02:17> INFO: lsmLocCallback : do nothing
+<12:02:17> LSM_Position_CallBack: called
+<12:02:17> Acc from LPL is :52
+<12:02:17> Local Time Updated : ref UTC = 1403344938000 ,  unc = 2500, ref sys time= 360022
+<12:02:17> Position Fix (121 of 0) : Latitude 43.724899   Longtitude 15.799585
+<12:02:17> LSM:lsmLocCB out
+<12:02:18> ##### TTFF : 14 second #####
+<12:02:18> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 122/0
+<12:02:18> INFO: lsmLocCallback : do nothing
+<12:02:18> LSM_Position_CallBack: called
+<12:02:18> Acc from LPL is :56
+<12:02:18> Local Time Updated : ref UTC = 1403344939000 ,  unc = 2500, ref sys time= 361031
+<12:02:18> Position Fix (122 of 0) : Latitude 43.724899   Longtitude 15.799585
+<12:02:18> LSM:lsmLocCB out
+<12:02:19> ##### TTFF : 14 second #####
+<12:02:19> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 123/0
+<12:02:19> INFO: lsmLocCallback : do nothing
+<12:02:19> LSM_Position_CallBack: called
+<12:02:19> Acc from LPL is :50
+<12:02:19> Local Time Updated : ref UTC = 1403344940000 ,  unc = 2500, ref sys time= 362083
+<12:02:19> Position Fix (123 of 0) : Latitude 43.724899   Longtitude 15.799585
+<12:02:19> LSM:lsmLocCB out
+<12:02:20> ##### TTFF : 14 second #####
+<12:02:20> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 124/0
+<12:02:20> INFO: lsmLocCallback : do nothing
+<12:02:20> LSM_Position_CallBack: called
+<12:02:20> Acc from LPL is :50
+<12:02:20> Local Time Updated : ref UTC = 1403344941000 ,  unc = 2500, ref sys time= 363051
+<12:02:20> Position Fix (124 of 0) : Latitude 43.724899   Longtitude 15.799585
+<12:02:20> LSM:lsmLocCB out
+<12:02:21> ##### TTFF : 14 second #####
+<12:02:21> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 125/0
+<12:02:21> INFO: lsmLocCallback : do nothing
+<12:02:21> LSM_Position_CallBack: called
+<12:02:21> Acc from LPL is :50
+<12:02:21> Local Time Updated : ref UTC = 1403344942000 ,  unc = 2500, ref sys time= 364043
+<12:02:21> Position Fix (125 of 0) : Latitude 43.724899   Longtitude 15.799585
+<12:02:21> LSM:lsmLocCB out
+<12:02:22> ##### TTFF : 14 second #####
+<12:02:22> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 126/0
+<12:02:22> INFO: lsmLocCallback : do nothing
+<12:02:22> LSM_Position_CallBack: called
+<12:02:22> Acc from LPL is :52
+<12:02:22> Local Time Updated : ref UTC = 1403344943000 ,  unc = 2500, ref sys time= 365163
+<12:02:22> Position Fix (126 of 0) : Latitude 43.724905   Longtitude 15.799627
+<12:02:22> LSM:lsmLocCB out
+<12:02:23> ##### TTFF : 14 second #####
+<12:02:23> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 127/0
+<12:02:23> INFO: lsmLocCallback : do nothing
+<12:02:23> LSM_Position_CallBack: called
+<12:02:23> Acc from LPL is :52
+<12:02:23> Local Time Updated : ref UTC = 1403344944000 ,  unc = 2500, ref sys time= 366023
+<12:02:23> Position Fix (127 of 0) : Latitude 43.724906   Longtitude 15.799630
+<12:02:23> LSM:lsmLocCB out
+<12:02:24> ##### TTFF : 14 second #####
+<12:02:24> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 128/0
+<12:02:24> INFO: lsmLocCallback : do nothing
+<12:02:24> LSM_Position_CallBack: called
+<12:02:24> Acc from LPL is :52
+<12:02:24> Local Time Updated : ref UTC = 1403344945000 ,  unc = 2500, ref sys time= 366975
+<12:02:24> Position Fix (128 of 0) : Latitude 43.724906   Longtitude 15.799634
+<12:02:24> LSM:lsmLocCB out
+<12:02:25> ##### TTFF : 14 second #####
+<12:02:25> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 129/0
+<12:02:25> INFO: lsmLocCallback : do nothing
+<12:02:25> LSM_Position_CallBack: called
+<12:02:25> Acc from LPL is :52
+<12:02:25> Local Time Updated : ref UTC = 1403344946000 ,  unc = 2500, ref sys time= 368031
+<12:02:25> Position Fix (129 of 0) : Latitude 43.724906   Longtitude 15.799638
+<12:02:25> LSM:lsmLocCB out
+<12:02:26> ##### TTFF : 14 second #####
+<12:02:26> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 130/0
+<12:02:26> INFO: lsmLocCallback : do nothing
+<12:02:26> LSM_Position_CallBack: called
+<12:02:26> Acc from LPL is :52
+<12:02:26> Local Time Updated : ref UTC = 1403344947000 ,  unc = 2500, ref sys time= 369044
+<12:02:26> Position Fix (130 of 0) : Latitude 43.724906   Longtitude 15.799638
+<12:02:26> LSM:lsmLocCB out
+<12:02:27> ##### TTFF : 14 second #####
+<12:02:27> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 131/0
+<12:02:27> INFO: lsmLocCallback : do nothing
+<12:02:27> LSM_Position_CallBack: called
+<12:02:27> Acc from LPL is :56
+<12:02:27> Local Time Updated : ref UTC = 1403344948000 ,  unc = 2500, ref sys time= 370099
+<12:02:27> Position Fix (131 of 0) : Latitude 43.724906   Longtitude 15.799638
+<12:02:27> LSM:lsmLocCB out
+<12:02:28> ##### TTFF : 14 second #####
+<12:02:28> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 132/0
+<12:02:28> INFO: lsmLocCallback : do nothing
+<12:02:28> LSM_Position_CallBack: called
+<12:02:28> Acc from LPL is :52
+<12:02:28> Local Time Updated : ref UTC = 1403344949000 ,  unc = 2500, ref sys time= 371065
+<12:02:28> Position Fix (132 of 0) : Latitude 43.724899   Longtitude 15.799611
+<12:02:28> LSM:lsmLocCB out
+<12:02:29> ##### TTFF : 14 second #####
+<12:02:29> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 133/0
+<12:02:29> INFO: lsmLocCallback : do nothing
+<12:02:29> LSM_Position_CallBack: called
+<12:02:29> Acc from LPL is :52
+<12:02:29> Local Time Updated : ref UTC = 1403344950000 ,  unc = 2500, ref sys time= 372023
+<12:02:29> Position Fix (133 of 0) : Latitude 43.724899   Longtitude 15.799609
+<12:02:29> LSM:lsmLocCB out
+<12:02:30> ##### TTFF : 14 second #####
+<12:02:30> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 134/0
+<12:02:30> INFO: lsmLocCallback : do nothing
+<12:02:30> LSM_Position_CallBack: called
+<12:02:30> Acc from LPL is :52
+<12:02:30> Local Time Updated : ref UTC = 1403344951000 ,  unc = 2500, ref sys time= 373085
+<12:02:30> Position Fix (134 of 0) : Latitude 43.724898   Longtitude 15.799606
+<12:02:30> LSM:lsmLocCB out
+<12:02:31> ##### TTFF : 14 second #####
+<12:02:31> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 135/0
+<12:02:31> INFO: lsmLocCallback : do nothing
+<12:02:31> LSM_Position_CallBack: called
+<12:02:31> Acc from LPL is :52
+<12:02:31> Local Time Updated : ref UTC = 1403344952000 ,  unc = 2500, ref sys time= 374050
+<12:02:31> Position Fix (135 of 0) : Latitude 43.724896   Longtitude 15.799601
+<12:02:31> LSM:lsmLocCB out
+<12:02:32> ##### TTFF : 14 second #####
+<12:02:32> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 136/0
+<12:02:32> INFO: lsmLocCallback : do nothing
+<12:02:32> LSM_Position_CallBack: called
+<12:02:32> Acc from LPL is :52
+<12:02:32> Local Time Updated : ref UTC = 1403344953000 ,  unc = 2500, ref sys time= 375118
+<12:02:32> Position Fix (136 of 0) : Latitude 43.724895   Longtitude 15.799599
+<12:02:32> LSM:lsmLocCB out
+<12:02:33> ##### TTFF : 14 second #####
+<12:02:33> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 137/0
+<12:02:33> INFO: lsmLocCallback : do nothing
+<12:02:33> LSM_Position_CallBack: called
+<12:02:33> Acc from LPL is :52
+<12:02:33> Local Time Updated : ref UTC = 1403344954000 ,  unc = 2500, ref sys time= 376123
+<12:02:33> Position Fix (137 of 0) : Latitude 43.724895   Longtitude 15.799595
+<12:02:33> LSM:lsmLocCB out
+<12:02:34> ##### TTFF : 14 second #####
+<12:02:34> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 138/0
+<12:02:34> INFO: lsmLocCallback : do nothing
+<12:02:34> LSM_Position_CallBack: called
+<12:02:34> Acc from LPL is :52
+<12:02:34> Local Time Updated : ref UTC = 1403344955000 ,  unc = 2500, ref sys time= 376997
+<12:02:34> Position Fix (138 of 0) : Latitude 43.724894   Longtitude 15.799590
+<12:02:34> LSM:lsmLocCB out
+<12:02:35> ##### TTFF : 14 second #####
+<12:02:35> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 139/0
+<12:02:35> INFO: lsmLocCallback : do nothing
+<12:02:35> LSM_Position_CallBack: called
+<12:02:35> Acc from LPL is :50
+<12:02:35> Local Time Updated : ref UTC = 1403344956000 ,  unc = 2500, ref sys time= 378024
+<12:02:35> Position Fix (139 of 0) : Latitude 43.724893   Longtitude 15.799582
+<12:02:35> LSM:lsmLocCB out
+<12:02:36> ##### TTFF : 14 second #####
+<12:02:36> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 140/0
+<12:02:36> INFO: lsmLocCallback : do nothing
+<12:02:36> LSM_Position_CallBack: called
+<12:02:36> Acc from LPL is :50
+<12:02:36> Local Time Updated : ref UTC = 1403344957000 ,  unc = 2500, ref sys time= 378998
+<12:02:36> Position Fix (140 of 0) : Latitude 43.724892   Longtitude 15.799579
+<12:02:36> LSM:lsmLocCB out
+<12:02:37> ##### TTFF : 14 second #####
+<12:02:37> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 141/0
+<12:02:37> INFO: lsmLocCallback : do nothing
+<12:02:37> LSM_Position_CallBack: called
+<12:02:37> Acc from LPL is :50
+<12:02:37> Local Time Updated : ref UTC = 1403344958000 ,  unc = 2500, ref sys time= 380004
+<12:02:37> Position Fix (141 of 0) : Latitude 43.724891   Longtitude 15.799576
+<12:02:37> LSM:lsmLocCB out
+<12:02:38> ##### TTFF : 14 second #####
+<12:02:38> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 142/0
+<12:02:38> INFO: lsmLocCallback : do nothing
+<12:02:38> LSM_Position_CallBack: called
+<12:02:38> Acc from LPL is :50
+<12:02:38> Local Time Updated : ref UTC = 1403344959000 ,  unc = 2500, ref sys time= 381137
+<12:02:38> Position Fix (142 of 0) : Latitude 43.724891   Longtitude 15.799577
+<12:02:38> LSM:lsmLocCB out
+<12:02:39> ##### TTFF : 14 second #####
+<12:02:39> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 143/0
+<12:02:39> INFO: lsmLocCallback : do nothing
+<12:02:39> LSM_Position_CallBack: called
+<12:02:39> Acc from LPL is :50
+<12:02:39> Local Time Updated : ref UTC = 1403344960000 ,  unc = 2500, ref sys time= 382086
+<12:02:39> Position Fix (143 of 0) : Latitude 43.724892   Longtitude 15.799580
+<12:02:39> LSM:lsmLocCB out
+<12:02:40> ##### TTFF : 14 second #####
+<12:02:40> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 144/0
+<12:02:40> INFO: lsmLocCallback : do nothing
+<12:02:40> LSM_Position_CallBack: called
+<12:02:40> Acc from LPL is :50
+<12:02:40> Local Time Updated : ref UTC = 1403344961000 ,  unc = 2500, ref sys time= 383031
+<12:02:40> Position Fix (144 of 0) : Latitude 43.724893   Longtitude 15.799582
+<12:02:40> LSM:lsmLocCB out
+<12:02:41> ##### TTFF : 14 second #####
+<12:02:41> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 145/0
+<12:02:41> INFO: lsmLocCallback : do nothing
+<12:02:41> LSM_Position_CallBack: called
+<12:02:41> Acc from LPL is :50
+<12:02:41> Local Time Updated : ref UTC = 1403344962000 ,  unc = 2500, ref sys time= 384005
+<12:02:41> Position Fix (145 of 0) : Latitude 43.724892   Longtitude 15.799578
+<12:02:41> LSM:lsmLocCB out
+<12:02:42> ##### TTFF : 14 second #####
+<12:02:42> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 146/0
+<12:02:42> INFO: lsmLocCallback : do nothing
+<12:02:42> LSM_Position_CallBack: called
+<12:02:42> Acc from LPL is :52
+<12:02:42> Local Time Updated : ref UTC = 1403344963000 ,  unc = 2500, ref sys time= 385010
+<12:02:42> Position Fix (146 of 0) : Latitude 43.724893   Longtitude 15.799581
+<12:02:42> LSM:lsmLocCB out
+<12:02:43> ##### TTFF : 14 second #####
+<12:02:43> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 147/0
+<12:02:43> INFO: lsmLocCallback : do nothing
+<12:02:43> LSM_Position_CallBack: called
+<12:02:43> Acc from LPL is :52
+<12:02:43> Local Time Updated : ref UTC = 1403344964000 ,  unc = 2500, ref sys time= 386017
+<12:02:43> Position Fix (147 of 0) : Latitude 43.724894   Longtitude 15.799588
+<12:02:43> LSM:lsmLocCB out
+<12:02:44> ##### TTFF : 14 second #####
+<12:02:44> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 148/0
+<12:02:44> INFO: lsmLocCallback : do nothing
+<12:02:44> LSM_Position_CallBack: called
+<12:02:44> Acc from LPL is :52
+<12:02:44> Local Time Updated : ref UTC = 1403344965000 ,  unc = 2500, ref sys time= 387027
+<12:02:44> Position Fix (148 of 0) : Latitude 43.724894   Longtitude 15.799598
+<12:02:44> LSM:lsmLocCB out
+<12:02:45> ##### TTFF : 14 second #####
+<12:02:45> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 149/0
+<12:02:45> INFO: lsmLocCallback : do nothing
+<12:02:45> LSM_Position_CallBack: called
+<12:02:45> Acc from LPL is :52
+<12:02:45> Local Time Updated : ref UTC = 1403344966000 ,  unc = 2500, ref sys time= 388024
+<12:02:45> Position Fix (149 of 0) : Latitude 43.724899   Longtitude 15.799621
+<12:02:45> LSM:lsmLocCB out
+<12:02:46> ##### TTFF : 14 second #####
+<12:02:46> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 150/0
+<12:02:46> INFO: lsmLocCallback : do nothing
+<12:02:46> LSM_Position_CallBack: called
+<12:02:46> Acc from LPL is :56
+<12:02:46> Local Time Updated : ref UTC = 1403344967000 ,  unc = 2500, ref sys time= 389018
+<12:02:46> Position Fix (150 of 0) : Latitude 43.724902   Longtitude 15.799637
+<12:02:46> LSM:lsmLocCB out
+<12:02:47> ##### TTFF : 14 second #####
+<12:02:47> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 151/0
+<12:02:47> INFO: lsmLocCallback : do nothing
+<12:02:47> LSM_Position_CallBack: called
+<12:02:47> Acc from LPL is :56
+<12:02:47> Local Time Updated : ref UTC = 1403344968000 ,  unc = 2500, ref sys time= 389983
+<12:02:47> Position Fix (151 of 0) : Latitude 43.724903   Longtitude 15.799646
+<12:02:47> LSM:lsmLocCB out
+<12:02:48> ##### TTFF : 14 second #####
+<12:02:48> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 152/0
+<12:02:48> INFO: lsmLocCallback : do nothing
+<12:02:48> LSM_Position_CallBack: called
+<12:02:48> Acc from LPL is :56
+<12:02:48> Local Time Updated : ref UTC = 1403344969000 ,  unc = 2500, ref sys time= 391018
+<12:02:48> Position Fix (152 of 0) : Latitude 43.724904   Longtitude 15.799649
+<12:02:48> LSM:lsmLocCB out
+<12:02:49> ##### TTFF : 14 second #####
+<12:02:49> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 153/0
+<12:02:49> INFO: lsmLocCallback : do nothing
+<12:02:49> LSM_Position_CallBack: called
+<12:02:49> Acc from LPL is :52
+<12:02:49> Local Time Updated : ref UTC = 1403344970000 ,  unc = 2500, ref sys time= 392047
+<12:02:49> Position Fix (153 of 0) : Latitude 43.724904   Longtitude 15.799649
+<12:02:49> LSM:lsmLocCB out
+<12:02:50> ##### TTFF : 14 second #####
+<12:02:50> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 154/0
+<12:02:50> INFO: lsmLocCallback : do nothing
+<12:02:50> LSM_Position_CallBack: called
+<12:02:50> Acc from LPL is :56
+<12:02:50> Local Time Updated : ref UTC = 1403344971000 ,  unc = 2500, ref sys time= 393036
+<12:02:50> Position Fix (154 of 0) : Latitude 43.724904   Longtitude 15.799654
+<12:02:50> LSM:lsmLocCB out
+<12:02:51> ##### TTFF : 14 second #####
+<12:02:51> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 155/0
+<12:02:51> INFO: lsmLocCallback : do nothing
+<12:02:51> LSM_Position_CallBack: called
+<12:02:51> Acc from LPL is :58
+<12:02:51> Local Time Updated : ref UTC = 1403344972000 ,  unc = 2500, ref sys time= 394030
+<12:02:51> Position Fix (155 of 0) : Latitude 43.724905   Longtitude 15.799657
+<12:02:51> LSM:lsmLocCB out
+<12:02:52> ##### TTFF : 14 second #####
+<12:02:52> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 156/0
+<12:02:52> INFO: lsmLocCallback : do nothing
+<12:02:52> LSM_Position_CallBack: called
+<12:02:52> Acc from LPL is :58
+<12:02:52> Local Time Updated : ref UTC = 1403344973000 ,  unc = 2500, ref sys time= 395154
+<12:02:52> Position Fix (156 of 0) : Latitude 43.724906   Longtitude 15.799659
+<12:02:52> LSM:lsmLocCB out
+<12:02:53> ##### TTFF : 14 second #####
+<12:02:53> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 157/0
+<12:02:53> INFO: lsmLocCallback : do nothing
+<12:02:53> LSM_Position_CallBack: called
+<12:02:53> Acc from LPL is :58
+<12:02:53> Local Time Updated : ref UTC = 1403344974000 ,  unc = 2500, ref sys time= 396580
+<12:02:53> Position Fix (157 of 0) : Latitude 43.724907   Longtitude 15.799657
+<12:02:53> LSM:lsmLocCB out
+<12:02:54> ##### TTFF : 14 second #####
+<12:02:54> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 158/0
+<12:02:54> INFO: lsmLocCallback : do nothing
+<12:02:54> LSM_Position_CallBack: called
+<12:02:54> Acc from LPL is :62
+<12:02:54> Local Time Updated : ref UTC = 1403344975000 ,  unc = 2500, ref sys time= 397023
+<12:02:54> Position Fix (158 of 0) : Latitude 43.724907   Longtitude 15.799657
+<12:02:54> LSM:lsmLocCB out
+<12:02:55> ##### TTFF : 14 second #####
+<12:02:55> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 159/0
+<12:02:55> INFO: lsmLocCallback : do nothing
+<12:02:55> LSM_Position_CallBack: called
+<12:02:55> Acc from LPL is :62
+<12:02:55> Local Time Updated : ref UTC = 1403344976000 ,  unc = 2500, ref sys time= 398033
+<12:02:55> Position Fix (159 of 0) : Latitude 43.724907   Longtitude 15.799657
+<12:02:55> LSM:lsmLocCB out
+<12:02:56> ##### TTFF : 14 second #####
+<12:02:56> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 160/0
+<12:02:56> INFO: lsmLocCallback : do nothing
+<12:02:56> LSM_Position_CallBack: called
+<12:02:56> Acc from LPL is :64
+<12:02:56> Local Time Updated : ref UTC = 1403344977000 ,  unc = 2500, ref sys time= 399019
+<12:02:56> Position Fix (160 of 0) : Latitude 43.724907   Longtitude 15.799657
+<12:02:56> LSM:lsmLocCB out
+<12:02:57> ##### TTFF : 14 second #####
+<12:02:57> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 161/0
+<12:02:57> INFO: lsmLocCallback : do nothing
+<12:02:57> LSM_Position_CallBack: called
+<12:02:57> Acc from LPL is :64
+<12:02:57> Local Time Updated : ref UTC = 1403344978000 ,  unc = 2500, ref sys time= 400135
+<12:02:57> Position Fix (161 of 0) : Latitude 43.724907   Longtitude 15.799657
+<12:02:57> LSM:lsmLocCB out
+<12:02:58> ##### TTFF : 14 second #####
+<12:02:58> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 162/0
+<12:02:58> INFO: lsmLocCallback : do nothing
+<12:02:58> LSM_Position_CallBack: called
+<12:02:58> Acc from LPL is :64
+<12:02:58> Local Time Updated : ref UTC = 1403344979000 ,  unc = 2500, ref sys time= 401180
+<12:02:58> Position Fix (162 of 0) : Latitude 43.724907   Longtitude 15.799657
+<12:02:58> LSM:lsmLocCB out
+<12:02:59> ##### TTFF : 14 second #####
+<12:02:59> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 163/0
+<12:02:59> INFO: lsmLocCallback : do nothing
+<12:02:59> LSM_Position_CallBack: called
+<12:02:59> Acc from LPL is :64
+<12:02:59> Local Time Updated : ref UTC = 1403344980000 ,  unc = 2500, ref sys time= 402074
+<12:02:59> Position Fix (163 of 0) : Latitude 43.724907   Longtitude 15.799657
+<12:02:59> LSM:lsmLocCB out
+<12:03:00> ##### TTFF : 14 second #####
+<12:03:00> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 164/0
+<12:03:00> INFO: lsmLocCallback : do nothing
+<12:03:00> LSM_Position_CallBack: called
+<12:03:00> Acc from LPL is :66
+<12:03:00> Local Time Updated : ref UTC = 1403344981000 ,  unc = 2500, ref sys time= 403003
+<12:03:00> Position Fix (164 of 0) : Latitude 43.724907   Longtitude 15.799657
+<12:03:00> LSM:lsmLocCB out
+<12:03:01> ##### TTFF : 14 second #####
+<12:03:01> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 165/0
+<12:03:01> INFO: lsmLocCallback : do nothing
+<12:03:01> LSM_Position_CallBack: called
+<12:03:01> Acc from LPL is :66
+<12:03:01> Local Time Updated : ref UTC = 1403344982000 ,  unc = 2500, ref sys time= 404008
+<12:03:01> Position Fix (165 of 0) : Latitude 43.724907   Longtitude 15.799657
+<12:03:01> LSM:lsmLocCB out
+<12:03:02> sirf_gps_stop called
+<12:03:02> Suspending MO session!!!
+<12:03:02> GPS_STATUS_SESSION_END
+<12:03:02> GPS_STATUS_ENGINE_OFF
+<12:03:02> LSM_Stop Called
+<12:03:02> INFO: LSM_Stop is called
+<12:03:02> INFO: lsmCloseSession is called
+<12:03:02> INFO: Id = 2, type = 0
+<12:03:02> INFO: lsmCloseSession calls GM_closeSession
+<12:03:02> gps_stop wait
+<12:03:02> ##### TTFF : 14 second #####
+<12:03:02> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 166/0
+<12:03:02> INFO: lsmLocCallback : do nothing
+<12:03:02> LSM_Position_CallBack: called
+<12:03:02> Acc from LPL is :66
+<12:03:02> Local Time Updated : ref UTC = 1403344983000 ,  unc = 2500, ref sys time= 404973
+<12:03:02> LSM:lsmLocCB out
+<12:03:02> select fail - errno = 4
+
+<12:03:02> rtn V C 0
+<12:03:02> INFO: lsmCloseSession exits
+<12:03:02> INFO: LSM_Stop exits
+<12:03:02> semaphore rel for stop
+<12:03:02> LSM_setCapabilities
+<12:03:02> IdleState:updating session check
+<12:03:02> GPS ONOFF Report : 0
+<12:03:02> GPS ONOFF Mode : File Open Error - emc_enable !!!!
+<12:03:02> INFO: GPS_WAKE_LOCK_DISABLE
+<12:03:02> gps_stop success
+<12:03:03> Stop Release

@@ -1,0 +1,21 @@
+12:03:02.154505 write(255, "<12:03:02> GPS_STATUS_SESSION_EN"..., 35) = 35
+12:03:02.155566 write(59, "W", 1)       = 1
+12:03:02.155813 write(255, "<12:03:02> GPS_STATUS_ENGINE_OFF"..., 34) = 34
+12:03:02.156067 write(255, "<12:03:02> LSM_Stop Called\r\n", 28) = 28
+12:03:02.156302 write(255, "<12:03:02> INFO: LSM_Stop is cal"..., 37) = 37
+12:03:02.156877 write(255, "<12:03:02> INFO: lsmCloseSession"..., 44) = 44
+12:03:02.157118 write(255, "<12:03:02> INFO: Id = 2, type = "..., 35) = 35
+12:03:02.157359 write(255, "<12:03:02> INFO: lsmCloseSession"..., 56) = 56
+12:03:02.157645 write(263, "<2014:06:21:12:03:02> DBG: GM_cl"..., 54) = 54
+12:03:02.158225 write(263, "<2014:06:21:12:03:02> MPM is not"..., 42) = 42
+12:03:02.700388 write(263, "<2014:06:21:12:03:02> DBG: exiti"..., 52) = 52
+12:03:02.700856 write(255, "<12:03:02> INFO: lsmCloseSession"..., 40) = 40
+12:03:02.701294 write(255, "<12:03:02> INFO: LSM_Stop exits\r"..., 33) = 33
+12:03:02.701846 write(255, "<12:03:02> semaphore rel for sto"..., 35) = 35
+12:03:02.702276 write(255, "<12:03:02> LSM_setCapabilities\r\n", 32) = 32
+12:03:02.702785 write(255, "<12:03:02> IdleState:updating se"..., 45) = 45
+12:03:02.703274 write(255, "<12:03:02> GPS ONOFF Report : 0\r"..., 33) = 33
+12:03:02.703612 open("/sys/module/tegra2_emc/parameters/emc_enable", O_RDWR|O_CREAT|O_TRUNC, 0666) = -1 ENOENT (No such file or directory)
+12:03:02.704112 write(255, "<12:03:02> GPS ONOFF Mode : File"..., 63) = 63
+12:03:02.704374 write(99, "gps-lock", 8) = 8
+12:03:02.704687 write(255, "<12:03:02> INFO: GPS_WAKE_LOCK_D"..., 40) = 40

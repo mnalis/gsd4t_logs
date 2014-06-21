@@ -1,0 +1,7 @@
+12:03:02.142369 read(222, "W", 16)      = 1
+12:03:02.153081 write(255, "<12:03:02> sirf_gps_stop called\r"..., 33) = 33
+12:03:02.153933 write(255, "<12:03:02> Suspending MO session"..., 37) = 37
+12:03:02.159984 write(255, "<12:03:02> gps_stop wait\r\n", 26) = 26
+12:03:02.705137 write(255, "<12:03:02> gps_stop success\r\n", 29) = 29
+12:03:03.706723 write(255, "<12:03:03> Stop Release\r\n", 25) = 25
+12:03:03.709465 write(99, "PowerManagerService", 19) = 19
