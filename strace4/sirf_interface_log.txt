@@ -3108,6 +3108,7 @@
 <22:31:41> Local Time Updated : ref UTC = 1403382702000 ,  unc = 2500, ref sys time= 485875
 <22:31:41> Position Fix (61 of 0) : Latitude 43.724904   Longtitude 15.799613
 <22:31:41> LSM:lsmLocCB out
+
 <22:31:42> ##### TTFF : 3 second #####
 <22:31:42> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 62/0
 <22:31:42> INFO: lsmLocCallback : do nothing
@@ -3116,6 +3117,7 @@
 <22:31:42> Local Time Updated : ref UTC = 1403382703000 ,  unc = 2500, ref sys time= 486854
 <22:31:42> Position Fix (62 of 0) : Latitude 43.724904   Longtitude 15.799613
 <22:31:42> LSM:lsmLocCB out
+
 <22:31:43> ##### TTFF : 3 second #####
 <22:31:43> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 63/0
 <22:31:43> INFO: lsmLocCallback : do nothing

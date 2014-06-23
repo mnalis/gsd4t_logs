@@ -9941,6 +9941,7 @@
 <2014:06:21:22:31:40> OSP MEASURE RESPONSE
 <2014:06:21:22:31:40> GPS -> SET :OSP_MEASURE_RESPONSE
 <2014:06:21:22:31:40> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:0
+
 <2014:06:21:22:31:41> OSP POSITION
 <2014:06:21:22:31:41> GPS -> SET :OSP POSITION RESPONSE
 <2014:06:21:22:31:41> The Horizontal Uncertainity of position = 24
@@ -9965,9 +9966,11 @@
 <2014:06:21:22:31:41> INFO in OSP resp: hor_err_major = 0x62
 <2014:06:21:22:31:41> INFO in OSP resp: hor_err_minor = 0x62
 <2014:06:21:22:31:41> INFO in OSP resp: velocity_ver_err = 0x08
+
 <2014:06:21:22:31:41> OSP MEASURE RESPONSE
 <2014:06:21:22:31:41> GPS -> SET :OSP_MEASURE_RESPONSE
 <2014:06:21:22:31:41> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:0
+
 <2014:06:21:22:31:42> OSP POSITION
 <2014:06:21:22:31:42> GPS -> SET :OSP POSITION RESPONSE
 <2014:06:21:22:31:42> The Horizontal Uncertainity of position = 24
@@ -9992,9 +9995,11 @@
 <2014:06:21:22:31:42> INFO in OSP resp: hor_err_major = 0x62
 <2014:06:21:22:31:42> INFO in OSP resp: hor_err_minor = 0x62
 <2014:06:21:22:31:42> INFO in OSP resp: velocity_ver_err = 0x06
+
 <2014:06:21:22:31:42> OSP MEASURE RESPONSE
 <2014:06:21:22:31:42> GPS -> SET :OSP_MEASURE_RESPONSE
 <2014:06:21:22:31:42> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:0
+
 <2014:06:21:22:31:43> OSP POSITION
 <2014:06:21:22:31:43> GPS -> SET :OSP POSITION RESPONSE
 <2014:06:21:22:31:43> The Horizontal Uncertainity of position = 16
