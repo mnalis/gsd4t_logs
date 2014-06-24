@@ -1,0 +1,19 @@
+     98 gpsd:PROG: SiRF: NLMD 0x1c
+     98 gpsd:PROG: SiRF: MID 0x1c, NLMD, gps_tow: 0.000000
+     96 gpsd:PROG: SiRF: unused NLSV 0x1e
+     22 gpsd:PROG: SiRF: unused GND 0x29
+     22 gpsd:PROG: SiRF: unused CLK 0x07
+     22 gpsd:PROG: SiRF: THR 0x09: SegStatMax=130.645, SegStatLat=118, AveTrkTime=130.387, Last MS=22003
+     22 gpsd:PROG: SiRF: NTPD valid time MID 04
+     22 gpsd:DATA: SiRF: MTD 0x04: visible=9 mask={SATELLITE}
+     22 gpsd:DATA: SiRF: MND 0x02: time=xxx, lat,lon,alt
+     14 gpsd:PROG: SiRF: NTPD valid time MID 02
+     12 gpsd:PROG: SiRF: MND 0x02: Navtype = 0x4, Status = 1, mode = 3
+     11 gpsd:DATA: DOPS computed/reported: xxx
+      8 gpsd:PROG: SiRF: NTPD no fix, mode: 1
+      8 gpsd:PROG: SiRF: MND 0x02: Navtype = 0x0, Status = 0, mode = 1
+      2 gpsd:PROG: SiRF: MND 0x02: Navtype = 0x13, Status = 1, mode = 2
+      2 gpsd:PROG: 50B: SF:5 xxxx
+      2 gpsd:PROG: 50B: SF:1 xxxx
+      1 gpsd:PROG: SiRF: unused NLID 0x1f
+      1 gpsd:PROG: SiRF: ACK 0x0b: 8f
