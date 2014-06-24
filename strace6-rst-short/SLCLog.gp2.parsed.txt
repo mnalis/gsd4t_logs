@@ -326,7 +326,8 @@
 16:21:37.806 DEV TEXT(44/E1):  3500 TRACK: StartTrack sv14 ch 3 cno190 sync0 val1 frq98929 HWTL
 16:21:38.144 DEBUG TEXT(FF): BEP:SyncSet:TUnc:3.000(usec) Freq:96029(Hz) FUnc:84(ppb) dT:11
 16:21:38.146 DEBUG TEXT(FF):  4020 PwrCtrl_ConfigurePwrCycle() timeBTWMeas: 10  onTime: 10
-16:21:38.147 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)16:21:38.149 DEV TEXT(E1):  4023 GR:CheckUnc StartUpMode:3, Navigated:0, numMeas:4
+16:21:38.147 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)
+16:21:38.149 DEV TEXT(E1):  4023 GR:CheckUnc StartUpMode:3, Navigated:0, numMeas:4
 16:21:38.151 DEV TEXT(E1):  4025 BEP:CheckUncImp: sv29 ch: 0 cno:37 type: 3 h:3 trkStat:0xBD Dop:95707.4 Hz RT:3
 16:21:38.152 DEBUG TEXT(FF):  4026 PrePos:UncUpd: UI:0 Clk:0.000004 S1:0.000004 S20(ms):0 CDft(hz):133 HP:1151 HV:50
 16:21:38.154 DEV TEXT(E1):  4025 BEP:InternalTimeTransfer:sysTimeCheck:Ok m:0.000000075 e:0.000014226 cb:0.000172 cd:96029
@@ -386,7 +387,8 @@
 16:21:39.147 DEBUG TEXT(FF): BEP:SyncSet:TUnc:3.000(usec) Freq:96037(Hz) FUnc:85(ppb) dT:11
 16:21:39.151 DEV TEXT(E1):  5024 GR:Recovery:FSErr:Locked:0 cnt:1 fsV:10000000 fsErr:0
 16:21:39.154 DEBUG TEXT(FF):  5027 PwrCtrl_ConfigurePwrCycle() timeBTWMeas: 10  onTime: 10
-16:21:39.156 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)16:21:39.160 DEV TEXT(E1):  5034 GR:CheckUnc StartUpMode:3, Navigated:0, numMeas:4
+16:21:39.156 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)
+16:21:39.160 DEV TEXT(E1):  5034 GR:CheckUnc StartUpMode:3, Navigated:0, numMeas:4
 16:21:39.163 DEV TEXT(E1):  5037 BEP:CheckUncImp: sv29 ch: 0 cno:37 type: 3 h:3 trkStat:0xBD Dop:95707.5 Hz RT:3
 16:21:39.166 DEBUG TEXT(FF):  5040 PrePos:UncUpd: UI:0 Clk:0.000004 S1:0.000004 S20(ms):0 CDft(hz):133 HP:1202 HV:50
 16:21:39.169 DEV TEXT(E1):  5037 BEP:InternalTimeTransfer:sysTimeCheck:Ok m:0.000000093 e:0.000014360 cb:0.000233 cd:96029
@@ -672,7 +674,8 @@
 16:21:43.216 DEV TEXT(44/E1):  8900 ChdevsA: 29- 3 21- 3  2- 3 14- 3  2- 9 25- 3 31- 8 31- 8 31- 8 25- 9 14- 9 12- 4 12- 4 12- 4 12- 4 12- 4 10- 2 12- 4 12- 4 12- 4 10- 2  0-15
 16:21:43.456 DEBUG TEXT(FF): BEP:SyncSet:TUnc:0.000(usec) Freq:96020(Hz) FUnc:85(ppb) dT:11
 16:21:43.462 DEBUG TEXT(FF):  9335 PwrCtrl_ConfigurePwrCycle() timeBTWMeas: 10  onTime: 10
-16:21:43.465 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)16:21:43.470 DEV TEXT(E1):  9344 GR:CheckUnc StartUpMode:2, Navigated:1, numMeas:5
+16:21:43.465 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)
+16:21:43.470 DEV TEXT(E1):  9344 GR:CheckUnc StartUpMode:2, Navigated:1, numMeas:5
 16:21:43.476 DEV TEXT(E1):  9349 BEP:CheckUncImp: sv29 ch: 0 cno:37 type: 3 h:3 trkStat:0xBD Dop:95712.3 Hz RT:3
 16:21:43.479 DEBUG TEXT(FF):  9352 PrePos:UncUpd: UI:0 Clk:0.000001 S1:0.000001 S20(ms):0 CDft(hz):135 HP:151 HV:3
 16:21:43.484 DEV TEXT(E1):  9349 BEP:InternalTimeTransfer:sysTimeCheck:Ok m:0.000000018 e:0.000001598 cb:0.000495 cd:96021
@@ -729,7 +732,11 @@
 16:21:44.212 DEV TEXT(44/E1):  9900 ChdevsA: 29- 3 21- 3  2- 3 14- 3  2- 9 25- 3 31- 8 31- 8 31- 8 25- 9 14- 9 12- 4 12- 4 12- 4 31- 2  0-15
 16:21:44.469 DEBUG TEXT(FF): BEP:SyncSet:TUnc:0.000(usec) Freq:96020(Hz) FUnc:85(ppb) dT:11
 16:21:44.474 DEBUG TEXT(FF): 10347 PwrCtrl_ConfigurePwrCycle() timeBTWMeas: 10  onTime: 10
-16:21:44.476 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)16:21:44.478 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)16:21:44.480 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)16:21:44.482 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)16:21:44.488 DEV TEXT(E1): 10362 GR:CheckUnc StartUpMode:2, Navigated:1, numMeas:5
+16:21:44.476 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)
+16:21:44.478 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)
+16:21:44.480 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)
+16:21:44.482 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)
+16:21:44.488 DEV TEXT(E1): 10362 GR:CheckUnc StartUpMode:2, Navigated:1, numMeas:5
 16:21:44.493 DEBUG TEXT(FF): 10367 BEP: SwtUpdate: valid:1 prev:149287248 cur:165656257 sft:165656257 fAcq:165656257 dacq:16369009 TowDT:1.000062 cb:0.000617 cd:0.000061
 16:21:44.497 DEV TEXT(E1): 10371 ATXCM: Cond Meas AcqTT:165656257 TowTT:224521.058938 #SVs:5
 16:21:44.500 GPSD knows MID 0x1C --  (unused debug) (len should be 0x38) Navigation Library Measurement Data MID 28
@@ -988,7 +995,8 @@
 16:21:49.478 DEV TEXT(E1): 15351 GR:week number:L:1 set:1 doWn:1 oWn:1798 wn:774 sv29
 16:21:49.481 DEV TEXT(E1): 15354 GR:week number:L:1 DL matches current:1798 cnt:1 old:1798
 16:21:49.484 DEV TEXT(E1): 15358 BEP:SetTime(SVD) NY T:224525.063968035 1798 A:231210584 AC:0.000003369 Adj:0.000000000 dCB:0.000000000
-16:21:49.488 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)16:21:49.496 DEV TEXT(E1): 15370 GR:CheckUnc StartUpMode:2, Navigated:1, numMeas:6
+16:21:49.488 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)
+16:21:49.496 DEV TEXT(E1): 15370 GR:CheckUnc StartUpMode:2, Navigated:1, numMeas:6
 16:21:49.497 DEV TEXT(E1): 15371 BEP:CheckUncImp: sv29 ch: 0 cno:37 type: 3 h:3 trkStat:0xBD Dop:95716.1 Hz RT:3
 16:21:49.499 DEBUG TEXT(FF): 15373 PrePos: IntUpd FrSync(Eph) sv:29 Tag:14345 Flags:20 Clk:0.000001 S20ms:0 S1ms:0.000001 CDrft(hz):134.5 HP:150.0 HV:3.00
 16:21:49.502 DEV TEXT(E1): 15376 BEP:SetTime(FSf) YN T:224525.063107166 1798 A:231210584 AC:0.000000500 Adj:-0.000000019 dCB:0.000860850
@@ -1056,7 +1064,12 @@
 16:21:50.490 DEBUG TEXT(FF): BEP:SyncSet:TUnc:0.000(usec) Freq:96024(Hz) FUnc:85(ppb) dT:11
 16:21:50.490 DEV TEXT(E1): 16364 GR:Recovery:TOW:L:2 ok:1 tCnt:6 mCnt:4 mVal:11226349 stSV:29 stVal:11226349
 16:21:50.491 DEBUG TEXT(FF): 16365 PwrCtrl_ConfigurePwrCycle() timeBTWMeas: 10  onTime: 10
-16:21:50.491 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)16:21:50.491 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)16:21:50.492 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)16:21:50.492 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)16:21:50.492 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)16:21:50.493 DEV TEXT(E1): 16367 GR:CheckUnc StartUpMode:2, Navigated:1, numMeas:7
+16:21:50.491 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)
+16:21:50.491 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)
+16:21:50.492 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)
+16:21:50.492 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)
+16:21:50.492 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this)
+16:21:50.493 DEV TEXT(E1): 16367 GR:CheckUnc StartUpMode:2, Navigated:1, numMeas:7
 16:21:50.494 DEBUG TEXT(FF): 16368 BEP: SwtUpdate: valid:1 prev:247568175 cur:263872519 sft:263872519 fAcq:263872519 dacq:16304344 TowDT:0.996111 cb:0.000122 cd:0.000061
 16:21:50.495 DEV TEXT(E1): 16369 ATXCM: Cond Meas AcqTT:263872519 TowTT:224527.058582 #SVs:7
 16:21:50.495 GPSD knows MID 0x1C --  (unused debug) (len should be 0x38) Navigation Library Measurement Data MID 28
