@@ -1,0 +1,269 @@
+<2014:06:24:16:21:34> GPS -> SET : SIRF_MSG_SSB_HARDWARE_CONFIG_REQ
+<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_HW_CONFIG_RSP 
+<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_SET_STAT_NAV
+<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_SESSION_OPENING_REQ
+<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_APROX_MS_POS_REQ
+<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_REJECT_IN --> SIRF_MSG_SSB_APROX_MS_POS_REQ
+<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_SESSION_OPEN_RSP
+<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_F_TIME_FREQ_APROX_POS_REQ
+<2014:06:24:16:21:34> SET -> GPS : SIRF_MSG_SSB_POS_REQ
+<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_TIME_TX_REQ
+<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_REJECT_IN SIRF_MSG_SSB_REJ_NOT_READY TIME
+<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_TIME_FREQ_APPROX_POS_RSP
+<2014:06:24:16:21:34> SLC has ref time but no accuracy info
+<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_EPH_REQ
+<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_ACK_NACK_ERROR_OUT
+<2014:06:24:16:21:34> ACK_NACK_REASON: Acknowledgement
+<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_FREQ_TX_REQ
+<2014:06:24:16:21:34> SIRF_MSG_SSB_FREQ_TX_REQ.req_info = 0x03
+<2014:06:24:16:21:34> State: FREQ_TRANSFER_REQUESTED
+<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_FREQ_TX_REQ  REJ_NOT_AVAILABLE
+<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_EPH_RSP
+<2014:06:24:16:21:34> SLC Requested Ephemeris data for SV # 5.
+<2014:06:24:16:21:34> SLC Requested Ephemeris data for SV # 10.
+<2014:06:24:16:21:34> SLC Requested Ephemeris data for SV # 21.
+<2014:06:24:16:21:34> SLC is not requesting ephemeris data, hence no reaiding
+<2014:06:24:16:21:46> OSP POSITION
+<2014:06:24:16:21:46> GPS -> SET :OSP POSITION RESPONSE
+<2014:06:24:16:21:46> The Horizontal Uncertainity of position = 124
+<2014:06:24:16:21:46> After adjustment, Horizontal Uncertainity of position = 124
+<2014:06:24:16:21:46> Before modification hor_error_major=0x86, hor_err_minor=0x86
+<2014:06:24:16:21:46> After modification hor_err_major=0x86, hor_err_minor=0x86
+<2014:06:24:16:21:46> After possible adjustment hor_err_major=0x86, hor_err_minor=0x86
+<2014:06:24:16:21:46> Velocity in AI3: Heading 45734, horizontalVelocity 3, verticalVelocity 0
+<2014:06:24:16:21:46> Velocity after conversion: Heading 251, horizontalVelocity 0.675000, verticalVelocity 0.000000
+<2014:06:24:16:21:46> SV=00 PRN=29 C/N0=37 Azimuth=289 Angle=078
+<2014:06:24:16:21:46> SV=01 PRN=21 C/N0=24 Azimuth=190 Angle=021
+<2014:06:24:16:21:46> SV=02 PRN=02 C/N0=19 Azimuth=046 Angle=024
+<2014:06:24:16:21:46> SV=03 PRN=25 C/N0=17 Azimuth=087 Angle=069
+<2014:06:24:16:21:46> SV=04 PRN=14 C/N0=16 Azimuth=229 Angle=005
+<2014:06:24:16:21:46> TTFF1=0 TTFF2=26 TTFF3=0 TTFF=26
+<2014:06:24:16:21:46>  *** POSITION #148 Lat=43.724884 Lon=15.799523 Alt=54.500000 TTFF=26 GPSsec=224523058
+<2014:06:24:16:21:46> POSITION GOT in OSP Response =  Lat: 1043316369 Lon: 188495648 Alt:5545
+<2014:06:24:16:21:46> INFO: Output the default location method, Location method not intiialized
+<2014:06:24:16:21:46> INFO in OSP resp: hor_err_major = 0x86
+<2014:06:24:16:21:46> INFO in OSP resp: hor_err_minor = 0x86
+<2014:06:24:16:21:46> INFO in OSP resp: velocity_ver_err = 0x16
+<2014:06:24:16:21:46> OSP MEASURE RESPONSE
+<2014:06:24:16:21:46> GPS -> SET :OSP_MEASURE_RESPONSE
+<2014:06:24:16:21:46> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:4
+<2014:06:24:16:21:47> OSP POSITION
+<2014:06:24:16:21:47> GPS -> SET :OSP POSITION RESPONSE
+<2014:06:24:16:21:47> The Horizontal Uncertainity of position = 124
+<2014:06:24:16:21:47> After adjustment, Horizontal Uncertainity of position = 124
+<2014:06:24:16:21:47> Before modification hor_error_major=0x86, hor_err_minor=0x86
+<2014:06:24:16:21:47> After modification hor_err_major=0x86, hor_err_minor=0x86
+<2014:06:24:16:21:47> After possible adjustment hor_err_major=0x86, hor_err_minor=0x86
+<2014:06:24:16:21:47> Velocity in AI3: Heading 48012, horizontalVelocity 7, verticalVelocity 0
+<2014:06:24:16:21:47> Velocity after conversion: Heading 264, horizontalVelocity 1.575000, verticalVelocity 0.000000
+<2014:06:24:16:21:47> SV=00 PRN=29 C/N0=37 Azimuth=289 Angle=078
+<2014:06:24:16:21:47> SV=01 PRN=21 C/N0=24 Azimuth=190 Angle=021
+<2014:06:24:16:21:47> SV=02 PRN=02 C/N0=19 Azimuth=046 Angle=024
+<2014:06:24:16:21:47> SV=03 PRN=25 C/N0=17 Azimuth=087 Angle=069
+<2014:06:24:16:21:47> SV=04 PRN=14 C/N0=16 Azimuth=229 Angle=005
+<2014:06:24:16:21:47> SV=05 PRN=12 C/N0=14 Azimuth=103 Angle=032
+<2014:06:24:16:21:47> TTFF1=0 TTFF2=26 TTFF3=0 TTFF=26
+<2014:06:24:16:21:47>  *** POSITION #149 Lat=43.724907 Lon=15.799488 Alt=54.400024 TTFF=26 GPSsec=224524062
+<2014:06:24:16:21:47> POSITION GOT in OSP Response =  Lat: 1043316923 Lon: 188495239 Alt:5544
+<2014:06:24:16:21:47> INFO: Output the default location method, Location method not intiialized
+<2014:06:24:16:21:47> INFO in OSP resp: hor_err_major = 0x86
+<2014:06:24:16:21:47> INFO in OSP resp: hor_err_minor = 0x86
+<2014:06:24:16:21:47> INFO in OSP resp: velocity_ver_err = 0x15
+<2014:06:24:16:21:47> OSP MEASURE RESPONSE
+<2014:06:24:16:21:47> GPS -> SET :OSP_MEASURE_RESPONSE
+<2014:06:24:16:21:47> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:4
+<2014:06:24:16:21:48> OSP POSITION
+<2014:06:24:16:21:48> GPS -> SET :OSP POSITION RESPONSE
+<2014:06:24:16:21:48> The Horizontal Uncertainity of position = 124
+<2014:06:24:16:21:48> After adjustment, Horizontal Uncertainity of position = 124
+<2014:06:24:16:21:48> Before modification hor_error_major=0x86, hor_err_minor=0x86
+<2014:06:24:16:21:48> After modification hor_err_major=0x86, hor_err_minor=0x86
+<2014:06:24:16:21:48> After possible adjustment hor_err_major=0x86, hor_err_minor=0x86
+<2014:06:24:16:21:48> Velocity in AI3: Heading 52058, horizontalVelocity 2, verticalVelocity 0
+<2014:06:24:16:21:48> Velocity after conversion: Heading 286, horizontalVelocity 0.450000, verticalVelocity 0.000000
+<2014:06:24:16:21:48> SV=00 PRN=29 C/N0=37 Azimuth=289 Angle=078
+<2014:06:24:16:21:48> SV=01 PRN=21 C/N0=24 Azimuth=190 Angle=021
+<2014:06:24:16:21:48> SV=02 PRN=02 C/N0=19 Azimuth=046 Angle=024
+<2014:06:24:16:21:48> SV=03 PRN=25 C/N0=17 Azimuth=087 Angle=069
+<2014:06:24:16:21:48> SV=04 PRN=14 C/N0=16 Azimuth=229 Angle=005
+<2014:06:24:16:21:48> SV=05 PRN=12 C/N0=15 Azimuth=103 Angle=032
+<2014:06:24:16:21:48> TTFF1=0 TTFF2=26 TTFF3=0 TTFF=26
+<2014:06:24:16:21:48>  *** POSITION #150 Lat=43.724917 Lon=15.799476 Alt=54.900024 TTFF=26 GPSsec=224525063
+<2014:06:24:16:21:48> POSITION GOT in OSP Response =  Lat: 1043317148 Lon: 188495090 Alt:5549
+<2014:06:24:16:21:48> INFO: Output the default location method, Location method not intiialized
+<2014:06:24:16:21:48> INFO in OSP resp: hor_err_major = 0x86
+<2014:06:24:16:21:48> INFO in OSP resp: hor_err_minor = 0x86
+<2014:06:24:16:21:48> INFO in OSP resp: velocity_ver_err = 0x14
+<2014:06:24:16:21:48> OSP MEASURE RESPONSE
+<2014:06:24:16:21:48> GPS -> SET :OSP_MEASURE_RESPONSE
+<2014:06:24:16:21:48> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:0
+<2014:06:24:16:21:49> OSP POSITION
+<2014:06:24:16:21:49> GPS -> SET :OSP POSITION RESPONSE
+<2014:06:24:16:21:49> The Horizontal Uncertainity of position = 118
+<2014:06:24:16:21:49> After adjustment, Horizontal Uncertainity of position = 118
+<2014:06:24:16:21:49> Before modification hor_error_major=0x85, hor_err_minor=0x85
+<2014:06:24:16:21:49> After modification hor_err_major=0x85, hor_err_minor=0x85
+<2014:06:24:16:21:49> After possible adjustment hor_err_major=0x85, hor_err_minor=0x85
+<2014:06:24:16:21:49> Velocity in AI3: Heading 52957, horizontalVelocity 4, verticalVelocity 0
+<2014:06:24:16:21:49> Velocity after conversion: Heading 291, horizontalVelocity 0.900000, verticalVelocity 0.000000
+<2014:06:24:16:21:49> SV=00 PRN=29 C/N0=37 Azimuth=289 Angle=078
+<2014:06:24:16:21:49> SV=01 PRN=21 C/N0=24 Azimuth=190 Angle=021
+<2014:06:24:16:21:49> SV=02 PRN=02 C/N0=19 Azimuth=046 Angle=024
+<2014:06:24:16:21:49> SV=03 PRN=25 C/N0=17 Azimuth=087 Angle=069
+<2014:06:24:16:21:49> SV=04 PRN=14 C/N0=16 Azimuth=229 Angle=005
+<2014:06:24:16:21:49> SV=05 PRN=12 C/N0=14 Azimuth=103 Angle=032
+<2014:06:24:16:21:49> TTFF1=0 TTFF2=26 TTFF3=0 TTFF=26
+<2014:06:24:16:21:49>  *** POSITION #151 Lat=43.724938 Lon=15.799462 Alt=55.400024 TTFF=26 GPSsec=224526062
+<2014:06:24:16:21:49> POSITION GOT in OSP Response =  Lat: 1043317655 Lon: 188494925 Alt:5554
+<2014:06:24:16:21:49> INFO: Output the default location method, Location method not intiialized
+<2014:06:24:16:21:49> INFO in OSP resp: hor_err_major = 0x85
+<2014:06:24:16:21:49> INFO in OSP resp: hor_err_minor = 0x85
+<2014:06:24:16:21:49> INFO in OSP resp: velocity_ver_err = 0x14
+<2014:06:24:16:21:49> OSP MEASURE RESPONSE
+<2014:06:24:16:21:49> GPS -> SET :OSP_MEASURE_RESPONSE
+<2014:06:24:16:21:49> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:0
+<2014:06:24:16:21:50> OSP POSITION
+<2014:06:24:16:21:50> GPS -> SET :OSP POSITION RESPONSE
+<2014:06:24:16:21:50> The Horizontal Uncertainity of position = 118
+<2014:06:24:16:21:50> After adjustment, Horizontal Uncertainity of position = 118
+<2014:06:24:16:21:50> Before modification hor_error_major=0x85, hor_err_minor=0x85
+<2014:06:24:16:21:50> After modification hor_err_major=0x85, hor_err_minor=0x85
+<2014:06:24:16:21:50> After possible adjustment hor_err_major=0x85, hor_err_minor=0x85
+<2014:06:24:16:21:50> Velocity in AI3: Heading 56286, horizontalVelocity 7, verticalVelocity 0
+<2014:06:24:16:21:50> Velocity after conversion: Heading 309, horizontalVelocity 1.575000, verticalVelocity 0.000000
+<2014:06:24:16:21:50> SV=00 PRN=29 C/N0=37 Azimuth=289 Angle=078
+<2014:06:24:16:21:50> SV=01 PRN=21 C/N0=24 Azimuth=190 Angle=021
+<2014:06:24:16:21:50> SV=02 PRN=02 C/N0=19 Azimuth=046 Angle=024
+<2014:06:24:16:21:50> SV=03 PRN=25 C/N0=17 Azimuth=087 Angle=069
+<2014:06:24:16:21:50> SV=04 PRN=14 C/N0=16 Azimuth=229 Angle=005
+<2014:06:24:16:21:50> SV=05 PRN=12 C/N0=13 Azimuth=103 Angle=032
+<2014:06:24:16:21:50> TTFF1=0 TTFF2=26 TTFF3=0 TTFF=26
+<2014:06:24:16:21:50>  *** POSITION #152 Lat=43.724958 Lon=15.799455 Alt=56.299988 TTFF=26 GPSsec=224527058
+<2014:06:24:16:21:50> POSITION GOT in OSP Response =  Lat: 1043318142 Lon: 188494840 Alt:5563
+<2014:06:24:16:21:50> INFO: Output the default location method, Location method not intiialized
+<2014:06:24:16:21:50> INFO in OSP resp: hor_err_major = 0x85
+<2014:06:24:16:21:50> INFO in OSP resp: hor_err_minor = 0x85
+<2014:06:24:16:21:50> INFO in OSP resp: velocity_ver_err = 0x14
+<2014:06:24:16:21:50> OSP MEASURE RESPONSE
+<2014:06:24:16:21:50> GPS -> SET :OSP_MEASURE_RESPONSE
+<2014:06:24:16:21:50> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:0
+<2014:06:24:16:21:51> OSP POSITION
+<2014:06:24:16:21:51> GPS -> SET :OSP POSITION RESPONSE
+<2014:06:24:16:21:51> The Horizontal Uncertainity of position = 118
+<2014:06:24:16:21:51> After adjustment, Horizontal Uncertainity of position = 118
+<2014:06:24:16:21:51> Before modification hor_error_major=0x85, hor_err_minor=0x85
+<2014:06:24:16:21:51> After modification hor_err_major=0x85, hor_err_minor=0x85
+<2014:06:24:16:21:51> After possible adjustment hor_err_major=0x85, hor_err_minor=0x85
+<2014:06:24:16:21:51> Velocity in AI3: Heading 57746, horizontalVelocity 9, verticalVelocity 0
+<2014:06:24:16:21:51> Velocity after conversion: Heading 317, horizontalVelocity 2.025000, verticalVelocity 0.000000
+<2014:06:24:16:21:51> SV=00 PRN=29 C/N0=37 Azimuth=289 Angle=078
+<2014:06:24:16:21:51> SV=01 PRN=21 C/N0=24 Azimuth=190 Angle=021
+<2014:06:24:16:21:51> SV=02 PRN=02 C/N0=19 Azimuth=046 Angle=024
+<2014:06:24:16:21:51> SV=03 PRN=25 C/N0=17 Azimuth=087 Angle=069
+<2014:06:24:16:21:51> SV=04 PRN=14 C/N0=16 Azimuth=229 Angle=005
+<2014:06:24:16:21:51> SV=05 PRN=12 C/N0=13 Azimuth=103 Angle=032
+<2014:06:24:16:21:51> TTFF1=0 TTFF2=26 TTFF3=0 TTFF=26
+<2014:06:24:16:21:51>  *** POSITION #153 Lat=43.724982 Lon=15.799447 Alt=55.799988 TTFF=26 GPSsec=224528058
+<2014:06:24:16:21:51> POSITION GOT in OSP Response =  Lat: 1043318711 Lon: 188494749 Alt:5558
+<2014:06:24:16:21:51> INFO: Output the default location method, Location method not intiialized
+<2014:06:24:16:21:51> INFO in OSP resp: hor_err_major = 0x85
+<2014:06:24:16:21:51> INFO in OSP resp: hor_err_minor = 0x85
+<2014:06:24:16:21:51> INFO in OSP resp: velocity_ver_err = 0x13
+<2014:06:24:16:21:51> OSP MEASURE RESPONSE
+<2014:06:24:16:21:51> GPS -> SET :OSP_MEASURE_RESPONSE
+<2014:06:24:16:21:51> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:0
+<2014:06:24:16:21:52> OSP POSITION
+<2014:06:24:16:21:52> GPS -> SET :OSP POSITION RESPONSE
+<2014:06:24:16:21:52> The Horizontal Uncertainity of position = 112
+<2014:06:24:16:21:52> After adjustment, Horizontal Uncertainity of position = 112
+<2014:06:24:16:21:52> Before modification hor_error_major=0x84, hor_err_minor=0x84
+<2014:06:24:16:21:52> After modification hor_err_major=0x84, hor_err_minor=0x84
+<2014:06:24:16:21:52> After possible adjustment hor_err_major=0x84, hor_err_minor=0x84
+<2014:06:24:16:21:52> Velocity in AI3: Heading 58812, horizontalVelocity 11, verticalVelocity 0
+<2014:06:24:16:21:52> Velocity after conversion: Heading 323, horizontalVelocity 2.475000, verticalVelocity 0.000000
+<2014:06:24:16:21:52> SV=00 PRN=29 C/N0=37 Azimuth=289 Angle=078
+<2014:06:24:16:21:52> SV=01 PRN=21 C/N0=24 Azimuth=190 Angle=021
+<2014:06:24:16:21:52> SV=02 PRN=02 C/N0=19 Azimuth=046 Angle=024
+<2014:06:24:16:21:52> SV=03 PRN=25 C/N0=17 Azimuth=087 Angle=069
+<2014:06:24:16:21:52> SV=04 PRN=14 C/N0=17 Azimuth=229 Angle=005
+<2014:06:24:16:21:52> SV=05 PRN=12 C/N0=14 Azimuth=103 Angle=032
+<2014:06:24:16:21:52> SV=06 PRN=31 C/N0=16 Azimuth=297 Angle=046
+<2014:06:24:16:21:52> TTFF1=0 TTFF2=26 TTFF3=0 TTFF=26
+<2014:06:24:16:21:52>  *** POSITION #154 Lat=43.724989 Lon=15.799442 Alt=56.000000 TTFF=26 GPSsec=224529058
+<2014:06:24:16:21:52> POSITION GOT in OSP Response =  Lat: 1043318873 Lon: 188494684 Alt:5560
+<2014:06:24:16:21:52> INFO: Output the default location method, Location method not intiialized
+<2014:06:24:16:21:52> INFO in OSP resp: hor_err_major = 0x84
+<2014:06:24:16:21:52> INFO in OSP resp: hor_err_minor = 0x84
+<2014:06:24:16:21:52> INFO in OSP resp: velocity_ver_err = 0x13
+<2014:06:24:16:21:52> OSP MEASURE RESPONSE
+<2014:06:24:16:21:52> GPS -> SET :OSP_MEASURE_RESPONSE
+<2014:06:24:16:21:52> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:0
+<2014:06:24:16:21:53> OSP POSITION
+<2014:06:24:16:21:53> GPS -> SET :OSP POSITION RESPONSE
+<2014:06:24:16:21:53> The Horizontal Uncertainity of position = 106
+<2014:06:24:16:21:53> After adjustment, Horizontal Uncertainity of position = 106
+<2014:06:24:16:21:53> Before modification hor_error_major=0x83, hor_err_minor=0x83
+<2014:06:24:16:21:53> After modification hor_err_major=0x83, hor_err_minor=0x83
+<2014:06:24:16:21:53> After possible adjustment hor_err_major=0x83, hor_err_minor=0x83
+<2014:06:24:16:21:53> Velocity in AI3: Heading 58134, horizontalVelocity 11, verticalVelocity 0
+<2014:06:24:16:21:53> Velocity after conversion: Heading 319, horizontalVelocity 2.475000, verticalVelocity 0.000000
+<2014:06:24:16:21:53> SV=00 PRN=29 C/N0=37 Azimuth=289 Angle=078
+<2014:06:24:16:21:53> SV=01 PRN=21 C/N0=24 Azimuth=190 Angle=021
+<2014:06:24:16:21:53> SV=02 PRN=02 C/N0=19 Azimuth=046 Angle=024
+<2014:06:24:16:21:53> SV=03 PRN=25 C/N0=17 Azimuth=087 Angle=069
+<2014:06:24:16:21:53> SV=04 PRN=14 C/N0=18 Azimuth=229 Angle=005
+<2014:06:24:16:21:53> SV=05 PRN=12 C/N0=14 Azimuth=103 Angle=032
+<2014:06:24:16:21:53> SV=06 PRN=31 C/N0=17 Azimuth=297 Angle=046
+<2014:06:24:16:21:53> TTFF1=0 TTFF2=26 TTFF3=0 TTFF=26
+<2014:06:24:16:21:53>  *** POSITION #155 Lat=43.724996 Lon=15.799435 Alt=56.200012 TTFF=26 GPSsec=224530062
+<2014:06:24:16:21:53> POSITION GOT in OSP Response =  Lat: 1043319044 Lon: 188494596 Alt:5562
+<2014:06:24:16:21:53> INFO: Output the default location method, Location method not intiialized
+<2014:06:24:16:21:53> INFO in OSP resp: hor_err_major = 0x83
+<2014:06:24:16:21:53> INFO in OSP resp: hor_err_minor = 0x83
+<2014:06:24:16:21:53> INFO in OSP resp: velocity_ver_err = 0x12
+<2014:06:24:16:21:53> OSP MEASURE RESPONSE
+<2014:06:24:16:21:53> GPS -> SET :OSP_MEASURE_RESPONSE
+<2014:06:24:16:21:53> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:0
+<2014:06:24:16:21:54> OSP POSITION
+<2014:06:24:16:21:54> GPS -> SET :OSP POSITION RESPONSE
+<2014:06:24:16:21:54> The Horizontal Uncertainity of position = 106
+<2014:06:24:16:21:54> After adjustment, Horizontal Uncertainity of position = 106
+<2014:06:24:16:21:54> Before modification hor_error_major=0x83, hor_err_minor=0x83
+<2014:06:24:16:21:54> After modification hor_err_major=0x83, hor_err_minor=0x83
+<2014:06:24:16:21:54> After possible adjustment hor_err_major=0x83, hor_err_minor=0x83
+<2014:06:24:16:21:54> Velocity in AI3: Heading 57759, horizontalVelocity 12, verticalVelocity 0
+<2014:06:24:16:21:54> Velocity after conversion: Heading 317, horizontalVelocity 2.700000, verticalVelocity 0.000000
+<2014:06:24:16:21:54> SV=00 PRN=29 C/N0=35 Azimuth=289 Angle=078
+<2014:06:24:16:21:54> SV=01 PRN=21 C/N0=24 Azimuth=190 Angle=021
+<2014:06:24:16:21:54> SV=02 PRN=02 C/N0=19 Azimuth=046 Angle=024
+<2014:06:24:16:21:54> SV=03 PRN=25 C/N0=20 Azimuth=087 Angle=069
+<2014:06:24:16:21:54> SV=04 PRN=14 C/N0=23 Azimuth=229 Angle=005
+<2014:06:24:16:21:54> SV=05 PRN=12 C/N0=14 Azimuth=103 Angle=032
+<2014:06:24:16:21:54> SV=06 PRN=31 C/N0=16 Azimuth=297 Angle=046
+<2014:06:24:16:21:54> TTFF1=0 TTFF2=26 TTFF3=0 TTFF=26
+<2014:06:24:16:21:54>  *** POSITION #156 Lat=43.725006 Lon=15.799423 Alt=56.000000 TTFF=26 GPSsec=224531000
+<2014:06:24:16:21:54> POSITION GOT in OSP Response =  Lat: 1043319282 Lon: 188494461 Alt:5560
+<2014:06:24:16:21:54> INFO: Output the default location method, Location method not intiialized
+<2014:06:24:16:21:54> INFO in OSP resp: hor_err_major = 0x83
+<2014:06:24:16:21:54> INFO in OSP resp: hor_err_minor = 0x83
+<2014:06:24:16:21:54> INFO in OSP resp: velocity_ver_err = 0x12
+<2014:06:24:16:21:54> OSP MEASURE RESPONSE
+<2014:06:24:16:21:54> GPS -> SET :OSP_MEASURE_RESPONSE
+<2014:06:24:16:21:54> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:0
+<2014:06:24:16:21:55> DBG: GM_closeSession is called
+<2014:06:24:16:21:55> MPM is not enabled
+<2014:06:24:16:21:55> INFO : CP_SUSPEND is not running ECLK_CLOCK_RUNNING
+<2014:06:24:16:21:55> INFO: network is not connected
+<2014:06:24:16:21:55> Suspending SM
+<2014:06:24:16:21:55> CLM : Stopping ... 
+<2014:06:24:16:21:55> SGEE: CLMSGEE_Stop success.
+<2014:06:24:16:21:55> SGEE: CLMSGEE_Cleanup success.
+<2014:06:24:16:21:55> CGEE: CLMCGEE_Stop success.
+<2014:06:24:16:21:55> CGEE: CLMCGEE_Cleanup success.
+<2014:06:24:16:21:55> STORAGE: CLMStorage_Cleanup cleanup done OK.
+<2014:06:24:16:21:55> COMMON: CLM_Stop storage cleanup success.
+<2014:06:24:16:21:55> CLM : Stopped.
+<2014:06:24:16:21:55> SiRFNav_Stop: SUSPEND : IN
+<2014:06:24:16:21:55> SiRFNav_Stop: SUSPEND : OUT 0
+<2014:06:24:16:21:55> NM has already been suspended
+<2014:06:24:16:21:55> DBG: exiting GM_closeSession

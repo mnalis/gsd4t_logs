@@ -1,0 +1,238 @@
+16:21:34.456073 write(213, "<16:21:34> EHWConfigRequestReceived\r\n", 37) = 37
+16:21:34.464502 write(241, "<2014:06:24:16:21:34> GPS -> SET : SIRF_MSG_SSB_HARDWARE_CONFIG_REQ\r\n", 69) = 69
+16:21:34.465469 write(234, "<2014:06:24:16:21:34> GPS -> SET : SIRF_MSG_SSB_HARDWARE_CONFIG_REQ", 67) = 67
+16:21:34.466017 write(234, " 00", 3)    = 3
+16:21:34.474335 write(234, "\r\n", 2)   = 2
+16:21:34.475515 write(241, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_HW_CONFIG_RSP \r\n", 63) = 63
+16:21:34.476626 write(234, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_HW_CONFIG_RSP ", 61) = 61
+16:21:34.477813 write(234, " 74 06 00 00 00 84 b8 0d 00 75 f7 2a", 36) = 36
+16:21:34.479431 write(234, "\r\n", 2)   = 2
+16:21:34.482875 write(241, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_SET_STAT_NAV\r\n", 61) = 61
+16:21:34.484057 write(234, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_SET_STAT_NAV", 59) = 59
+16:21:34.485321 write(234, " 01", 3)    = 3
+16:21:34.485942 write(234, "\r\n", 2)   = 2
+16:21:34.507197 write(241, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_SESSION_OPENING_REQ\r\n", 68) = 68
+16:21:34.508124 write(234, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_SESSION_OPENING_REQ", 66) = 66
+16:21:34.508521 write(234, " 71", 3)    = 3
+16:21:34.511916 write(234, "\r\n", 2)   = 2
+16:21:34.515124 write(241, "<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_APROX_MS_POS_REQ\r\n", 65) = 65
+16:21:34.516127 write(234, "<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_APROX_MS_POS_REQ", 63) = 63
+16:21:34.516519 write(234, " 00", 3)    = 3
+16:21:34.517087 write(234, "\r\n", 2)   = 2
+16:21:34.517743 write(241, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_REJECT_IN --> SIRF_MSG_SSB_APROX_MS_POS_REQ\r\n", 92) = 92
+16:21:34.522046 write(234, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_REJECT_IN --> SIRF_MSG_SSB_APROX_MS_POS_REQ", 90) = 90
+16:21:34.523028 write(234, " 49 01 04", 9) = 9
+16:21:34.523703 write(234, "\r\n", 2)   = 2
+16:21:34.528332 write(241, "<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_SESSION_OPEN_RSP\r\n", 65) = 65
+16:21:34.530114 write(234, "<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_SESSION_OPEN_RSP", 63) = 63
+16:21:34.530530 write(234, " 00 00 00", 9) = 9
+16:21:34.531057 write(234, "\r\n", 2)   = 2
+16:21:34.531554 write(241, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_F_TIME_FREQ_APROX_POS_REQ\r\n", 70) = 70
+16:21:34.532254 write(234, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_F_TIME_FREQ_APROX_POS_REQ", 68) = 68
+16:21:34.532850 write(234, " 0d", 3)    = 3
+16:21:34.533125 write(234, "\r\n", 2)   = 2
+16:21:34.539947 write(241, "<2014:06:24:16:21:34> SET -> GPS : SIRF_MSG_SSB_POS_REQ\r\n", 57) = 57
+16:21:34.549180 write(234, "<2014:06:24:16:21:34> SET -> GPS : SIRF_MSG_SSB_POS_REQ", 55) = 55
+16:21:34.549658 write(234, " 00 00 01 62 07 f0 01 04", 24) = 24
+16:21:34.549985 write(234, "\r\n", 2)   = 2
+16:21:34.550931 write(241, "<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_TIME_TX_REQ\r\n", 60) = 60
+16:21:34.569088 write(234, "<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_TIME_TX_REQ", 58) = 58
+16:21:34.570092 write(234, " 00", 3)    = 3
+16:21:34.571619 write(234, "\r\n", 2)   = 2
+16:21:34.572415 write(241, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_REJECT_IN SIRF_MSG_SSB_REJ_NOT_READY TIME\r\n", 90) = 90
+16:21:34.573358 write(234, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_REJECT_IN SIRF_MSG_SSB_REJ_NOT_READY TIME", 88) = 88
+16:21:34.574171 write(234, " 49 02 04", 9) = 9
+16:21:34.574452 write(234, "\r\n", 2)   = 2
+16:21:34.577384 write(241, "<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_TIME_FREQ_APPROX_POS_RSP\r\n", 73) = 73
+16:21:34.580491 write(234, "<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_TIME_FREQ_APPROX_POS_RSP", 71) = 71
+16:21:34.581065 write(234, " 3b 00 06 07 fe 6c 03 00 00 00 00 46 e2 00 00 00 db c3 61 0d f1 03 00 00 39 75 00 00 00 00 00 00 00 00 00 00", 108) = 108
+16:21:34.581545 write(234, "\r\n", 2)   = 2
+16:21:34.582270 write(241, "<2014:06:24:16:21:34> SLC has ref time but no accuracy info\r\n", 61) = 61
+16:21:34.583591 write(241, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_EPH_REQ\r\n", 56) = 56
+16:21:34.584431 write(234, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_EPH_REQ", 54) = 54
+16:21:34.584712 write(234, " 00", 3)    = 3
+16:21:34.584887 write(234, "\r\n", 2)   = 2
+16:21:34.590714 write(241, "<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_ACK_NACK_ERROR_OUT\r\n", 67) = 67
+16:21:34.591505 write(234, "<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_ACK_NACK_ERROR_OUT", 65) = 65
+16:21:34.592733 write(234, " d2 00 00 00 00 00", 18) = 18
+16:21:34.593042 write(234, "\r\n", 2)   = 2
+16:21:34.593354 write(241, "<2014:06:24:16:21:34> ACK_NACK_REASON: Acknowledgement\r\n", 56) = 56
+16:21:34.594107 write(241, "<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_FREQ_TX_REQ\r\n", 60) = 60
+16:21:34.594590 write(234, "<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_FREQ_TX_REQ", 58) = 58
+16:21:34.594960 write(234, " 03", 3)    = 3
+16:21:34.595271 write(234, "\r\n", 2)   = 2
+16:21:34.596145 write(241, "<2014:06:24:16:21:34> SIRF_MSG_SSB_FREQ_TX_REQ.req_info = 0x03\r\n", 64) = 64
+16:21:34.597297 write(241, "<2014:06:24:16:21:34> State: FREQ_TRANSFER_REQUESTED\r\n", 54) = 54
+16:21:34.600438 write(241, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_FREQ_TX_REQ  REJ_NOT_AVAILABLE\r\n", 79) = 79
+16:21:34.601769 write(234, "<2014:06:24:16:21:34> SET -> GPS :SIRF_MSG_SSB_FREQ_TX_REQ  REJ_NOT_AVAILABLE", 77) = 77
+16:21:34.604195 write(234, " 49 03 04", 9) = 9
+16:21:34.605909 write(234, "\r\n", 2)   = 2
+16:21:34.608365 write(241, "<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_EPH_RSP\r\n", 56) = 56
+16:21:34.609059 write(234, "<2014:06:24:16:21:34> GPS -> SET :SIRF_MSG_SSB_EPH_RSP", 54) = 54
+16:21:34.610215 write(234, " 03 00 06 07 f5 41 22 00 03 02 20 00 00 00 00 00 00 00 00 00 00 00 00 00 02 03 06 07 7e 36 40 00 2f 00 18 00 00 00 00 00 00 00 00 00 00 00 00 00 04 01 06 07 7e 36 39 00 ff ff ff 00 05 06 00 00 00 00 00 00 5a 00 0a 00 06 01 06 07 7e 36 15 00 ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0a 06 00 00 00 00 00 00 2b 00 05 00 00 00 00 00 00 00 00 00 00 00 00 00 0c 03 06 07 7e 36 0e 00 68 00 20 00 00 00 00 00 00 00 00 00 00 00 00 00 0e 03 06 07 7e 36 0b 00 e6 00 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 15 06 00 00 00 00 00 00 bf 00 15 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 18 01 06 07 7e 36 5c 00 ff ff ff 00 19 03 06 07 7e 36 0f 00 57 00 45 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", 1023) = 1023
+16:21:34.612564 write(234, " 00 00 00 00 00 00 00 1d 03 06 07 40 38 27 00 22 01 4e 00 00 00 00 00 00 00 00 00 00 00 00 00 1f 03 06 07 7e 36 67 00 29 01 2e 00 00 00 00 00 00 00 00 00 00 00 00 00", 165) = 165
+16:21:34.613205 write(234, "\r\n", 2)   = 2
+16:21:34.613956 write(241, "<2014:06:24:16:21:34> SLC Requested Ephemeris data for SV # 5.\r\n", 64) = 64
+16:21:34.614532 write(241, "<2014:06:24:16:21:34> SLC Requested Ephemeris data for SV # 10.\r\n", 65) = 65
+16:21:34.615285 write(241, "<2014:06:24:16:21:34> SLC Requested Ephemeris data for SV # 21.\r\n", 65) = 65
+16:21:34.616569 write(241, "<2014:06:24:16:21:34> SLC is not requesting ephemeris data, hence no reaiding\r\n", 79) = 79
+) = 0
+16:21:46.535337 write(241, "<2014:06:24:16:21:46> OSP POSITION\r\n", 36) = 36
+16:21:46.537408 write(241, "<2014:06:24:16:21:46> GPS -> SET :OSP POSITION RESPONSE\r\n", 57) = 57
+16:21:46.544042 write(241, "<2014:06:24:16:21:46> The Horizontal Uncertainity of position = 124\r\n", 69) = 69
+16:21:46.553841 write(241, "<2014:06:24:16:21:46> After adjustment, Horizontal Uncertainity of position = 124\r\n", 83) = 83
+16:21:46.557031 write(241, "<2014:06:24:16:21:46> Before modification hor_error_major=0x86, hor_err_minor=0x86\r\n", 84) = 84
+16:21:46.582223 write(241, "<2014:06:24:16:21:46> After modification hor_err_major=0x86, hor_err_minor=0x86\r\n", 81) = 81
+16:21:46.583471 write(241, "<2014:06:24:16:21:46> After possible adjustment hor_err_major=0x86, hor_err_minor=0x86\r\n", 88) = 88
+16:21:46.584687 write(241, "<2014:06:24:16:21:46> Velocity in AI3: Heading 45734, horizontalVelocity 3, verticalVelocity 0\r\n", 96) = 96
+16:21:46.586980 write(241, "<2014:06:24:16:21:46> Velocity after conversion: Heading 251, horizontalVelocity 0.675000, verticalVelocity 0.000000\r\n", 118) = 118
+16:21:46.589137 write(242, "\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0˚\0\0\0ÕÃ,?\0\0>\0∞Ú\27\1\1»\20U\0ﬂ–@\0\0˙˛»‹E@\0\0\0\n[\231/@\0\0ZB¡”‹U\0\0\0\0\0\0\0\0|\211©S\0\0\0\0\0\0\0\0\30\0\"\0\0\0\0†\231\231Â?\0–\0U\0\0\0\0009\30\0\0\0\0\0\0", 112) = 112
+16:21:46.591745 write(241, "<2014:06:24:16:21:46> SV=00 PRN=29 C/N0=37 Azimuth=289 Angle=078\r\n", 66) = 66
+16:21:46.593460 write(241, "<2014:06:24:16:21:46> SV=01 PRN=21 C/N0=24 Azimuth=190 Angle=021\r\n", 66) = 66
+16:21:46.596188 write(241, "<2014:06:24:16:21:46> SV=02 PRN=02 C/N0=19 Azimuth=046 Angle=024\r\n", 66) = 66
+16:21:46.597016 write(241, "<2014:06:24:16:21:46> SV=03 PRN=25 C/N0=17 Azimuth=087 Angle=069\r\n", 66) = 66
+16:21:46.598173 write(241, "<2014:06:24:16:21:46> SV=04 PRN=14 C/N0=16 Azimuth=229 Angle=005\r\n", 66) = 66
+16:21:46.599926 write(241, "<2014:06:24:16:21:46> TTFF1=0 TTFF2=26 TTFF3=0 TTFF=26\r\n", 56) = 56
+16:21:46.605489 write(241, "<2014:06:24:16:21:46>  *** POSITION #148 Lat=43.724884 Lon=15.799523 Alt=54.500000 TTFF=26 GPSsec=224523058\r\n", 109) = 109
+16:21:46.606628 write(213, "<16:21:46> ##### TTFF : 26 second #####\r\n", 41) = 41
+16:21:46.608403 write(241, "<2014:06:24:16:21:46> POSITION GOT in OSP Response =  Lat: 1043316369 Lon: 188495648 Alt:5545\r\n", 95) = 95
+16:21:46.615784 write(241, "<2014:06:24:16:21:46> INFO: Output the default location method, Location method not intiialized\r\n", 97) = 97
+16:21:46.616826 write(213, "<16:21:46> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 148/0\r\n", 68) = 68
+16:21:46.617848 write(213, "<16:21:46> INFO: lsmLocCallback : do nothing\r\n", 46) = 46
+16:21:46.619454 write(213, "<16:21:46> LSM_Position_CallBack: called\r\n", 42) = 42
+16:21:46.620643 write(213, "<16:21:46> Acc from LPL is :124\r\n", 33) = 33
+16:21:46.623872 write(213, "<16:21:46> Local Time Updated : ref UTC = 1403619708000 ,  unc = 2500, ref sys time= 6201419\r\n", 94) = 94
+16:21:46.631116 write(213, "<16:21:46> Position Fix (148 of 0) : Latitude 43.724884   Longtitude 15.799523\r\n", 80) = 80
+16:21:46.632003 write(213, "<16:21:46> LSM:lsmLocCB out\r\n", 29) = 29
+16:21:46.635023 write(234, "<2014:06:24:16:21:46> GPS -> SET :OSP_POSITION_RESPONSE", 55) = 55
+16:21:46.643807 write(234, " 00 01 00 01 01 00 06 07 32 f3 61 0d 91 be 2f 3e 20 37 3c 0b 1f d3 86 86 a9 15 81 00 03 00 a6 b2 00 be 34 1a 16 00 37 33 e8 6b 00 0f 05 1d 25 31 15 18 00 02 13 42 19 11 45 0e 10 4c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", 288) = 288
+16:21:46.661578 write(234, "\r\n", 2)   = 2
+16:21:46.674420 write(241, "<2014:06:24:16:21:46> INFO in OSP resp: hor_err_major = 0x86\r\n", 62) = 62
+16:21:46.675816 write(241, "<2014:06:24:16:21:46> INFO in OSP resp: hor_err_minor = 0x86\r\n", 62) = 62
+16:21:46.680492 write(241, "<2014:06:24:16:21:46> INFO in OSP resp: velocity_ver_err = 0x16\r\n", 65) = 65
+16:21:46.682366 write(241, "<2014:06:24:16:21:46> OSP MEASURE RESPONSE\r\n", 44) = 44
+16:21:46.683985 write(241, "<2014:06:24:16:21:46> GPS -> SET :OSP_MEASURE_RESPONSE\r\n", 56) = 56
+16:21:46.685058 write(241, "<2014:06:24:16:21:46> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:4\r\n", 79) = 79
+16:21:46.686362 write(234, "<2014:06:24:16:21:46> GPS -> SET :OSP_MEASURE_RESPONSE", 54) = 54
+16:21:46.688521 write(234, " 00 01 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", 528) = 528
+16:21:46.692639 write(234, "\r\n", 2)   = 2
+16:21:47.578826 write(241, "<2014:06:24:16:21:47> OSP POSITION\r\n", 36) = 36
+16:21:47.581529 write(241, "<2014:06:24:16:21:47> GPS -> SET :OSP POSITION RESPONSE\r\n", 57) = 57
+16:21:47.591741 write(241, "<2014:06:24:16:21:47> The Horizontal Uncertainity of position = 124\r\n", 69) = 69
+16:21:47.604625 write(241, "<2014:06:24:16:21:47> After adjustment, Horizontal Uncertainity of position = 124\r\n", 83) = 83
+16:21:47.607140 write(241, "<2014:06:24:16:21:47> Before modification hor_error_major=0x86, hor_err_minor=0x86\r\n", 84) = 84
+16:21:47.608478 write(241, "<2014:06:24:16:21:47> After modification hor_err_major=0x86, hor_err_minor=0x86\r\n", 81) = 81
+16:21:47.610738 write(241, "<2014:06:24:16:21:47> After possible adjustment hor_err_major=0x86, hor_err_minor=0x86\r\n", 88) = 88
+16:21:47.615036 write(241, "<2014:06:24:16:21:47> Velocity in AI3: Heading 48012, horizontalVelocity 7, verticalVelocity 0\r\n", 96) = 96
+16:21:47.615827 write(241, "<2014:06:24:16:21:47> Velocity after conversion: Heading 264, horizontalVelocity 1.575000, verticalVelocity 0.000000\r\n", 118) = 118
+16:21:47.616524 write(242, "\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\1\0\0\232\231…?\0\0>\0∞Ú\27\1\1»\20U\0ﬂ–@\0\0æ¡…‹E@\0\0∞\213V\231/@†\231YB¡”‹U\0\0\0\0\0\0\0\0}\211©S\0\0\0\0\0\0\0\0\36\0$\0\0\0\0@33˘?\0–\0U\0\0\0\0:\30\0\0\0\0\0\0", 112) = 112
+16:21:47.617113 write(241, "<2014:06:24:16:21:47> SV=00 PRN=29 C/N0=37 Azimuth=289 Angle=078\r\n", 66) = 66
+16:21:47.617518 write(241, "<2014:06:24:16:21:47> SV=01 PRN=21 C/N0=24 Azimuth=190 Angle=021\r\n", 66) = 66
+16:21:47.617891 write(241, "<2014:06:24:16:21:47> SV=02 PRN=02 C/N0=19 Azimuth=046 Angle=024\r\n", 66) = 66
+16:21:47.618394 write(241, "<2014:06:24:16:21:47> SV=03 PRN=25 C/N0=17 Azimuth=087 Angle=069\r\n", 66) = 66
+16:21:47.620201 write(241, "<2014:06:24:16:21:47> SV=04 PRN=14 C/N0=16 Azimuth=229 Angle=005\r\n", 66) = 66
+16:21:47.623435 write(241, "<2014:06:24:16:21:47> SV=05 PRN=12 C/N0=14 Azimuth=103 Angle=032\r\n", 66) = 66
+16:21:47.624221 write(241, "<2014:06:24:16:21:47> TTFF1=0 TTFF2=26 TTFF3=0 TTFF=26\r\n", 56) = 56
+16:21:47.628758 write(241, "<2014:06:24:16:21:47>  *** POSITION #149 Lat=43.724907 Lon=15.799488 Alt=54.400024 TTFF=26 GPSsec=224524062\r\n", 109) = 109
+16:21:47.630607 write(213, "<16:21:47> ##### TTFF : 26 second #####\r\n", 41) = 41
+16:21:47.633860 write(241, "<2014:06:24:16:21:47> POSITION GOT in OSP Response =  Lat: 1043316923 Lon: 188495239 Alt:5544\r\n", 95) = 95
+16:21:47.638548 write(241, "<2014:06:24:16:21:47> INFO: Output the default location method, Location method not intiialized\r\n", 97) = 97
+16:21:47.639138 write(213, "<16:21:47> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 149/0\r\n", 68) = 68
+16:21:47.639583 write(213, "<16:21:47> INFO: lsmLocCallback : do nothing\r\n", 46) = 46
+16:21:47.639965 write(213, "<16:21:47> LSM_Position_CallBack: called\r\n", 42) = 42
+16:21:47.640413 write(213, "<16:21:47> Acc from LPL is :124\r\n", 33) = 33
+16:21:47.641154 write(213, "<16:21:47> Local Time Updated : ref UTC = 1403619709000 ,  unc = 2500, ref sys time= 6202438\r\n", 94) = 94
+16:21:47.665970 write(213, "<16:21:47> Position Fix (149 of 0) : Latitude 43.724907   Longtitude 15.799488\r\n", 80) = 80
+16:21:47.667326 write(213, "<16:21:47> LSM:lsmLocCB out\r\n", 29) = 29
+16:21:47.668420 write(234, "<2014:06:24:16:21:47> GPS -> SET :OSP_POSITION_RESPONSE", 55) = 55
+16:21:47.669394 write(234, " 00 01 00 01 01 00 06 07 1e f7 61 0d bb c0 2f 3e 87 35 3c 0b 1f d3 86 86 a8 15 82 00 07 00 8c bb 00 bf 34 1c 15 00 d0 33 e8 6b 00 0f 06 1d 25 31 15 18 00 02 13 42 19 11 45 0e 10 4c 0c 0e 4c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", 288) = 288
+16:21:47.672231 write(234, "\r\n", 2)   = 2
+16:21:47.678210 write(241, "<2014:06:24:16:21:47> INFO in OSP resp: hor_err_major = 0x86\r\n", 62) = 62
+16:21:47.678981 write(241, "<2014:06:24:16:21:47> INFO in OSP resp: hor_err_minor = 0x86\r\n", 62) = 62
+16:21:47.680207 write(241, "<2014:06:24:16:21:47> INFO in OSP resp: velocity_ver_err = 0x15\r\n", 65) = 65
+16:21:47.680694 write(241, "<2014:06:24:16:21:47> OSP MEASURE RESPONSE\r\n", 44) = 44
+16:21:47.681420 write(241, "<2014:06:24:16:21:47> GPS -> SET :OSP_MEASURE_RESPONSE\r\n", 56) = 56
+16:21:47.682016 write(241, "<2014:06:24:16:21:47> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:4\r\n", 79) = 79
+16:21:47.682654 write(234, "<2014:06:24:16:21:47> GPS -> SET :OSP_MEASURE_RESPONSE", 54) = 54
+16:21:47.683102 write(234, " 00 01 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", 528) = 528
+16:21:47.685004 write(234, "\r\n", 2)   = 2
+16:21:48.543370 write(241, "<2014:06:24:16:21:48> OSP POSITION\r\n", 36) = 36
+16:21:48.544543 write(241, "<2014:06:24:16:21:48> GPS -> SET :OSP POSITION RESPONSE\r\n", 57) = 57
+16:21:48.546284 write(241, "<2014:06:24:16:21:48> The Horizontal Uncertainity of position = 124\r\n", 69) = 69
+16:21:48.547225 write(241, "<2014:06:24:16:21:48> After adjustment, Horizontal Uncertainity of position = 124\r\n", 83) = 83
+16:21:48.549842 write(241, "<2014:06:24:16:21:48> Before modification hor_error_major=0x86, hor_err_minor=0x86\r\n", 84) = 84
+16:21:48.555466 write(241, "<2014:06:24:16:21:48> After modification hor_err_major=0x86, hor_err_minor=0x86\r\n", 81) = 81
+16:21:48.556196 write(241, "<2014:06:24:16:21:48> After possible adjustment hor_err_major=0x86, hor_err_minor=0x86\r\n", 88) = 88
+16:21:48.556608 write(241, "<2014:06:24:16:21:48> Velocity in AI3: Heading 52058, horizontalVelocity 2, verticalVelocity 0\r\n", 96) = 96
+16:21:48.557102 write(241, "<2014:06:24:16:21:48> Velocity after conversion: Heading 286, horizontalVelocity 0.450000, verticalVelocity 0.000000\r\n", 118) = 118
+16:21:48.557704 write(242, "\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\36\1\0\0ffÊ>\0\0>\0∞Ú\27\1\1»\20U\0ﬂ–@\0\0ÿ\20 ‹E@\0\0†ËT\231/@†\231[B¡”‹U\0\0\0\0\0\0\0\0~\211©S\0\0\0\0\0\0\0\0\36\0$\0\0\0\0¿ÃÃ‹?\0–\0U\0\0\0\0;\30\0\0\0\0\0\0", 112) = 112
+16:21:48.558288 write(241, "<2014:06:24:16:21:48> SV=00 PRN=29 C/N0=37 Azimuth=289 Angle=078\r\n", 66) = 66
+16:21:48.558798 write(241, "<2014:06:24:16:21:48> SV=01 PRN=21 C/N0=24 Azimuth=190 Angle=021\r\n", 66) = 66
+16:21:48.559618 write(241, "<2014:06:24:16:21:48> SV=02 PRN=02 C/N0=19 Azimuth=046 Angle=024\r\n", 66) = 66
+16:21:48.560517 write(241, "<2014:06:24:16:21:48> SV=03 PRN=25 C/N0=17 Azimuth=087 Angle=069\r\n", 66) = 66
+16:21:48.561361 write(241, "<2014:06:24:16:21:48> SV=04 PRN=14 C/N0=16 Azimuth=229 Angle=005\r\n", 66) = 66
+16:21:48.578049 write(241, "<2014:06:24:16:21:48> SV=05 PRN=12 C/N0=15 Azimuth=103 Angle=032\r\n", 66) = 66
+16:21:48.578590 write(241, "<2014:06:24:16:21:48> TTFF1=0 TTFF2=26 TTFF3=0 TTFF=26\r\n", 56) = 56
+16:21:48.579169 write(241, "<2014:06:24:16:21:48>  *** POSITION #150 Lat=43.724917 Lon=15.799476 Alt=54.900024 TTFF=26 GPSsec=224525063\r\n", 109) = 109
+16:21:48.579834 write(213, "<16:21:48> ##### TTFF : 26 second #####\r\n", 41) = 41
+16:21:48.580690 write(241, "<2014:06:24:16:21:48> POSITION GOT in OSP Response =  Lat: 1043317148 Lon: 188495090 Alt:5549\r\n", 95) = 95
+16:21:48.582623 write(241, "<2014:06:24:16:21:48> INFO: Output the default location method, Location method not intiialized\r\n", 97) = 97
+16:21:48.583423 write(213, "<16:21:48> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 150/0\r\n", 68) = 68
+16:21:48.584111 write(213, "<16:21:48> INFO: lsmLocCallback : do nothing\r\n", 46) = 46
+16:21:48.584750 write(213, "<16:21:48> LSM_Position_CallBack: called\r\n", 42) = 42
+16:21:48.585396 write(213, "<16:21:48> Acc from LPL is :124\r\n", 33) = 33
+16:21:48.687210 write(213, "<16:21:48> Local Time Updated : ref UTC = 1403619710000 ,  unc = 2500, ref sys time= 6203384\r\n", 94) = 94
+16:21:48.741347 write(213, "<16:21:48> Position Fix (150 of 0) : Latitude 43.724917   Longtitude 15.799476\r\n", 80) = 80
+16:21:48.751284 write(213, "<16:21:48> LSM:lsmLocCB out\r\n", 29) = 29
+16:21:48.757554 write(234, "<2014:06:24:16:21:48> GPS -> SET :OSP_POSITION_RESPONSE", 55) = 55
+16:21:48.759208 write(234, " 00 01 00 01 01 00 06 07 07 fb 61 0d 9c c1 2f 3e f2 34 3c 0b 1f d4 86 86 ad 15 82 00 02 00 5a cb 00 c5 32 1f 14 00 35 34 e8 6b 00 0f 06 1d 25 31 15 18 00 02 13 42 19 11 44 0e 10 4c 0c 0f 4c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", 288) = 288
+16:21:48.760822 write(234, "\r\n", 2)   = 2
+16:21:48.762436 write(241, "<2014:06:24:16:21:48> INFO in OSP resp: hor_err_major = 0x86\r\n", 62) = 62
+16:21:48.764649 write(241, "<2014:06:24:16:21:48> INFO in OSP resp: hor_err_minor = 0x86\r\n", 62) = 62
+16:21:48.766563 write(241, "<2014:06:24:16:21:48> INFO in OSP resp: velocity_ver_err = 0x14\r\n", 65) = 65
+16:21:48.769558 write(241, "<2014:06:24:16:21:48> OSP MEASURE RESPONSE\r\n", 44) = 44
+16:21:48.780730 write(241, "<2014:06:24:16:21:48> GPS -> SET :OSP_MEASURE_RESPONSE\r\n", 56) = 56
+16:21:48.792256 write(241, "<2014:06:24:16:21:48> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:0\r\n", 79) = 79
+16:21:48.793767 write(234, "<2014:06:24:16:21:48> GPS -> SET :OSP_MEASURE_RESPONSE", 54) = 54
+16:21:48.796697 write(234, " 00 01 00 00 06 07 00 00 07 fb 61 0d 01 06 1d 25 f2 f9 4a 03 79 03 00 23 15 18 6e c1 5a 02 37 02 00 2e 02 13 16 2f 40 00 ae 01 00 32 19 11 79 12 b4 02 d2 03 00 33 0e 10 c8 38 92 03 d3 02 00 33 0c 0f 58 33 2c 02 7a 02 00 34 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", 528) = 528
+16:21:48.804787 write(234, "\r\n", 2)   = 2
+16:21:49.598402 write(241, "<2014:06:24:16:21:49> OSP POSITION\r\n", 36) = 36
+16:21:49.600439 write(241, "<2014:06:24:16:21:49> GPS -> SET :OSP POSITION RESPONSE\r\n", 57) = 57
+16:21:49.607243 write(241, "<2014:06:24:16:21:49> The Horizontal Uncertainity of position = 118\r\n", 69) = 69
+16:21:49.608283 write(241, "<2014:06:24:16:21:49> After adjustment, Horizontal Uncertainity of position = 118\r\n", 83) = 83
+16:21:49.609351 write(241, "<2014:06:24:16:21:49> Before modification hor_error_major=0x85, hor_err_minor=0x85\r\n", 84) = 84
+16:21:49.621265 write(241, "<2014:06:24:16:21:49> After modification hor_err_major=0x85, hor_err_minor=0x85\r\n", 81) = 81
+16:21:49.624218 write(241, "<2014:06:24:16:21:49> After possible adjustment hor_err_major=0x85, hor_err_minor=0x85\r\n", 88) = 88
+16:21:49.627110 write(241, "<2014:06:24:16:21:49> Velocity in AI3: Heading 52957, horizontalVelocity 4, verticalVelocity 0\r\n", 96) = 96
+16:21:49.627715 write(241, "<2014:06:24:16:21:49> Velocity after conversion: Heading 291, horizontalVelocity 0.900000, verticalVelocity 0.000000\r\n", 118) = 118
+16:21:49.634167 write(242, "\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0#\1\0\0fff?\0\0;\0∞Ú\27\1\1»\20U\0ﬂ–@\0\0\26√ ‹E@\0\0\220\30S\231/@†\231]B¡”‹U\0\0\0\0\0\0\0\0\177\211©S\0\0\0\0\0\0\0\0\36\0$\0\0\0\0¿ÃÃÏ?\0–\0U\0\0\0\0<\30\0\0\0\0\0\0", 112) = 112
+16:21:49.636235 write(241, "<2014:06:24:16:21:49> SV=00 PRN=29 C/N0=37 Azimuth=289 Angle=078\r\n", 66) = 66
+16:21:49.640568 write(241, "<2014:06:24:16:21:49> SV=01 PRN=21 C/N0=24 Azimuth=190 Angle=021\r\n", 66) = 66
+16:21:49.641553 write(241, "<2014:06:24:16:21:49> SV=02 PRN=02 C/N0=19 Azimuth=046 Angle=024\r\n", 66) = 66
+16:21:49.644433 write(241, "<2014:06:24:16:21:49> SV=03 PRN=25 C/N0=17 Azimuth=087 Angle=069\r\n", 66) = 66
+16:21:49.645149 write(241, "<2014:06:24:16:21:49> SV=04 PRN=14 C/N0=16 Azimuth=229 Angle=005\r\n", 66) = 66
+16:21:49.645606 write(241, "<2014:06:24:16:21:49> SV=05 PRN=12 C/N0=14 Azimuth=103 Angle=032\r\n", 66) = 66
+16:21:49.646679 write(241, "<2014:06:24:16:21:49> TTFF1=0 TTFF2=26 TTFF3=0 TTFF=26\r\n", 56) = 56
+16:21:49.647562 write(241, "<2014:06:24:16:21:49>  *** POSITION #151 Lat=43.724938 Lon=15.799462 Alt=55.400024 TTFF=26 GPSsec=224526062\r\n", 109) = 109
+16:21:49.648502 write(213, "<16:21:49> ##### TTFF : 26 second #####\r\n", 41) = 41
+16:21:49.651355 write(241, "<2014:06:24:16:21:49> POSITION GOT in OSP Response =  Lat: 1043317655 Lon: 188494925 Alt:5554\r\n", 95) = 95
+16:21:49.652161 write(241, "<2014:06:24:16:21:49> INFO: Output the default location method, Location method not intiialized\r\n", 97) = 97
+16:21:49.652947 write(213, "<16:21:49> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 151/0\r\n", 68) = 68
+16:21:49.654531 write(213, "<16:21:49> INFO: lsmLocCallback : do nothing\r\n", 46) = 46
+16:21:49.656227 write(213, "<16:21:49> LSM_Position_CallBack: called\r\n", 42) = 42
+16:21:49.664035 write(213, "<16:21:49> Acc from LPL is :118\r\n", 33) = 33
+16:21:49.665757 write(213, "<16:21:49> Local Time Updated : ref UTC = 1403619711000 ,  unc = 2500, ref sys time= 6204462\r\n", 94) = 94
+16:21:49.693488 write(213, "<16:21:49> Position Fix (151 of 0) : Latitude 43.724938   Longtitude 15.799462\r\n", 80) = 80
+16:21:49.694586 write(213, "<16:21:49> LSM:lsmLocCB out\r\n", 29) = 29
+16:21:49.694988 write(234, "<2014:06:24:16:21:49> GPS -> SET :OSP_POSITION_RESPONSE", 55) = 55
+16:21:49.695428 write(234, " 00 01 00 01 01 00 06 07 ee fe 61 0d 97 c3 2f 3e 4d 34 3c 0b 1f d5 85 85 b2 15 82 00 04 00 dd ce 00 d0 33 27 14 00 c2 24 e8 6b 00 0f 06 1d 25 31 15 18 00 02 13 42 19 11 43 0e 10 4c 0c 0e 4b 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", 288) = 288
+16:21:49.696342 write(234, "\r\n", 2)   = 2
+16:21:49.696661 write(241, "<2014:06:24:16:21:49> INFO in OSP resp: hor_err_major = 0x85\r\n", 62) = 62
+16:21:49.701100 write(241, "<2014:06:24:16:21:49> INFO in OSP resp: hor_err_minor = 0x85\r\n", 62) = 62
+16:21:49.703989 write(241, "<2014:06:24:16:21:49> INFO in OSP resp: velocity_ver_err = 0x14\r\n", 65) = 65
+16:21:49.713599 write(241, "<2014:06:24:16:21:49> OSP MEASURE RESPONSE\r\n", 44) = 44
+16:21:49.714125 write(241, "<2014:06:24:16:21:49> GPS -> SET :OSP_MEASURE_RESPONSE\r\n", 56) = 56
+16:21:49.715133 write(241, "<2014:06:24:16:21:49> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:0\r\n", 79) = 79
+16:21:49.716033 write(234, "<2014:06:24:16:21:49> GPS -> SET :OSP_MEASURE_RESPONSE", 54) = 54
+16:21:49.716813 write(234, " 00 01 00 00 06 07 00 00 ee fe 61 0d 01 06 1d 25 f4 f9 4b 03 44 00 00 23 15 18 5d c1 5c 02 64 02 00 2e 02 13 21 2f 3e 00 86 03 00 32 19 11 50 12 b4 02 8b 01 00 33 0e 10 df 38 90 03 2e 03 00 33 0c 0e 6e 33 2a 02 9d 03 00 34 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", 528) = 528
+16:21:49.718106 write(234, "\r\n", 2)   = 2

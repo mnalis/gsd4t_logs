@@ -1,0 +1,98 @@
+<16:21:29> select fail - errno = 4
+
+<16:21:34> EHWConfigRequestReceived
+<16:21:46> ##### TTFF : 26 second #####
+<16:21:46> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 148/0
+<16:21:46> INFO: lsmLocCallback : do nothing
+<16:21:46> LSM_Position_CallBack: called
+<16:21:46> Acc from LPL is :124
+<16:21:46> Local Time Updated : ref UTC = 1403619708000 ,  unc = 2500, ref sys time= 6201419
+<16:21:46> Position Fix (148 of 0) : Latitude 43.724884   Longtitude 15.799523
+<16:21:46> LSM:lsmLocCB out
+<16:21:47> ##### TTFF : 26 second #####
+<16:21:47> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 149/0
+<16:21:47> INFO: lsmLocCallback : do nothing
+<16:21:47> LSM_Position_CallBack: called
+<16:21:47> Acc from LPL is :124
+<16:21:47> Local Time Updated : ref UTC = 1403619709000 ,  unc = 2500, ref sys time= 6202438
+<16:21:47> Position Fix (149 of 0) : Latitude 43.724907   Longtitude 15.799488
+<16:21:47> LSM:lsmLocCB out
+<16:21:48> ##### TTFF : 26 second #####
+<16:21:48> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 150/0
+<16:21:48> INFO: lsmLocCallback : do nothing
+<16:21:48> LSM_Position_CallBack: called
+<16:21:48> Acc from LPL is :124
+<16:21:48> Local Time Updated : ref UTC = 1403619710000 ,  unc = 2500, ref sys time= 6203384
+<16:21:48> Position Fix (150 of 0) : Latitude 43.724917   Longtitude 15.799476
+<16:21:48> LSM:lsmLocCB out
+<16:21:49> ##### TTFF : 26 second #####
+<16:21:49> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 151/0
+<16:21:49> INFO: lsmLocCallback : do nothing
+<16:21:49> LSM_Position_CallBack: called
+<16:21:49> Acc from LPL is :118
+<16:21:49> Local Time Updated : ref UTC = 1403619711000 ,  unc = 2500, ref sys time= 6204462
+<16:21:49> Position Fix (151 of 0) : Latitude 43.724938   Longtitude 15.799462
+<16:21:49> LSM:lsmLocCB out
+<16:21:50> ##### TTFF : 26 second #####
+<16:21:50> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 152/0
+<16:21:50> INFO: lsmLocCallback : do nothing
+<16:21:50> LSM_Position_CallBack: called
+<16:21:50> Acc from LPL is :118
+<16:21:50> Local Time Updated : ref UTC = 1403619712000 ,  unc = 2500, ref sys time= 6205323
+<16:21:50> Position Fix (152 of 0) : Latitude 43.724958   Longtitude 15.799455
+<16:21:50> LSM:lsmLocCB out
+<16:21:51> ##### TTFF : 26 second #####
+<16:21:51> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 153/0
+<16:21:51> INFO: lsmLocCallback : do nothing
+<16:21:51> LSM_Position_CallBack: called
+<16:21:51> Acc from LPL is :118
+<16:21:51> Local Time Updated : ref UTC = 1403619713000 ,  unc = 2500, ref sys time= 6206346
+<16:21:51> Position Fix (153 of 0) : Latitude 43.724982   Longtitude 15.799447
+<16:21:51> LSM:lsmLocCB out
+<16:21:52> ##### TTFF : 26 second #####
+<16:21:52> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 154/0
+<16:21:52> INFO: lsmLocCallback : do nothing
+<16:21:52> LSM_Position_CallBack: called
+<16:21:52> Acc from LPL is :112
+<16:21:52> Local Time Updated : ref UTC = 1403619714000 ,  unc = 2500, ref sys time= 6207389
+<16:21:52> Position Fix (154 of 0) : Latitude 43.724989   Longtitude 15.799442
+<16:21:52> LSM:lsmLocCB out
+<16:21:53> ##### TTFF : 26 second #####
+<16:21:53> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 155/0
+<16:21:53> INFO: lsmLocCallback : do nothing
+<16:21:53> LSM_Position_CallBack: called
+<16:21:53> Acc from LPL is :106
+<16:21:53> Local Time Updated : ref UTC = 1403619715000 ,  unc = 2500, ref sys time= 6208304
+<16:21:53> Position Fix (155 of 0) : Latitude 43.724996   Longtitude 15.799435
+<16:21:53> LSM:lsmLocCB out
+<16:21:54> ##### TTFF : 26 second #####
+<16:21:54> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 156/0
+<16:21:54> INFO: lsmLocCallback : do nothing
+<16:21:54> LSM_Position_CallBack: called
+<16:21:54> Acc from LPL is :106
+<16:21:54> Local Time Updated : ref UTC = 1403619716000 ,  unc = 2500, ref sys time= 6209349
+<16:21:54> Position Fix (156 of 0) : Latitude 43.725006   Longtitude 15.799423
+<16:21:54> LSM:lsmLocCB out
+<16:21:55> sirf_gps_stop called
+<16:21:55> Suspending MO session!!!
+<16:21:55> GPS_STATUS_SESSION_END
+<16:21:55> GPS_STATUS_ENGINE_OFF
+<16:21:55> LSM_Stop Called
+<16:21:55> INFO: LSM_Stop is called
+<16:21:55> INFO: lsmCloseSession is called
+<16:21:55> INFO: Id = 17, type = 0
+<16:21:55> INFO: lsmCloseSession calls GM_closeSession
+<16:21:55> gps_stop wait
+<16:21:55> select fail - errno = 4
+
+<16:21:55> rtn V C 0
+<16:21:55> INFO: lsmCloseSession exits
+<16:21:55> INFO: LSM_Stop exits
+<16:21:55> semaphore rel for stop
+<16:21:55> LSM_setCapabilities
+<16:21:55> IdleState:updating session check
+<16:21:55> GPS ONOFF Report : 0
+<16:21:55> GPS ONOFF Mode : File Open Error - emc_enable !!!!
+<16:21:55> INFO: GPS_WAKE_LOCK_DISABLE
+<16:21:55> gps_stop success
+<16:21:56> Stop Release
