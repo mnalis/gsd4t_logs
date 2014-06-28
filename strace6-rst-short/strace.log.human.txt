@@ -8,7 +8,7 @@
 16:21:34.078 unknown empty-load LEAD-IN of 0x8102
 16:21:34.080 parsed 0x5700: System Reset Command
 16:21:34.087 empty packet  	# seq1=0000 seq2=FFFF len=0000	# WARNING: leading zero not 00 but 10 in 00/00/0005 16:21:34.087 (0) A0 A2 10 00 00 FF FF 00 00 E5 0A FF FF B0 B3 # WARNING: last seq2 was 0, didn't expect 65535 in 00/00/0005 16:21:34.087 (0) A0 A2 10 00 00 FF FF 00 00 E5 0A FF FF B0 B3 # WARNING: last seq1 was 9, didn't expect 0 in (27) 00/00/0005 16:21:34.087 (0) A0 A2 10 00 00 FF FF 00 00 E5 0A FF FF B0 B3
-16:21:34.092 currently unsupported LEAD-IN 8230: 00/00/0006 16:21:34.092 (0) 82 30 17 04 01 00 F9 C5 68 00 01 77 FA 00 00 00 04 	# seq1=0000 seq2=FFFF len=0011	# WARNING: leading zero not 00 but 08 in 00/00/0005 16:21:34.092 (0) A0 A2 08 00 00 FF FF 00 11 E8 52 82 30 17 04 01 00 F9 C5 68 00 01 77 FA 00 00 00 04 46 C0 B0 B3
+16:21:34.092 LEAD-IN of 0x82 is part of SiRFbinary MID 64 (0x40) - Nav Library, SID 1 GPS Data (FIXME - more parsing if we need it)
 16:21:34.102 parsed 0x5800: (guess) SiRF GPS SW Version: GSD4t_4.1.1-B16_1197119 01/17/2012 017
 16:21:34.102 parsed 0x5802: (guess) Compiler: RVDS
 16:21:34.108 parsed 0x5803: (guess) ASIC GSD4T 0x0401
