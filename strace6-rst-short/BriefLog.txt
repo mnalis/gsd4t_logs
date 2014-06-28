@@ -23,6 +23,7 @@
 <2014:06:24:16:21:34> SLC Requested Ephemeris data for SV # 10.
 <2014:06:24:16:21:34> SLC Requested Ephemeris data for SV # 21.
 <2014:06:24:16:21:34> SLC is not requesting ephemeris data, hence no reaiding
+
 <2014:06:24:16:21:46> OSP POSITION
 <2014:06:24:16:21:46> GPS -> SET :OSP POSITION RESPONSE
 <2014:06:24:16:21:46> The Horizontal Uncertainity of position = 124
@@ -44,9 +45,11 @@
 <2014:06:24:16:21:46> INFO in OSP resp: hor_err_major = 0x86
 <2014:06:24:16:21:46> INFO in OSP resp: hor_err_minor = 0x86
 <2014:06:24:16:21:46> INFO in OSP resp: velocity_ver_err = 0x16
+
 <2014:06:24:16:21:46> OSP MEASURE RESPONSE
 <2014:06:24:16:21:46> GPS -> SET :OSP_MEASURE_RESPONSE
 <2014:06:24:16:21:46> WARNING: gpsMeasurementFlag:1, measurementErrorStatus:4
+
 <2014:06:24:16:21:47> OSP POSITION
 <2014:06:24:16:21:47> GPS -> SET :OSP POSITION RESPONSE
 <2014:06:24:16:21:47> The Horizontal Uncertainity of position = 124

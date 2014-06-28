@@ -1,6 +1,7 @@
 <16:21:29> select fail - errno = 4
 
 <16:21:34> EHWConfigRequestReceived
+
 <16:21:46> ##### TTFF : 26 second #####
 <16:21:46> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 148/0
 <16:21:46> INFO: lsmLocCallback : do nothing
@@ -9,6 +10,7 @@
 <16:21:46> Local Time Updated : ref UTC = 1403619708000 ,  unc = 2500, ref sys time= 6201419
 <16:21:46> Position Fix (148 of 0) : Latitude 43.724884   Longtitude 15.799523
 <16:21:46> LSM:lsmLocCB out
+
 <16:21:47> ##### TTFF : 26 second #####
 <16:21:47> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 149/0
 <16:21:47> INFO: lsmLocCallback : do nothing
@@ -18,6 +20,7 @@
 <16:21:47> Position Fix (149 of 0) : Latitude 43.724907   Longtitude 15.799488
 <16:21:47> LSM:lsmLocCB out
 <16:21:48> ##### TTFF : 26 second #####
+
 <16:21:48> INFO: (lsmLocCallback) rcvedNumOfFixes/numFixes = 150/0
 <16:21:48> INFO: lsmLocCallback : do nothing
 <16:21:48> LSM_Position_CallBack: called
