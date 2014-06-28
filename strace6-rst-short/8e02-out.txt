@@ -1,1 +1,2 @@
-16:21:38.308 GPSD knows MID 0x5C --  (unused) CW Controller Output MID 92 -- hex 02 03 00 44 03 00 00 00 00 00 00 00 00 DD 00 09 00 37 00
+16:21:38.308 GPSD knows MID 0x5C --  (unused) CW Controller Output MID 92 -- hex 
+02 03 00 44 03 00 00 00 00 00 00 00 00 DD 00 09 00 37 00
