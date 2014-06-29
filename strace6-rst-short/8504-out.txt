@@ -1,0 +1,4 @@
+16:21:44.476 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this) -- hex 01 15 22 C3 06 2B ED BA 73 C7 EF D5 55 53 D5 55 55 43 D5 55 55 43 D5 55 55 43 D5 A9 55 43 D5 55 55 43 D5 55 55 42 95 55 55 43
+#16:21:44.478 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this) -- hex 02 02 00 02 F9 2C 12 59 8D C6 AF C5 24 AF EA AA AA 43 D5 55 55 43 C5 5A AA BE B2 AA B5 43 D5 15 55 44 2A AA A9 43 D5 51 AA 4D
+#16:21:44.480 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this) -- hex 03 19 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 00 00 00 0B DA 54 95 FC 22 92 AE C8 2A D2 94 E3 CA AC 6A B3 DB B1 AB 43
+#16:21:44.482 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this) -- hex 04 0E 00 00 00 14 11 C5 83 CB C0 9E 5A 68 0A 16 E4 5C 1C 73 19 85 6B 6D 11 7D 4B 35 36 42 B6 B6 2A 64 08 BA AA BC 2F AA A9 43

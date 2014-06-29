@@ -1,0 +1,3 @@
+16:21:43.465 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this) -- hex 00 1D 
+#22 C3 06 2B ED BA 72 38 10 2A AA AC 2A AA AA BC 2A AA AA BC
+#2A AA AA BC 2A AA AA BC 2A AA AA BC 2A AA AA BC 2A AA AA BC

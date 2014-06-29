@@ -19,15 +19,20 @@
 16:21:34.056 DEBUG TEXT(FF): NMEA message output: GGA, GLL, GSA, GSV, RMC, VTG, MSS
 16:21:34.057 DEBUG TEXT(FF): #################################################################
 16:21:34.058 skip unknown MID 0x33 -- hex 06 00 00 00 06 00 00 00 64 00 00 00 00 00 5E 6F 38
+
 16:21:34.061 DEBUG TEXT(44/FF):  ############### SiRF GPS SW Version GSD4t_4.1.1-B16_1197119 01/17/2012 017 ##########
 16:21:34.062 DEBUG TEXT(44/FF):  Compiler: RVDS
 16:21:34.067 DEBUG TEXT(44/FF):  ASIC: GSD4T 0x401
 16:21:34.068 DEBUG TEXT(44/FF):  CPU Speed: 109 MHz    Cache: Disabled
 16:21:34.072 DEBUG TEXT(44/FF):  Config: RefClk: 16369000 Hz  ClkOffset: 96250 Hz  Unc: 3000 ppb  LNA: Int  Baud: 115200  Backup LDO: Enb
 16:21:34.073 DEBUG TEXT(44/FF):  #################################################################
+
 16:21:34.076 DEBUG TEXT(44/FF):  MeasEng: GPS FULL RESET received
+
 16:21:34.081 DEBUG TEXT(FF): IOS: Expected seq is 0, Received seq is 9
+
 16:21:34.093 DEBUG TEXT(FF):  4982 PwrCtrl_ConfigurePwrCycle() timeBTWMeas: 10  onTime: 10
+
 16:21:34.096 DEBUG TEXT(FF): ############### SiRF GPS SW Version SN4_4.1.1-B16_LPL_DBG 01/17/2012 017 ##########
 16:21:34.097 DEBUG TEXT(FF): Host Compiler: GCC
 16:21:34.098 DEBUG TEXT(FF): ASIC: GSD4T
@@ -35,12 +40,14 @@
 16:21:34.099 DEBUG TEXT(FF): GPS Crystal Defaults:  Center: 96250(Hz)  Uncertainty: 3.0(ppm)
 16:21:34.100 DEBUG TEXT(FF): NMEA message output: GGA, GLL, GSA, GSV, RMC, VTG, MSS
 16:21:34.101 DEBUG TEXT(FF): #################################################################
+
 16:21:34.104 DEBUG TEXT(44/FF):  ############### SiRF GPS SW Version GSD4t_4.1.1-B16_1197119 01/17/2012 017 ##########
 16:21:34.105 DEBUG TEXT(44/FF):  Compiler: RVDS
 16:21:34.109 DEBUG TEXT(44/FF):  ASIC: GSD4T 0x401
 16:21:34.110 DEBUG TEXT(44/FF):  CPU Speed: 109 MHz    Cache: Disabled
 16:21:34.113 DEBUG TEXT(44/FF):  Config: RefClk: 16369000 Hz  ClkOffset: 96250 Hz  Unc: 3000 ppb  LNA: Int  Baud: 115200  Backup LDO: Enb
 16:21:34.117 DEBUG TEXT(44/FF):  #################################################################
+
 16:21:34.126 DEBUG TEXT(FF): IOS: Expected seq is 7, Received seq is 1
 16:21:34.129 DEBUG TEXT(FF): IOS: Expected seq is 7, Received seq is 2
 16:21:34.132 DEBUG TEXT(FF): IOS: Expected seq is 7, Received seq is 3
@@ -54,6 +61,7 @@
 16:21:34.305 DEBUG TEXT(FF): rtc sync time:Start:5194
 16:21:34.306 DEBUG TEXT(FF): timer reset:Start:180
 16:21:34.308 DEBUG TEXT(FF): MEI: reset gps%
+
 16:21:34.325 DEV TEXT(E1):   198 BEP:SetTime(RTC) YY T:224510.939328196 1798 A:18397 AC:0.000151000 Adj:224510.939328196 dCB:0.000000000
 16:21:34.327 DEBUG TEXT(FF): BEP: RTC valid  Time:1798 224510 TUnc:0.000151(s) Freq:96024(Hz) FUnc:0.000000084(ppb)
 16:21:34.328 DEBUG TEXT(FF): BEP: SRAM Pos valid  Tag:1798 224500 X:4442270.6 Y:1257002.3 Z:4386093.9 HUnc:100
@@ -323,9 +331,11 @@
 16:21:37.704 DEV TEXT(44/E1):  3400 ACQ: D7 sv14 ch21 CN0:19 D:98917  1 C:2.00 0.00 Th:218 0 Pk:235 4 2 0000 ms:12 vo:1 bs:0 844 1762801 58
 16:21:37.799 DEV TEXT(44/E1):  3500 ACQ: S7 sv14 ch27 CN0:19 D:98929  0 C:3.05 0.00 Th:116 0 Pk:125 4 3 0000 ms:15 vo:1 bs:0 894 1875461 62
 16:21:37.806 DEV TEXT(44/E1):  3500 TRACK: StartTrack sv14 ch 3 cno190 sync0 val1 frq98929 HWTL
+
 16:21:38.144 DEBUG TEXT(FF): BEP:SyncSet:TUnc:3.000(usec) Freq:96029(Hz) FUnc:84(ppb) dT:11
 16:21:38.146 DEBUG TEXT(FF):  4020 PwrCtrl_ConfigurePwrCycle() timeBTWMeas: 10  onTime: 10
 16:21:38.147 GPSD knows MID 0x08 --  subframe data MID 8 (extract leap-second from this) -- hex 00 1D 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 00 00 00 0A 89 DD 83 81 46 78 F1 C6 A7 7D 3A 02 8A C0 06 10
+
 16:21:38.149 DEV TEXT(E1):  4023 GR:CheckUnc StartUpMode:3, Navigated:0, numMeas:4
 16:21:38.151 DEV TEXT(E1):  4025 BEP:CheckUncImp: sv29 ch: 0 cno:37 type: 3 h:3 trkStat:0xBD Dop:95707.4 Hz RT:3
 16:21:38.152 DEBUG TEXT(FF):  4026 PrePos:UncUpd: UI:0 Clk:0.000004 S1:0.000004 S20(ms):0 CDft(hz):133 HP:1151 HV:50
@@ -362,6 +372,8 @@
 16:21:38.304 DEV TEXT(44/E1):  3800 CM:RtcEdgeAlign T:144 dRate:2 count:6145 7418 Acq:62632245 Wclk:131274 dRtc:0.998016357 prevAcq:46295588 bepDrift:0.999931242 rtcDrift:0.999931120
 16:21:38.307 GPSD knows MID 0x5C --  (unused) CW Controller Output MID 92 -- hex 01 5D E0 2C 89 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 16 70 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 16:21:38.308 GPSD knows MID 0x5C --  (unused) CW Controller Output MID 92 -- hex 02 03 00 44 03 00 00 00 00 00 00 00 00 DD 00 09 00 37 00
+
+
 16:21:38.308 DEV TEXT(44/E1):  3900 SSPa:9: 29-6-7 2-6-7 14-6-7 21-6-7 25-4-3 31-4-3 12-2-3 5-2-1 10-2-1
 16:21:38.310 DEV TEXT(44/E1):  3900 ChdevsA: 29- 3 21- 3  2- 3 14- 3 12- 2 25- 4 12- 2 10- 2  5- 2 10- 2  5- 2 25- 4 31- 4 12- 2 31- 4 25- 4 12- 2 31- 4 10- 2  5- 2 12- 2 12- 2 31- 4 25- 4  0-15
 16:21:38.312 DEV TEXT(44/E1):  3900 ChdevsB:  8-14
@@ -482,6 +494,7 @@
 16:21:40.299 DEV TEXT(44/E1):  6000 ATX PP: Seq:5 Mode:0 Ev:0x120 A:95263086 SVList:0x51102a12 0x00000000 SVs:29 25 31 12 2 14 21 5 10 0 0 0 0 0 0
 16:21:40.304 DEV TEXT(44/E1):  6000 ACQ: S7 sv25 ch41 CN0:16 D:96961  0 C:2.54 0.00 Th:285 0 Pk:201 4 3 0000 ms:7 vo:1 bs:0 2242 4655487 157
 16:21:40.307 DEV TEXT(44/E1):  6000 TRACK: StartTrack sv25 ch 5 cno160 sync0 val1 frq96961 HWTL
+
 16:21:41.148 DEBUG TEXT(FF): BEP:SyncSet:TUnc:4.000(usec) Freq:96037(Hz) FUnc:85(ppb) dT:11
 16:21:41.149 DEBUG TEXT(FF):  7023 PwrCtrl_ConfigurePwrCycle() timeBTWMeas: 10  onTime: 10
 16:21:41.151 DEV TEXT(E1):  7025 GR:CheckUnc StartUpMode:3, Navigated:0, numMeas:5
