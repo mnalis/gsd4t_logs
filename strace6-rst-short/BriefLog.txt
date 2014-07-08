@@ -41,6 +41,9 @@
 <2014:06:24:16:21:46> TTFF1=0 TTFF2=26 TTFF3=0 TTFF=26
 <2014:06:24:16:21:46>  *** POSITION #148 Lat=43.724884 Lon=15.799523 Alt=54.500000 TTFF=26 GPSsec=224523058
 <2014:06:24:16:21:46> POSITION GOT in OSP Response =  Lat: 1043316369 Lon: 188495648 Alt:5545
+	Lat: 1043316369	0x(3E 2F BE 91) -- found in DetailedLog.txt OSP_POSITION_RESPONSE as 0x(91 be 2f 3e)
+	Lon: 188495648	0x(0B 3C 37 20) -- found in DetailedLog.txt OSP_POSITION_RESPONSE as 0x(20 37 3c 0b)
+	Alt: 5545	0x(15 A9)	-- found in DetailedLog.txt OSP_POSITION_RESPONSE as 0x(a9 15)
 <2014:06:24:16:21:46> INFO: Output the default location method, Location method not intiialized
 <2014:06:24:16:21:46> INFO in OSP resp: hor_err_major = 0x86
 <2014:06:24:16:21:46> INFO in OSP resp: hor_err_minor = 0x86
