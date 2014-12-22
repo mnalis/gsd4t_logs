@@ -3,7 +3,7 @@
 16:21:34.064 parsed 0x5803: (guess) ASIC GSD4T 0x0401
 16:21:34.064 parsed 0x5804: CPU Speed: 109 MHz    Cache: Disabled
 16:21:34.070 parsed 0x5805: (guess) Config: RefClk: 16369000 Hz ClkOffset: 96250 Hz Unc: 3000 ppb Lna: Int Baud: 115200 Backup LDO: Enb
-16:21:34.070 skip lead-in 0xE109 unknown CMD 0x58 SUB 0x0C 
+16:21:34.070 skip lead-in 0xE109 unknown CMD 0x58 SUB 0x0C  (FIXME)
 16:21:34.075 parsed 0x5E09: GPS FULL RESET received
 16:21:34.078 unknown empty-load LEAD-IN of 0x8102
 16:21:34.080 parsed 0x5700: System Reset Command
@@ -14,14 +14,14 @@
 16:21:34.108 parsed 0x5803: (guess) ASIC GSD4T 0x0401
 16:21:34.108 parsed 0x5804: CPU Speed: 109 MHz    Cache: Disabled
 16:21:34.112 parsed 0x5805: (guess) Config: RefClk: 16369000 Hz ClkOffset: 96250 Hz Unc: 3000 ppb Lna: Int Baud: 115200 Backup LDO: Enb
-16:21:34.116 skip lead-in 0xE109 unknown CMD 0x58 SUB 0x0C 
+16:21:34.116 skip lead-in 0xE109 unknown CMD 0x58 SUB 0x0C  (FIXME)
 16:21:34.119 empty packet  	# seq1=0007 seq2=0001 len=0000
 16:21:34.125 parsed 0x5800: (guess) SiRF GPS SW Version: GSD4t_4.1.1-B16_1197119 01/17/2012 017
 16:21:34.128 parsed 0x5802: (guess) Compiler: RVDS
 16:21:34.132 parsed 0x5803: (guess) ASIC GSD4T 0x0401
 16:21:34.135 parsed 0x5804: CPU Speed: 109 MHz    Cache: Disabled
 16:21:34.139 parsed 0x5805: (guess) Config: RefClk: 16369000 Hz ClkOffset: 96250 Hz Unc: 3000 ppb Lna: Int Baud: 115200 Backup LDO: Enb
-16:21:34.141 skip lead-in 0xE109 unknown CMD 0x58 SUB 0x0C 
+16:21:34.141 skip lead-in 0xE109 unknown CMD 0x58 SUB 0x0C  (FIXME)
 16:21:34.142 unknown empty-load LEAD-IN of 0x810A
 16:21:34.144 unknown empty-load LEAD-IN of 0x810A
 16:21:34.269 empty packet  	# seq1=0008 seq2=0002 len=0000
@@ -33,7 +33,7 @@
 16:21:34.300 currently unsupported LEAD-IN 8300: 00/00/0006 16:21:34.300 (0) 83 00 00 00 00 00 00 47 DD 00 03 6C FE 37 FD 02 C4 00 00 EE 18 00 00 00 97 00 54 00 A8 00 00 00 B4 07 06 13 60 00 0B 00 7E 	# seq1=000D seq2=0002 len=0029
 16:21:34.304 parsed 0x5400: 180 BEP:SetTime(RTC) YY T:224510.939328196 1798 0 A:18397 AC:0.00 Adj:224510.939328196 dCB:0.00
 16:21:34.307 parsed 0x1F00: 0 ATX Init: Seq:0 Mode:1 Ev:0x00 SVList:0x1F8C8248 0x00 SVs:20 10 22 18 31 27 9 8 19 29 6 17 4 11 2
-16:21:34.309 skip lead-in 0xE10A unknown CMD 0x11 SUB 0x06 03
+16:21:34.309 skip lead-in 0xE10A unknown CMD 0x11 SUB 0x06 03 (FIXME)
     unknown var0 = 0x03 (3)
 16:21:34.323 parsed 0x5426: 0 CM:RtcEdgeAlign T:142 dRate:2 count:6141 13222 Acq:55113 Wclk:6006 dRtc:0.002227783 prevAcq:18397 bepDrift:0.000000000 rtcDrift:0.000000000
 16:21:34.323 parsed 0x1E0F: 0 ATX: Insample Switch Request: Evt:0xFF oldIns:2 newIns:1
@@ -42,8 +42,8 @@
 16:21:34.326 parsed 0x1E04: 0 SSS: Commanded l:90 h:0 new:00
 16:21:34.328 parsed 0x1A00: 0 SSS: Start. FFFFFFFF sssMode0 preposMode 0
 16:21:34.328 parsed 0x1E0B: 0 ATX: Insample ADC select: 1
-16:21:34.426 LEAD-IN of 0x8F01 equivalent to SiRFbinary MID 93 (0x5D) - TCXO Output! (FIXME - more parsing if we need it)
-16:21:34.426 LEAD-IN of 0x8F02 equivalent to SiRFbinary MID 93 (0x5D) - TCXO Output! (FIXME - more parsing if we need it)
+16:21:34.426 LEAD-IN of 0x8F01 equivalent to SiRFbinary MID 93 (0x5D) - TCXO Output! (not interesting?)
+16:21:34.426 LEAD-IN of 0x8F02 equivalent to SiRFbinary MID 93 (0x5D) - TCXO Output! (not interesting?)
 16:21:34.454 empty packet  	# seq1=001A seq2=0003 len=0000
 16:21:34.455 parsed 0x5494: 150 CM:XO:LastCal:2 freq:96024 freqUnc:84 rD:0.177734375 rT:6141.579101562 tr:142 uG:59 fHC:20 mD:1
 16:21:34.460 parsed 0x5493: 150 CM:XO:Upd:tVal:142 wn:1798 freq:96024 freqEst:96056 uTNEst:126 uMN:0 uMF:1000 uTN:84 uTF:500 uAN:0 uAF:0 uN:84 uF:1500
@@ -80,11 +80,18 @@
 16:21:34.992 parsed 0x2D03: 610 ACQ: New5 type0 sv12 ch9 D:98746 C:30 0 248
 16:21:34.992 parsed 0x2D03: 610 ACQ: New5 type0 sv12 ch8 D:98746 C:-30 0 248
 16:21:35.016 parsed 0x2D03: 700 ACQ: New7 type3 sv29 ch23 D:95777 C:0 35 8
-16:21:35.110 currently unsupported LEAD-IN 8409: 00/00/0006 16:21:35.110 (0) 84 09 00 00 00 00 00 00 D7 49 00 03 6C FE 37 FD 02 C4 00 00 EE 18 00 00 00 9A 00 54 05 DC 00 00 03 20 07 06 03 00 00 0B 00 7E 00 00 00 00 00 CD C3 07 01 00 1D 00 04 AD 00 CC 8E C6 66 47 63 71 10 FB 6F A5 0B FA 3D D3 FF F6 00 0A 00 AB 49 F0 00 00 00 1A 00 00 68 00 00 00 00 00 00 00 39 00 07 5A 1C 23 FF DD 00 00 00 05 32 00 B4 03 03 00 00 01 6B 01 6B 01 6D 00 00 00 00 00 00 00 00 00 00 00 00 01 25 02 68 00 00 00 00 00 01 00 00 01 01 00 	# seq1=003C seq2=0004 len=0092
+16:21:35.110 LEAD-IN of 8409 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:35.110 	unknown 00, maybe_counter 00000000
+	unknown header stuff: 00 D7 49 00 03 6C FE 37 FD 02 C4 00 00 EE 18 00 00 00 9A 00 54 05 DC 00 00 03 20 07 06 03 00 00 0B 00 7E 00 00 00 00 00 CD C3 07 
+	number of entries 1 (zero 00)
+    SVID: 1D (unk: 0004AD) timeTag:00CC8EC6 codePhase: 66476371 carrierPhase: 10FB6FA5 carrierFreq: 0BFA3DD3 carrierAccel: FFF6 millisec: 000A bit#00AB49F0
+          codeCorrections: 0000001A smoothCode: 00006800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 075A deltaRangeQuality: 1C23 phaselockQuality: FFDD
+          (unk: 000000053200B40303) -- list of 10 somethings: (0000) (016B) (016B) (016D) (0000) (0000) (0000) (0000) (0000) (0000) 
+          sumI: 0125 sumQ: 0268 SVbit#00000000 MpathLosDetVal: 0001 MpathOnlyDetVal: 0000 (unk: 010100)
 16:21:35.155 parsed 0x69AB: 800 ATX: Meas Send:7 13484807 0 800 0 1 0 0
 16:21:35.155 parsed 0x5426: 800 CM:RtcEdgeAlign T:142 dRate:2 count:6142 7357 Acq:13494399 Wclk:32909 dRtc:0.821014404 prevAcq:55113 bepDrift:0.999931378 rtcDrift:0.999931378
 16:21:35.155 LEAD-IN of 0x8E01 MAYBE related to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 1? (logically, but no data match found)
-16:21:35.155 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (FIXME - more parsing if we need it)
+16:21:35.155 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (not interesting?)
 16:21:35.196 parsed 0x2D0B: 900 ACQ: S7 sv29 ch23 CN0:37 D:95714  2 C:2.81 0.00 Th:32 0 Pk:176 6 1 00 ms:7 vo:1 bs:0 47 114469 8
 16:21:35.206 parsed 0x1423: 900 SSPa:9: 29-6-7 25-2-3 31-2-3 12-2-3 2-2-3 14-2-3 21-2-1 5-2-1 10-2-1
 16:21:35.220 parsed 0x1420: 900 ChdevsA: 29-3 12-2 12-2 31-2 31-2 25-2 25-2 10-2 5-2 21-2 14-2 14-2 2-2 2-2 12-2 25-2 12-2 31-2 31-2 25-2 25-2 10-2 5-2 21-2 14-2
@@ -126,11 +133,22 @@
 16:21:36.097 parsed 0x2D0B: 1800 ACQ: S7 sv21 ch36 CN0:25 D:92821  1 C:2.55 0.00 Th:74 0 Pk:171 4 2 00 ms:18 vo:1 bs:0 263 573428 17
 16:21:36.103 parsed 0x4E0B: 1800 TRACK: StartTrack sv21 ch1 cno250 sync0 val1 frq92821 -- FIXME rest: 04 48 57 54 4C 00
 16:21:36.108 parsed 0x2D03: 1800 ACQ: New5 type0 sv2 ch36 D:98614 C:0 0 248
-16:21:36.128 currently unsupported LEAD-IN 8413: 00/00/0006 16:21:36.128 (0) 84 13 00 00 00 00 00 CD E8 7F 00 03 6C FE 37 FD 02 C4 00 00 EE 1B 00 00 00 03 00 54 05 DC 00 00 07 08 07 06 03 00 00 0B 00 7E 00 00 00 00 01 C7 F3 56 02 00 1D 00 00 BD 01 C6 54 28 E3 2A 14 48 C5 00 DA AB 0B F9 D6 65 FF ED 00 0A 00 AB 4A 22 00 00 00 68 00 01 A0 00 00 00 00 00 00 00 39 00 03 63 05 55 00 B6 00 00 00 00 19 04 9C 03 0A 01 6E 01 6F 01 6F 01 70 01 6D 01 6C 01 6C 01 6B 01 6C 01 6D 02 90 00 3C 00 00 00 00 00 05 FF FF 01 01 00 15 00 00 4C 01 C7 E4 90 E3 F2 47 D6 14 5C 10 1C 0B 9D 2D B1 00 00 00 04 00 AB 4A 22 00 00 00 00 00 00 00 00 00 00 00 00 00 00 14 70 00 00 00 00 00 00 00 00 00 00 00 00 01 00 01 00 FA 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 	# seq1=0068 seq2=0006 len=00F0
+16:21:36.128 LEAD-IN of 8413 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:36.128 	unknown 00, maybe_counter 00000000
+	unknown header stuff: CD E8 7F 00 03 6C FE 37 FD 02 C4 00 00 EE 1B 00 00 00 03 00 54 05 DC 00 00 07 08 07 06 03 00 00 0B 00 7E 00 00 00 00 01 C7 F3 56 
+	number of entries 2 (zero 00)
+    SVID: 1D (unk: 0000BD) timeTag:01C65428 codePhase: E32A1448 carrierPhase: C500DAAB carrierFreq: 0BF9D665 carrierAccel: FFED millisec: 000A bit#00AB4A22
+          codeCorrections: 00000068 smoothCode: 0001A000 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0363 deltaRangeQuality: 0555 phaselockQuality: 00B6
+          (unk: 0000000019049C030A) -- list of 10 somethings: (016E) (016F) (016F) (0170) (016D) (016C) (016C) (016B) (016C) (016D) 
+          sumI: 0290 sumQ: 003C SVbit#00000000 MpathLosDetVal: 0005 MpathOnlyDetVal: FFFF (unk: 010100)
+    SVID: 15 (unk: 00004C) timeTag:01C7E490 codePhase: E3F247D6 carrierPhase: 145C101C carrierFreq: 0B9D2DB1 carrierAccel: 0000 millisec: 0004 bit#00AB4A22
+          codeCorrections: 00000000 smoothCode: 00000000 zeroes (00000000) codeOffset: 00001470 pseudorangeNoise: 0000 deltaRangeQuality: 0000 phaselockQuality: 0000
+          (unk: 000000000000010001) -- list of 10 somethings: (00FA) (0000) (0000) (0000) (0000) (0000) (0000) (0000) (0000) (0000) 
+          sumI: 0000 sumQ: 0000 SVbit#00000000 MpathLosDetVal: 0000 MpathOnlyDetVal: 0000 (unk: 010000)
 16:21:36.182 parsed 0x69AB: 1800 ATX: Meas Send:6 29881174 0 1800 800 2 0 0
 16:21:36.182 parsed 0x5426: 1800 CM:RtcEdgeAlign T:143 dRate:2 count:6143 7420 Acq:29894992 Wclk:65740 dRtc:1.001922607 prevAcq:13494399 bepDrift:0.999931429 rtcDrift:0.999931480
 16:21:36.182 LEAD-IN of 0x8E01 MAYBE related to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 1? (logically, but no data match found)
-16:21:36.182 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (FIXME - more parsing if we need it)
+16:21:36.182 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (not interesting?)
 16:21:36.201 parsed 0x1423: 1900 SSPa:9: 29-6-7 21-6-7 25-2-3 31-2-3 12-2-3 2-2-3 14-2-3 5-2-1 10-2-1
 16:21:36.217 parsed 0x1420: 1900 ChdevsA: 29-3 21-3 31-2 25-2 12-2 14-2 2-2 12-2 10-2 5-2 31-2 25-2 14-2 2-2 12-2 31-2 25-2 14-2 2-2 12-2 10-2 5-2 31-2 31-2 25-2
 16:21:36.222 parsed 0x1421: 1900 ChdevsB: 10-2 5-2 2-2 14-2 2-2 12-2 31-2 25-2 0-15 4-14
@@ -156,11 +174,22 @@
 16:21:37.106 parsed 0x2D03: 2800 ACQ: New7 type3 sv25 ch25 D:96971 C:0 15 247
 16:21:37.116 parsed 0x2D03: 2800 ACQ: New7 type3 sv25 ch19 D:96977 C:0 14 247
 16:21:37.116 parsed 0x2D03: 2800 ACQ: New7 type3 sv25 ch12 D:96939 C:0 13 247
-16:21:37.136 currently unsupported LEAD-IN 841D: 00/00/0006 16:21:37.136 (0) 84 1D 00 00 00 00 01 C8 29 50 00 03 6C FE 37 FD 02 C4 00 00 EE 1B 00 00 00 03 00 54 05 DC 00 00 0A F0 07 06 03 00 00 0B 00 7E 00 00 00 00 02 C2 30 7E 02 00 1D 00 00 BD 02 C0 19 8A 60 0C C5 7F AC 8E 46 2F 0B F9 C3 89 00 01 00 0A 00 AB 4A 54 00 00 00 67 00 01 9C 00 00 00 00 00 00 00 39 00 FF B2 00 7B 00 CD 00 00 00 00 00 08 84 03 0A 01 71 01 72 01 72 01 73 01 71 01 71 01 70 01 70 01 71 01 71 02 C3 00 41 00 00 00 00 00 05 00 00 01 01 00 15 00 04 2C 02 C0 29 E4 60 14 F2 78 BB B7 10 F6 0B 9C D6 B3 FF EE 00 12 00 AB 4A 53 00 00 00 10 00 00 40 00 00 00 00 00 00 00 39 00 FF CA 0D 4E FF E5 00 00 00 03 32 03 C0 01 0A 00 F5 00 F7 00 F2 00 F1 00 F0 00 F1 00 F0 00 EF 00 F1 00 F3 02 05 01 E9 00 00 00 00 00 00 00 00 01 01 00 	# seq1=0086 seq2=0007 len=00F0
+16:21:37.136 LEAD-IN of 841D might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:37.136 	unknown 00, maybe_counter 00000001
+	unknown header stuff: C8 29 50 00 03 6C FE 37 FD 02 C4 00 00 EE 1B 00 00 00 03 00 54 05 DC 00 00 0A F0 07 06 03 00 00 0B 00 7E 00 00 00 00 02 C2 30 7E 
+	number of entries 2 (zero 00)
+    SVID: 1D (unk: 0000BD) timeTag:02C0198A codePhase: 600CC57F carrierPhase: AC8E462F carrierFreq: 0BF9C389 carrierAccel: 0001 millisec: 000A bit#00AB4A54
+          codeCorrections: 00000067 smoothCode: 00019C00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FFB2 deltaRangeQuality: 007B phaselockQuality: 00CD
+          (unk: 00000000000884030A) -- list of 10 somethings: (0171) (0172) (0172) (0173) (0171) (0171) (0170) (0170) (0171) (0171) 
+          sumI: 02C3 sumQ: 0041 SVbit#00000000 MpathLosDetVal: 0005 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 15 (unk: 00042C) timeTag:02C029E4 codePhase: 6014F278 carrierPhase: BBB710F6 carrierFreq: 0B9CD6B3 carrierAccel: FFEE millisec: 0012 bit#00AB4A53
+          codeCorrections: 00000010 smoothCode: 00004000 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FFCA deltaRangeQuality: 0D4E phaselockQuality: FFE5
+          (unk: 000000033203C0010A) -- list of 10 somethings: (00F5) (00F7) (00F2) (00F1) (00F0) (00F1) (00F0) (00EF) (00F1) (00F3) 
+          sumI: 0205 sumQ: 01E9 SVbit#00000000 MpathLosDetVal: 0000 MpathOnlyDetVal: 0000 (unk: 010100)
 16:21:37.188 parsed 0x69AB: 2800 ATX: Meas Send:6 46280830 0 2800 1800 2 0 0
 16:21:37.188 parsed 0x5426: 2800 CM:RtcEdgeAlign T:145 dRate:2 count:6144 7483 Acq:46295588 Wclk:98571 dRtc:1.001922607 prevAcq:29894992 bepDrift:0.999931363 rtcDrift:0.999931298
 16:21:37.188 LEAD-IN of 0x8E01 MAYBE related to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 1? (logically, but no data match found)
-16:21:37.188 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (FIXME - more parsing if we need it)
+16:21:37.188 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (not interesting?)
 16:21:37.208 parsed 0x1423: 2900 SSPa:9: 29-6-7 21-6-7 25-4-3 31-4-3 2-4-3 14-4-3 12-2-3 5-2-1 10-2-1
 16:21:37.218 parsed 0x1420: 2900 ChdevsA: 29-3 21-3 12-2 25-4 12-2 10-2 5-2 10-2 5-2 25-4 31-4 14-4 12-2 31-2 31-4 25-4 14-4 14-4 12-2 14-4 2-4 31-4 31-2 10-2 5-2
 16:21:37.224 parsed 0x1421: 2900 ChdevsB: 2-4 2-4 2-4 12-2 31-4 25-4 0-15 7-14
@@ -174,12 +203,31 @@
 16:21:37.703 parsed 0x2D0B: 3400 ACQ: D7 sv14 ch21 CN0:19 D:98917  1 C:2.00 0.00 Th:218 0 Pk:235 4 2 00 ms:12 vo:1 bs:0 844 1762801 58
 16:21:37.798 parsed 0x2D0B: 3500 ACQ: S7 sv14 ch27 CN0:19 D:98929  0 C:3.05 0.00 Th:116 0 Pk:125 4 3 00 ms:15 vo:1 bs:0 894 1875461 62
 16:21:37.804 parsed 0x4E0B: 3500 TRACK: StartTrack sv14 ch3 cno190 sync0 val1 frq98929 -- FIXME rest: 04 48 57 54 4C 00
-16:21:38.101 LEAD-IN of 0x8501 is part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
-16:21:38.143 currently unsupported LEAD-IN 8427: 00/00/0006 16:21:38.143 (0) 84 27 00 00 00 00 02 C2 6A 24 00 03 6C FE 37 FD 02 C4 00 00 EE 1B 00 00 00 03 00 54 05 DC 00 00 0E D8 07 06 03 00 00 0B 00 7E 00 00 00 00 03 BB 60 F1 04 00 1D 00 00 BD 03 B9 DE ED DC EF 76 A6 EF BA 2F 47 0B F9 D1 01 00 09 00 0A 00 AB 4A 86 00 00 00 6F 00 01 BC 00 00 00 00 00 00 00 39 00 00 DE 04 92 00 CA 00 00 00 00 00 0C 6C 03 0A 01 73 01 73 01 73 01 73 01 73 01 73 01 73 01 73 01 73 01 73 02 78 00 4F 00 AB 4A 64 00 05 00 00 01 01 00 02 00 04 EC 03 BA 0E 70 DD 07 38 2A 04 60 C1 4A 0C 50 EE C5 00 01 00 00 00 AB 4A 86 FF FF FF C2 FF FF 08 00 00 00 00 00 00 00 39 00 FB D9 FB 95 00 0A 00 00 00 04 32 01 E0 06 06 00 00 00 BE 00 BE 00 BD 00 BE 00 C0 00 C1 00 00 00 00 00 00 00 EE 01 2F 00 00 00 00 00 01 00 00 01 00 00 0E 00 04 EC 03 BA 19 08 DD 0C 84 77 BB F3 6D 3B 0C 60 DC 0C 00 00 00 0F 00 AB 4A 85 00 00 00 1D 00 00 74 00 00 00 00 00 00 00 39 00 11 5D F0 FF FF C5 00 00 00 05 32 01 18 04 04 00 00 00 B4 00 B0 00 AA 00 AB 00 00 00 00 00 00 00 00 00 00 00 7B 01 31 00 00 00 00 00 01 00 00 01 00 00 15 00 04 2D 03 B9 EF 28 DC F7 94 56 57 A3 B8 60 0B 9D 2E CE 00 07 00 12 00 AB 4A 85 00 00 00 45 00 01 14 00 00 00 00 00 00 00 39 00 01 A9 F5 BC 00 25 00 00 00 04 32 07 A8 01 0A 00 F5 00 F5 00 F6 00 F6 00 F4 00 F5 00 F5 00 F4 00 F4 00 F4 01 03 01 DF 00 AB 4A 64 00 00 00 00 01 01 00 	# seq1=0098 seq2=0008 len=01AC
+16:21:38.101 LEAD-IN of 0x8501 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+16:21:38.143 LEAD-IN of 8427 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:38.143 	unknown 00, maybe_counter 00000002
+	unknown header stuff: C2 6A 24 00 03 6C FE 37 FD 02 C4 00 00 EE 1B 00 00 00 03 00 54 05 DC 00 00 0E D8 07 06 03 00 00 0B 00 7E 00 00 00 00 03 BB 60 F1 
+	number of entries 4 (zero 00)
+    SVID: 1D (unk: 0000BD) timeTag:03B9DEED codePhase: DCEF76A6 carrierPhase: EFBA2F47 carrierFreq: 0BF9D101 carrierAccel: 0009 millisec: 000A bit#00AB4A86
+          codeCorrections: 0000006F smoothCode: 0001BC00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 00DE deltaRangeQuality: 0492 phaselockQuality: 00CA
+          (unk: 00000000000C6C030A) -- list of 10 somethings: (0173) (0173) (0173) (0173) (0173) (0173) (0173) (0173) (0173) (0173) 
+          sumI: 0278 sumQ: 004F SVbit#00AB4A64 MpathLosDetVal: 0005 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 02 (unk: 0004EC) timeTag:03BA0E70 codePhase: DD07382A carrierPhase: 0460C14A carrierFreq: 0C50EEC5 carrierAccel: 0001 millisec: 0000 bit#00AB4A86
+          codeCorrections: FFFFFFC2 smoothCode: FFFF0800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FBD9 deltaRangeQuality: FB95 phaselockQuality: 000A
+          (unk: 000000043201E00606) -- list of 10 somethings: (0000) (00BE) (00BE) (00BD) (00BE) (00C0) (00C1) (0000) (0000) (0000) 
+          sumI: 00EE sumQ: 012F SVbit#00000000 MpathLosDetVal: 0001 MpathOnlyDetVal: 0000 (unk: 010000)
+    SVID: 0E (unk: 0004EC) timeTag:03BA1908 codePhase: DD0C8477 carrierPhase: BBF36D3B carrierFreq: 0C60DC0C carrierAccel: 0000 millisec: 000F bit#00AB4A85
+          codeCorrections: 0000001D smoothCode: 00007400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 115D deltaRangeQuality: F0FF phaselockQuality: FFC5
+          (unk: 000000053201180404) -- list of 10 somethings: (0000) (00B4) (00B0) (00AA) (00AB) (0000) (0000) (0000) (0000) (0000) 
+          sumI: 007B sumQ: 0131 SVbit#00000000 MpathLosDetVal: 0001 MpathOnlyDetVal: 0000 (unk: 010000)
+    SVID: 15 (unk: 00042D) timeTag:03B9EF28 codePhase: DCF79456 carrierPhase: 57A3B860 carrierFreq: 0B9D2ECE carrierAccel: 0007 millisec: 0012 bit#00AB4A85
+          codeCorrections: 00000045 smoothCode: 00011400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 01A9 deltaRangeQuality: F5BC phaselockQuality: 0025
+          (unk: 000000043207A8010A) -- list of 10 somethings: (00F5) (00F5) (00F6) (00F6) (00F4) (00F5) (00F5) (00F4) (00F4) (00F4) 
+          sumI: 0103 sumQ: 01DF SVbit#00AB4A64 MpathLosDetVal: 0000 MpathOnlyDetVal: 0000 (unk: 010100)
 16:21:38.209 parsed 0x69AB: 3800 ATX: Meas Send:6 62611697 0 3800 2800 4 0 0
 16:21:38.209 parsed 0x5426: 3800 CM:RtcEdgeAlign T:144 dRate:2 count:6145 7418 Acq:62632245 Wclk:131274 dRtc:0.998016357 prevAcq:46295588 bepDrift:0.999931242 rtcDrift:0.999931120
 16:21:38.209 LEAD-IN of 0x8E01 MAYBE related to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 1? (logically, but no data match found)
-16:21:38.209 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (FIXME - more parsing if we need it)
+16:21:38.209 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (not interesting?)
 16:21:38.209 parsed 0x1423: 3900 SSPa:9: 29-6-7 2-6-7 14-6-7 21-6-7 25-4-3 31-4-3 12-2-3 5-2-1 10-2-1
 16:21:38.218 parsed 0x1420: 3900 ChdevsA: 29-3 21-3 2-3 14-3 12-2 25-4 12-2 10-2 5-2 10-2 5-2 25-4 31-4 12-2 31-4 25-4 12-2 31-4 10-2 5-2 12-2 12-2 31-4 25-4 0-15
 16:21:38.218 parsed 0x1421: 3900 ChdevsB: 8-14
@@ -203,12 +251,31 @@
 16:21:38.972 parsed 0x2D0B: 4600 ACQ: S5 sv12 ch28 CN0:12 D:98716  1 C:91.05 0.00 Th:154 0 Pk:158 4 4 00 ms:0 vo:0 bs:0 5062 10011232 178
 16:21:38.972 parsed 0x2D03: 4600 ACQ: New7 type3 sv12 ch28 D:98716 C:0 12 247
 16:21:39.092 parsed 0x3D04: AGC: noise 1474015 19303 freq 86253 gain 27
-16:21:39.104 currently unsupported LEAD-IN 8502: 00/00/0006 16:21:39.104 (0) 85 02 01 15 00 03 FF 03 80 03 80 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 00 00 00 06 A7 7D 3A 02 8A C0 01 EF 	# seq1=00B2 seq2=000A len=0033
-16:21:39.144 currently unsupported LEAD-IN 8431: 00/00/0006 16:21:39.144 (0) 84 31 00 00 00 00 03 BB B1 35 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 03 00 55 05 DC 00 00 12 C0 07 06 03 00 00 0B 00 7E 00 00 00 00 04 B5 82 1F 04 00 1D 00 02 BD 04 B3 A4 4F 59 D2 27 CA BF AE CF 97 0B F9 D2 09 00 03 00 0A 00 AB 4A B8 00 00 00 7D 00 01 F4 00 00 00 00 00 00 00 39 00 FF FA 0A 4B 00 D7 00 00 00 00 00 10 54 03 0A 01 73 01 73 01 73 01 73 01 73 01 72 01 72 01 72 01 72 01 72 02 8E 00 1E 00 AB 4A 64 00 05 00 00 01 01 00 02 00 04 AD 04 B3 D3 EF 59 E9 F7 C7 77 C7 1C F2 0C 51 24 3D 00 09 00 00 00 AB 4A B8 FF FF FF 8F FF FE 3C 00 00 00 00 00 00 00 39 00 00 DE ED B1 FF EC 00 00 00 03 32 05 C8 06 0A 00 BB 00 BD 00 BF 00 C3 00 C1 00 BF 00 BF 00 BF 00 BC 00 BC 01 15 01 16 00 00 00 00 00 03 00 00 01 01 00 0E 00 04 EC 04 B3 DE 8D 59 EF 46 97 B4 6D A3 C3 0C 61 35 A0 00 0C 00 0F 00 AB 4A B7 FF FF FF E2 FF FF 88 00 00 00 00 00 00 00 39 00 FE 32 EF DD FF EE 00 00 00 03 32 05 00 04 0A 00 AF 00 AE 00 AD 00 AB 00 A8 00 AE 00 B1 00 B3 00 B3 00 B2 00 78 00 BF 00 00 00 00 00 02 00 00 01 00 00 15 00 04 2D 04 B3 B4 6C 59 DA 36 46 1C 1A C2 90 0B 9D 1C 22 FF FB 00 12 00 AB 4A B7 00 00 00 71 00 01 C4 00 00 00 00 00 00 00 39 00 01 D1 05 BF FF F1 00 00 00 03 32 0B 90 01 0A 00 F5 00 F5 00 F4 00 F4 00 F4 00 F4 00 F4 00 F4 00 F5 00 F5 01 A2 01 82 00 AB 4A 64 00 02 00 00 01 01 00 	# seq1=00B3 seq2=000A len=01AC
+16:21:39.104 LEAD-IN of 0x8502 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+16:21:39.144 LEAD-IN of 8431 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:39.144 	unknown 00, maybe_counter 00000003
+	unknown header stuff: BB B1 35 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 03 00 55 05 DC 00 00 12 C0 07 06 03 00 00 0B 00 7E 00 00 00 00 04 B5 82 1F 
+	number of entries 4 (zero 00)
+    SVID: 1D (unk: 0002BD) timeTag:04B3A44F codePhase: 59D227CA carrierPhase: BFAECF97 carrierFreq: 0BF9D209 carrierAccel: 0003 millisec: 000A bit#00AB4AB8
+          codeCorrections: 0000007D smoothCode: 0001F400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FFFA deltaRangeQuality: 0A4B phaselockQuality: 00D7
+          (unk: 00000000001054030A) -- list of 10 somethings: (0173) (0173) (0173) (0173) (0173) (0172) (0172) (0172) (0172) (0172) 
+          sumI: 028E sumQ: 001E SVbit#00AB4A64 MpathLosDetVal: 0005 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 02 (unk: 0004AD) timeTag:04B3D3EF codePhase: 59E9F7C7 carrierPhase: 77C71CF2 carrierFreq: 0C51243D carrierAccel: 0009 millisec: 0000 bit#00AB4AB8
+          codeCorrections: FFFFFF8F smoothCode: FFFE3C00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 00DE deltaRangeQuality: EDB1 phaselockQuality: FFEC
+          (unk: 000000033205C8060A) -- list of 10 somethings: (00BB) (00BD) (00BF) (00C3) (00C1) (00BF) (00BF) (00BF) (00BC) (00BC) 
+          sumI: 0115 sumQ: 0116 SVbit#00000000 MpathLosDetVal: 0003 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 0E (unk: 0004EC) timeTag:04B3DE8D codePhase: 59EF4697 carrierPhase: B46DA3C3 carrierFreq: 0C6135A0 carrierAccel: 000C millisec: 000F bit#00AB4AB7
+          codeCorrections: FFFFFFE2 smoothCode: FFFF8800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FE32 deltaRangeQuality: EFDD phaselockQuality: FFEE
+          (unk: 00000003320500040A) -- list of 10 somethings: (00AF) (00AE) (00AD) (00AB) (00A8) (00AE) (00B1) (00B3) (00B3) (00B2) 
+          sumI: 0078 sumQ: 00BF SVbit#00000000 MpathLosDetVal: 0002 MpathOnlyDetVal: 0000 (unk: 010000)
+    SVID: 15 (unk: 00042D) timeTag:04B3B46C codePhase: 59DA3646 carrierPhase: 1C1AC290 carrierFreq: 0B9D1C22 carrierAccel: FFFB millisec: 0012 bit#00AB4AB7
+          codeCorrections: 00000071 smoothCode: 0001C400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 01D1 deltaRangeQuality: 05BF phaselockQuality: FFF1
+          (unk: 00000003320B90010A) -- list of 10 somethings: (00F5) (00F5) (00F4) (00F4) (00F4) (00F4) (00F4) (00F4) (00F5) (00F5) 
+          sumI: 01A2 sumQ: 0182 SVbit#00AB4A64 MpathLosDetVal: 0002 MpathOnlyDetVal: 0000 (unk: 010100)
 16:21:39.149 parsed 0x69AB: 4800 ATX: Meas Send:6 79004191 0 4800 3800 4 0 0
 16:21:39.155 parsed 0x5426: 4800 CM:RtcEdgeAlign T:144 dRate:2 count:6146 7459 Acq:79021856 Wclk:164083 dRtc:1.001251221 prevAcq:62632245 bepDrift:0.999931117 rtcDrift:0.999930992
 16:21:39.165 LEAD-IN of 0x8E01 MAYBE related to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 1? (logically, but no data match found)
-16:21:39.167 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (FIXME - more parsing if we need it)
+16:21:39.167 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (not interesting?)
 16:21:39.203 parsed 0x1423: 4900 SSPa:9: 29-6-7 2-6-7 14-6-7 21-6-7 25-4-3 31-4-3 12-4-3 5-2-1 10-2-1
 16:21:39.219 parsed 0x1420: 4900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-4 25-4 31-4 10-2 5-2 12-4 31-4 25-4 12-4 12-4 12-4 12-4 10-2 5-2 31-4 10-2 5-2 12-4 12-4 12-2
 16:21:39.222 parsed 0x1421: 4900 ChdevsB: 12-2 12-4 31-4 25-4 0-15 11-14
@@ -217,11 +284,30 @@
 16:21:39.320 parsed 0x5493: 5020 CM:XO:Upd:tVal:144 wn:1798 freq:96037 freqEst:96069 uTNEst:126 uMN:0 uMF:1000 uTN:85 uTF:500 uAN:0 uAF:0 uN:85 uF:1500
 16:21:39.341 empty packet  	# seq1=00BD seq2=000C len=0000
 16:21:39.394 parsed 0x1F01: 5100 ATX PP: Seq:4 Mode:3 Ev:0x0120 A:13405894 SVList:0x51102A12 0x00 SVs:29 25 31 12 2 14 21 5 10 0 0 0 0 0 0
-16:21:40.138 currently unsupported LEAD-IN 843B: 00/00/0006 16:21:40.138 (0) 84 3B 00 00 00 00 04 B5 C7 20 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 03 00 55 05 DC 00 00 16 A8 07 06 03 00 00 0B 00 7E 00 00 00 00 05 AF 2D A1 04 00 1D 00 02 BD 05 AD 69 B2 D6 B4 D9 15 ED BF 22 77 0B F9 E9 D9 00 03 00 0A 00 AB 4A EA 00 00 00 6F 00 01 BC 00 00 00 00 00 00 00 39 00 FF 03 01 CA 00 D0 00 00 00 00 00 14 3C 03 0A 01 72 01 72 01 72 01 72 01 73 01 72 01 72 01 72 01 72 01 72 02 54 00 34 00 AB 4A 64 00 04 00 00 01 01 00 02 00 04 AD 05 AD 99 6E D6 CC B7 45 AF 3E 38 22 0C 51 0B 7D 00 02 00 00 00 AB 4A EA FF FF FF 75 FF FD D4 00 00 00 00 00 00 00 39 00 FF D4 FE FD 00 1B 00 00 00 03 32 09 B0 06 0A 00 BF 00 BF 00 C0 00 C1 00 C1 00 C0 00 C1 00 C1 00 C0 00 BF 00 DE 00 DA 00 00 00 00 00 00 00 00 01 01 00 0E 00 04 EC 05 AD A4 11 D6 D2 08 CA A4 60 D4 6D 0C 61 6A F9 00 0B 00 0F 00 AB 4A E9 FF FF FF CF FF FF 3C 00 00 00 00 00 00 00 39 00 FC 0C 0C 1E 00 11 00 00 00 01 32 08 E8 04 0A 00 A2 00 A2 00 A3 00 A3 00 A4 00 A7 00 A6 00 A6 00 A4 00 A2 01 0D 00 B1 00 00 00 00 00 02 00 00 01 00 00 15 00 04 2D 05 AD 79 B1 D6 BC D8 D0 A7 CC 41 B4 0B 9D 2D F2 FF FF 00 12 00 AB 4A E9 00 00 00 35 00 00 D4 00 00 00 00 00 00 00 39 00 00 46 03 E3 FF E8 00 00 00 04 32 0F 78 01 0A 00 F5 00 F4 00 F5 00 F5 00 F5 00 F5 00 F5 00 F5 00 F5 00 F5 00 B2 01 7B 00 AB 4A 64 00 00 00 00 01 01 00 	# seq1=00BE seq2=000C len=01AC
+16:21:40.138 LEAD-IN of 843B might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:40.138 	unknown 00, maybe_counter 00000004
+	unknown header stuff: B5 C7 20 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 03 00 55 05 DC 00 00 16 A8 07 06 03 00 00 0B 00 7E 00 00 00 00 05 AF 2D A1 
+	number of entries 4 (zero 00)
+    SVID: 1D (unk: 0002BD) timeTag:05AD69B2 codePhase: D6B4D915 carrierPhase: EDBF2277 carrierFreq: 0BF9E9D9 carrierAccel: 0003 millisec: 000A bit#00AB4AEA
+          codeCorrections: 0000006F smoothCode: 0001BC00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FF03 deltaRangeQuality: 01CA phaselockQuality: 00D0
+          (unk: 0000000000143C030A) -- list of 10 somethings: (0172) (0172) (0172) (0172) (0173) (0172) (0172) (0172) (0172) (0172) 
+          sumI: 0254 sumQ: 0034 SVbit#00AB4A64 MpathLosDetVal: 0004 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 02 (unk: 0004AD) timeTag:05AD996E codePhase: D6CCB745 carrierPhase: AF3E3822 carrierFreq: 0C510B7D carrierAccel: 0002 millisec: 0000 bit#00AB4AEA
+          codeCorrections: FFFFFF75 smoothCode: FFFDD400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FFD4 deltaRangeQuality: FEFD phaselockQuality: 001B
+          (unk: 000000033209B0060A) -- list of 10 somethings: (00BF) (00BF) (00C0) (00C1) (00C1) (00C0) (00C1) (00C1) (00C0) (00BF) 
+          sumI: 00DE sumQ: 00DA SVbit#00000000 MpathLosDetVal: 0000 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 0E (unk: 0004EC) timeTag:05ADA411 codePhase: D6D208CA carrierPhase: A460D46D carrierFreq: 0C616AF9 carrierAccel: 000B millisec: 000F bit#00AB4AE9
+          codeCorrections: FFFFFFCF smoothCode: FFFF3C00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FC0C deltaRangeQuality: 0C1E phaselockQuality: 0011
+          (unk: 000000013208E8040A) -- list of 10 somethings: (00A2) (00A2) (00A3) (00A3) (00A4) (00A7) (00A6) (00A6) (00A4) (00A2) 
+          sumI: 010D sumQ: 00B1 SVbit#00000000 MpathLosDetVal: 0002 MpathOnlyDetVal: 0000 (unk: 010000)
+    SVID: 15 (unk: 00042D) timeTag:05AD79B1 codePhase: D6BCD8D0 carrierPhase: A7CC41B4 carrierFreq: 0B9D2DF2 carrierAccel: FFFF millisec: 0012 bit#00AB4AE9
+          codeCorrections: 00000035 smoothCode: 0000D400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0046 deltaRangeQuality: 03E3 phaselockQuality: FFE8
+          (unk: 00000004320F78010A) -- list of 10 somethings: (00F5) (00F4) (00F5) (00F5) (00F5) (00F5) (00F5) (00F5) (00F5) (00F5) 
+          sumI: 00B2 sumQ: 017B SVbit#00AB4A64 MpathLosDetVal: 0000 MpathOnlyDetVal: 0000 (unk: 010100)
 16:21:40.180 parsed 0x69AB: 5800 ATX: Meas Send:6 95366561 0 5800 4800 4 0 0
 16:21:40.180 parsed 0x5426: 5800 CM:RtcEdgeAlign T:144 dRate:2 count:6147 7440 Acq:95381496 Wclk:196832 dRtc:0.999420166 prevAcq:79021856 bepDrift:0.999931000 rtcDrift:0.999930883
 16:21:40.180 LEAD-IN of 0x8E01 MAYBE related to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 1? (logically, but no data match found)
-16:21:40.180 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (FIXME - more parsing if we need it)
+16:21:40.180 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (not interesting?)
 16:21:40.198 parsed 0x2D0B: 5900 ACQ: D7 sv25 ch41 CN0:16 D:96968  0 C:2.50 0.00 Th:278 0 Pk:190 4 3 00 ms:7 vo:1 bs:0 2186 4537676 153
 16:21:40.203 parsed 0x2D0B: 5900 ACQ: D7 sv25 ch25 CN0:16 D:96971  0 C:3.00 0.00 Th:281 0 Pk:192 4 3 00 ms:8 vo:1 bs:1 2193 4566411 154
 16:21:40.211 parsed 0x1423: 5910 SSPa:9: 29-6-7 2-6-7 14-6-7 21-6-7 25-4-3 31-4-3 12-4-3 5-2-0 10-2-0
@@ -234,9 +320,30 @@
 16:21:40.297 parsed 0x1F01: 6000 ATX PP: Seq:5 Mode:0 Ev:0x0120 A:95263086 SVList:0x51102A12 0x00 SVs:29 25 31 12 2 14 21 5 10 0 0 0 0 0 0
 16:21:40.303 parsed 0x2D0B: 6000 ACQ: S7 sv25 ch41 CN0:16 D:96961  0 C:2.54 0.00 Th:285 0 Pk:201 4 3 00 ms:7 vo:1 bs:0 2242 4655487 157
 16:21:40.306 parsed 0x4E0B: 6000 TRACK: StartTrack sv25 ch5 cno160 sync0 val1 frq96961 -- FIXME rest: 04 48 57 54 4C 00
-
-16:21:41.147 currently unsupported LEAD-IN 8445: 00/00/0006 16:21:41.147 (0) 84 45 00 00 00 00 05 AF 67 F8 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 04 00 55 05 DC 00 00 1A 90 07 06 03 00 00 0B 00 7E 00 00 00 00 06 A8 DF EF 05 00 1D 00 02 BD 06 A7 2F 14 53 97 8A 53 9A 05 70 6D 0B F9 EF AB 00 02 00 0A 00 AB 4B 1C 00 00 00 6D 00 01 B4 00 00 00 00 00 00 00 39 00 FF A3 03 1B 00 D4 00 00 00 00 00 18 24 03 0A 01 72 01 72 01 72 01 72 01 72 01 72 01 72 01 72 01 72 01 72 02 4B 00 4B 00 AB 4A 64 00 04 00 00 01 01 01 19 00 04 EC 06 A7 78 03 53 BC 01 B8 9C 3A CF D9 0C 22 0E 8A 00 08 00 0A 00 AB 4B 1C FF FF FF E8 FF FF A0 00 00 00 00 00 00 00 39 00 FE 07 F4 C1 FF F2 00 00 00 02 32 03 0C 09 09 00 00 00 90 00 91 00 94 00 95 00 9A 00 9F 00 9D 00 99 00 9E 00 E0 01 20 00 00 00 00 00 00 00 00 01 00 01 02 00 04 AD 06 A7 5E ED 53 AF 76 FA 3E 75 7D C2 0C 51 35 6D 00 07 00 00 00 AB 4B 1C FF FF FF 34 FF FC D0 00 00 00 00 00 00 00 39 00 F8 8A FF 83 FF F4 00 00 00 02 32 0D 98 06 0A 00 C2 00 C2 00 C2 00 C2 00 C1 00 C0 00 C0 00 C1 00 C1 00 C1 00 D4 00 CF 00 00 00 00 00 06 00 01 01 01 01 0E 00 04 EC 06 A7 69 96 53 B4 CB 61 C5 38 51 05 0C 61 43 19 00 03 00 0F 00 AB 4B 1B FF FF FF 55 FF FD 54 00 00 00 00 00 00 00 39 00 F6 FD 05 88 FF E3 00 00 02 04 32 0C D0 04 0A 00 9F 00 9E 00 9D 00 9C 00 9D 00 A3 00 A0 00 A0 00 A0 00 9F 00 D4 01 21 00 00 00 00 00 00 00 01 01 00 01 15 00 04 2D 06 A7 3E F5 53 9F 7A CF 36 25 26 D8 0B 9D 22 E4 FF FD 00 12 00 AB 4B 1B 00 00 00 69 00 01 A4 00 00 00 00 00 00 00 39 00 04 AA 03 16 FF 91 00 00 00 05 32 13 60 01 0A 00 F3 00 F3 00 F5 00 F4 00 F4 00 F4 00 F4 00 F3 00 F3 00 F3 00 92 02 55 00 AB 4A 64 00 02 00 00 01 01 01 	# seq1=00CD seq2=000E len=020A
-
+16:21:41.147 LEAD-IN of 8445 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:41.147 	unknown 00, maybe_counter 00000005
+	unknown header stuff: AF 67 F8 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 04 00 55 05 DC 00 00 1A 90 07 06 03 00 00 0B 00 7E 00 00 00 00 06 A8 DF EF 
+	number of entries 5 (zero 00)
+    SVID: 1D (unk: 0002BD) timeTag:06A72F14 codePhase: 53978A53 carrierPhase: 9A05706D carrierFreq: 0BF9EFAB carrierAccel: 0002 millisec: 000A bit#00AB4B1C
+          codeCorrections: 0000006D smoothCode: 0001B400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FFA3 deltaRangeQuality: 031B phaselockQuality: 00D4
+          (unk: 00000000001824030A) -- list of 10 somethings: (0172) (0172) (0172) (0172) (0172) (0172) (0172) (0172) (0172) (0172) 
+          sumI: 024B sumQ: 004B SVbit#00AB4A64 MpathLosDetVal: 0004 MpathOnlyDetVal: 0000 (unk: 010101)
+    SVID: 19 (unk: 0004EC) timeTag:06A77803 codePhase: 53BC01B8 carrierPhase: 9C3ACFD9 carrierFreq: 0C220E8A carrierAccel: 0008 millisec: 000A bit#00AB4B1C
+          codeCorrections: FFFFFFE8 smoothCode: FFFFA000 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FE07 deltaRangeQuality: F4C1 phaselockQuality: FFF2
+          (unk: 0000000232030C0909) -- list of 10 somethings: (0000) (0090) (0091) (0094) (0095) (009A) (009F) (009D) (0099) (009E) 
+          sumI: 00E0 sumQ: 0120 SVbit#00000000 MpathLosDetVal: 0000 MpathOnlyDetVal: 0000 (unk: 010001)
+    SVID: 02 (unk: 0004AD) timeTag:06A75EED codePhase: 53AF76FA carrierPhase: 3E757DC2 carrierFreq: 0C51356D carrierAccel: 0007 millisec: 0000 bit#00AB4B1C
+          codeCorrections: FFFFFF34 smoothCode: FFFCD000 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: F88A deltaRangeQuality: FF83 phaselockQuality: FFF4
+          (unk: 00000002320D98060A) -- list of 10 somethings: (00C2) (00C2) (00C2) (00C2) (00C1) (00C0) (00C0) (00C1) (00C1) (00C1) 
+          sumI: 00D4 sumQ: 00CF SVbit#00000000 MpathLosDetVal: 0006 MpathOnlyDetVal: 0001 (unk: 010101)
+    SVID: 0E (unk: 0004EC) timeTag:06A76996 codePhase: 53B4CB61 carrierPhase: C5385105 carrierFreq: 0C614319 carrierAccel: 0003 millisec: 000F bit#00AB4B1B
+          codeCorrections: FFFFFF55 smoothCode: FFFD5400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: F6FD deltaRangeQuality: 0588 phaselockQuality: FFE3
+          (unk: 00000204320CD0040A) -- list of 10 somethings: (009F) (009E) (009D) (009C) (009D) (00A3) (00A0) (00A0) (00A0) (009F) 
+          sumI: 00D4 sumQ: 0121 SVbit#00000000 MpathLosDetVal: 0000 MpathOnlyDetVal: 0001 (unk: 010001)
+    SVID: 15 (unk: 00042D) timeTag:06A73EF5 codePhase: 539F7ACF carrierPhase: 362526D8 carrierFreq: 0B9D22E4 carrierAccel: FFFD millisec: 0012 bit#00AB4B1B
+          codeCorrections: 00000069 smoothCode: 0001A400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 04AA deltaRangeQuality: 0316 phaselockQuality: FF91
+          (unk: 00000005321360010A) -- list of 10 somethings: (00F3) (00F3) (00F5) (00F4) (00F4) (00F4) (00F4) (00F3) (00F3) (00F3) 
+          sumI: 0092 sumQ: 0255 SVbit#00AB4A64 MpathLosDetVal: 0002 MpathOnlyDetVal: 0000 (unk: 010101)
 16:21:41.218 parsed 0x1420: 6900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-4 12-4 31-4 10-2 12-4 12-4 12-4 12-4 5-2 10-2 31-4 5-2 10-2 12-4 12-4 5-2 5-2 12-4 31-4
 16:21:41.221 parsed 0x1421: 6900 ChdevsB: 5-2 0-15 16-14
 16:21:41.222 empty packet  	# seq1=00D5 seq2=000F len=0000
@@ -244,20 +351,89 @@
 16:21:41.700 parsed 0x2208: 7400 ACQ: New8 type0 sv31 ch 6 D:94662 C:75246 cno10 t 95263086 ms 14 bn 11225834
 16:21:41.706 parsed 0x2208: 7400 ACQ: New8 type0 sv31 ch 7 D:94532 C:75246 cno10 t 95263086 ms 14 bn 11225834
 16:21:41.712 parsed 0x2208: 7400 ACQ: New8 type0 sv31 ch 8 D:94792 C:75246 cno10 t 95263086 ms 14 bn 11225834
-16:21:42.149 currently unsupported LEAD-IN 844F: 00/00/0006 16:21:42.149 (0) 84 4F 00 00 00 00 06 A9 24 21 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 04 00 55 05 DC 00 00 1E 78 07 06 03 00 00 0B 00 7E 00 00 00 00 07 A3 39 20 05 00 1D 00 02 BD 07 A0 F4 77 D0 7A 3B 85 D7 4B 14 AB 0B F9 F7 C5 00 01 00 0A 00 AB 4B 4E 00 00 00 74 00 01 D0 00 00 00 00 00 00 00 39 00 00 9D FF 04 00 CB 00 00 00 00 00 1C 0C 03 0A 01 71 01 71 01 71 01 71 01 71 01 71 01 71 01 71 01 71 01 71 02 61 00 3C 00 AB 4A 64 00 04 00 00 01 01 01 19 00 04 EC 07 A1 3D 72 D0 9E B9 7D A1 0D AE 39 0C 22 13 02 00 06 00 0A 00 AB 4B 4E FF FF FF DF FF FF 7C 00 00 00 00 00 00 00 39 00 00 93 02 39 FF FE 00 00 00 03 32 06 F4 09 0A 00 9C 00 9D 00 A3 00 A3 00 A5 00 A6 00 A5 00 A7 00 A5 00 A7 00 CB 00 F5 00 00 00 00 00 00 00 00 01 00 01 02 00 04 AD 07 A1 24 6D D0 92 36 83 08 A6 21 56 0C 51 2E 21 00 03 00 00 00 AB 4B 4E FF FF FF 1A FF FC 68 00 00 00 00 00 00 00 39 00 FA B1 03 0B FF FE 00 00 00 04 32 11 80 06 0A 00 C0 00 C0 00 BF 00 BF 00 BF 00 BF 00 BF 00 C0 00 C0 00 C0 00 CA 01 3A 00 00 00 00 00 06 00 01 01 01 01 0E 00 04 EC 07 A1 2F 18 D0 97 8C 75 1A 10 8A 35 0C 61 1F 5B FF FD 00 0F 00 AB 4B 4D 00 00 00 13 00 00 4C 00 00 00 00 00 00 00 39 00 08 81 10 3C 00 00 00 00 00 02 32 10 B8 04 0A 00 9E 00 9E 00 9F 00 9F 00 9D 00 9E 00 9D 00 9D 00 9D 00 9D 00 8B 00 77 00 00 00 00 00 00 FF FF 01 00 01 15 00 04 2D 07 A1 04 39 D0 82 1C CC 9D A5 2C 9E 0B 9D 56 97 00 0A 00 12 00 AB 4B 4D 00 00 00 82 00 02 08 00 00 00 00 00 00 00 39 00 FF AB F9 E0 FF EE 00 00 00 01 32 17 48 01 0A 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 01 EB 00 D3 00 AB 4A 64 00 02 00 00 01 01 01 	# seq1=00D9 seq2=000F len=020A
+16:21:42.149 LEAD-IN of 844F might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:42.149 	unknown 00, maybe_counter 00000006
+	unknown header stuff: A9 24 21 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 04 00 55 05 DC 00 00 1E 78 07 06 03 00 00 0B 00 7E 00 00 00 00 07 A3 39 20 
+	number of entries 5 (zero 00)
+    SVID: 1D (unk: 0002BD) timeTag:07A0F477 codePhase: D07A3B85 carrierPhase: D74B14AB carrierFreq: 0BF9F7C5 carrierAccel: 0001 millisec: 000A bit#00AB4B4E
+          codeCorrections: 00000074 smoothCode: 0001D000 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 009D deltaRangeQuality: FF04 phaselockQuality: 00CB
+          (unk: 00000000001C0C030A) -- list of 10 somethings: (0171) (0171) (0171) (0171) (0171) (0171) (0171) (0171) (0171) (0171) 
+          sumI: 0261 sumQ: 003C SVbit#00AB4A64 MpathLosDetVal: 0004 MpathOnlyDetVal: 0000 (unk: 010101)
+    SVID: 19 (unk: 0004EC) timeTag:07A13D72 codePhase: D09EB97D carrierPhase: A10DAE39 carrierFreq: 0C221302 carrierAccel: 0006 millisec: 000A bit#00AB4B4E
+          codeCorrections: FFFFFFDF smoothCode: FFFF7C00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0093 deltaRangeQuality: 0239 phaselockQuality: FFFE
+          (unk: 000000033206F4090A) -- list of 10 somethings: (009C) (009D) (00A3) (00A3) (00A5) (00A6) (00A5) (00A7) (00A5) (00A7) 
+          sumI: 00CB sumQ: 00F5 SVbit#00000000 MpathLosDetVal: 0000 MpathOnlyDetVal: 0000 (unk: 010001)
+    SVID: 02 (unk: 0004AD) timeTag:07A1246D codePhase: D0923683 carrierPhase: 08A62156 carrierFreq: 0C512E21 carrierAccel: 0003 millisec: 0000 bit#00AB4B4E
+          codeCorrections: FFFFFF1A smoothCode: FFFC6800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FAB1 deltaRangeQuality: 030B phaselockQuality: FFFE
+          (unk: 00000004321180060A) -- list of 10 somethings: (00C0) (00C0) (00BF) (00BF) (00BF) (00BF) (00BF) (00C0) (00C0) (00C0) 
+          sumI: 00CA sumQ: 013A SVbit#00000000 MpathLosDetVal: 0006 MpathOnlyDetVal: 0001 (unk: 010101)
+    SVID: 0E (unk: 0004EC) timeTag:07A12F18 codePhase: D0978C75 carrierPhase: 1A108A35 carrierFreq: 0C611F5B carrierAccel: FFFD millisec: 000F bit#00AB4B4D
+          codeCorrections: 00000013 smoothCode: 00004C00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0881 deltaRangeQuality: 103C phaselockQuality: 0000
+          (unk: 000000023210B8040A) -- list of 10 somethings: (009E) (009E) (009F) (009F) (009D) (009E) (009D) (009D) (009D) (009D) 
+          sumI: 008B sumQ: 0077 SVbit#00000000 MpathLosDetVal: 0000 MpathOnlyDetVal: FFFF (unk: 010001)
+    SVID: 15 (unk: 00042D) timeTag:07A10439 codePhase: D0821CCC carrierPhase: 9DA52C9E carrierFreq: 0B9D5697 carrierAccel: 000A millisec: 0012 bit#00AB4B4D
+          codeCorrections: 00000082 smoothCode: 00020800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FFAB deltaRangeQuality: F9E0 phaselockQuality: FFEE
+          (unk: 00000001321748010A) -- list of 10 somethings: (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) 
+          sumI: 01EB sumQ: 00D3 SVbit#00AB4A64 MpathLosDetVal: 0002 MpathOnlyDetVal: 0000 (unk: 010101)
 16:21:42.216 parsed 0x69AB: 7800 ATX: Meas Send:6 128137504 0 7800 6800 5 0 0
 16:21:42.216 parsed 0x5426: 7800 CM:RtcEdgeAlign T:144 dRate:2 count:6149 7522 Acq:128160721 Wclk:262450 dRtc:1.002655029 prevAcq:111748129 bepDrift:0.999930919 rtcDrift:0.999930877
 16:21:42.216 LEAD-IN of 0x8E01 MAYBE related to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 1? (logically, but no data match found)
-16:21:42.216 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (FIXME - more parsing if we need it)
+16:21:42.216 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (not interesting?)
 16:21:42.216 parsed 0x1423: 7900 SSPa:9: 29-6-7 25-6-7 2-6-7 14-6-7 21-6-7 12-4-3 31-2-4 5-2-1 10-2-1
 16:21:42.224 parsed 0x1420: 7900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 12-4 12-4 12-4 12-4 12-4 10-2 5-2 10-2 12-4 12-4 5-2 10-2 12-4 10-2 5-2 0-15
 16:21:42.224 parsed 0x1421: 7900 ChdevsB: 18-14
 16:21:42.252 empty packet  	# seq1=00E1 seq2=0010 len=0000
 16:21:42.298 parsed 0x4E0B: 8000 TRACK: StartTrack sv25 ch9 cno170 sync0 val0 frq96969 -- FIXME rest: 04 53 57 54 4C 00
-16:21:42.349 currently unsupported LEAD-IN 8451: 00/00/0006 16:21:42.349 (0) 84 51 00 00 00 00 07 A3 93 D1 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 04 00 55 05 DC 00 00 1F 40 07 06 03 00 00 0B 00 7E 00 00 00 00 07 D4 A5 A2 05 00 1D 00 02 BD 07 D2 E8 BD E9 74 5E FE 4C BF 79 2D 0B F9 EB 13 FF FC 00 0A 00 AB 4B 58 00 00 00 6F 00 01 BC 00 00 00 00 00 00 00 39 00 00 1D 01 BB 00 C6 00 00 00 00 00 1C D4 05 0A 01 71 01 71 01 71 01 71 01 71 01 71 01 71 01 71 01 71 01 71 02 32 00 56 00 AB 4A 64 00 04 00 00 01 01 01 19 00 04 AD 07 D3 31 BC E9 98 DE 6F 8F 89 E8 EF 0C 22 12 34 00 05 00 0A 00 AB 4B 58 FF FF FF AD FF FE B4 00 00 00 00 00 00 00 39 00 FB 8E F6 00 00 0B 00 00 00 02 32 07 BC 01 0A 00 A9 00 A9 00 A3 00 A3 00 A5 00 A6 00 A5 00 A7 00 A5 00 A7 00 F8 00 D3 00 00 00 00 00 00 00 00 01 01 01 02 00 04 AD 07 D3 18 B9 E9 8C 5C CC D3 3D BA DA 0C 51 1D 85 00 00 00 00 00 AB 4B 58 FF FF FF 13 FF FC 4C 00 00 00 00 00 00 00 39 00 FD F2 12 0B 00 13 00 00 00 03 32 12 48 08 0A 00 C0 00 C0 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 C0 01 2B 00 FF 00 00 00 00 00 05 00 01 01 01 01 0E 00 04 EC 07 D3 23 65 E9 91 B2 F0 90 8E 65 DB 0C 61 0B 7E FF FA 00 0F 00 AB 4B 57 00 00 00 32 00 00 C8 00 00 00 00 00 00 00 39 00 0D 90 08 E2 00 2C 00 00 05 01 32 11 80 06 0A 00 9E 00 9E 00 9F 00 9F 00 9D 00 9D 00 9C 00 9D 00 9D 00 9D 00 BE 00 36 00 00 00 00 00 00 FF FF 01 00 01 15 00 04 2D 07 D2 F8 7A E9 7C 3D 5B 68 DF AE EE 0B 9D 52 7D 00 08 00 12 00 AB 4B 57 00 00 00 6B 00 01 AC 00 00 00 00 00 00 00 39 00 FD 33 FF E9 FF C7 00 00 00 04 32 18 10 03 0A 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 01 09 02 21 00 AB 4A 64 00 01 00 00 01 01 01 	# seq1=00E2 seq2=0010 len=020A
+16:21:42.349 LEAD-IN of 8451 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:42.349 	unknown 00, maybe_counter 00000007
+	unknown header stuff: A3 93 D1 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 04 00 55 05 DC 00 00 1F 40 07 06 03 00 00 0B 00 7E 00 00 00 00 07 D4 A5 A2 
+	number of entries 5 (zero 00)
+    SVID: 1D (unk: 0002BD) timeTag:07D2E8BD codePhase: E9745EFE carrierPhase: 4CBF792D carrierFreq: 0BF9EB13 carrierAccel: FFFC millisec: 000A bit#00AB4B58
+          codeCorrections: 0000006F smoothCode: 0001BC00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 001D deltaRangeQuality: 01BB phaselockQuality: 00C6
+          (unk: 00000000001CD4050A) -- list of 10 somethings: (0171) (0171) (0171) (0171) (0171) (0171) (0171) (0171) (0171) (0171) 
+          sumI: 0232 sumQ: 0056 SVbit#00AB4A64 MpathLosDetVal: 0004 MpathOnlyDetVal: 0000 (unk: 010101)
+    SVID: 19 (unk: 0004AD) timeTag:07D331BC codePhase: E998DE6F carrierPhase: 8F89E8EF carrierFreq: 0C221234 carrierAccel: 0005 millisec: 000A bit#00AB4B58
+          codeCorrections: FFFFFFAD smoothCode: FFFEB400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FB8E deltaRangeQuality: F600 phaselockQuality: 000B
+          (unk: 000000023207BC010A) -- list of 10 somethings: (00A9) (00A9) (00A3) (00A3) (00A5) (00A6) (00A5) (00A7) (00A5) (00A7) 
+          sumI: 00F8 sumQ: 00D3 SVbit#00000000 MpathLosDetVal: 0000 MpathOnlyDetVal: 0000 (unk: 010101)
+    SVID: 02 (unk: 0004AD) timeTag:07D318B9 codePhase: E98C5CCC carrierPhase: D33DBADA carrierFreq: 0C511D85 carrierAccel: 0000 millisec: 0000 bit#00AB4B58
+          codeCorrections: FFFFFF13 smoothCode: FFFC4C00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FDF2 deltaRangeQuality: 120B phaselockQuality: 0013
+          (unk: 00000003321248080A) -- list of 10 somethings: (00C0) (00C0) (00BF) (00BF) (00BF) (00BF) (00BF) (00BF) (00BF) (00C0) 
+          sumI: 012B sumQ: 00FF SVbit#00000000 MpathLosDetVal: 0005 MpathOnlyDetVal: 0001 (unk: 010101)
+    SVID: 0E (unk: 0004EC) timeTag:07D32365 codePhase: E991B2F0 carrierPhase: 908E65DB carrierFreq: 0C610B7E carrierAccel: FFFA millisec: 000F bit#00AB4B57
+          codeCorrections: 00000032 smoothCode: 0000C800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0D90 deltaRangeQuality: 08E2 phaselockQuality: 002C
+          (unk: 00000501321180060A) -- list of 10 somethings: (009E) (009E) (009F) (009F) (009D) (009D) (009C) (009D) (009D) (009D) 
+          sumI: 00BE sumQ: 0036 SVbit#00000000 MpathLosDetVal: 0000 MpathOnlyDetVal: FFFF (unk: 010001)
+    SVID: 15 (unk: 00042D) timeTag:07D2F87A codePhase: E97C3D5B carrierPhase: 68DFAEEE carrierFreq: 0B9D527D carrierAccel: 0008 millisec: 0012 bit#00AB4B57
+          codeCorrections: 0000006B smoothCode: 0001AC00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FD33 deltaRangeQuality: FFE9 phaselockQuality: FFC7
+          (unk: 00000004321810030A) -- list of 10 somethings: (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) 
+          sumI: 0109 sumQ: 0221 SVbit#00AB4A64 MpathLosDetVal: 0001 MpathOnlyDetVal: 0000 (unk: 010101)
 16:21:42.401 parsed 0x69AB: 8000 ATX: Meas Send:7 131376546 0 8000 7800 5 0 0
 16:21:42.401 parsed 0x5426: 8000 CM:RtcEdgeAlign T:144 dRate:2 count:6149 14004 Acq:131398780 Wclk:268932 dRtc:0.197814941 prevAcq:128160721 bepDrift:0.999930865 rtcDrift:0.999930811
-16:21:42.449 currently unsupported LEAD-IN 8452: 00/00/0006 16:21:42.449 (0) 84 52 00 00 00 00 07 D4 FC 7C 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 04 00 55 05 DC 00 00 1F A4 07 06 03 00 00 0B 00 7E 00 00 00 00 07 ED 93 F8 05 00 1D 00 02 BD 07 EB E2 E1 F5 F1 70 B3 0D 15 43 BB 0B F9 EE CD 00 01 00 0A 00 AB 4B 5D 00 00 00 72 00 01 C8 00 00 00 00 00 00 00 39 00 00 1D 01 BB 00 C5 00 00 00 00 00 1D 38 06 0A 01 71 01 71 01 71 01 71 01 71 01 71 01 71 01 71 01 71 01 71 02 1B 00 4A 00 AB 4A 64 00 04 00 00 01 01 01 19 00 04 AD 07 EC 2B E2 F6 15 F1 00 80 A0 C4 7D 0C 22 0F 4E 00 04 00 0A 00 AB 4B 5D FF FF FF 88 FF FE 20 00 00 00 00 00 00 00 39 00 F6 02 02 15 FF F9 00 00 00 03 32 08 20 02 0A 00 A9 00 A9 00 A9 00 A3 00 A5 00 A6 00 A5 00 A7 00 A5 00 A7 00 82 00 D3 00 00 00 00 00 01 00 01 01 01 01 02 00 00 AD 07 EC 12 E0 F6 09 70 17 94 85 A2 D6 0C 51 15 B9 FF FF 00 00 00 AB 4B 5D FF FF FE F5 FF FB D4 00 00 00 00 00 00 00 39 00 FD F2 12 0B 00 2F 00 00 00 00 32 12 AC 09 0A 00 C0 00 C0 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 C0 01 B1 00 C8 00 00 00 00 00 05 00 01 01 01 01 0E 00 04 EC 07 EC 1D 8C F6 0E C6 39 0D E5 C5 71 0C 61 06 8B FF F9 00 0F 00 AB 4B 5C 00 00 00 61 00 01 84 00 00 00 00 00 00 00 39 00 0D 90 08 E2 00 2C 00 00 07 02 32 11 E4 07 0A 00 9E 00 9E 00 9F 00 9F 00 9D 00 9D 00 9C 00 9C 00 9D 00 9D 00 C0 00 91 00 00 00 00 00 00 FF FF 01 00 01 15 00 00 2D 07 EB F2 9B F5 F9 4D 86 E5 8A AB 36 0B 9D 65 01 00 0C 00 12 00 AB 4B 5C 00 00 00 75 00 01 D4 00 00 00 00 00 00 00 39 00 FF 9C FA D4 00 00 00 00 00 00 32 18 74 04 0A 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 02 1E 00 CB 00 AB 4A 64 00 02 00 00 01 01 01 	# seq1=00E5 seq2=0010 len=020A
+16:21:42.449 LEAD-IN of 8452 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:42.449 	unknown 00, maybe_counter 00000007
+	unknown header stuff: D4 FC 7C 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 04 00 55 05 DC 00 00 1F A4 07 06 03 00 00 0B 00 7E 00 00 00 00 07 ED 93 F8 
+	number of entries 5 (zero 00)
+    SVID: 1D (unk: 0002BD) timeTag:07EBE2E1 codePhase: F5F170B3 carrierPhase: 0D1543BB carrierFreq: 0BF9EECD carrierAccel: 0001 millisec: 000A bit#00AB4B5D
+          codeCorrections: 00000072 smoothCode: 0001C800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 001D deltaRangeQuality: 01BB phaselockQuality: 00C5
+          (unk: 00000000001D38060A) -- list of 10 somethings: (0171) (0171) (0171) (0171) (0171) (0171) (0171) (0171) (0171) (0171) 
+          sumI: 021B sumQ: 004A SVbit#00AB4A64 MpathLosDetVal: 0004 MpathOnlyDetVal: 0000 (unk: 010101)
+    SVID: 19 (unk: 0004AD) timeTag:07EC2BE2 codePhase: F615F100 carrierPhase: 80A0C47D carrierFreq: 0C220F4E carrierAccel: 0004 millisec: 000A bit#00AB4B5D
+          codeCorrections: FFFFFF88 smoothCode: FFFE2000 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: F602 deltaRangeQuality: 0215 phaselockQuality: FFF9
+          (unk: 00000003320820020A) -- list of 10 somethings: (00A9) (00A9) (00A9) (00A3) (00A5) (00A6) (00A5) (00A7) (00A5) (00A7) 
+          sumI: 0082 sumQ: 00D3 SVbit#00000000 MpathLosDetVal: 0001 MpathOnlyDetVal: 0001 (unk: 010101)
+    SVID: 02 (unk: 0000AD) timeTag:07EC12E0 codePhase: F6097017 carrierPhase: 9485A2D6 carrierFreq: 0C5115B9 carrierAccel: FFFF millisec: 0000 bit#00AB4B5D
+          codeCorrections: FFFFFEF5 smoothCode: FFFBD400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FDF2 deltaRangeQuality: 120B phaselockQuality: 002F
+          (unk: 000000003212AC090A) -- list of 10 somethings: (00C0) (00C0) (00BF) (00BF) (00BF) (00BF) (00BF) (00BF) (00BF) (00C0) 
+          sumI: 01B1 sumQ: 00C8 SVbit#00000000 MpathLosDetVal: 0005 MpathOnlyDetVal: 0001 (unk: 010101)
+    SVID: 0E (unk: 0004EC) timeTag:07EC1D8C codePhase: F60EC639 carrierPhase: 0DE5C571 carrierFreq: 0C61068B carrierAccel: FFF9 millisec: 000F bit#00AB4B5C
+          codeCorrections: 00000061 smoothCode: 00018400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0D90 deltaRangeQuality: 08E2 phaselockQuality: 002C
+          (unk: 000007023211E4070A) -- list of 10 somethings: (009E) (009E) (009F) (009F) (009D) (009D) (009C) (009C) (009D) (009D) 
+          sumI: 00C0 sumQ: 0091 SVbit#00000000 MpathLosDetVal: 0000 MpathOnlyDetVal: FFFF (unk: 010001)
+    SVID: 15 (unk: 00002D) timeTag:07EBF29B codePhase: F5F94D86 carrierPhase: E58AAB36 carrierFreq: 0B9D6501 carrierAccel: 000C millisec: 0012 bit#00AB4B5C
+          codeCorrections: 00000075 smoothCode: 0001D400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FF9C deltaRangeQuality: FAD4 phaselockQuality: 0000
+          (unk: 00000000321874040A) -- list of 10 somethings: (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) 
+          sumI: 021E sumQ: 00CB SVbit#00AB4A64 MpathLosDetVal: 0002 MpathOnlyDetVal: 0000 (unk: 010101)
 16:21:42.451 parsed 0x69AB: 8100 ATX: Meas Send:7 133010424 0 8100 8000 5 0 0
 16:21:42.457 parsed 0x5426: 8100 CM:RtcEdgeAlign T:144 dRate:2 count:6149 17264 Acq:133027301 Wclk:272192 dRtc:0.099487305 prevAcq:131398780 bepDrift:0.999930801 rtcDrift:0.999930737
 16:21:42.461 empty packet  	# seq1=00E8 seq2=0011 len=0000
@@ -274,12 +450,35 @@
 16:21:42.696 parsed 0x1F01: 8400 ATX PP: Seq:7 Mode:0 Ev:0x03AA A:132918242 SVList:0x51102A12 0x00 SVs:29 25 31 12 2 14 21 5 10 0 0 0 0 0 0
 16:21:43.203 parsed 0x1423: 8900 SSPa:9: 29-6-7 25-6-7 2-6-7 14-6-7 21-6-7 12-4-3 31-2-4 5-1-1 10-1-1
 16:21:43.215 parsed 0x1420: 8900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-4 12-4 12-4 12-4 12-4 10-2 12-4 12-4 12-4 10-2 0-15
-16:21:43.402 currently unsupported LEAD-IN 8503: 00/00/0006 16:21:43.402 (0) 85 03 01 1D 05 03 FF 03 FF 00 00 22 C3 06 2B ED BA 72 38 10 2A AA AC 2A AA AA BC 2A AA AA BC 2A AA AA BC 2A AA AA BC 2A AA AA BC 2A AA AA BC 2A AA AA BC 	# seq1=00F2 seq2=0014 len=0033
-16:21:43.453 currently unsupported LEAD-IN 845C: 00/00/0006 16:21:43.453 (0) 84 5C 00 00 00 00 07 ED D5 E5 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 23 8C 07 06 03 00 00 0B 00 7E 00 00 00 00 08 E7 54 B4 05 00 1D 00 02 BD 08 E5 A8 43 72 D4 21 E0 36 8F 15 97 0B F9 F9 41 00 03 00 0A 00 AB 4B 8F 00 00 00 7E 00 01 F8 00 00 00 00 00 00 00 39 00 00 7F 05 17 00 C5 00 00 00 00 00 21 20 06 0A 01 71 01 71 01 71 01 71 01 71 01 71 01 71 01 71 01 71 01 71 02 76 00 4B 00 AB 4B 90 00 04 00 00 01 01 00 19 00 04 AD 08 E5 F1 50 72 F8 A8 7B 28 FB A6 89 0C 22 45 2A 00 08 00 0A 00 AB 4B 8F FF FF FF CB FF FF 2C 00 00 00 00 00 00 00 39 00 01 E9 08 94 00 1B 00 00 00 02 32 0C 08 02 0A 00 A5 00 A4 00 A5 00 A7 00 A8 00 A8 00 A7 00 A6 00 A6 00 A6 01 0B 00 CE 00 00 00 00 00 01 00 00 01 01 00 02 00 04 AD 08 E5 D8 5F 72 EC 2F 8A 8F FB F1 EE 0C 51 24 01 00 01 00 00 00 AB 4B 8F FF FF FE E6 FF FB 98 00 00 00 00 00 00 00 39 00 05 02 FE EF 00 25 00 00 00 03 32 16 94 09 0A 00 C0 00 C0 00 C1 00 C1 00 C1 00 C1 00 C1 00 C1 00 C0 00 C1 00 FF 00 EA 00 00 00 00 00 01 00 01 01 01 00 0E 00 00 AD 08 E5 E3 10 72 F1 88 17 98 30 06 D7 0C 60 F4 A8 FF F8 00 0F 00 AB 4B 8E 00 00 00 65 00 01 94 00 00 00 00 00 00 00 39 00 04 20 F9 A7 FF E1 00 00 00 00 32 15 CC 07 0A 00 9A 00 9B 00 9C 00 9B 00 9B 00 9C 00 9B 00 9B 00 99 00 9A 00 A5 00 7C 00 00 00 00 00 01 FF FF 01 01 00 15 00 00 2D 08 E5 B7 DF 72 DB EF F0 77 88 06 FE 0B 9D 50 75 00 08 00 12 00 AB 4B 8E 00 00 00 4A 00 01 28 00 00 00 00 00 00 00 39 00 FD 2F F5 A9 00 49 00 00 00 00 32 1C 5C 04 0A 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 02 2B 00 9E 00 AB 4A 64 00 03 00 01 01 01 00 	# seq1=00F3 seq2=0014 len=020A
+16:21:43.402 LEAD-IN of 0x8503 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+16:21:43.453 LEAD-IN of 845C might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:43.453 	unknown 00, maybe_counter 00000007
+	unknown header stuff: ED D5 E5 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 23 8C 07 06 03 00 00 0B 00 7E 00 00 00 00 08 E7 54 B4 
+	number of entries 5 (zero 00)
+    SVID: 1D (unk: 0002BD) timeTag:08E5A843 codePhase: 72D421E0 carrierPhase: 368F1597 carrierFreq: 0BF9F941 carrierAccel: 0003 millisec: 000A bit#00AB4B8F
+          codeCorrections: 0000007E smoothCode: 0001F800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 007F deltaRangeQuality: 0517 phaselockQuality: 00C5
+          (unk: 00000000002120060A) -- list of 10 somethings: (0171) (0171) (0171) (0171) (0171) (0171) (0171) (0171) (0171) (0171) 
+          sumI: 0276 sumQ: 004B SVbit#00AB4B90 MpathLosDetVal: 0004 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 19 (unk: 0004AD) timeTag:08E5F150 codePhase: 72F8A87B carrierPhase: 28FBA689 carrierFreq: 0C22452A carrierAccel: 0008 millisec: 000A bit#00AB4B8F
+          codeCorrections: FFFFFFCB smoothCode: FFFF2C00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 01E9 deltaRangeQuality: 0894 phaselockQuality: 001B
+          (unk: 00000002320C08020A) -- list of 10 somethings: (00A5) (00A4) (00A5) (00A7) (00A8) (00A8) (00A7) (00A6) (00A6) (00A6) 
+          sumI: 010B sumQ: 00CE SVbit#00000000 MpathLosDetVal: 0001 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 02 (unk: 0004AD) timeTag:08E5D85F codePhase: 72EC2F8A carrierPhase: 8FFBF1EE carrierFreq: 0C512401 carrierAccel: 0001 millisec: 0000 bit#00AB4B8F
+          codeCorrections: FFFFFEE6 smoothCode: FFFB9800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0502 deltaRangeQuality: FEEF phaselockQuality: 0025
+          (unk: 00000003321694090A) -- list of 10 somethings: (00C0) (00C0) (00C1) (00C1) (00C1) (00C1) (00C1) (00C1) (00C0) (00C1) 
+          sumI: 00FF sumQ: 00EA SVbit#00000000 MpathLosDetVal: 0001 MpathOnlyDetVal: 0001 (unk: 010100)
+    SVID: 0E (unk: 0000AD) timeTag:08E5E310 codePhase: 72F18817 carrierPhase: 983006D7 carrierFreq: 0C60F4A8 carrierAccel: FFF8 millisec: 000F bit#00AB4B8E
+          codeCorrections: 00000065 smoothCode: 00019400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0420 deltaRangeQuality: F9A7 phaselockQuality: FFE1
+          (unk: 000000003215CC070A) -- list of 10 somethings: (009A) (009B) (009C) (009B) (009B) (009C) (009B) (009B) (0099) (009A) 
+          sumI: 00A5 sumQ: 007C SVbit#00000000 MpathLosDetVal: 0001 MpathOnlyDetVal: FFFF (unk: 010100)
+    SVID: 15 (unk: 00002D) timeTag:08E5B7DF codePhase: 72DBEFF0 carrierPhase: 778806FE carrierFreq: 0B9D5075 carrierAccel: 0008 millisec: 0012 bit#00AB4B8E
+          codeCorrections: 0000004A smoothCode: 00012800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FD2F deltaRangeQuality: F5A9 phaselockQuality: 0049
+          (unk: 00000000321C5C040A) -- list of 10 somethings: (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) 
+          sumI: 022B sumQ: 009E SVbit#00AB4A64 MpathLosDetVal: 0003 MpathOnlyDetVal: 0001 (unk: 010100)
 16:21:43.458 parsed 0x69AB: 9100 ATX: Meas Send:6 149378228 0 9100 8100 5 0 0
 16:21:43.464 parsed 0x5426: 9100 CM:RtcEdgeAlign T:144 dRate:2 count:6150 17264 Acq:149396434 Wclk:304960 dRtc:1.000000000 prevAcq:133027301 bepDrift:0.999930793 rtcDrift:0.999930784
 16:21:43.472 LEAD-IN of 0x8E01 MAYBE related to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 1? (logically, but no data match found)
-16:21:43.475 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (FIXME - more parsing if we need it)
+16:21:43.475 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (not interesting?)
 16:21:43.615 parsed 0x2D03: 9300 ACQ: New7 type3 sv12 ch40 D:98655 C:0 13 247
 16:21:43.615 parsed 0x2D03: 9300 ACQ: New7 type3 sv12 ch38 D:98779 C:0 12 247
 16:21:43.615 parsed 0x2D03: 9300 ACQ: New7 type3 sv12 ch37 D:98716 C:0 12 247
@@ -291,28 +490,97 @@
 16:21:44.094 parsed 0x3D04: AGC: noise 1476872 18622 freq 86253 gain 27
 16:21:44.202 parsed 0x1423: 9900 SSPa:9: 29-6-7 25-6-7 2-6-7 14-6-7 21-6-7 12-4-3 31-2-4 5-1-1 10-1-1
 16:21:44.211 parsed 0x1420: 9900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-4 12-4 12-4 31-2 0-15
-16:21:44.415 currently unsupported LEAD-IN 8504: 00/00/0006 16:21:44.415 (0) 85 04 04 19 00 03 FF 00 00 03 F0 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 00 00 00 0B DA 54 95 FC 22 92 AE C8 2A D2 94 E3 CA AC 6A B3 DB B1 AB 43 02 00 03 FF 00 00 03 FF 00 02 F9 2C 12 59 8D C6 AF C5 24 AF EA AA AA 43 D5 55 55 43 C5 5A AA BE B2 AA B5 43 D5 15 55 44 2A AA A9 43 D5 51 AA 4D 0E 00 03 FF 00 00 03 FF 00 00 00 14 11 C5 83 CB C0 9E 5A 68 0A 16 E4 5C 1C 73 19 85 6B 6D 11 7D 4B 35 36 42 B6 B6 2A 64 08 BA AA BC 2F AA A9 43 15 00 03 FF 03 FF 03 FF DD 3C F9 D4 12 45 8C 38 10 2A AA AC 2A AA AA BC 2A AA AA BC 2A AA AA BC 2A 56 AA BC 2A AA AA BC 2A AA AA BD 6A AA AA BC 	# seq1=0101 seq2=0016 len=00C3
-16:21:44.468 currently unsupported LEAD-IN 8466: 00/00/0006 16:21:44.468 (0) 84 66 00 00 00 00 08 E7 9B D2 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 27 74 07 06 0B 00 00 0B 00 7E 00 00 00 00 09 E0 E8 32 05 00 1D 00 02 BD 09 DF 6D A6 EF B6 D3 2A 7B 03 95 89 0B FA 01 DF FF FE 00 0A 00 AB 4B C1 00 00 00 75 00 01 D4 00 00 00 00 00 00 00 39 00 FF 8F 00 46 00 BF 00 00 00 00 00 25 08 06 0A 01 71 01 71 01 71 01 70 01 70 01 70 01 70 01 71 01 71 01 71 02 3D 00 71 00 AB 4B 90 00 04 00 00 01 01 00 19 00 04 AD 09 DF B6 C1 EF DB 60 A0 7B F7 ED 87 0C 22 43 D4 00 03 00 0A 00 AB 4B C1 FF FF FF 85 FF FE 14 00 00 00 00 00 00 00 39 00 F7 A5 15 D9 FF F4 00 00 00 02 32 0F F0 02 0A 00 A7 00 A6 00 A6 00 A6 00 A7 00 A6 00 A6 00 A6 00 A6 00 A7 00 D0 00 CE 00 AB 4B 90 00 03 00 01 01 01 00 02 00 04 AD 09 DF 9D DD EF CE EE EF 2C 2F A7 AE 0C 50 ED F1 FF FA 00 00 00 AB 4B C1 FF FF FE DE FF FB 78 00 00 00 00 00 00 00 39 00 06 8B 0D 92 00 54 00 00 00 01 32 1A 7C 09 0A 00 C1 00 C0 00 C1 00 C0 00 C0 00 C1 00 C1 00 C0 00 C0 00 C0 01 1B 00 76 00 AB 4B 90 00 01 00 00 01 01 00 0E 00 04 AD 09 DF A8 93 EF D4 49 DB C8 92 6F CF 0C 61 10 FE FF FE 00 0F 00 AB 4B C0 00 00 00 8A 00 02 28 00 00 00 00 00 00 00 39 00 09 51 01 6C 00 39 00 00 00 02 32 19 B4 07 0A 00 9B 00 9C 00 9B 00 9B 00 9C 00 9C 00 9C 00 9D 00 9B 00 9B 01 14 00 90 00 AB 4B 90 00 08 FF FE 01 01 00 15 00 04 2D 09 DF 7D 24 EF BE 92 0D FF D4 3F A2 0B 9D 3B E9 00 00 00 12 00 AB 4B C0 00 00 00 5B 00 01 6C 00 00 00 00 00 00 00 39 00 02 01 FB F1 FF B1 00 00 00 04 32 20 44 04 0A 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 6E 02 0D 00 AB 4B 90 00 06 00 00 01 01 00 	# seq1=0102 seq2=0016 len=020A
+16:21:44.415 LEAD-IN of 0x8504 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+16:21:44.468 LEAD-IN of 8466 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:44.468 	unknown 00, maybe_counter 00000008
+	unknown header stuff: E7 9B D2 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 27 74 07 06 0B 00 00 0B 00 7E 00 00 00 00 09 E0 E8 32 
+	number of entries 5 (zero 00)
+    SVID: 1D (unk: 0002BD) timeTag:09DF6DA6 codePhase: EFB6D32A carrierPhase: 7B039589 carrierFreq: 0BFA01DF carrierAccel: FFFE millisec: 000A bit#00AB4BC1
+          codeCorrections: 00000075 smoothCode: 0001D400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FF8F deltaRangeQuality: 0046 phaselockQuality: 00BF
+          (unk: 00000000002508060A) -- list of 10 somethings: (0171) (0171) (0171) (0170) (0170) (0170) (0170) (0171) (0171) (0171) 
+          sumI: 023D sumQ: 0071 SVbit#00AB4B90 MpathLosDetVal: 0004 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 19 (unk: 0004AD) timeTag:09DFB6C1 codePhase: EFDB60A0 carrierPhase: 7BF7ED87 carrierFreq: 0C2243D4 carrierAccel: 0003 millisec: 000A bit#00AB4BC1
+          codeCorrections: FFFFFF85 smoothCode: FFFE1400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: F7A5 deltaRangeQuality: 15D9 phaselockQuality: FFF4
+          (unk: 00000002320FF0020A) -- list of 10 somethings: (00A7) (00A6) (00A6) (00A6) (00A7) (00A6) (00A6) (00A6) (00A6) (00A7) 
+          sumI: 00D0 sumQ: 00CE SVbit#00AB4B90 MpathLosDetVal: 0003 MpathOnlyDetVal: 0001 (unk: 010100)
+    SVID: 02 (unk: 0004AD) timeTag:09DF9DDD codePhase: EFCEEEEF carrierPhase: 2C2FA7AE carrierFreq: 0C50EDF1 carrierAccel: FFFA millisec: 0000 bit#00AB4BC1
+          codeCorrections: FFFFFEDE smoothCode: FFFB7800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 068B deltaRangeQuality: 0D92 phaselockQuality: 0054
+          (unk: 00000001321A7C090A) -- list of 10 somethings: (00C1) (00C0) (00C1) (00C0) (00C0) (00C1) (00C1) (00C0) (00C0) (00C0) 
+          sumI: 011B sumQ: 0076 SVbit#00AB4B90 MpathLosDetVal: 0001 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 0E (unk: 0004AD) timeTag:09DFA893 codePhase: EFD449DB carrierPhase: C8926FCF carrierFreq: 0C6110FE carrierAccel: FFFE millisec: 000F bit#00AB4BC0
+          codeCorrections: 0000008A smoothCode: 00022800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0951 deltaRangeQuality: 016C phaselockQuality: 0039
+          (unk: 000000023219B4070A) -- list of 10 somethings: (009B) (009C) (009B) (009B) (009C) (009C) (009C) (009D) (009B) (009B) 
+          sumI: 0114 sumQ: 0090 SVbit#00AB4B90 MpathLosDetVal: 0008 MpathOnlyDetVal: FFFE (unk: 010100)
+    SVID: 15 (unk: 00042D) timeTag:09DF7D24 codePhase: EFBE920D carrierPhase: FFD43FA2 carrierFreq: 0B9D3BE9 carrierAccel: 0000 millisec: 0012 bit#00AB4BC0
+          codeCorrections: 0000005B smoothCode: 00016C00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0201 deltaRangeQuality: FBF1 phaselockQuality: FFB1
+          (unk: 00000004322044040A) -- list of 10 somethings: (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) 
+          sumI: 006E sumQ: 020D SVbit#00AB4B90 MpathLosDetVal: 0006 MpathOnlyDetVal: 0000 (unk: 010100)
 16:21:44.471 parsed 0x69AB: 10100 ATX: Meas Send:6 165734450 0 10100 9100 5 0 0
 16:21:44.476 parsed 0x5426: 10100 CM:RtcEdgeAlign T:142 dRate:2 count:6151 17251 Acq:165759076 Wclk:337715 dRtc:0.999603271 prevAcq:149396434 bepDrift:0.999930694 rtcDrift:0.999930595
 16:21:44.486 LEAD-IN of 0x8E01 MAYBE related to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 1? (logically, but no data match found)
-16:21:44.488 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (FIXME - more parsing if we need it)
+16:21:44.488 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (not interesting?)
 16:21:44.595 empty packet  	# seq1=0107 seq2=0017 len=0000
 16:21:45.203 parsed 0x1423: 10900 SSPa:9: 29-6-7 25-6-7 2-6-7 14-6-7 21-6-7 12-4-3 31-2-4 5-1-1 10-1-1
 16:21:45.222 parsed 0x1420: 10900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-4 12-4 12-4 12-2 0-15
-16:21:45.446 currently unsupported LEAD-IN 8470: 00/00/0006 16:21:45.446 (0) 84 70 00 00 00 00 09 E1 48 64 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 2B 5C 07 06 0B 00 00 0B 00 7E 00 00 00 00 0A DA 9E 59 05 00 1D 00 02 BD 0A D9 33 08 6C 99 84 5B BE 57 C7 6D 0B FA 11 9B 00 00 00 0A 00 AB 4B F3 00 00 00 80 00 01 DE 88 00 00 00 00 00 00 39 00 01 71 FC 2A 00 C9 00 00 00 00 00 28 F0 06 0A 01 70 01 70 01 70 01 70 01 70 01 70 01 70 01 70 01 70 01 70 02 67 00 45 00 AB 4B 90 00 05 00 00 01 01 00 19 00 04 AD 0A D9 7C 31 6C BE 18 98 7F AA E3 DB 0C 22 46 08 00 03 00 0A 00 AB 4B F3 FF FF FF 5F FF FD 7C 00 00 00 00 00 00 00 39 00 FD 73 02 9B FF DF 00 00 00 03 32 13 D8 02 0A 00 A9 00 A9 00 A9 00 A7 00 A8 00 A7 00 A8 00 A8 00 A8 00 A8 00 A9 00 F7 00 AB 4B 90 00 01 00 00 01 01 00 02 00 04 AD 0A D9 63 5C 6C B1 AE 2B B0 E4 EE 6E 0C 51 38 81 00 05 00 00 00 AB 4B F3 FF FF FE FA FF FB E8 00 00 00 00 00 00 00 39 00 02 C0 10 1C 00 18 00 00 00 01 32 1E 64 09 0A 00 C0 00 C0 00 C0 00 C0 00 C0 00 C0 00 C0 00 C0 00 C0 00 C0 01 AA 00 AB 00 AB 4B 90 00 00 00 00 01 01 00 0E 00 04 AD 0A D9 6E 17 6C B7 0B B7 24 4D E7 DD 0C 60 F5 73 FF FD 00 0F 00 AB 4B F2 00 00 00 9A 00 02 68 00 00 00 00 00 00 00 39 00 01 7B 01 6B 00 00 00 00 00 03 32 1D 9C 07 0A 00 9C 00 9C 00 9B 00 9C 00 9C 00 9C 00 9C 00 9C 00 9D 00 9C 00 F2 00 EF 00 AB 4B 90 00 05 FF FF 01 01 00 15 00 06 2D 0A D9 42 68 6C A1 34 4C 90 31 2B 98 0B 9D 5E 9E 00 07 00 12 00 AB 4B F2 00 00 00 52 00 01 48 00 00 00 00 00 00 00 39 00 00 45 F5 7C FF D3 00 00 00 04 32 24 2C 04 0A 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 88 01 6C 00 AB 4B 90 00 06 00 00 01 01 00 	# seq1=0109 seq2=0017 len=020A
+16:21:45.446 LEAD-IN of 8470 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:45.446 	unknown 00, maybe_counter 00000009
+	unknown header stuff: E1 48 64 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 2B 5C 07 06 0B 00 00 0B 00 7E 00 00 00 00 0A DA 9E 59 
+	number of entries 5 (zero 00)
+    SVID: 1D (unk: 0002BD) timeTag:0AD93308 codePhase: 6C99845B carrierPhase: BE57C76D carrierFreq: 0BFA119B carrierAccel: 0000 millisec: 000A bit#00AB4BF3
+          codeCorrections: 00000080 smoothCode: 0001DE88 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0171 deltaRangeQuality: FC2A phaselockQuality: 00C9
+          (unk: 000000000028F0060A) -- list of 10 somethings: (0170) (0170) (0170) (0170) (0170) (0170) (0170) (0170) (0170) (0170) 
+          sumI: 0267 sumQ: 0045 SVbit#00AB4B90 MpathLosDetVal: 0005 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 19 (unk: 0004AD) timeTag:0AD97C31 codePhase: 6CBE1898 carrierPhase: 7FAAE3DB carrierFreq: 0C224608 carrierAccel: 0003 millisec: 000A bit#00AB4BF3
+          codeCorrections: FFFFFF5F smoothCode: FFFD7C00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FD73 deltaRangeQuality: 029B phaselockQuality: FFDF
+          (unk: 000000033213D8020A) -- list of 10 somethings: (00A9) (00A9) (00A9) (00A7) (00A8) (00A7) (00A8) (00A8) (00A8) (00A8) 
+          sumI: 00A9 sumQ: 00F7 SVbit#00AB4B90 MpathLosDetVal: 0001 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 02 (unk: 0004AD) timeTag:0AD9635C codePhase: 6CB1AE2B carrierPhase: B0E4EE6E carrierFreq: 0C513881 carrierAccel: 0005 millisec: 0000 bit#00AB4BF3
+          codeCorrections: FFFFFEFA smoothCode: FFFBE800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 02C0 deltaRangeQuality: 101C phaselockQuality: 0018
+          (unk: 00000001321E64090A) -- list of 10 somethings: (00C0) (00C0) (00C0) (00C0) (00C0) (00C0) (00C0) (00C0) (00C0) (00C0) 
+          sumI: 01AA sumQ: 00AB SVbit#00AB4B90 MpathLosDetVal: 0000 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 0E (unk: 0004AD) timeTag:0AD96E17 codePhase: 6CB70BB7 carrierPhase: 244DE7DD carrierFreq: 0C60F573 carrierAccel: FFFD millisec: 000F bit#00AB4BF2
+          codeCorrections: 0000009A smoothCode: 00026800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 017B deltaRangeQuality: 016B phaselockQuality: 0000
+          (unk: 00000003321D9C070A) -- list of 10 somethings: (009C) (009C) (009B) (009C) (009C) (009C) (009C) (009C) (009D) (009C) 
+          sumI: 00F2 sumQ: 00EF SVbit#00AB4B90 MpathLosDetVal: 0005 MpathOnlyDetVal: FFFF (unk: 010100)
+    SVID: 15 (unk: 00062D) timeTag:0AD94268 codePhase: 6CA1344C carrierPhase: 90312B98 carrierFreq: 0B9D5E9E carrierAccel: 0007 millisec: 0012 bit#00AB4BF2
+          codeCorrections: 00000052 smoothCode: 00014800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0045 deltaRangeQuality: F57C phaselockQuality: FFD3
+          (unk: 0000000432242C040A) -- list of 10 somethings: (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) 
+          sumI: 0088 sumQ: 016C SVbit#00AB4B90 MpathLosDetVal: 0006 MpathOnlyDetVal: 0000 (unk: 010100)
 16:21:45.513 parsed 0x69AB: 11100 ATX: Meas Send:6 182099545 0 11100 10100 5 0 0
 16:21:45.513 LEAD-IN of 0x8E01 MAYBE related to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 1? (logically, but no data match found)
 16:21:45.513 parsed 0x5426: 11100 CM:RtcEdgeAlign T:142 dRate:2 count:6152 17236 Acq:182120720 Wclk:370468 dRtc:0.999542236 prevAcq:165759076 bepDrift:0.999930611 rtcDrift:0.999930528
-16:21:45.513 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (FIXME - more parsing if we need it)
+16:21:45.513 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (not interesting?)
 16:21:45.550 empty packet  	# seq1=010E seq2=0018 len=0000
 16:21:46.201 parsed 0x1423: 11900 SSPa:9: 29-6-7 25-6-7 2-6-7 14-6-7 21-6-7 12-4-3 31-2-4 5-1-1 10-1-1
 16:21:46.211 parsed 0x1420: 11900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-4 12-4 12-4 5-2 0-15
-16:21:46.446 currently unsupported LEAD-IN 847A: 00/00/0006 16:21:46.446 (0) 84 7A 00 00 00 00 0A DA F1 10 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 2F 44 07 06 0B 00 00 0B 00 7E 00 00 00 00 0B D4 63 79 05 00 1D 00 02 BD 0B D2 F8 6B E9 7C 35 AF 4A 7F 90 FF 0B FA 0D 51 00 01 00 0A 00 AB 4C 25 00 00 00 71 00 01 DF 95 00 00 00 00 00 00 39 00 FE F3 00 E8 00 C4 00 00 00 00 00 2C D8 06 0A 01 70 01 70 01 70 01 71 01 71 01 71 01 70 01 70 01 70 01 70 02 2B 00 74 00 AB 4B 90 00 03 00 00 01 01 00 19 00 04 AD 0B D3 41 A0 E9 A0 D0 3E AB EF 33 47 0C 22 64 A4 00 07 00 0A 00 AB 4C 25 FF FF FF 77 FF FD DC 00 00 00 00 00 00 00 39 00 00 11 F5 46 00 14 00 00 00 03 32 17 C0 02 0A 00 A9 00 A9 00 A9 00 A8 00 A8 00 A8 00 A8 00 A8 00 A8 00 A8 00 C9 00 A0 00 AB 4B 90 00 00 00 00 01 01 00 02 00 04 AD 0B D3 28 DA E9 94 6D 38 21 06 0B 76 0C 51 3E 59 00 02 00 00 00 AB 4C 25 FF FF FF 3C FF FC F0 00 00 00 00 00 00 00 39 00 09 43 08 73 FF FE 00 00 00 03 32 22 4C 09 0A 00 C0 00 C0 00 C0 00 C0 00 C0 00 C0 00 C0 00 C0 00 C1 00 C1 00 F0 01 16 00 AB 4B 90 00 02 FF FF 01 01 00 0E 00 04 AD 0B D3 33 9B E9 99 CD A8 16 3F 59 07 0C 61 0E 5A 00 02 00 0F 00 AB 4C 24 00 00 00 9A 00 02 68 00 00 00 00 00 00 00 39 00 F8 4D FD 44 00 0C 00 00 00 02 32 21 84 07 0A 00 9C 00 9D 00 9C 00 9C 00 9D 00 9D 00 9D 00 9D 00 9D 00 9C 00 B9 00 78 00 AB 4B 90 00 00 00 00 01 01 00 15 00 06 2D 0B D3 07 AC E9 83 D6 4A 1F 47 29 5A 0B 9D 86 21 00 10 00 12 00 AB 4C 24 00 00 00 7B 00 01 EC 00 00 00 00 00 00 00 39 00 04 28 F3 7D FF E4 00 00 00 02 32 28 14 04 0A 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 02 2C 01 8B 00 AB 4B 90 00 07 FF FF 01 01 00 	# seq1=0110 seq2=0018 len=020A
+16:21:46.446 LEAD-IN of 847A might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:46.446 	unknown 00, maybe_counter 0000000A
+	unknown header stuff: DA F1 10 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 2F 44 07 06 0B 00 00 0B 00 7E 00 00 00 00 0B D4 63 79 
+	number of entries 5 (zero 00)
+    SVID: 1D (unk: 0002BD) timeTag:0BD2F86B codePhase: E97C35AF carrierPhase: 4A7F90FF carrierFreq: 0BFA0D51 carrierAccel: 0001 millisec: 000A bit#00AB4C25
+          codeCorrections: 00000071 smoothCode: 0001DF95 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FEF3 deltaRangeQuality: 00E8 phaselockQuality: 00C4
+          (unk: 00000000002CD8060A) -- list of 10 somethings: (0170) (0170) (0170) (0171) (0171) (0171) (0170) (0170) (0170) (0170) 
+          sumI: 022B sumQ: 0074 SVbit#00AB4B90 MpathLosDetVal: 0003 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 19 (unk: 0004AD) timeTag:0BD341A0 codePhase: E9A0D03E carrierPhase: ABEF3347 carrierFreq: 0C2264A4 carrierAccel: 0007 millisec: 000A bit#00AB4C25
+          codeCorrections: FFFFFF77 smoothCode: FFFDDC00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0011 deltaRangeQuality: F546 phaselockQuality: 0014
+          (unk: 000000033217C0020A) -- list of 10 somethings: (00A9) (00A9) (00A9) (00A8) (00A8) (00A8) (00A8) (00A8) (00A8) (00A8) 
+          sumI: 00C9 sumQ: 00A0 SVbit#00AB4B90 MpathLosDetVal: 0000 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 02 (unk: 0004AD) timeTag:0BD328DA codePhase: E9946D38 carrierPhase: 21060B76 carrierFreq: 0C513E59 carrierAccel: 0002 millisec: 0000 bit#00AB4C25
+          codeCorrections: FFFFFF3C smoothCode: FFFCF000 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0943 deltaRangeQuality: 0873 phaselockQuality: FFFE
+          (unk: 0000000332224C090A) -- list of 10 somethings: (00C0) (00C0) (00C0) (00C0) (00C0) (00C0) (00C0) (00C0) (00C1) (00C1) 
+          sumI: 00F0 sumQ: 0116 SVbit#00AB4B90 MpathLosDetVal: 0002 MpathOnlyDetVal: FFFF (unk: 010100)
+    SVID: 0E (unk: 0004AD) timeTag:0BD3339B codePhase: E999CDA8 carrierPhase: 163F5907 carrierFreq: 0C610E5A carrierAccel: 0002 millisec: 000F bit#00AB4C24
+          codeCorrections: 0000009A smoothCode: 00026800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: F84D deltaRangeQuality: FD44 phaselockQuality: 000C
+          (unk: 00000002322184070A) -- list of 10 somethings: (009C) (009D) (009C) (009C) (009D) (009D) (009D) (009D) (009D) (009C) 
+          sumI: 00B9 sumQ: 0078 SVbit#00AB4B90 MpathLosDetVal: 0000 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 15 (unk: 00062D) timeTag:0BD307AC codePhase: E983D64A carrierPhase: 1F47295A carrierFreq: 0B9D8621 carrierAccel: 0010 millisec: 0012 bit#00AB4C24
+          codeCorrections: 0000007B smoothCode: 0001EC00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0428 deltaRangeQuality: F37D phaselockQuality: FFE4
+          (unk: 00000002322814040A) -- list of 10 somethings: (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) 
+          sumI: 022C sumQ: 018B SVbit#00AB4B90 MpathLosDetVal: 0007 MpathOnlyDetVal: FFFF (unk: 010100)
 16:21:46.520 parsed 0x69AB: 12100 ATX: Meas Send:6 198468473 0 12100 11100 5 0 0
 16:21:46.520 LEAD-IN of 0x8E01 MAYBE related to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 1? (logically, but no data match found)
 16:21:46.520 parsed 0x5426: 12100 CM:RtcEdgeAlign T:142 dRate:2 count:6153 17236 Acq:198489858 Wclk:403236 dRtc:1.000000000 prevAcq:182120720 bepDrift:0.999930545 rtcDrift:0.999930479
-16:21:46.520 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (FIXME - more parsing if we need it)
+16:21:46.520 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (not interesting?)
 16:21:46.553 empty packet  	# seq1=0115 seq2=0019 len=0000
 16:21:46.593 parsed 0x3D04: AGC: noise 1474289 18748 freq 105778 gain 27
 16:21:46.699 parsed 0x2D0B: 12400 ACQ: D7 sv12 ch40 CN0:15 D:98655  0 C:2.75 0.00 Th:274 0 Pk:168 4 3 00 ms:15 vo:1 bs:0 2160 4479101 153
@@ -320,7 +588,7 @@
 16:21:46.804 parsed 0x4E0B: 12500 TRACK: StartTrack sv12 ch11 cno160 sync0 val1 frq98662 -- FIXME rest: 04 48 57 54 4C 00
 16:21:46.807 parsed 0x1E04: 12500 SSS: Commanded l:16 h:16 new:0800
 16:21:46.809 parsed 0x1A00: 12500 SSS: Start. 51102A12 sssMode1 preposMode 1
-16:21:47.096 skip lead-in 0xE10A unknown CMD 0x3D SUB 0x02 80D179078A06636F6853617400012000012000
+16:21:47.096 skip lead-in 0xE10A unknown CMD 0x3D SUB 0x02 80D179078A06636F6853617400012000012000 (FIXME)
     unknown var0 = 0xD179078A (3514369930)
     unknown var1 = 0x06 (6)
     unknown var2 = 0x63 (99)
@@ -336,11 +604,38 @@
     unknown var12 = 0x00 (0)
 16:21:47.202 parsed 0x1423: 12900 SSPa:9: 29-6-7 25-6-7 12-6-7 2-6-7 14-6-7 21-6-7 31-4-4 5-1-1 10-1-1
 16:21:47.212 parsed 0x1420: 12900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-3 10-2 0-15
-16:21:47.457 currently unsupported LEAD-IN 8484: 00/00/0006 16:21:47.457 (0) 84 84 00 00 00 00 0B D4 B7 02 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 33 2C 07 06 0B 00 00 0B 00 7E 00 00 00 00 0C CE 80 08 06 00 1D 00 02 BD 0C CC BD CD 66 5E E6 FC F2 DD 7F 4D 0B FA 15 7B 00 00 00 0A 00 AB 4C 57 00 00 00 67 00 01 D4 CD 00 00 00 00 00 00 39 00 FE E9 FB 14 00 C2 00 00 00 00 00 30 C0 06 0A 01 70 01 70 01 70 01 70 01 70 01 70 01 70 01 71 01 70 01 70 02 33 00 62 00 AB 4B 90 00 03 00 00 01 01 00 19 00 04 AD 0C CD 07 0F 66 83 87 EF 5A 60 57 49 0C 22 6A BA 00 04 00 0A 00 AB 4C 57 FF FF FF 8B FF FE 2C 00 00 00 00 00 00 00 39 00 01 AD F8 6B FF F3 00 00 00 03 32 1B A8 02 0A 00 A7 00 A7 00 A8 00 A9 00 A9 00 A9 00 A8 00 A8 00 A8 00 A7 01 04 01 1C 00 AB 4B 90 00 04 00 00 01 01 00 0C 00 04 ED 0C CD 0F 84 66 87 C2 4A C8 21 90 71 0C 58 14 80 FF F8 00 03 00 AB 4C 57 00 00 00 05 00 00 14 00 00 00 00 00 00 00 39 00 02 EF 08 41 FF EC 00 00 05 03 32 02 44 07 07 00 00 00 90 00 8E 00 8C 00 8A 00 95 00 8F 00 8E 00 00 00 00 00 98 00 C4 00 00 00 00 00 01 00 00 01 00 00 02 00 04 AD 0C CC EE 59 66 77 2C 94 CA 42 DD FA 0C 51 5F 3D 00 05 00 00 00 AB 4C 57 FF FF FF 44 FF FD 10 00 00 00 00 00 00 00 39 00 FC 3F F9 2D 00 1A 00 00 00 02 32 26 34 09 0A 00 C0 00 C0 00 C0 00 C0 00 C0 00 C0 00 C0 00 C0 00 C0 00 C0 00 BA 00 8A 00 AB 4B 90 00 01 00 00 01 01 00 0E 00 04 AD 0C CC F9 1E 66 7C 8F 69 A3 CE F0 DB 0C 61 1F 06 00 02 00 0F 00 AB 4C 56 00 00 00 C3 00 03 0C 00 00 00 00 00 00 00 39 00 06 2E 0C 06 FF FF 00 00 00 02 32 25 6C 07 0A 00 9D 00 9D 00 9D 00 9C 00 9D 00 9D 00 9D 00 9D 00 9D 00 9D 00 F0 00 B6 00 AB 4B 90 00 02 00 00 01 01 00 15 00 06 2D 0C CE 0C A6 67 06 53 03 F6 49 70 44 0B 9D 3B 85 FF FA 00 03 00 AB 4C 57 00 00 00 68 00 01 A0 00 00 00 00 00 00 00 39 00 01 D8 04 83 FF C6 00 00 00 05 32 2C 10 04 0A 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F2 00 F1 00 F2 00 D4 02 9D 00 AB 4B 90 00 02 00 00 01 01 00 	# seq1=011E seq2=0019 len=0268
+16:21:47.457 LEAD-IN of 8484 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:47.457 	unknown 00, maybe_counter 0000000B
+	unknown header stuff: D4 B7 02 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 33 2C 07 06 0B 00 00 0B 00 7E 00 00 00 00 0C CE 80 08 
+	number of entries 6 (zero 00)
+    SVID: 1D (unk: 0002BD) timeTag:0CCCBDCD codePhase: 665EE6FC carrierPhase: F2DD7F4D carrierFreq: 0BFA157B carrierAccel: 0000 millisec: 000A bit#00AB4C57
+          codeCorrections: 00000067 smoothCode: 0001D4CD zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FEE9 deltaRangeQuality: FB14 phaselockQuality: 00C2
+          (unk: 000000000030C0060A) -- list of 10 somethings: (0170) (0170) (0170) (0170) (0170) (0170) (0170) (0171) (0170) (0170) 
+          sumI: 0233 sumQ: 0062 SVbit#00AB4B90 MpathLosDetVal: 0003 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 19 (unk: 0004AD) timeTag:0CCD070F codePhase: 668387EF carrierPhase: 5A605749 carrierFreq: 0C226ABA carrierAccel: 0004 millisec: 000A bit#00AB4C57
+          codeCorrections: FFFFFF8B smoothCode: FFFE2C00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 01AD deltaRangeQuality: F86B phaselockQuality: FFF3
+          (unk: 00000003321BA8020A) -- list of 10 somethings: (00A7) (00A7) (00A8) (00A9) (00A9) (00A9) (00A8) (00A8) (00A8) (00A7) 
+          sumI: 0104 sumQ: 011C SVbit#00AB4B90 MpathLosDetVal: 0004 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 0C (unk: 0004ED) timeTag:0CCD0F84 codePhase: 6687C24A carrierPhase: C8219071 carrierFreq: 0C581480 carrierAccel: FFF8 millisec: 0003 bit#00AB4C57
+          codeCorrections: 00000005 smoothCode: 00001400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 02EF deltaRangeQuality: 0841 phaselockQuality: FFEC
+          (unk: 000005033202440707) -- list of 10 somethings: (0000) (0090) (008E) (008C) (008A) (0095) (008F) (008E) (0000) (0000) 
+          sumI: 0098 sumQ: 00C4 SVbit#00000000 MpathLosDetVal: 0001 MpathOnlyDetVal: 0000 (unk: 010000)
+    SVID: 02 (unk: 0004AD) timeTag:0CCCEE59 codePhase: 66772C94 carrierPhase: CA42DDFA carrierFreq: 0C515F3D carrierAccel: 0005 millisec: 0000 bit#00AB4C57
+          codeCorrections: FFFFFF44 smoothCode: FFFD1000 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FC3F deltaRangeQuality: F92D phaselockQuality: 001A
+          (unk: 00000002322634090A) -- list of 10 somethings: (00C0) (00C0) (00C0) (00C0) (00C0) (00C0) (00C0) (00C0) (00C0) (00C0) 
+          sumI: 00BA sumQ: 008A SVbit#00AB4B90 MpathLosDetVal: 0001 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 0E (unk: 0004AD) timeTag:0CCCF91E codePhase: 667C8F69 carrierPhase: A3CEF0DB carrierFreq: 0C611F06 carrierAccel: 0002 millisec: 000F bit#00AB4C56
+          codeCorrections: 000000C3 smoothCode: 00030C00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 062E deltaRangeQuality: 0C06 phaselockQuality: FFFF
+          (unk: 0000000232256C070A) -- list of 10 somethings: (009D) (009D) (009D) (009C) (009D) (009D) (009D) (009D) (009D) (009D) 
+          sumI: 00F0 sumQ: 00B6 SVbit#00AB4B90 MpathLosDetVal: 0002 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 15 (unk: 00062D) timeTag:0CCE0CA6 codePhase: 67065303 carrierPhase: F6497044 carrierFreq: 0B9D3B85 carrierAccel: FFFA millisec: 0003 bit#00AB4C57
+          codeCorrections: 00000068 smoothCode: 0001A000 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 01D8 deltaRangeQuality: 0483 phaselockQuality: FFC6
+          (unk: 00000005322C10040A) -- list of 10 somethings: (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F2) (00F1) (00F2) 
+          sumI: 00D4 sumQ: 029D SVbit#00AB4B90 MpathLosDetVal: 0002 MpathOnlyDetVal: 0000 (unk: 010100)
 16:21:47.460 parsed 0x69AB: 13100 ATX: Meas Send:6 214859784 0 13100 12100 6 0 0
 16:21:47.467 parsed 0x5426: 13100 CM:RtcEdgeAlign T:142 dRate:2 count:6154 17279 Acq:214880477 Wclk:436047 dRtc:1.001312256 prevAcq:198489858 bepDrift:0.999930497 rtcDrift:0.999930448
 16:21:47.474 LEAD-IN of 0x8E01 MAYBE related to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 1? (logically, but no data match found)
-16:21:47.478 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (FIXME - more parsing if we need it)
+16:21:47.478 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (not interesting?)
 16:21:47.620 empty packet  	# seq1=0123 seq2=001A len=0000
 16:21:47.625 parsed 0x5495: 13330 CM:XoRampRateCheck:0 reset:0 rr:666 dTemp:2 dt:3 t:6152 to:6149
 16:21:47.629 parsed 0x5494: 13330 CM:XO:LastCal:3 freq:96024 freqUnc:85 rD:0.000000000 rT:0.000000000 tr:142 uG:0 fHC:20 mD:1
@@ -349,21 +644,75 @@
 16:21:47.702 parsed 0x1F01: 13400 ATX PP: Seq:9 Mode:0 Ev:0x0322 A:214830246 SVList:0x51102A12 0x00 SVs:29 25 31 12 2 14 21 5 10 0 0 0 0 0 0
 16:21:48.202 parsed 0x1423: 13900 SSPa:9: 29-6-7 25-6-7 12-6-7 2-6-7 14-6-7 21-6-7 31-4-4 5-1-1 10-1-1
 16:21:48.211 parsed 0x1420: 13900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-3 31-2 0-15
-16:21:48.456 currently unsupported LEAD-IN 848E: 00/00/0006 16:21:48.456 (0) 84 8E 00 00 00 00 0C CE D0 DD 00 03 6C FE 37 FD 02 C4 00 00 EE 18 00 00 00 00 00 55 05 DC 00 00 37 14 07 06 0B 00 00 0B 00 7E 00 00 00 00 0D C8 42 18 06 00 1D 00 02 BD 0D C6 83 30 E3 41 98 2A F5 CB 1B 39 0B FA 11 37 00 00 00 0A 00 AB 4C 89 00 00 00 75 00 01 CF 27 00 00 00 00 00 00 39 00 00 44 FF 38 00 D3 00 00 00 00 00 34 A8 06 0A 01 70 01 70 01 70 01 70 01 70 01 70 01 70 01 70 01 70 01 70 02 43 00 21 00 AB 4B 90 00 04 00 00 01 01 00 19 00 04 AD 0D C6 CC 80 E3 66 40 05 D9 C0 1A 91 0C 22 4B A2 FF FC 00 0A 00 AB 4C 89 FF FF FF 54 FF FD 50 00 00 00 00 00 00 00 39 00 01 D1 01 BE 00 1E 00 00 00 02 32 1F 90 02 0A 00 A8 00 A7 00 A7 00 A8 00 A8 00 A8 00 A8 00 A7 00 A7 00 A7 00 D6 00 B7 00 AB 4B 90 00 04 00 00 01 01 00 0C 00 04 ED 0D C6 D5 05 E3 6A 82 BC 76 1B 10 15 0C 58 36 74 FF FD 00 03 00 AB 4C 89 00 00 00 16 00 00 58 00 00 00 00 00 00 00 39 00 FE EF 01 EF 00 00 00 00 00 03 32 06 2C 07 0A 00 91 00 93 00 92 00 8F 00 90 00 91 00 91 00 95 00 90 00 90 01 08 00 EE 00 00 00 00 00 02 00 00 01 00 00 02 00 04 AD 0D C6 B3 D8 E3 59 EC 10 C0 99 55 46 0C 51 39 E9 FF FE 00 00 00 AB 4C 89 FF FF FF 33 FF FC CC 00 00 00 00 00 00 00 39 00 FF 54 FF 02 00 08 00 00 00 01 32 2A 1C 09 0A 00 C0 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 C0 00 C0 01 74 00 92 00 AB 4B 90 00 03 FF FF 01 01 00 0E 00 00 AD 0D C7 FE 58 E3 FF 2C 6A 37 B9 B9 C3 0C 61 21 8C 00 02 00 00 00 AB 4C 89 00 00 00 68 00 01 A0 00 00 00 00 00 00 00 39 00 F9 81 01 8B 00 22 00 00 00 00 32 29 54 07 0A 00 9E 00 9E 00 9E 00 9F 00 9F 00 9F 00 9F 00 A0 00 9E 00 9E 01 63 00 61 00 AB 4B 90 00 05 00 01 01 01 00 15 00 02 2D 0D C7 D1 EA E3 E8 F5 4C DF 7C 19 40 0B 9D 5E 21 00 06 00 03 00 AB 4C 89 00 00 00 57 00 01 5C 00 00 00 00 00 00 00 39 00 FB 64 FF E8 00 1A 00 00 00 00 32 2F F8 04 0A 00 F2 00 F2 00 F2 00 F2 00 F3 00 F2 00 F2 00 F2 00 F2 00 F2 02 EC 01 85 00 AB 4B 90 00 00 00 00 01 01 00 	# seq1=0129 seq2=001B len=0268
+16:21:48.456 LEAD-IN of 848E might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:48.456 	unknown 00, maybe_counter 0000000C
+	unknown header stuff: CE D0 DD 00 03 6C FE 37 FD 02 C4 00 00 EE 18 00 00 00 00 00 55 05 DC 00 00 37 14 07 06 0B 00 00 0B 00 7E 00 00 00 00 0D C8 42 18 
+	number of entries 6 (zero 00)
+    SVID: 1D (unk: 0002BD) timeTag:0DC68330 codePhase: E341982A carrierPhase: F5CB1B39 carrierFreq: 0BFA1137 carrierAccel: 0000 millisec: 000A bit#00AB4C89
+          codeCorrections: 00000075 smoothCode: 0001CF27 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0044 deltaRangeQuality: FF38 phaselockQuality: 00D3
+          (unk: 000000000034A8060A) -- list of 10 somethings: (0170) (0170) (0170) (0170) (0170) (0170) (0170) (0170) (0170) (0170) 
+          sumI: 0243 sumQ: 0021 SVbit#00AB4B90 MpathLosDetVal: 0004 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 19 (unk: 0004AD) timeTag:0DC6CC80 codePhase: E3664005 carrierPhase: D9C01A91 carrierFreq: 0C224BA2 carrierAccel: FFFC millisec: 000A bit#00AB4C89
+          codeCorrections: FFFFFF54 smoothCode: FFFD5000 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 01D1 deltaRangeQuality: 01BE phaselockQuality: 001E
+          (unk: 00000002321F90020A) -- list of 10 somethings: (00A8) (00A7) (00A7) (00A8) (00A8) (00A8) (00A8) (00A7) (00A7) (00A7) 
+          sumI: 00D6 sumQ: 00B7 SVbit#00AB4B90 MpathLosDetVal: 0004 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 0C (unk: 0004ED) timeTag:0DC6D505 codePhase: E36A82BC carrierPhase: 761B1015 carrierFreq: 0C583674 carrierAccel: FFFD millisec: 0003 bit#00AB4C89
+          codeCorrections: 00000016 smoothCode: 00005800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FEEF deltaRangeQuality: 01EF phaselockQuality: 0000
+          (unk: 0000000332062C070A) -- list of 10 somethings: (0091) (0093) (0092) (008F) (0090) (0091) (0091) (0095) (0090) (0090) 
+          sumI: 0108 sumQ: 00EE SVbit#00000000 MpathLosDetVal: 0002 MpathOnlyDetVal: 0000 (unk: 010000)
+    SVID: 02 (unk: 0004AD) timeTag:0DC6B3D8 codePhase: E359EC10 carrierPhase: C0995546 carrierFreq: 0C5139E9 carrierAccel: FFFE millisec: 0000 bit#00AB4C89
+          codeCorrections: FFFFFF33 smoothCode: FFFCCC00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FF54 deltaRangeQuality: FF02 phaselockQuality: 0008
+          (unk: 00000001322A1C090A) -- list of 10 somethings: (00C0) (00BF) (00BF) (00BF) (00BF) (00BF) (00BF) (00BF) (00C0) (00C0) 
+          sumI: 0174 sumQ: 0092 SVbit#00AB4B90 MpathLosDetVal: 0003 MpathOnlyDetVal: FFFF (unk: 010100)
+    SVID: 0E (unk: 0000AD) timeTag:0DC7FE58 codePhase: E3FF2C6A carrierPhase: 37B9B9C3 carrierFreq: 0C61218C carrierAccel: 0002 millisec: 0000 bit#00AB4C89
+          codeCorrections: 00000068 smoothCode: 0001A000 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: F981 deltaRangeQuality: 018B phaselockQuality: 0022
+          (unk: 00000000322954070A) -- list of 10 somethings: (009E) (009E) (009E) (009F) (009F) (009F) (009F) (00A0) (009E) (009E) 
+          sumI: 0163 sumQ: 0061 SVbit#00AB4B90 MpathLosDetVal: 0005 MpathOnlyDetVal: 0001 (unk: 010100)
+    SVID: 15 (unk: 00022D) timeTag:0DC7D1EA codePhase: E3E8F54C carrierPhase: DF7C1940 carrierFreq: 0B9D5E21 carrierAccel: 0006 millisec: 0003 bit#00AB4C89
+          codeCorrections: 00000057 smoothCode: 00015C00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FB64 deltaRangeQuality: FFE8 phaselockQuality: 001A
+          (unk: 00000000322FF8040A) -- list of 10 somethings: (00F2) (00F2) (00F2) (00F2) (00F3) (00F2) (00F2) (00F2) (00F2) (00F2) 
+          sumI: 02EC sumQ: 0185 SVbit#00AB4B90 MpathLosDetVal: 0000 MpathOnlyDetVal: 0000 (unk: 010100)
 16:21:48.530 parsed 0x69AB: 14100 ATX: Meas Send:6 231227928 0 14100 13100 6 0 0
 16:21:48.530 parsed 0x5426: 14100 CM:RtcEdgeAlign T:142 dRate:2 count:6155 17273 Acq:231246618 Wclk:468809 dRtc:0.999816895 prevAcq:214880477 bepDrift:0.999930479 rtcDrift:0.999930462
 16:21:48.530 LEAD-IN of 0x8E01 MAYBE related to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 1? (logically, but no data match found)
-16:21:48.530 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (FIXME - more parsing if we need it)
+16:21:48.530 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (not interesting?)
 16:21:48.560 empty packet  	# seq1=012E seq2=001C len=0000
 16:21:49.095 parsed 0x3D04: AGC: noise 1477820 18144 freq 86253 gain 27
 16:21:49.203 parsed 0x1423: 14900 SSPa:9: 29-6-7 25-6-7 12-6-7 2-6-7 14-6-7 21-6-7 31-4-4 5-1-1 10-1-1
 16:21:49.212 parsed 0x1420: 14900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-3 5-2 0-15
-16:21:49.402 currently unsupported LEAD-IN 8505: 00/00/0006 16:21:49.402 (0) 85 05 01 1D 01 03 FF 03 FF 00 00 22 C3 06 2B ED BA 56 C4 30 64 00 2C 07 17 04 95 59 DE 32 8A A1 83 CE 4C 16 9D 7A EA 89 CE 10 34 00 00 06 3A 91 C2 B4 74 	# seq1=0131 seq2=001C len=0033
-16:21:49.462 currently unsupported LEAD-IN 8498: 00/00/0006 16:21:49.462 (0) 84 98 00 00 00 00 0D C8 8B 1A 00 03 6C FE 37 FD 02 C4 00 00 EE 18 00 00 00 00 00 55 05 DC 00 00 3A FC 07 06 0B 00 00 0B 00 7E 00 00 00 00 0E C2 07 D5 06 00 1D 00 02 BD 0E C0 48 92 60 24 49 5E 4B 1F 16 43 0B FA 18 55 00 01 00 0A 00 AB 4C BB 00 00 00 7F 00 01 D0 A8 00 00 00 00 00 00 39 00 01 60 FE E9 00 D0 00 00 00 00 00 38 90 06 0A 01 70 01 70 01 70 01 70 01 70 01 70 01 70 01 70 01 70 01 70 02 6D 00 43 00 AB 4C BC 00 04 00 00 01 01 00 19 00 04 AD 0E C0 91 EE 60 48 F7 6A B4 5E 38 B1 0C 22 0C EA FF F6 00 0A 00 AB 4C BB FF FF FF 99 FF FE 64 00 00 00 00 00 00 00 39 00 08 1D 14 FC FF E6 00 00 00 03 32 23 78 02 0A 00 A7 00 A7 00 A7 00 A7 00 A6 00 A6 00 A7 00 A7 00 A7 00 A7 00 B2 01 04 00 AB 4B 90 00 04 00 00 01 01 00 0C 00 04 ED 0E C0 9A 86 60 4D 43 50 E8 39 AA 2D 0C 58 5E EC 00 03 00 03 00 AB 4C BB 00 00 00 0E 00 00 38 00 00 00 00 00 00 00 39 00 01 30 F8 28 FF F2 00 00 1C 02 32 0A 14 07 0A 00 8F 00 8E 00 8E 00 8D 00 8B 00 8A 00 89 00 86 00 94 00 91 00 8D 00 81 00 00 00 00 00 01 00 00 01 00 00 02 00 04 AD 0E C0 79 56 60 3C AB 3B 5F 1C 36 FA 0C 51 51 1D 00 03 00 00 00 AB 4C BB FF FF FF 5E FF FD 78 00 00 00 00 00 00 00 39 00 00 08 08 03 FF CD 00 00 00 04 32 2E 04 09 0A 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BF 00 BE 00 BE 00 BE 00 6D 01 11 00 AB 4B 90 00 06 00 00 01 01 00 0E 00 04 AD 0E C0 84 27 60 42 13 FF 56 F1 9E 1D 0C 61 4C 55 00 07 00 0F 00 AB 4C BA 00 00 00 47 00 01 1C 00 00 00 00 00 00 00 39 00 F6 1B FE 71 00 0A 00 00 00 02 32 2D 3C 07 0A 00 A1 00 A1 00 A1 00 A0 00 A0 00 A0 00 A0 00 A0 00 A0 00 A1 00 B2 00 B3 00 AB 4B 90 00 05 00 02 01 01 00 15 00 06 2D 0E C1 97 2F 60 CB 97 C5 F9 F6 5D 34 0B 9D 48 05 FF FD 00 03 00 AB 4C BB 00 00 00 25 00 00 94 00 00 00 00 00 00 00 39 00 FC B2 00 1F 00 35 00 00 00 01 32 33 E0 04 0A 00 F3 00 F3 00 F4 00 F4 00 F4 00 F3 00 F3 00 F3 00 F3 00 F3 02 27 00 D2 00 AB 4B 90 00 00 00 01 01 01 00 	# seq1=0132 seq2=001C len=0268
+16:21:49.402 LEAD-IN of 0x8505 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+16:21:49.462 LEAD-IN of 8498 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
+16:21:49.462 	unknown 00, maybe_counter 0000000D
+	unknown header stuff: C8 8B 1A 00 03 6C FE 37 FD 02 C4 00 00 EE 18 00 00 00 00 00 55 05 DC 00 00 3A FC 07 06 0B 00 00 0B 00 7E 00 00 00 00 0E C2 07 D5 
+	number of entries 6 (zero 00)
+    SVID: 1D (unk: 0002BD) timeTag:0EC04892 codePhase: 6024495E carrierPhase: 4B1F1643 carrierFreq: 0BFA1855 carrierAccel: 0001 millisec: 000A bit#00AB4CBB
+          codeCorrections: 0000007F smoothCode: 0001D0A8 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0160 deltaRangeQuality: FEE9 phaselockQuality: 00D0
+          (unk: 00000000003890060A) -- list of 10 somethings: (0170) (0170) (0170) (0170) (0170) (0170) (0170) (0170) (0170) (0170) 
+          sumI: 026D sumQ: 0043 SVbit#00AB4CBC MpathLosDetVal: 0004 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 19 (unk: 0004AD) timeTag:0EC091EE codePhase: 6048F76A carrierPhase: B45E38B1 carrierFreq: 0C220CEA carrierAccel: FFF6 millisec: 000A bit#00AB4CBB
+          codeCorrections: FFFFFF99 smoothCode: FFFE6400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 081D deltaRangeQuality: 14FC phaselockQuality: FFE6
+          (unk: 00000003322378020A) -- list of 10 somethings: (00A7) (00A7) (00A7) (00A7) (00A6) (00A6) (00A7) (00A7) (00A7) (00A7) 
+          sumI: 00B2 sumQ: 0104 SVbit#00AB4B90 MpathLosDetVal: 0004 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 0C (unk: 0004ED) timeTag:0EC09A86 codePhase: 604D4350 carrierPhase: E839AA2D carrierFreq: 0C585EEC carrierAccel: 0003 millisec: 0003 bit#00AB4CBB
+          codeCorrections: 0000000E smoothCode: 00003800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0130 deltaRangeQuality: F828 phaselockQuality: FFF2
+          (unk: 00001C02320A14070A) -- list of 10 somethings: (008F) (008E) (008E) (008D) (008B) (008A) (0089) (0086) (0094) (0091) 
+          sumI: 008D sumQ: 0081 SVbit#00000000 MpathLosDetVal: 0001 MpathOnlyDetVal: 0000 (unk: 010000)
+    SVID: 02 (unk: 0004AD) timeTag:0EC07956 codePhase: 603CAB3B carrierPhase: 5F1C36FA carrierFreq: 0C51511D carrierAccel: 0003 millisec: 0000 bit#00AB4CBB
+          codeCorrections: FFFFFF5E smoothCode: FFFD7800 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: 0008 deltaRangeQuality: 0803 phaselockQuality: FFCD
+          (unk: 00000004322E04090A) -- list of 10 somethings: (00BF) (00BF) (00BF) (00BF) (00BF) (00BF) (00BF) (00BE) (00BE) (00BE) 
+          sumI: 006D sumQ: 0111 SVbit#00AB4B90 MpathLosDetVal: 0006 MpathOnlyDetVal: 0000 (unk: 010100)
+    SVID: 0E (unk: 0004AD) timeTag:0EC08427 codePhase: 604213FF carrierPhase: 56F19E1D carrierFreq: 0C614C55 carrierAccel: 0007 millisec: 000F bit#00AB4CBA
+          codeCorrections: 00000047 smoothCode: 00011C00 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: F61B deltaRangeQuality: FE71 phaselockQuality: 000A
+          (unk: 00000002322D3C070A) -- list of 10 somethings: (00A1) (00A1) (00A1) (00A0) (00A0) (00A0) (00A0) (00A0) (00A0) (00A1) 
+          sumI: 00B2 sumQ: 00B3 SVbit#00AB4B90 MpathLosDetVal: 0005 MpathOnlyDetVal: 0002 (unk: 010100)
+    SVID: 15 (unk: 00062D) timeTag:0EC1972F codePhase: 60CB97C5 carrierPhase: F9F65D34 carrierFreq: 0B9D4805 carrierAccel: FFFD millisec: 0003 bit#00AB4CBB
+          codeCorrections: 00000025 smoothCode: 00009400 zeroes (00000000) codeOffset: 00003900 pseudorangeNoise: FCB2 deltaRangeQuality: 001F phaselockQuality: 0035
+          (unk: 000000013233E0040A) -- list of 10 somethings: (00F3) (00F3) (00F4) (00F4) (00F4) (00F3) (00F3) (00F3) (00F3) (00F3) 
+          sumI: 0227 sumQ: 00D2 SVbit#00AB4B90 MpathLosDetVal: 0000 MpathOnlyDetVal: 0001 (unk: 010100)
 16:21:49.466 parsed 0x69AB: 15100 ATX: Meas Send:6 247597013 0 15100 14100 6 0 0
 16:21:49.474 LEAD-IN of 0x8E01 MAYBE related to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 1? (logically, but no data match found)
 16:21:49.482 parsed 0x5426: 15100 CM:RtcEdgeAlign T:142 dRate:2 count:6156 17286 Acq:247622252 Wclk:501590 dRtc:1.000396729 prevAcq:231246618 bepDrift:0.999930421 rtcDrift:0.999930363
-16:21:49.486 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (FIXME - more parsing if we need it)
+16:21:49.486 LEAD-IN of 0x8E02 equivalent to SiRFbinary MID 92 (0x5C) - CW Controller Output, SID 2! (not interesting?)
 16:21:49.643 empty packet  	# seq1=0137 seq2=001D len=0000
 16:21:49.648 parsed 0x5495: 15350 CM:XoRampRateCheck:0 reset:0 rr:666 dTemp:2 dt:3 t:6152 to:6149
 16:21:49.652 parsed 0x5494: 15350 CM:XO:LastCal:3 freq:96024 freqUnc:85 rD:0.000000000 rT:0.000000000 tr:142 uG:0 fHC:20 mD:1
