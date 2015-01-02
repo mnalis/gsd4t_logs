@@ -1,0 +1,118 @@
+00:00:00.001 parsed 0x2D0B: 2500 ACQ: D7 sv20 ch39 CN0:20 D:95997  0 C:2.25 0.00 Th:116 0 Pk:126 5 2 00 ms:7 vo:0 bs:0 409 898317 57
+00:00:00.002 skip lead-in 0xE10A unknown CMD 0x49 SUB 0x09 400A2802052020600176FF20E3400294 (FIXME)
+    unknown var0 = 0x0A28 (2600)
+    unknown var1 = 0x02 (2)
+    unknown var2 = 0x05 (5)
+    unknown var3 = 0x20 (32)
+    unknown var4 = 0x0176FF (95999)
+    unknown var5 = 0xE3 (227)
+    unknown var6 = 0x0294 (660)
+00:00:00.003 skip lead-in 0xE10A unknown CMD 0x49 SUB 0x09 400A2809032020600176F820DA400294 (FIXME)
+    unknown var0 = 0x0A28 (2600)
+    unknown var1 = 0x09 (9)
+    unknown var2 = 0x03 (3)
+    unknown var3 = 0x20 (32)
+    unknown var4 = 0x0176F8 (95992)
+    unknown var5 = 0xDA (218)
+    unknown var6 = 0x0294 (660)
+00:00:00.004 skip lead-in 0xE10A unknown CMD 0x18 SUB 0x04 400A28010102000100000020E30400000E0501 (FIXME)
+    unknown var0 = 0x0A28 (2600)
+    unknown var1 = 0x01 (1)
+    unknown var2 = 0x01 (1)
+    unknown var3 = 0x02 (2)
+    unknown var4 = 0x00 (0)
+    unknown var5 = 0x01 (1)
+    unknown var6 = 0x00 (0)
+    unknown var7 = 0x00 (0)
+    unknown var8 = 0x00 (0)
+    unknown var9 = 0xE3 (227)
+    unknown var10 = 0x04 (4)
+    unknown var11 = 0x00 (0)
+    unknown var12 = 0x00 (0)
+    unknown var13 = 0x0E (14)
+    unknown var14 = 0x05 (5)
+    unknown var15 = 0x01 (1)
+00:00:00.005 skip lead-in 0xE10A unknown CMD 0x18 SUB 0x04 400A28010112000100000020E00400000E0601 (FIXME)
+    unknown var0 = 0x0A28 (2600)
+    unknown var1 = 0x01 (1)
+    unknown var2 = 0x01 (1)
+    unknown var3 = 0x12 (18)
+    unknown var4 = 0x00 (0)
+    unknown var5 = 0x01 (1)
+    unknown var6 = 0x00 (0)
+    unknown var7 = 0x00 (0)
+    unknown var8 = 0x00 (0)
+    unknown var9 = 0xE0 (224)
+    unknown var10 = 0x04 (4)
+    unknown var11 = 0x00 (0)
+    unknown var12 = 0x00 (0)
+    unknown var13 = 0x0E (14)
+    unknown var14 = 0x06 (6)
+    unknown var15 = 0x01 (1)
+00:00:00.006 skip lead-in 0xE10A unknown CMD 0x18 SUB 0x04 400A28010109000100000020DA0400000E0501 (FIXME)
+    unknown var0 = 0x0A28 (2600)
+    unknown var1 = 0x01 (1)
+    unknown var2 = 0x01 (1)
+    unknown var3 = 0x09 (9)
+    unknown var4 = 0x00 (0)
+    unknown var5 = 0x01 (1)
+    unknown var6 = 0x00 (0)
+    unknown var7 = 0x00 (0)
+    unknown var8 = 0x00 (0)
+    unknown var9 = 0xDA (218)
+    unknown var10 = 0x04 (4)
+    unknown var11 = 0x00 (0)
+    unknown var12 = 0x00 (0)
+    unknown var13 = 0x0E (14)
+    unknown var14 = 0x05 (5)
+    unknown var15 = 0x01 (1)
+00:00:00.007 skip lead-in 0xE10A unknown CMD 0x18 SUB 0x04 4032640101040000000000207C0300001F0A01 (FIXME)
+    unknown var0 = 0x3264 (12900)
+    unknown var1 = 0x01 (1)
+    unknown var2 = 0x01 (1)
+    unknown var3 = 0x04 (4)
+    unknown var4 = 0x00 (0)
+    unknown var5 = 0x00 (0)
+    unknown var6 = 0x00 (0)
+    unknown var7 = 0x00 (0)
+    unknown var8 = 0x00 (0)
+    unknown var9 = 0x7C (124)
+    unknown var10 = 0x03 (3)
+    unknown var11 = 0x00 (0)
+    unknown var12 = 0x00 (0)
+    unknown var13 = 0x1F (31)
+    unknown var14 = 0x0A (10)
+    unknown var15 = 0x01 (1)
+00:00:00.008 parsed 0x5800: (guess) SiRF GPS SW Version: GSD4t_4.1.1-B16_1197119 01/17/2012 017
+00:00:00.009 parsed 0x5802: (guess) Compiler: RVDS
+00:00:00.010 parsed 0x5803: (guess) ASIC GSD4T 0x0401
+00:00:00.011 parsed 0x5804: CPU Speed: 109 MHz    Cache: Disabled
+00:00:00.012 parsed 0x5805: (guess) Config: RefClk: 16369000 Hz ClkOffset: 96250 Hz Unc: 3000 ppb Lna: Int Baud: 115200 Backup LDO: Enb
+00:00:00.013 skip lead-in 0xE109 unknown CMD 0x58 SUB 0x0C  (FIXME)
+00:00:00.014 parsed 0x5E09: GPS FULL RESET received
+00:00:00.015 unknown empty-load LEAD-IN of 0x8102
+00:00:00.016 parsed 0x5700: System Reset Command
+00:00:00.017 LEAD-IN of 0x82 is part of SiRFbinary MID 64 (0x40) - Nav Library, SID 1 GPS Data (FIXME - more parsing if we need it)
+00:00:00.018 parsed 0x5800: (guess) SiRF GPS SW Version: GSD4t_4.1.1-B16_1197119 01/17/2012 017
+00:00:00.019 parsed 0x5802: (guess) Compiler: RVDS
+00:00:00.020 parsed 0x5803: (guess) ASIC GSD4T 0x0401
+00:00:00.021 parsed 0x5804: CPU Speed: 109 MHz    Cache: Disabled
+00:00:00.022 parsed 0x5805: (guess) Config: RefClk: 16369000 Hz ClkOffset: 96250 Hz Unc: 3000 ppb Lna: Int Baud: 115200 Backup LDO: Enb
+00:00:00.023 skip lead-in 0xE109 unknown CMD 0x58 SUB 0x0C  (FIXME)
+00:00:00.024 empty packet  	# seq1=0007 seq2=0000 len=0000
+00:00:00.025 parsed 0x5802: (guess) Compiler: RVDS
+00:00:00.026 parsed 0x5803: (guess) ASIC GSD4T 0x0401
+00:00:00.027 parsed 0x5804: CPU Speed: 109 MHz    Cache: Disabled
+00:00:00.028 parsed 0x5805: (guess) Config: RefClk: 16369000 Hz ClkOffset: 96250 Hz Unc: 3000 ppb Lna: Int Baud: 115200 Backup LDO: Enb
+00:00:00.029 skip lead-in 0xE109 unknown CMD 0x58 SUB 0x0C  (FIXME)
+00:00:00.030 empty packet  	# seq1=0007 seq2=0001 len=0000
+00:00:00.031 unknown empty-load LEAD-IN of 0x810A
+00:00:00.032 parsed 0x5802: (guess) Compiler: RVDS
+00:00:00.033 parsed 0x5803: (guess) ASIC GSD4T 0x0401
+00:00:00.034 parsed 0x5804: CPU Speed: 109 MHz    Cache: Disabled
+00:00:00.035 parsed 0x5805: (guess) Config: RefClk: 16369000 Hz ClkOffset: 96250 Hz Unc: 3000 ppb Lna: Int Baud: 115200 Backup LDO: Enb
+00:00:00.036 skip lead-in 0xE109 unknown CMD 0x58 SUB 0x0C  (FIXME)
+00:00:00.037 unknown empty-load LEAD-IN of 0x810A
+00:00:00.038 parsed 0x1420: 2910 ChdevsA: 20-3 10-3 4-3 23-5 20-5 20-5 4-4 19-5 19-5 13-5 13-5 30-5 30-5 27-5 27-5 26-5 26-5 22-5 22-5 21-5 31-3 31-4 21-5 18-5 18-5
+00:00:00.039 parsed 0x1420: 12900 ChdevsA: 20-3 17-3 22-2 27-2 18-2 18-2 22-2 22-2 22-2 22-2 22-2 6-2 6-2 6-2 22-2 22-2 6-2 6-2 29-2 29-2 19-2 22-2 22-2 19-2 31-3
+00:00:00.040 parsed 0x1421: 56900 ChdevsB: 14-2 14-2 26-2 26-2 25-2 25-2 16-2 21-2 14-2 14-2 21-2 16-2 16-2 14-2 14-2 0-15 25-14
