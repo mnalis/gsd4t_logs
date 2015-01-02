@@ -1,3 +1,5 @@
+produced with https://github.com/illarionov/sirfdump -o nmea
+
 $GPGGA,142136.757,,,,,,,0,,,,,,,,*7E
 $GPRMC,142136.757,V,,,,,,,,,2406*29
 $GPGLL,0000.0000,N,00000.0000,E,14213*72
