@@ -204,6 +204,9 @@
 16:21:37.798 parsed 0x2D0B: 3500 ACQ: S7 sv14 ch27 CN0:19 D:98929  0 C:3.05 0.00 Th:116 0 Pk:125 4 3 00 ms:15 vo:1 bs:0 894 1875461 62
 16:21:37.804 parsed 0x4E0B: 3500 TRACK: StartTrack sv14 ch3 cno190 sync0 val1 frq98929 -- FIXME rest: 04 48 57 54 4C 00
 16:21:38.101 LEAD-IN of 0x8501 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+    number of 50Bps sub-frames: 1
+    from SVID 1D (unk 0003FF03000000)
+	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: 01010101 01010101 01010101 01010101 01010101 0000000A 89DD8381 4678F1C6 A77D3A02 8AC00610 
 16:21:38.143 LEAD-IN of 8427 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
 16:21:38.143 	unknown 00, maybe_counter 00000002
 	unknown header stuff: C2 6A 24 00 03 6C FE 37 FD 02 C4 00 00 EE 1B 00 00 00 03 00 54 05 DC 00 00 0E D8 07 06 03 00 00 0B 00 7E 00 00 00 00 03 BB 60 F1 
@@ -252,6 +255,9 @@
 16:21:38.972 parsed 0x2D03: 4600 ACQ: New7 type3 sv12 ch28 D:98716 C:0 12 247
 16:21:39.092 parsed 0x3D04: AGC: noise 1474015 19303 freq 86253 gain 27
 16:21:39.104 LEAD-IN of 0x8502 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+    number of 50Bps sub-frames: 1
+    from SVID 15 (unk 0003FF03800380)
+	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: 01010101 01010101 01010101 01010101 01010101 01010101 01010101 00000006 A77D3A02 8AC001EF 
 16:21:39.144 LEAD-IN of 8431 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
 16:21:39.144 	unknown 00, maybe_counter 00000003
 	unknown header stuff: BB B1 35 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 03 00 55 05 DC 00 00 12 C0 07 06 03 00 00 0B 00 7E 00 00 00 00 04 B5 82 1F 
@@ -451,6 +457,9 @@
 16:21:43.203 parsed 0x1423: 8900 SSPa:9: 29-6-7 25-6-7 2-6-7 14-6-7 21-6-7 12-4-3 31-2-4 5-1-1 10-1-1
 16:21:43.215 parsed 0x1420: 8900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-4 12-4 12-4 12-4 12-4 10-2 12-4 12-4 12-4 10-2 0-15
 16:21:43.402 LEAD-IN of 0x8503 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+    number of 50Bps sub-frames: 1
+    from SVID 1D (unk 0503FF03FF0000)
+	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: 22C3062B EDBA7238 102AAAAC 2AAAAABC 2AAAAABC 2AAAAABC 2AAAAABC 2AAAAABC 2AAAAABC 2AAAAABC 
 16:21:43.453 LEAD-IN of 845C might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
 16:21:43.453 	unknown 00, maybe_counter 00000007
 	unknown header stuff: ED D5 E5 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 23 8C 07 06 03 00 00 0B 00 7E 00 00 00 00 08 E7 54 B4 
@@ -491,6 +500,15 @@
 16:21:44.202 parsed 0x1423: 9900 SSPa:9: 29-6-7 25-6-7 2-6-7 14-6-7 21-6-7 12-4-3 31-2-4 5-1-1 10-1-1
 16:21:44.211 parsed 0x1420: 9900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-4 12-4 12-4 31-2 0-15
 16:21:44.415 LEAD-IN of 0x8504 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+    number of 50Bps sub-frames: 4
+    from SVID 19 (unk 0003FF000003F0)
+	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: 01010101 01010101 01010101 01010101 0000000B DA5495FC 2292AEC8 2AD294E3 CAAC6AB3 DBB1AB43 
+    from SVID 02 (unk 0003FF000003FF)
+	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: 0002F92C 12598DC6 AFC524AF EAAAAA43 D5555543 C55AAABE B2AAB543 D5155544 2AAAA943 D551AA4D 
+    from SVID 0E (unk 0003FF000003FF)
+	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: 00000014 11C583CB C09E5A68 0A16E45C 1C731985 6B6D117D 4B353642 B6B62A64 08BAAABC 2FAAA943 
+    from SVID 15 (unk 0003FF03FF03FF)
+	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: DD3CF9D4 12458C38 102AAAAC 2AAAAABC 2AAAAABC 2AAAAABC 2A56AABC 2AAAAABC 2AAAAABD 6AAAAABC 
 16:21:44.468 LEAD-IN of 8466 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
 16:21:44.468 	unknown 00, maybe_counter 00000008
 	unknown header stuff: E7 9B D2 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 27 74 07 06 0B 00 00 0B 00 7E 00 00 00 00 09 E0 E8 32 
@@ -681,6 +699,9 @@
 16:21:49.203 parsed 0x1423: 14900 SSPa:9: 29-6-7 25-6-7 12-6-7 2-6-7 14-6-7 21-6-7 31-4-4 5-1-1 10-1-1
 16:21:49.212 parsed 0x1420: 14900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-3 5-2 0-15
 16:21:49.402 LEAD-IN of 0x8505 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+    number of 50Bps sub-frames: 1
+    from SVID 1D (unk 0103FF03FF0000)
+	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: 22C3062B EDBA56C4 3064002C 07170495 59DE328A A183CE4C 169D7AEA 89CE1034 0000063A 91C2B474 
 16:21:49.462 LEAD-IN of 8498 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
 16:21:49.462 	unknown 00, maybe_counter 0000000D
 	unknown header stuff: C8 8B 1A 00 03 6C FE 37 FD 02 C4 00 00 EE 18 00 00 00 00 00 55 05 DC 00 00 3A FC 07 06 0B 00 00 0B 00 7E 00 00 00 00 0E C2 07 D5 
