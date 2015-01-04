@@ -81,7 +81,7 @@
 16:21:34.992 parsed 0x2D03: 610 ACQ: New5 type0 sv12 ch8 D:98746 C:-30 0 248
 16:21:35.016 parsed 0x2D03: 700 ACQ: New7 type3 sv29 ch23 D:95777 C:0 35 8
 16:21:35.110 LEAD-IN of 8409 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:35.110 	unknown 00, maybe_counter 00000000
+	unknown 00, maybe_counter 00000000
 	unknown header stuff: 00 D7 49 00 03 6C FE 37 FD 02 C4 00 00 EE 18 00 00 00 9A 00 54 05 DC 00 00 03 20 07 06 03 00 00 0B 00 7E 00 00 00 00 00 CD C3 07 
 	number of entries 1 (zero 00)
     SVID: 1D (unk: 0004AD) timeTag:00CC8EC6 codePhase: 66476371 carrierPhase: 10FB6FA5 carrierFreq: 0BFA3DD3 carrierAccel: FFF6 millisec: 000A bit#00AB49F0
@@ -134,7 +134,7 @@
 16:21:36.103 parsed 0x4E0B: 1800 TRACK: StartTrack sv21 ch1 cno250 sync0 val1 frq92821 -- FIXME rest: 04 48 57 54 4C 00
 16:21:36.108 parsed 0x2D03: 1800 ACQ: New5 type0 sv2 ch36 D:98614 C:0 0 248
 16:21:36.128 LEAD-IN of 8413 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:36.128 	unknown 00, maybe_counter 00000000
+	unknown 00, maybe_counter 00000000
 	unknown header stuff: CD E8 7F 00 03 6C FE 37 FD 02 C4 00 00 EE 1B 00 00 00 03 00 54 05 DC 00 00 07 08 07 06 03 00 00 0B 00 7E 00 00 00 00 01 C7 F3 56 
 	number of entries 2 (zero 00)
     SVID: 1D (unk: 0000BD) timeTag:01C65428 codePhase: E32A1448 carrierPhase: C500DAAB carrierFreq: 0BF9D665 carrierAccel: FFED millisec: 000A bit#00AB4A22
@@ -175,7 +175,7 @@
 16:21:37.116 parsed 0x2D03: 2800 ACQ: New7 type3 sv25 ch19 D:96977 C:0 14 247
 16:21:37.116 parsed 0x2D03: 2800 ACQ: New7 type3 sv25 ch12 D:96939 C:0 13 247
 16:21:37.136 LEAD-IN of 841D might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:37.136 	unknown 00, maybe_counter 00000001
+	unknown 00, maybe_counter 00000001
 	unknown header stuff: C8 29 50 00 03 6C FE 37 FD 02 C4 00 00 EE 1B 00 00 00 03 00 54 05 DC 00 00 0A F0 07 06 03 00 00 0B 00 7E 00 00 00 00 02 C2 30 7E 
 	number of entries 2 (zero 00)
     SVID: 1D (unk: 0000BD) timeTag:02C0198A codePhase: 600CC57F carrierPhase: AC8E462F carrierFreq: 0BF9C389 carrierAccel: 0001 millisec: 000A bit#00AB4A54
@@ -206,9 +206,21 @@
 16:21:38.101 LEAD-IN of 0x8501 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
     number of 50Bps sub-frames: 1
     from SVID 1D (unk 0003FF03000000)
-	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: 01010101 01010101 01010101 01010101 01010101 0000000A 89DD8381 4678F1C6 A77D3A02 8AC00610 
+	TLM=000001000000010000000100000001
+	   (parity check HAS FAILED - 000010 should be 000001 !)
+	   preamble=00000100 extra_integrity=0
+	  INVALID TLM PREAMBLE (Should be 10001011). Remaining 50Bps raw 30-bit words are: 
+	  01 01 01 01
+	  01 01 01 01
+	  01 01 01 01
+	  01 01 01 01
+	  00 00 00 0A
+	  89 DD 83 81
+	  46 78 F1 C6
+	  A7 7D 3A 02
+	  8A C0 06 10
 16:21:38.143 LEAD-IN of 8427 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:38.143 	unknown 00, maybe_counter 00000002
+	unknown 00, maybe_counter 00000002
 	unknown header stuff: C2 6A 24 00 03 6C FE 37 FD 02 C4 00 00 EE 1B 00 00 00 03 00 54 05 DC 00 00 0E D8 07 06 03 00 00 0B 00 7E 00 00 00 00 03 BB 60 F1 
 	number of entries 4 (zero 00)
     SVID: 1D (unk: 0000BD) timeTag:03B9DEED codePhase: DCEF76A6 carrierPhase: EFBA2F47 carrierFreq: 0BF9D101 carrierAccel: 0009 millisec: 000A bit#00AB4A86
@@ -257,9 +269,21 @@
 16:21:39.104 LEAD-IN of 0x8502 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
     number of 50Bps sub-frames: 1
     from SVID 15 (unk 0003FF03800380)
-	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: 01010101 01010101 01010101 01010101 01010101 01010101 01010101 00000006 A77D3A02 8AC001EF 
+	TLM=000001000000010000000100000001
+	   (parity check HAS FAILED - 000010 should be 000001 !)
+	   preamble=00000100 extra_integrity=0
+	  INVALID TLM PREAMBLE (Should be 10001011). Remaining 50Bps raw 30-bit words are: 
+	  01 01 01 01
+	  01 01 01 01
+	  01 01 01 01
+	  01 01 01 01
+	  01 01 01 01
+	  01 01 01 01
+	  00 00 00 06
+	  A7 7D 3A 02
+	  8A C0 01 EF
 16:21:39.144 LEAD-IN of 8431 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:39.144 	unknown 00, maybe_counter 00000003
+	unknown 00, maybe_counter 00000003
 	unknown header stuff: BB B1 35 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 03 00 55 05 DC 00 00 12 C0 07 06 03 00 00 0B 00 7E 00 00 00 00 04 B5 82 1F 
 	number of entries 4 (zero 00)
     SVID: 1D (unk: 0002BD) timeTag:04B3A44F codePhase: 59D227CA carrierPhase: BFAECF97 carrierFreq: 0BF9D209 carrierAccel: 0003 millisec: 000A bit#00AB4AB8
@@ -291,7 +315,7 @@
 16:21:39.341 empty packet  	# seq1=00BD seq2=000C len=0000
 16:21:39.394 parsed 0x1F01: 5100 ATX PP: Seq:4 Mode:3 Ev:0x0120 A:13405894 SVList:0x51102A12 0x00 SVs:29 25 31 12 2 14 21 5 10 0 0 0 0 0 0
 16:21:40.138 LEAD-IN of 843B might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:40.138 	unknown 00, maybe_counter 00000004
+	unknown 00, maybe_counter 00000004
 	unknown header stuff: B5 C7 20 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 03 00 55 05 DC 00 00 16 A8 07 06 03 00 00 0B 00 7E 00 00 00 00 05 AF 2D A1 
 	number of entries 4 (zero 00)
     SVID: 1D (unk: 0002BD) timeTag:05AD69B2 codePhase: D6B4D915 carrierPhase: EDBF2277 carrierFreq: 0BF9E9D9 carrierAccel: 0003 millisec: 000A bit#00AB4AEA
@@ -327,7 +351,7 @@
 16:21:40.303 parsed 0x2D0B: 6000 ACQ: S7 sv25 ch41 CN0:16 D:96961  0 C:2.54 0.00 Th:285 0 Pk:201 4 3 00 ms:7 vo:1 bs:0 2242 4655487 157
 16:21:40.306 parsed 0x4E0B: 6000 TRACK: StartTrack sv25 ch5 cno160 sync0 val1 frq96961 -- FIXME rest: 04 48 57 54 4C 00
 16:21:41.147 LEAD-IN of 8445 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:41.147 	unknown 00, maybe_counter 00000005
+	unknown 00, maybe_counter 00000005
 	unknown header stuff: AF 67 F8 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 04 00 55 05 DC 00 00 1A 90 07 06 03 00 00 0B 00 7E 00 00 00 00 06 A8 DF EF 
 	number of entries 5 (zero 00)
     SVID: 1D (unk: 0002BD) timeTag:06A72F14 codePhase: 53978A53 carrierPhase: 9A05706D carrierFreq: 0BF9EFAB carrierAccel: 0002 millisec: 000A bit#00AB4B1C
@@ -358,7 +382,7 @@
 16:21:41.706 parsed 0x2208: 7400 ACQ: New8 type0 sv31 ch 7 D:94532 C:75246 cno10 t 95263086 ms 14 bn 11225834
 16:21:41.712 parsed 0x2208: 7400 ACQ: New8 type0 sv31 ch 8 D:94792 C:75246 cno10 t 95263086 ms 14 bn 11225834
 16:21:42.149 LEAD-IN of 844F might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:42.149 	unknown 00, maybe_counter 00000006
+	unknown 00, maybe_counter 00000006
 	unknown header stuff: A9 24 21 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 04 00 55 05 DC 00 00 1E 78 07 06 03 00 00 0B 00 7E 00 00 00 00 07 A3 39 20 
 	number of entries 5 (zero 00)
     SVID: 1D (unk: 0002BD) timeTag:07A0F477 codePhase: D07A3B85 carrierPhase: D74B14AB carrierFreq: 0BF9F7C5 carrierAccel: 0001 millisec: 000A bit#00AB4B4E
@@ -391,7 +415,7 @@
 16:21:42.252 empty packet  	# seq1=00E1 seq2=0010 len=0000
 16:21:42.298 parsed 0x4E0B: 8000 TRACK: StartTrack sv25 ch9 cno170 sync0 val0 frq96969 -- FIXME rest: 04 53 57 54 4C 00
 16:21:42.349 LEAD-IN of 8451 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:42.349 	unknown 00, maybe_counter 00000007
+	unknown 00, maybe_counter 00000007
 	unknown header stuff: A3 93 D1 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 04 00 55 05 DC 00 00 1F 40 07 06 03 00 00 0B 00 7E 00 00 00 00 07 D4 A5 A2 
 	number of entries 5 (zero 00)
     SVID: 1D (unk: 0002BD) timeTag:07D2E8BD codePhase: E9745EFE carrierPhase: 4CBF792D carrierFreq: 0BF9EB13 carrierAccel: FFFC millisec: 000A bit#00AB4B58
@@ -417,7 +441,7 @@
 16:21:42.401 parsed 0x69AB: 8000 ATX: Meas Send:7 131376546 0 8000 7800 5 0 0
 16:21:42.401 parsed 0x5426: 8000 CM:RtcEdgeAlign T:144 dRate:2 count:6149 14004 Acq:131398780 Wclk:268932 dRtc:0.197814941 prevAcq:128160721 bepDrift:0.999930865 rtcDrift:0.999930811
 16:21:42.449 LEAD-IN of 8452 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:42.449 	unknown 00, maybe_counter 00000007
+	unknown 00, maybe_counter 00000007
 	unknown header stuff: D4 FC 7C 00 03 6C FE 37 FD 02 C4 00 00 EE 20 00 00 00 04 00 55 05 DC 00 00 1F A4 07 06 03 00 00 0B 00 7E 00 00 00 00 07 ED 93 F8 
 	number of entries 5 (zero 00)
     SVID: 1D (unk: 0002BD) timeTag:07EBE2E1 codePhase: F5F170B3 carrierPhase: 0D1543BB carrierFreq: 0BF9EECD carrierAccel: 0001 millisec: 000A bit#00AB4B5D
@@ -459,9 +483,23 @@
 16:21:43.402 LEAD-IN of 0x8503 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
     number of 50Bps sub-frames: 1
     from SVID 1D (unk 0503FF03FF0000)
-	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: 22C3062B EDBA7238 102AAAAC 2AAAAABC 2AAAAABC 2AAAAABC 2AAAAABC 2AAAAABC 2AAAAABC 2AAAAABC 
+	TLM=100010110000110000011000101011
+	   (parity is valid 101011)
+	   preamble=10001011 extra_integrity=0
+	HOW=101101101110100111001000111000
+	   (parity is valid 111000)
+	   TOW=93651 alert=1 antispoof=0 subframe_ID=2
+	   (parity is valid 101100)
+	   (parity is valid 111100)
+	   (parity is valid 111100)
+	   (parity is valid 111100)
+	   (parity is valid 111100)
+	   (parity is valid 111100)
+	   (parity is valid 111100)
+	   (parity is valid 111100)
+	IODE=64 Crs=43690 delta_n=43690 M0=2863311530 Cuc=43690 e=2863311530 Cus=43690 sqrt_A=2863311530 toe=43690 fit_interval=1 AODO=10
 16:21:43.453 LEAD-IN of 845C might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:43.453 	unknown 00, maybe_counter 00000007
+	unknown 00, maybe_counter 00000007
 	unknown header stuff: ED D5 E5 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 23 8C 07 06 03 00 00 0B 00 7E 00 00 00 00 08 E7 54 B4 
 	number of entries 5 (zero 00)
     SVID: 1D (unk: 0002BD) timeTag:08E5A843 codePhase: 72D421E0 carrierPhase: 368F1597 carrierFreq: 0BF9F941 carrierAccel: 0003 millisec: 000A bit#00AB4B8F
@@ -502,15 +540,63 @@
 16:21:44.415 LEAD-IN of 0x8504 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
     number of 50Bps sub-frames: 4
     from SVID 19 (unk 0003FF000003F0)
-	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: 01010101 01010101 01010101 01010101 0000000B DA5495FC 2292AEC8 2AD294E3 CAAC6AB3 DBB1AB43 
+	TLM=000001000000010000000100000001
+	   (parity check HAS FAILED - 000010 should be 000001 !)
+	   preamble=00000100 extra_integrity=0
+	  INVALID TLM PREAMBLE (Should be 10001011). Remaining 50Bps raw 30-bit words are: 
+	  01 01 01 01
+	  01 01 01 01
+	  01 01 01 01
+	  00 00 00 0B
+	  DA 54 95 FC
+	  22 92 AE C8
+	  2A D2 94 E3
+	  CA AC 6A B3
+	  DB B1 AB 43
     from SVID 02 (unk 0003FF000003FF)
-	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: 0002F92C 12598DC6 AFC524AF EAAAAA43 D5555543 C55AAABE B2AAB543 D5155544 2AAAA943 D551AA4D 
+	TLM=000000000000101111100100101100
+	   (parity check HAS FAILED - 101010 should be 101100 !)
+	   preamble=00000000 extra_integrity=0
+	  INVALID TLM PREAMBLE (Should be 10001011). Remaining 50Bps raw 30-bit words are: 
+	  12 59 8D C6
+	  AF C5 24 AF
+	  EA AA AA 43
+	  D5 55 55 43
+	  C5 5A AA BE
+	  B2 AA B5 43
+	  D5 15 55 44
+	  2A AA A9 43
+	  D5 51 AA 4D
     from SVID 0E (unk 0003FF000003FF)
-	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: 00000014 11C583CB C09E5A68 0A16E45C 1C731985 6B6D117D 4B353642 B6B62A64 08BAAABC 2FAAA943 
+	TLM=000000000000000000000000010100
+	   (parity check HAS FAILED - 000000 should be 010100 !)
+	   preamble=00000000 extra_integrity=0
+	  INVALID TLM PREAMBLE (Should be 10001011). Remaining 50Bps raw 30-bit words are: 
+	  11 C5 83 CB
+	  C0 9E 5A 68
+	  0A 16 E4 5C
+	  1C 73 19 85
+	  6B 6D 11 7D
+	  4B 35 36 42
+	  B6 B6 2A 64
+	  08 BA AA BC
+	  2F AA A9 43
     from SVID 15 (unk 0003FF03FF03FF)
-	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: DD3CF9D4 12458C38 102AAAAC 2AAAAABC 2AAAAABC 2AAAAABC 2A56AABC 2AAAAABC 2AAAAABD 6AAAAABC 
+	TLM=011101001111001111100111010100
+	   (parity check HAS FAILED - 101000 should be 010100 !)
+	   preamble=01110100 extra_integrity=1
+	  INVALID TLM PREAMBLE (Should be 10001011). Remaining 50Bps raw 30-bit words are: 
+	  12 45 8C 38
+	  10 2A AA AC
+	  2A AA AA BC
+	  2A AA AA BC
+	  2A AA AA BC
+	  2A 56 AA BC
+	  2A AA AA BC
+	  2A AA AA BD
+	  6A AA AA BC
 16:21:44.468 LEAD-IN of 8466 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:44.468 	unknown 00, maybe_counter 00000008
+	unknown 00, maybe_counter 00000008
 	unknown header stuff: E7 9B D2 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 27 74 07 06 0B 00 00 0B 00 7E 00 00 00 00 09 E0 E8 32 
 	number of entries 5 (zero 00)
     SVID: 1D (unk: 0002BD) timeTag:09DF6DA6 codePhase: EFB6D32A carrierPhase: 7B039589 carrierFreq: 0BFA01DF carrierAccel: FFFE millisec: 000A bit#00AB4BC1
@@ -541,7 +627,7 @@
 16:21:45.203 parsed 0x1423: 10900 SSPa:9: 29-6-7 25-6-7 2-6-7 14-6-7 21-6-7 12-4-3 31-2-4 5-1-1 10-1-1
 16:21:45.222 parsed 0x1420: 10900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-4 12-4 12-4 12-2 0-15
 16:21:45.446 LEAD-IN of 8470 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:45.446 	unknown 00, maybe_counter 00000009
+	unknown 00, maybe_counter 00000009
 	unknown header stuff: E1 48 64 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 2B 5C 07 06 0B 00 00 0B 00 7E 00 00 00 00 0A DA 9E 59 
 	number of entries 5 (zero 00)
     SVID: 1D (unk: 0002BD) timeTag:0AD93308 codePhase: 6C99845B carrierPhase: BE57C76D carrierFreq: 0BFA119B carrierAccel: 0000 millisec: 000A bit#00AB4BF3
@@ -572,7 +658,7 @@
 16:21:46.201 parsed 0x1423: 11900 SSPa:9: 29-6-7 25-6-7 2-6-7 14-6-7 21-6-7 12-4-3 31-2-4 5-1-1 10-1-1
 16:21:46.211 parsed 0x1420: 11900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-4 12-4 12-4 5-2 0-15
 16:21:46.446 LEAD-IN of 847A might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:46.446 	unknown 00, maybe_counter 0000000A
+	unknown 00, maybe_counter 0000000A
 	unknown header stuff: DA F1 10 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 2F 44 07 06 0B 00 00 0B 00 7E 00 00 00 00 0B D4 63 79 
 	number of entries 5 (zero 00)
     SVID: 1D (unk: 0002BD) timeTag:0BD2F86B codePhase: E97C35AF carrierPhase: 4A7F90FF carrierFreq: 0BFA0D51 carrierAccel: 0001 millisec: 000A bit#00AB4C25
@@ -623,7 +709,7 @@
 16:21:47.202 parsed 0x1423: 12900 SSPa:9: 29-6-7 25-6-7 12-6-7 2-6-7 14-6-7 21-6-7 31-4-4 5-1-1 10-1-1
 16:21:47.212 parsed 0x1420: 12900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-3 10-2 0-15
 16:21:47.457 LEAD-IN of 8484 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:47.457 	unknown 00, maybe_counter 0000000B
+	unknown 00, maybe_counter 0000000B
 	unknown header stuff: D4 B7 02 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 33 2C 07 06 0B 00 00 0B 00 7E 00 00 00 00 0C CE 80 08 
 	number of entries 6 (zero 00)
     SVID: 1D (unk: 0002BD) timeTag:0CCCBDCD codePhase: 665EE6FC carrierPhase: F2DD7F4D carrierFreq: 0BFA157B carrierAccel: 0000 millisec: 000A bit#00AB4C57
@@ -663,7 +749,7 @@
 16:21:48.202 parsed 0x1423: 13900 SSPa:9: 29-6-7 25-6-7 12-6-7 2-6-7 14-6-7 21-6-7 31-4-4 5-1-1 10-1-1
 16:21:48.211 parsed 0x1420: 13900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-3 31-2 0-15
 16:21:48.456 LEAD-IN of 848E might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:48.456 	unknown 00, maybe_counter 0000000C
+	unknown 00, maybe_counter 0000000C
 	unknown header stuff: CE D0 DD 00 03 6C FE 37 FD 02 C4 00 00 EE 18 00 00 00 00 00 55 05 DC 00 00 37 14 07 06 0B 00 00 0B 00 7E 00 00 00 00 0D C8 42 18 
 	number of entries 6 (zero 00)
     SVID: 1D (unk: 0002BD) timeTag:0DC68330 codePhase: E341982A carrierPhase: F5CB1B39 carrierFreq: 0BFA1137 carrierAccel: 0000 millisec: 000A bit#00AB4C89
@@ -701,9 +787,30 @@
 16:21:49.402 LEAD-IN of 0x8505 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
     number of 50Bps sub-frames: 1
     from SVID 1D (unk 0103FF03FF0000)
-	50Bps raw 10 30-bit (FIXME expanded to 32-bit?) words: 22C3062B EDBA56C4 3064002C 07170495 59DE328A A183CE4C 169D7AEA 89CE1034 0000063A 91C2B474 
+	TLM=100010110000110000011000101011
+	   (parity is valid 101011)
+	   preamble=10001011 extra_integrity=0
+	HOW=101101101110100101011011000100
+	   (parity is valid 000100)
+	   TOW=93650 alert=1 antispoof=0 subframe_ID=6
+	DWORD 3 (FIXME unparsed yet) = 	   (parity is valid 101100)
+	    110000011001000000000000
+	DWORD 4 (FIXME unparsed yet) = 	   (parity is valid 010101)
+	    000111000101110000010010
+	DWORD 5 (FIXME unparsed yet) = 	   (parity is valid 001010)
+	    011001110111100011001010
+	DWORD 6 (FIXME unparsed yet) = 	   (parity is valid 001100)
+	    100001100000111100111001
+	DWORD 7 (FIXME unparsed yet) = 	   (parity is valid 101010)
+	    010110100111010111101011
+	DWORD 8 (FIXME unparsed yet) = 	   (parity is valid 110100)
+	    001001110011100001000000
+	DWORD 9 (FIXME unparsed yet) = 	   (parity is valid 111010)
+	    000000000000000000011000
+	DWORD 10 (FIXME unparsed yet) = 	   (parity is valid 110100)
+	    010001110000101011010001
 16:21:49.462 LEAD-IN of 8498 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
-16:21:49.462 	unknown 00, maybe_counter 0000000D
+	unknown 00, maybe_counter 0000000D
 	unknown header stuff: C8 8B 1A 00 03 6C FE 37 FD 02 C4 00 00 EE 18 00 00 00 00 00 55 05 DC 00 00 3A FC 07 06 0B 00 00 0B 00 7E 00 00 00 00 0E C2 07 D5 
 	number of entries 6 (zero 00)
     SVID: 1D (unk: 0002BD) timeTag:0EC04892 codePhase: 6024495E carrierPhase: 4B1F1643 carrierFreq: 0BFA1855 carrierAccel: 0001 millisec: 000A bit#00AB4CBB
