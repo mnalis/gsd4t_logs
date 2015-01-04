@@ -1,0 +1,6 @@
+# we can always regenerate those, do not keep in git
+SLCLog.gp2.human.txt
+strace.log.3298.enc4t.gp2
+strace.log.3298.raw4t.gp2
+strace.log.3298.human.txt
+
