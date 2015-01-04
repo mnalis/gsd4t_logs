@@ -497,7 +497,7 @@
 	   (parity is valid 111100)
 	   (parity is valid 111100)
 	   (parity is valid 111100)
-	IODE=64 Crs=43690 delta_n=43690 M0=2863311530 Cuc=43690 e=2863311530 Cus=43690 sqrt_A=2863311530 toe=43690 fit_interval=1 AODO=10
+	SUBFRAME PARSED: IODE=64 Crs=43690 delta_n=43690 M0=2863311530 Cuc=43690 e=2863311530 Cus=43690 sqrt_A=2863311530 toe=43690 fit_interval=1 AODO=10 parity_fix=2 .
 16:21:43.453 LEAD-IN of 845C might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
 	unknown 00, maybe_counter 00000007
 	unknown header stuff: ED D5 E5 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 23 8C 07 06 03 00 00 0B 00 7E 00 00 00 00 08 E7 54 B4 
