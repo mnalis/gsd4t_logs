@@ -209,7 +209,7 @@
 	TLM=000001000000010000000100000001
 	   (parity check HAS FAILED - 000010 should be 000001 !)
 	   preamble=00000100 extra_integrity=0
-	  INVALID TLM PREAMBLE (Should be 10001011). Remaining 50Bps raw 30-bit words are: 
+	  INVALID TLM PREAMBLE (Should be 10001011), aborting subframe processing. Remaining 50Bps raw 30-bit words are: 
 	  01 01 01 01
 	  01 01 01 01
 	  01 01 01 01
@@ -272,7 +272,7 @@
 	TLM=000001000000010000000100000001
 	   (parity check HAS FAILED - 000010 should be 000001 !)
 	   preamble=00000100 extra_integrity=0
-	  INVALID TLM PREAMBLE (Should be 10001011). Remaining 50Bps raw 30-bit words are: 
+	  INVALID TLM PREAMBLE (Should be 10001011), aborting subframe processing. Remaining 50Bps raw 30-bit words are: 
 	  01 01 01 01
 	  01 01 01 01
 	  01 01 01 01
@@ -543,7 +543,7 @@
 	TLM=000001000000010000000100000001
 	   (parity check HAS FAILED - 000010 should be 000001 !)
 	   preamble=00000100 extra_integrity=0
-	  INVALID TLM PREAMBLE (Should be 10001011). Remaining 50Bps raw 30-bit words are: 
+	  INVALID TLM PREAMBLE (Should be 10001011), aborting subframe processing. Remaining 50Bps raw 30-bit words are: 
 	  01 01 01 01
 	  01 01 01 01
 	  01 01 01 01
@@ -557,7 +557,7 @@
 	TLM=000000000000101111100100101100
 	   (parity check HAS FAILED - 101010 should be 101100 !)
 	   preamble=00000000 extra_integrity=0
-	  INVALID TLM PREAMBLE (Should be 10001011). Remaining 50Bps raw 30-bit words are: 
+	  INVALID TLM PREAMBLE (Should be 10001011), aborting subframe processing. Remaining 50Bps raw 30-bit words are: 
 	  12 59 8D C6
 	  AF C5 24 AF
 	  EA AA AA 43
@@ -571,7 +571,7 @@
 	TLM=000000000000000000000000010100
 	   (parity check HAS FAILED - 000000 should be 010100 !)
 	   preamble=00000000 extra_integrity=0
-	  INVALID TLM PREAMBLE (Should be 10001011). Remaining 50Bps raw 30-bit words are: 
+	  INVALID TLM PREAMBLE (Should be 10001011), aborting subframe processing. Remaining 50Bps raw 30-bit words are: 
 	  11 C5 83 CB
 	  C0 9E 5A 68
 	  0A 16 E4 5C
@@ -589,15 +589,15 @@
 	HOW=101101101110100111001111000111
 	   (parity check HAS FAILED - 000101 should be 000111 !)
 	   TOW=93651 alert=1 antispoof=0 subframe_ID=3
-	   (parity check HAS FAILED - 111010 should be 010011 !)
-	   (parity check HAS FAILED - 010110 should be 000011 !)
-	   (parity check HAS FAILED - 010110 should be 000011 !)
-	   (parity check HAS FAILED - 010110 should be 000011 !)
-	   (parity check HAS FAILED - 101100 should be 000011 !)
-	   (parity check HAS FAILED - 111111 should be 000011 !)
-	   (parity check HAS FAILED - 000011 should be 000010 !)
-	   (parity is valid 000011)
-	SUBFRAME PARSED: Cic=48981 OMEGA0=1431655765 Cis=21845 i0=1431655765 Crc=22181 omega=1431655765 OMEGA_DOT=5592405 IODE=85 IDOT=5461 parity_fix=1 .
+	  HOW parity failed, aborting subframe processing. Remaining 50Bps raw 30-bit words are: 
+	  10 2A AA AC
+	  2A AA AA BC
+	  2A AA AA BC
+	  2A AA AA BC
+	  2A 56 AA BC
+	  2A AA AA BC
+	  2A AA AA BD
+	  6A AA AA BC
 16:21:44.468 LEAD-IN of 8466 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
 	unknown 00, maybe_counter 00000008
 	unknown header stuff: E7 9B D2 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 27 74 07 06 0B 00 00 0B 00 7E 00 00 00 00 09 E0 E8 32 
