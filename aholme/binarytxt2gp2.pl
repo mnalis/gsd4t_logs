@@ -7,7 +7,7 @@ use feature 'say';
 # from http://www.perlmonks.org/?node_id=644225
 sub b2h {
     my $num   = shift;
-    my $WIDTH = 32;
+    my $WIDTH = 8;
     my $index = length($num) - $WIDTH;
     my $hex = '';
     do {
@@ -17,15 +17,18 @@ sub b2h {
             $index = 0;
         }
         my $cut_string = substr($num, $index, $width);
-        $hex = sprintf('%X', oct("0b$cut_string")) . $hex;
+        $hex = sprintf('%02X', oct("0b$cut_string")) . ' ' .$hex;
         $index -= $WIDTH;
     } while ($index > (-1 * $WIDTH));
     return $hex;
 }
 
 
+# encapsulate in fake raw4t headers
 open my $in, '<', '50bps.binary.txt';
+my $count=0;
 while (<$in>) {
     chomp;
-    say "$_ = " . b2h($_); 
+    my $hex = b2h($_);
+    printf "00/00/0008 00:00:%02d.%03d (0) 85 01 01 00 00 00 00 00 00 00 00 $hex\n", 0, $count++;
 }
