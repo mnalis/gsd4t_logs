@@ -4,22 +4,14 @@ use strict;
 use autodie;
 use feature 'say';
 
-# from http://www.perlmonks.org/?node_id=644225
 sub b2h {
-    my $num   = shift;
-    my $WIDTH = 8;
-    my $index = length($num) - $WIDTH;
+    my $bin = shift;
     my $hex = '';
-    do {
-        my $width = $WIDTH;
-        if ($index < 0) {
-            $width += $index;
-            $index = 0;
-        }
-        my $cut_string = substr($num, $index, $width);
-        $hex = sprintf('%02X', oct("0b$cut_string")) . ' ' .$hex;
-        $index -= $WIDTH;
-    } while ($index > (-1 * $WIDTH));
+    while ($bin) {
+        my $cut = substr($bin,0,8,'');
+        #say "cut=$cut";
+        $hex .= sprintf('%02X ', oct("0b$cut"));
+    }
     return $hex;
 }
 
@@ -30,5 +22,5 @@ my $count=0;
 while (<$in>) {
     chomp;
     my $hex = b2h($_);
-    printf "00/00/0008 00:00:%02d.%03d (0) 85 01 01 00 00 00 00 00 00 00 00 $hex\n", 0, $count++;
+    printf "00/00/0008 00:00:%02d.%03d (0) 85 01 01 00 FF 00 00 00 00 00 FF $hex\n", 0, $count++;
 }
