@@ -1,0 +1,222 @@
+00:00:00.000 LEAD-IN of 0x8501 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+    number of 50Bps sub-frames: 1
+    from SVID 00 (unk FF0000000000FF)
+	TLM=100010110000100101010100110100
+	   (parity is valid 110100)
+	   preamble=10001011 extra_integrity=0
+	HOW=010100011100011110100111101100
+	   (parity is valid 101100)
+	   TOW=41871 alert=0 antispoof=1 subframe_ID=1
+	DWORD 3 (FIXME unparsed yet) = 	   (parity is valid 010111)
+	    100101010101000000000000
+	DWORD 4 (FIXME unparsed yet) = 	   (parity is valid 110001)
+	    100010110011111111110010
+	DWORD 5 (FIXME unparsed yet) = 	   (parity is valid 011011)
+	    010111111101010011011010
+	DWORD 6 (FIXME unparsed yet) = 	   (parity is valid 000001)
+	    110001010110110000110111
+	DWORD 7 (FIXME unparsed yet) = 	   (parity is valid 111101)
+	    011001001101000100010110
+	DWORD 8 (FIXME unparsed yet) = 	   (parity is valid 011101)
+	    110010001100001001111001
+	DWORD 9 (FIXME unparsed yet) = 	   (parity is valid 011111)
+	    111111111111111111101101
+	DWORD 10 (FIXME unparsed yet) = 	   (parity is valid 100000)
+	    111111011010110101101011
+00:00:00.001 LEAD-IN of 0x8501 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+    number of 50Bps sub-frames: 1
+    from SVID 00 (unk FF0000000000FF)
+	TLM=100010110000100101010100110100
+	   (parity is valid 110100)
+	   preamble=10001011 extra_integrity=0
+	HOW=010100011100100000101001100000
+	   (parity is valid 100000)
+	   TOW=41872 alert=0 antispoof=1 subframe_ID=2
+	   (parity is valid 100010)
+	   (parity is valid 000100)
+	   (parity is valid 001111)
+	   (parity is valid 100001)
+	   (parity is valid 100111)
+	   (parity is valid 110000)
+	   (parity is valid 100100)
+	   (parity is valid 111000)
+	SUBFRAME PARSED: IODE=55 Crs=61495 delta_n=11464 M0=2621846768 Cuc=3498 e=4149917453 Cus=63194 sqrt_A=1577946666 toe=15750 fit_interval=0 AODO=31 parity_fix=3 .
+00:00:00.002 LEAD-IN of 0x8501 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+    number of 50Bps sub-frames: 1
+    from SVID 00 (unk FF0000000000FF)
+	TLM=100010110000100101010100110100
+	   (parity is valid 110100)
+	   preamble=10001011 extra_integrity=0
+	HOW=010100011100100010101111101000
+	   (parity is valid 101000)
+	   TOW=41873 alert=0 antispoof=1 subframe_ID=3
+	   (parity is valid 001000)
+	   (parity is valid 000001)
+	   (parity is valid 110010)
+	   (parity is valid 010110)
+	   (parity is valid 001100)
+	   (parity is valid 100011)
+	   (parity is valid 011001)
+	   (parity is valid 000100)
+	SUBFRAME PARSED: Cic=99 OMEGA0=3668567452 Cis=48 i0=3634769011 Crc=9568 omega=2987070653 OMEGA_DOT=21726 IODE=200 IDOT=631 parity_fix=3 .
+00:00:00.003 LEAD-IN of 0x8501 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+    number of 50Bps sub-frames: 1
+    from SVID 00 (unk FF0000000000FF)
+	TLM=100010110000100101010100110100
+	   (parity is valid 110100)
+	   preamble=10001011 extra_integrity=0
+	HOW=010100011100100100110001010100
+	   (parity is valid 010100)
+	   TOW=41874 alert=0 antispoof=1 subframe_ID=4
+	DWORD 3 (FIXME unparsed yet) = 	   (parity is valid 010110)
+	    011111111010100110011001
+	DWORD 4 (FIXME unparsed yet) = 	   (parity is valid 010000)
+	    101010011010100110011001
+	DWORD 5 (FIXME unparsed yet) = 	   (parity is valid 110101)
+	    100110101001100110101001
+	DWORD 6 (FIXME unparsed yet) = 	   (parity is valid 100110)
+	    010101100110011001100110
+	DWORD 7 (FIXME unparsed yet) = 	   (parity is valid 001111)
+	    100110011011100110011001
+	DWORD 8 (FIXME unparsed yet) = 	   (parity is valid 001001)
+	    010101100101011011111111
+	DWORD 9 (FIXME unparsed yet) = 	   (parity is valid 010110)
+	    111111111111111111111111
+	DWORD 10 (FIXME unparsed yet) = 	   (parity is valid 001100)
+	    000000000000000000000010
+00:00:00.004 LEAD-IN of 0x8501 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+    number of 50Bps sub-frames: 1
+    from SVID 00 (unk FF0000000000FF)
+	TLM=100010110000100101010100110100
+	   (parity is valid 110100)
+	   preamble=10001011 extra_integrity=0
+	HOW=010100011100100110110111011100
+	   (parity is valid 011100)
+	   TOW=41875 alert=0 antispoof=1 subframe_ID=5
+	DWORD 3 (FIXME unparsed yet) = 	   (parity is valid 000001)
+	    011100110110001101010101
+	DWORD 4 (FIXME unparsed yet) = 	   (parity is valid 110111)
+	    000000111111111111111111
+	DWORD 5 (FIXME unparsed yet) = 	   (parity is valid 111111)
+	    111111111111111111111111
+	DWORD 6 (FIXME unparsed yet) = 	   (parity is valid 111111)
+	    111111111111111111111111
+	DWORD 7 (FIXME unparsed yet) = 	   (parity is valid 111111)
+	    111111111111111111111111
+	DWORD 8 (FIXME unparsed yet) = 	   (parity is valid 111111)
+	    111111111111111111111111
+	DWORD 9 (FIXME unparsed yet) = 	   (parity is valid 111111)
+	    111111111111111111111111
+	DWORD 10 (FIXME unparsed yet) = 	   (parity is valid 110100)
+	    111010101010101010101010
+00:00:00.005 LEAD-IN of 0x8501 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+    number of 50Bps sub-frames: 1
+    from SVID 00 (unk FF0000000000FF)
+	TLM=100010110000100101010100110100
+	   (parity is valid 110100)
+	   preamble=10001011 extra_integrity=0
+	HOW=010100011100101000100110010100
+	   (parity is valid 010100)
+	   TOW=41876 alert=0 antispoof=1 subframe_ID=1
+	DWORD 3 (FIXME unparsed yet) = 	   (parity is valid 010111)
+	    100101010101000000000000
+	DWORD 4 (FIXME unparsed yet) = 	   (parity is valid 110001)
+	    100010110011111111110010
+	DWORD 5 (FIXME unparsed yet) = 	   (parity is valid 011011)
+	    010111111101010011011010
+	DWORD 6 (FIXME unparsed yet) = 	   (parity is valid 000001)
+	    110001010110110000110111
+	DWORD 7 (FIXME unparsed yet) = 	   (parity is valid 111101)
+	    011001001101000100010110
+	DWORD 8 (FIXME unparsed yet) = 	   (parity is valid 011101)
+	    110010001100001001111001
+	DWORD 9 (FIXME unparsed yet) = 	   (parity is valid 011111)
+	    111111111111111111101101
+	DWORD 10 (FIXME unparsed yet) = 	   (parity is valid 100000)
+	    111111011010110101101011
+00:00:00.006 LEAD-IN of 0x8501 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+    number of 50Bps sub-frames: 1
+    from SVID 00 (unk FF0000000000FF)
+	TLM=100010110000100101010100110100
+	   (parity is valid 110100)
+	   preamble=10001011 extra_integrity=0
+	HOW=010100011100101010101011111100
+	   (parity is valid 111100)
+	   TOW=41877 alert=0 antispoof=1 subframe_ID=2
+	   (parity is valid 100010)
+	   (parity is valid 000100)
+	   (parity is valid 001111)
+	   (parity is valid 100001)
+	   (parity is valid 100111)
+	   (parity is valid 110000)
+	   (parity is valid 100100)
+	   (parity is valid 111000)
+	SUBFRAME PARSED: IODE=55 Crs=61495 delta_n=11464 M0=2621846768 Cuc=3498 e=4149917453 Cus=63194 sqrt_A=1577946666 toe=15750 fit_interval=0 AODO=31 parity_fix=3 .
+00:00:00.007 LEAD-IN of 0x8501 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+    number of 50Bps sub-frames: 1
+    from SVID 00 (unk FF0000000000FF)
+	TLM=100010110000100101010100110100
+	   (parity is valid 110100)
+	   preamble=10001011 extra_integrity=0
+	HOW=010100011100101100101110001100
+	   (parity is valid 001100)
+	   TOW=41878 alert=0 antispoof=1 subframe_ID=3
+	   (parity is valid 001000)
+	   (parity is valid 000001)
+	   (parity is valid 110010)
+	   (parity is valid 010110)
+	   (parity is valid 001100)
+	   (parity is valid 100011)
+	   (parity is valid 011001)
+	   (parity is valid 000100)
+	SUBFRAME PARSED: Cic=99 OMEGA0=3668567452 Cis=48 i0=3634769011 Crc=9568 omega=2987070653 OMEGA_DOT=21726 IODE=200 IDOT=631 parity_fix=3 .
+00:00:00.008 LEAD-IN of 0x8501 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+    number of 50Bps sub-frames: 1
+    from SVID 00 (unk FF0000000000FF)
+	TLM=100010110000100101010100110100
+	   (parity is valid 110100)
+	   preamble=10001011 extra_integrity=0
+	HOW=010100011100101110110011001000
+	   (parity is valid 001000)
+	   TOW=41879 alert=0 antispoof=1 subframe_ID=4
+	DWORD 3 (FIXME unparsed yet) = 	   (parity is valid 001100)
+	    011110010101111000011000
+	DWORD 4 (FIXME unparsed yet) = 	   (parity is valid 111000)
+	    011110011101011100011000
+	DWORD 5 (FIXME unparsed yet) = 	   (parity is valid 010101)
+	    010001000000011010010111
+	DWORD 6 (FIXME unparsed yet) = 	   (parity is valid 101101)
+	    110111101111100011100010
+	DWORD 7 (FIXME unparsed yet) = 	   (parity is valid 000010)
+	    111001111000101010010111
+	DWORD 8 (FIXME unparsed yet) = 	   (parity is valid 110010)
+	    101010110111100000000010
+	DWORD 9 (FIXME unparsed yet) = 	   (parity is valid 111100)
+	    000000101010000000101011
+	DWORD 10 (FIXME unparsed yet) = 	   (parity is valid 111100)
+	    101010101010101010101010
+00:00:00.009 LEAD-IN of 0x8501 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+    number of 50Bps sub-frames: 1
+    from SVID 00 (unk FF0000000000FF)
+	TLM=100010110000100101010100110100
+	   (parity is valid 110100)
+	   preamble=10001011 extra_integrity=0
+	HOW=010100011100110000110100111100
+	   (parity is valid 111100)
+	   TOW=41880 alert=0 antispoof=1 subframe_ID=5
+	DWORD 3 (FIXME unparsed yet) = 	   (parity is valid 101100)
+	    010000001010101010101010
+	DWORD 4 (FIXME unparsed yet) = 	   (parity is valid 111100)
+	    101010101010101010101010
+	DWORD 5 (FIXME unparsed yet) = 	   (parity is valid 111100)
+	    101010101010101010101010
+	DWORD 6 (FIXME unparsed yet) = 	   (parity is valid 111100)
+	    101010101010101010101010
+	DWORD 7 (FIXME unparsed yet) = 	   (parity is valid 111100)
+	    101010101010101010101010
+	DWORD 8 (FIXME unparsed yet) = 	   (parity is valid 111100)
+	    101010101010101010101010
+	DWORD 9 (FIXME unparsed yet) = 	   (parity is valid 111100)
+	    101010101010101010101010
+	DWORD 10 (FIXME unparsed yet) = 	   (parity is valid 111100)
+	    101010101010101010101010
