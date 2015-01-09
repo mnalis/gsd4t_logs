@@ -203,7 +203,7 @@
 16:21:37.703 parsed 0x2D0B: 3400 ACQ: D7 sv14 ch21 CN0:19 D:98917  1 C:2.00 0.00 Th:218 0 Pk:235 4 2 00 ms:12 vo:1 bs:0 844 1762801 58
 16:21:37.798 parsed 0x2D0B: 3500 ACQ: S7 sv14 ch27 CN0:19 D:98929  0 C:3.05 0.00 Th:116 0 Pk:125 4 3 00 ms:15 vo:1 bs:0 894 1875461 62
 16:21:37.804 parsed 0x4E0B: 3500 TRACK: StartTrack sv14 ch3 cno190 sync0 val1 frq98929 -- FIXME rest: 04 48 57 54 4C 00
-16:21:38.101 LEAD-IN of 0x8501 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+16:21:38.101 LEAD-IN of 0x8501 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, FIXME extract leap-second from this
     number of 50Bps sub-frames: 1
     from SVID 1D (unk 0003FF03000000)
 	TLM=000001000000010000000100000001
@@ -266,7 +266,7 @@
 16:21:38.972 parsed 0x2D0B: 4600 ACQ: S5 sv12 ch28 CN0:12 D:98716  1 C:91.05 0.00 Th:154 0 Pk:158 4 4 00 ms:0 vo:0 bs:0 5062 10011232 178
 16:21:38.972 parsed 0x2D03: 4600 ACQ: New7 type3 sv12 ch28 D:98716 C:0 12 247
 16:21:39.092 parsed 0x3D04: AGC: noise 1474015 19303 freq 86253 gain 27
-16:21:39.104 LEAD-IN of 0x8502 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+16:21:39.104 LEAD-IN of 0x8502 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, FIXME extract leap-second from this
     number of 50Bps sub-frames: 1
     from SVID 15 (unk 0003FF03800380)
 	TLM=000001000000010000000100000001
@@ -480,24 +480,14 @@
 16:21:42.696 parsed 0x1F01: 8400 ATX PP: Seq:7 Mode:0 Ev:0x03AA A:132918242 SVList:0x51102A12 0x00 SVs:29 25 31 12 2 14 21 5 10 0 0 0 0 0 0
 16:21:43.203 parsed 0x1423: 8900 SSPa:9: 29-6-7 25-6-7 2-6-7 14-6-7 21-6-7 12-4-3 31-2-4 5-1-1 10-1-1
 16:21:43.215 parsed 0x1420: 8900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-4 12-4 12-4 12-4 12-4 10-2 12-4 12-4 12-4 10-2 0-15
-16:21:43.402 LEAD-IN of 0x8503 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+16:21:43.402 LEAD-IN of 0x8503 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, FIXME extract leap-second from this
     number of 50Bps sub-frames: 1
     from SVID 1D (unk 0503FF03FF0000)
 	TLM=100010110000110000011000101011
-	   (parity is valid 101011)
 	   preamble=10001011 extra_integrity=0
 	HOW=101101101110100111001000111000
-	   (parity is valid 111000)
 	   TOW=93651 alert=1 antispoof=0 subframe_ID=2
-	   (parity is valid 101100)
-	   (parity is valid 111100)
-	   (parity is valid 111100)
-	   (parity is valid 111100)
-	   (parity is valid 111100)
-	   (parity is valid 111100)
-	   (parity is valid 111100)
-	   (parity is valid 111100)
-	SUBFRAME PARSED: IODE=64 Crs=43690 delta_n=43690 M0=2863311530 Cuc=43690 e=2863311530 Cus=43690 sqrt_A=2863311530 toe=43690 fit_interval=1 AODO=10 parity_fix=2 .
+	SUBFRAME PARSED: IODE=64 Crs=43690 delta_n=43690 M0=2863311530 Cuc=43690 e=2863311530 Cus=43690 sqrt_A=2863311530 toe=43690 fit_interval=1 AODO=10 .
 16:21:43.453 LEAD-IN of 845C might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
 	unknown 00, maybe_counter 00000007
 	unknown header stuff: ED D5 E5 00 03 6C FE 37 FD 02 C4 00 00 EE 15 00 00 00 00 00 55 05 DC 00 00 23 8C 07 06 03 00 00 0B 00 7E 00 00 00 00 08 E7 54 B4 
@@ -537,7 +527,7 @@
 16:21:44.094 parsed 0x3D04: AGC: noise 1476872 18622 freq 86253 gain 27
 16:21:44.202 parsed 0x1423: 9900 SSPa:9: 29-6-7 25-6-7 2-6-7 14-6-7 21-6-7 12-4-3 31-2-4 5-1-1 10-1-1
 16:21:44.211 parsed 0x1420: 9900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-4 12-4 12-4 31-2 0-15
-16:21:44.415 LEAD-IN of 0x8504 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+16:21:44.415 LEAD-IN of 0x8504 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, FIXME extract leap-second from this
     number of 50Bps sub-frames: 4
     from SVID 19 (unk 0003FF000003F0)
 	TLM=000001000000010000000100000001
@@ -584,7 +574,6 @@
     from SVID 15 (unk 0003FF03FF03FF)
 	(inverted preamble 01110100 found; we'll invert all words in this subframe)
 	TLM=100010110000110000011000101011
-	   (parity is valid 101011)
 	   preamble=10001011 extra_integrity=0
 	HOW=101101101110100111001111000111
 	   (parity check HAS FAILED - 000101 should be 000111 !)
@@ -787,31 +776,21 @@
 16:21:49.095 parsed 0x3D04: AGC: noise 1477820 18144 freq 86253 gain 27
 16:21:49.203 parsed 0x1423: 14900 SSPa:9: 29-6-7 25-6-7 12-6-7 2-6-7 14-6-7 21-6-7 31-4-4 5-1-1 10-1-1
 16:21:49.212 parsed 0x1420: 14900 ChdevsA: 29-3 21-3 2-3 14-3 2-9 25-3 31-8 31-8 31-8 25-9 14-9 12-3 5-2 0-15
-16:21:49.402 LEAD-IN of 0x8505 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, extract leap-second from this (FIXME - more parsing if we need it)
+16:21:49.402 LEAD-IN of 0x8505 is (sometimes multiple) part of SiRFbinary MID 8 (0x08) - 50 BPS data subframe, FIXME extract leap-second from this
     number of 50Bps sub-frames: 1
     from SVID 1D (unk 0103FF03FF0000)
 	TLM=100010110000110000011000101011
-	   (parity is valid 101011)
 	   preamble=10001011 extra_integrity=0
 	HOW=101101101110100101011011000100
-	   (parity is valid 000100)
 	   TOW=93650 alert=1 antispoof=0 subframe_ID=6
-	DWORD 3 (FIXME unparsed yet) = 	   (parity is valid 101100)
-	    110000011001000000000000
-	DWORD 4 (FIXME unparsed yet) = 	   (parity is valid 010101)
-	    000111000101110000010010
-	DWORD 5 (FIXME unparsed yet) = 	   (parity is valid 001010)
-	    011001110111100011001010
-	DWORD 6 (FIXME unparsed yet) = 	   (parity is valid 001100)
-	    100001100000111100111001
-	DWORD 7 (FIXME unparsed yet) = 	   (parity is valid 101010)
-	    010110100111010111101011
-	DWORD 8 (FIXME unparsed yet) = 	   (parity is valid 110100)
-	    001001110011100001000000
-	DWORD 9 (FIXME unparsed yet) = 	   (parity is valid 111010)
-	    000000000000000000011000
-	DWORD 10 (FIXME unparsed yet) = 	   (parity is valid 110100)
-	    010001110000101011010001
+	DWORD 3 (FIXME unparsed yet) = 	    110000011001000000000000
+	DWORD 4 (FIXME unparsed yet) = 	    000111000101110000010010
+	DWORD 5 (FIXME unparsed yet) = 	    011001110111100011001010
+	DWORD 6 (FIXME unparsed yet) = 	    100001100000111100111001
+	DWORD 7 (FIXME unparsed yet) = 	    010110100111010111101011
+	DWORD 8 (FIXME unparsed yet) = 	    001001110011100001000000
+	DWORD 9 (FIXME unparsed yet) = 	    000000000000000000011000
+	DWORD 10 (FIXME unparsed yet) = 	    010001110000101011010001
 16:21:49.462 LEAD-IN of 8498 might be part of SiRFbinary MID 64 (0x40), SID 2 - Navigation Library (NL) Auxiliary Measurement Data GPS Data (FIXME - more parsing of unknown values)
 	unknown 00, maybe_counter 0000000D
 	unknown header stuff: C8 8B 1A 00 03 6C FE 37 FD 02 C4 00 00 EE 18 00 00 00 00 00 55 05 DC 00 00 3A FC 07 06 0B 00 00 0B 00 7E 00 00 00 00 0E C2 07 D5 

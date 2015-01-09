@@ -1,5 +1,2 @@
 # we can always regenerate those, do not keep in git
 SLCLog.gp2.human.txt
-strace.log.*.enc4t.gp2
-strace.log.*.raw4t.gp2
-strace.log.*.human.txt
